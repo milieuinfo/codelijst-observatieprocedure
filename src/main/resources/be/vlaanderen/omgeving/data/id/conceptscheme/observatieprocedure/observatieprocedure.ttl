@@ -132,7 +132,7 @@ co:WAC_VI_A_001  a       skos:Concept ;
 
 co:LUC_IV_012  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_IV_012.pdf> ;
-        skos:definition  "Deze methode beschrijft de bepaling van volgende vluchtige organische stoffen in emissies (matrix lucht) met behulp van koolstof moleculaire zeef. Deze methode houdt rekening met de bepalingen uit CEN/TS 13649: 2-butoxyethanol; 2-ethoxyethanol; 2-methoxyethanol; Ethylacrylaat; Methylacrylaat; Methylmethacrylaat; Ethylacetaat; iso-butylacetaat; n-butylacetaat; t-butylacetaat; 2,6-dimethylheptaan-4-on; 2-methylcyclohexanon; 3-methylcyclohexanon; 4-methylcyclohexanon; Cyclohexanon; 2-butanon; 4-hydroxy-4-methyl-2-pentanon; 4-methyl-2-pentanon; Aceton; Ethanol; Isobutanol; Isopropanol; n-butanol; n-propanol; s-butanol; t-butanol\nDe vluchtige organische stoffen worden op koolstof moleculaire zeef gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd."@nl ;
+        skos:definition  "Deze methode beschrijft de bepaling van volgende vluchtige organische stoffen in emissies (matrix lucht) met behulp van koolstof moleculaire zeef. Deze methode houdt rekening met de bepalingen uit CEN/TS 13649: 2-butoxyethanol; 2-ethoxyethanol; 2-methoxyethanol; Ethylacrylaat; Methylacrylaat; Methylmethacrylaat; Ethylacetaat; iso-butylacetaat; n-butylacetaat; t-butylacetaat; 2,6-dimethylheptaan-4-on; 2-methylcyclohexanon; 3-methylcyclohexanon; 4-methylcyclohexanon; Cyclohexanon; 2-butanon; 4-hydroxy-4-methyl-2-pentanon; 4-methyl-2-pentanon; Aceton; Ethanol; Isobutanol; Isopropanol; n-butanol; n-propanol; s-butanol; t-butanolDe vluchtige organische stoffen worden op koolstof moleculaire zeef gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd."@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/IV/012" ;
         skos:prefLabel   "Gecombineerde methode voor de kwantitatieve bepaling van op koolstof moleculaire zeef geadsorbeerde vluchtige organische stoffen met GC-MS"@nl ;
@@ -232,7 +232,7 @@ co:WAC_III_A_006  a      skos:Concept ;
 
 co:LUC_IV_006  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_IV_006.pdf> ;
-        skos:definition  "In deze methode staat de bepaling van volgende paraffinische koolwaterstoffen in emissies (matrix lucht) beschreven: n-pentaan, n-hexaan, n-heptaan, n-octaan, n-nonaan, n-decaan\nDe paraffinische koolwaterstoffen worden op actieve kool gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
+        skos:definition  "In deze methode staat de bepaling van volgende paraffinische koolwaterstoffen in emissies (matrix lucht) beschreven: n-pentaan, n-hexaan, n-heptaan, n-octaan, n-nonaan, n-decaanDe paraffinische koolwaterstoffen worden op actieve kool gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/IV/006" ;
         skos:prefLabel   "De kwantitatieve bepaling van op actieve kool geadsorbeerde paraffinische koolwaterstoffen met GC-MS"@nl ;
@@ -468,7 +468,7 @@ co:LUC_III_010  a        skos:Concept ;
 
 co:WAC_V_C_002  a        skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/WAC_V_C_002.pdf> ;
-        skos:definition  "Dit protocol is gebaseerd op het protocol voor de bepaling van de Multimetrische Macroinvertebratenindex Vlaanderen (MMIF) zoals beschreven in Gabriëls et al. (2010). Deze index werd ontwikkeld voor het kwantificeren van het biologische kwaliteitselement \"benthisch ongewervelde fauna\" voor de Vlaamse rivieren en meren overeenkomstig de Europese Kaderrichtlijn Water (2000/60/EG) en de Vlaamse implementatie hiervan (Decreet 18 juli 2003 (integraal waterbeheer), Besluiten Vlaamse Regering 21/05/2010 (milieukwaliteitsnormen) en 8/10/2010 (stroomgebiedbeheer). MMIF is de ecologische kwaliteitscoefficiënt (EKC) voor het onderdeel macro-invertebraten."@nl ;
+        skos:definition  "Dit protocol is gebaseerd op het protocol voor de bepaling van de Multimetrische Macroinvertebratenindex Vlaanderen (MMIF) zoals beschreven in Gabriëls et al. (2010). Deze index werd ontwikkeld voor het kwantificeren van het biologische kwaliteitselement benthisch ongewervelde fauna voor de Vlaamse rivieren en meren overeenkomstig de Europese Kaderrichtlijn Water (2000/60/EG) en de Vlaamse implementatie hiervan (Decreet 18 juli 2003 (integraal waterbeheer), Besluiten Vlaamse Regering 21/05/2010 (milieukwaliteitsnormen) en 8/10/2010 (stroomgebiedbeheer). MMIF is de ecologische kwaliteitscoefficiënt (EKC) voor het onderdeel macro-invertebraten."@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "WAC/V/C/002" ;
         skos:prefLabel   "MMIF berekening op basis van op het veld verzamelde macro-invertebraten"@nl ;
@@ -476,7 +476,7 @@ co:WAC_V_C_002  a        skos:Concept ;
 
 co:LUC_IV_001  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_IV_001.pdf> ;
-        skos:definition  "In deze methode staat de bepaling van volgende aromatische koolwaterstoffen in emissies (matrix lucht) beschreven: benzeen, isopropenylbenzeen (alfa-methylstyreen), isopropylbenzeen (cumeen), styreen, tolueen, trimethylbenzenen (1,2,3-, 1,2,4- en\n1,3,5-trimethylbenzeen), xylenen (o-, m- en p-xyleen), chloorbenzeen en ethylbenzeen.\nDe aromatische koolwaterstoffen worden op actieve kool gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
+        skos:definition  "In deze methode staat de bepaling van volgende aromatische koolwaterstoffen in emissies (matrix lucht) beschreven: benzeen, isopropenylbenzeen (alfa-methylstyreen), isopropylbenzeen (cumeen), styreen, tolueen, trimethylbenzenen (1,2,3-, 1,2,4- en1,3,5-trimethylbenzeen), xylenen (o-, m- en p-xyleen), chloorbenzeen en ethylbenzeen.De aromatische koolwaterstoffen worden op actieve kool gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/IV/001" ;
         skos:prefLabel   "De kwantitatieve bepaling van op actieve kool geadsorbeerde aromatische koolwaterstoffen met GC-MS"@nl ;
@@ -537,7 +537,7 @@ co:WAC_I_A_004  a        skos:Concept ;
 
 co:CMA_1_A.5  a          skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/CMA_1_A.5.pdf> ;
-        skos:definition  "De bepaling van het bodemvochtgehalte kan belangrijk zijn daar verontreiniging aanwezig in het\nonverzadigde deel van de bodem zich via het bodemvocht kan verspreiden en op die wijze in het\ngrondwater terechtkomen. Best worden hier met betrekking tot de verspreiding modelmatige\nberekeningen uitgevoerd. Voor de bepaling van het volumetrisch vochtgehalte neemt men een ongestoord monster met gekend volume (gekalibreerde ringen van 100 cm3 ). Het ganse monster wordt gewogen, gedroogd (meestal 110°C) en opnieuw gewogen. Het volumetrische vochtgehalte wordt dan berekend uit de verhouding volume water tot het bodemvolume."@nl ;
+        skos:definition  "De bepaling van het bodemvochtgehalte kan belangrijk zijn daar verontreiniging aanwezig in hetonverzadigde deel van de bodem zich via het bodemvocht kan verspreiden en op die wijze in hetgrondwater terechtkomen. Best worden hier met betrekking tot de verspreiding modelmatigeberekeningen uitgevoerd. Voor de bepaling van het volumetrisch vochtgehalte neemt men een ongestoord monster met gekend volume (gekalibreerde ringen van 100 cm3 ). Het ganse monster wordt gewogen, gedroogd (meestal 110°C) en opnieuw gewogen. Het volumetrische vochtgehalte wordt dan berekend uit de verhouding volume water tot het bodemvolume."@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "CMA/1/A.5" ;
         skos:prefLabel   "Bodemvocht"@nl ;
@@ -617,7 +617,7 @@ co:WAC_V_B_007  a        skos:Concept ;
 
 co:LUC_III_004  a        skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2018/LUC_III_004.pdf> ;
-        skos:definition  "Deze procedure beschrijft de methode voor bemonstering en analyse van gasvormig formaldehyde (CH2O) in emissies en is afgeleid van de EPA-methode 316 voor formaldehyde-emissies van stationaire bronnen in de minerale wolindustrieën en wol-glasvezelindustrieën. \nDeeltjes en stof worden uit de bemonsterde gasstroom verwijderd door filtratie bij een gecontroleerde temperatuur (120°C) en daarna passeert het gas doorheen wasflessen met water. Als analysemethode wordt de gemodificeerde pararosanilinemethode toegepast. "@nl ;
+        skos:definition  "Deze procedure beschrijft de methode voor bemonstering en analyse van gasvormig formaldehyde (CH2O) in emissies en is afgeleid van de EPA-methode 316 voor formaldehyde-emissies van stationaire bronnen in de minerale wolindustrieën en wol-glasvezelindustrieën. Deeltjes en stof worden uit de bemonsterde gasstroom verwijderd door filtratie bij een gecontroleerde temperatuur (120°C) en daarna passeert het gas doorheen wasflessen met water. Als analysemethode wordt de gemodificeerde pararosanilinemethode toegepast. "@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/III/004" ;
         skos:prefLabel   "Bepaling van het gehalte gasvormig formaldehyde in een gaskanaal"@nl ;
@@ -661,7 +661,7 @@ co:WAC_III_B_010  a      skos:Concept ;
 
 co:LUC_IV_007  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_IV_007.pdf> ;
-        skos:definition  "In deze methode staat de bepaling van volgende ketonen in emissies (matrix lucht) beschreven: Cyclohexanon, 2,6-dimethylheptaan-4-on, 2-methylcyclohexanon, 3-methylcyclohexanon, 4-methylcyclohexanon, Aceton, 2-butanon, 4-methyl-2-pentanon, 4-hydroxy-4-methyl-2-pentanon\t\nDe ketonen worden op Carboxen 1000 gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
+        skos:definition  "In deze methode staat de bepaling van volgende ketonen in emissies (matrix lucht) beschreven: Cyclohexanon, 2,6-dimethylheptaan-4-on, 2-methylcyclohexanon, 3-methylcyclohexanon, 4-methylcyclohexanon, Aceton, 2-butanon, 4-methyl-2-pentanon, 4-hydroxy-4-methyl-2-pentanon\tDe ketonen worden op Carboxen 1000 gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/IV/007" ;
         skos:prefLabel   "De kwantitatieve bepaling van op koolstof moleculaire zeef geadsorbeerde ketonen met GC-MS"@nl ;
@@ -852,7 +852,7 @@ co:CMA_2_III_F  a        skos:Concept ;
 
 co:LUC_V_001  a          skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_V_001.pdf> ;
-        skos:definition  "Deze methode beschrijft de bepaling in emissies van zeer vluchtige organische stoffen (ZVOS) die in gasvorm worden bemonsterd en via injectie in gasvorm door gaschromatografie worden geanalyseerd. \nDe bemonstering gebeurt aan de bron in een gashouder (zak, canister, ampoule) door middel van een bemonsteringssysteem dat eventueel is uitgerust met een stoffilter, waterafscheider of verdunningssysteem. "@nl ;
+        skos:definition  "Deze methode beschrijft de bepaling in emissies van zeer vluchtige organische stoffen (ZVOS) die in gasvorm worden bemonsterd en via injectie in gasvorm door gaschromatografie worden geanalyseerd. De bemonstering gebeurt aan de bron in een gashouder (zak, canister, ampoule) door middel van een bemonsteringssysteem dat eventueel is uitgerust met een stoffilter, waterafscheider of verdunningssysteem. "@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/V/001" ;
         skos:prefLabel   "Bepaling van zeer vluchtige organische stoffen (ZVOS) in emissies met behulp van gaschromatografie"@nl ;
@@ -879,7 +879,7 @@ co:CMA_2_I_A  a         skos:Concept ;
 
 co:LUC_VI_001  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_VI_001.pdf> ;
-        skos:definition  "Deze procedure geldt voor de bepaling van het gehalte aan PAK's in emissies volgens de normen ISO 11338-1 (bemonstering) en ISO 11338-2 (analyse).\nNaast ISO 11338-2 kan eveneens CARB methode 429 voor de analyse toegepast worden."@nl ;
+        skos:definition  "Deze procedure geldt voor de bepaling van het gehalte aan PAK's in emissies volgens de normen ISO 11338-1 (bemonstering) en ISO 11338-2 (analyse).Naast ISO 11338-2 kan eveneens CARB methode 429 voor de analyse toegepast worden."@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/VI/001" ;
         skos:prefLabel   "Bepaling van het gehalte aan PAK’s"@nl ;
@@ -977,7 +977,7 @@ co:CMA_5_B.2  a         skos:Concept ;
 
 co:LUC_I_002  a          skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2018/LUC_I_002.pdf> ;
-        skos:definition  "Deze procedure geldt voor de bepaling van de stofvormige fractie van metalen -waarvoor in VLAREM een emissiegrenswaarde voor de \"stofvorm' geldt -in een gaskanaal.\nDe procedure is geldig voor volgende metalen en hun verbindingen: Sb, As, Cd, Cr, Co, Cu, Pb, Mn, Ni, Tl, V, Se, Sn en Hg. Het principe van de bemonstering bestaat uit het isokinetisch aanzuigen van een deelmonster uit een gasstroom in een gaskanaal op een representatief aantal meetpunten gedurende een bepaalde tijd waarbij het aantal meetpunten wordt bepaald door de afmetingen van het gaskanaal. Stof wordt gecollecteerd op een filter in of buiten het afgaskanaal op een temperatuur van maximum 105°C. De droging van de filter wordt eveneens op een maximale temperatuur van 105°C uitgevoerd. Na bemonstering worden de stofvormige metalen ontsloten volgens EN 14385."@nl ;
+        skos:definition  "Deze procedure geldt voor de bepaling van de stofvormige fractie van metalen -waarvoor in VLAREM een emissiegrenswaarde voor de stofvorm' geldt -in een gaskanaal.De procedure is geldig voor volgende metalen en hun verbindingen: Sb, As, Cd, Cr, Co, Cu, Pb, Mn, Ni, Tl, V, Se, Sn en Hg. Het principe van de bemonstering bestaat uit het isokinetisch aanzuigen van een deelmonster uit een gasstroom in een gaskanaal op een representatief aantal meetpunten gedurende een bepaalde tijd waarbij het aantal meetpunten wordt bepaald door de afmetingen van het gaskanaal. Stof wordt gecollecteerd op een filter in of buiten het afgaskanaal op een temperatuur van maximum 105°C. De droging van de filter wordt eveneens op een maximale temperatuur van 105°C uitgevoerd. Na bemonstering worden de stofvormige metalen ontsloten volgens EN 14385."@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/I/002" ;
         skos:prefLabel   "Bepaling van de stofvormige fractie van metalen in een gaskanaal"@nl ;
@@ -1051,7 +1051,7 @@ co:CMA_2_III_A  a        skos:Concept ;
 
 co:LUC_IV_008  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_IV_008.pdf> ;
-        skos:definition  "In deze methode staat de bepaling van volgende ethers in emissies (matrix lucht) beschreven: Di-ethylether, Di-isopropylether, Tetrahydrofuraan, 1,4 –dioxaan, Di-n-butylether\nDe ethers worden op actieve kool gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
+        skos:definition  "In deze methode staat de bepaling van volgende ethers in emissies (matrix lucht) beschreven: Di-ethylether, Di-isopropylether, Tetrahydrofuraan, 1,4 –dioxaan, Di-n-butyletherDe ethers worden op actieve kool gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/IV/008" ;
         skos:prefLabel   "De kwantitatieve bepaling van op actieve kool geadsorbeerde ethers met GC-MS"@nl ;
@@ -1214,7 +1214,7 @@ co:WAC_III_A_003  a      skos:Concept ;
 
 co:LUC_IV_003  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_IV_003.pdf> ;
-        skos:definition  "In deze methode staat de bepaling van volgende glycolethers in emissies (matrix lucht) beschreven: 2-methoxyethanol, 2-ethoxyethanol, 2-butoxyethanol.\nDe glycolethers worden op actieve kool gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
+        skos:definition  "In deze methode staat de bepaling van volgende glycolethers in emissies (matrix lucht) beschreven: 2-methoxyethanol, 2-ethoxyethanol, 2-butoxyethanol.De glycolethers worden op actieve kool gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/IV/003" ;
         skos:prefLabel   "De kwantitatieve bepaling van op actieve kool geadsorbeerde glycolethers met GC-MS"@nl ;
@@ -1249,7 +1249,7 @@ co:CMA_2_I_B  a          skos:Concept ;
 
 co:LUC_VI_002  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_VI_002.pdf> ;
-        skos:definition  "Deze procedure geldt voor de bepaling van de massaconcentratie aan PCDD's/PCDF's en dioxineachtige PCB’s in emissies \nvolgens de normen NBN EN 1948 deel 1 t.e.m. 4. De norm NBN EN 1948-4 kan eveneens gebruikt worden voor het meten van andere PCB-congeneren dan de 12 non- en mono-ortho-PCB’s zoals de merker PCB’s  28, 52, 101, 138, 153, 180. Bijkomende PCB’s kunnen opgenomen worden op voorwaarde dat een methodevalidatie uitgevoerd wordt. "@nl ;
+        skos:definition  "Deze procedure geldt voor de bepaling van de massaconcentratie aan PCDD's/PCDF's en dioxineachtige PCB’s in emissies volgens de normen NBN EN 1948 deel 1 t.e.m. 4. De norm NBN EN 1948-4 kan eveneens gebruikt worden voor het meten van andere PCB-congeneren dan de 12 non- en mono-ortho-PCB’s zoals de merker PCB’s  28, 52, 101, 138, 153, 180. Bijkomende PCB’s kunnen opgenomen worden op voorwaarde dat een methodevalidatie uitgevoerd wordt. "@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/VI/002" ;
         skos:prefLabel   "Bepaling van het gehalte aan PCDD’s, PCDF’s en dioxineachtige en merker PCB’s"@nl ;
@@ -1283,7 +1283,7 @@ co:LUC_VII_001  a        skos:Concept ;
 
 co:WAC_I_A_006  a        skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/WAC_I_A_006.pdf> ;
-        skos:definition  "De beschreven monsternemingmethoden zijn geschikt voor het collecteren van macroinvertebraten in zowel stromende als stilstaande zoete of brakke oppervlaktewaters (grachten,\nwaterlopen, kanalen). "@nl ;
+        skos:definition  "De beschreven monsternemingmethoden zijn geschikt voor het collecteren van macroinvertebraten in zowel stromende als stilstaande zoete of brakke oppervlaktewaters (grachten,waterlopen, kanalen). "@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "WAC/I/A/006" ;
         skos:prefLabel   "Monsterneming van macro-invertebraten en verwerking van de monsters"@nl ;
@@ -1453,7 +1453,7 @@ co:WAC_III_D_020  a      skos:Concept ;
 
 co:LUC_IV_009  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_IV_009.pdf> ;
-        skos:definition  "In deze methode staat de bepaling van volgende alcoholen in emissies (matrix lucht) beschreven: Ethanol, n-Propanol, Isopropanol, n-Butanol, s-Butanol, t-Butanol, Isobutanol\nDe alcoholen worden op Carboxen 1000 gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd."@nl ;
+        skos:definition  "In deze methode staat de bepaling van volgende alcoholen in emissies (matrix lucht) beschreven: Ethanol, n-Propanol, Isopropanol, n-Butanol, s-Butanol, t-Butanol, IsobutanolDe alcoholen worden op Carboxen 1000 gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd."@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/IV/009" ;
         skos:prefLabel   "De kwantitatieve bepaling van op koolstof moleculaire zeef geadsorbeerde alcoholen met GC-MS"@nl ;
@@ -1503,7 +1503,7 @@ co:WAC_I_A_001  a        skos:Concept ;
         skos:definition  "Deze procedure beschrijft de ogenblikkelijke monstername aan een kraan van water bestemd voor menselijke consumptie, inclusief de specificaties betreffende conservering, transport en metingen ter plaatse."@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "WAC/I/A/001" ;
-        skos:prefLabel   "Ogenblikkelijke monstername (aan kraan) van\nwater voor menselijke consumptie"@nl ;
+        skos:prefLabel   "Ogenblikkelijke monstername (aan kraan) vanwater voor menselijke consumptie"@nl ;
         dcat:theme       gemet:15179 .
 
 co:CMA_2_I_A.6.1  a      skos:Concept ;
@@ -1679,7 +1679,7 @@ co:WAC_III_A_004  a      skos:Concept ;
 
 co:LUC_IV_004  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_IV_004.pdf> ;
-        skos:definition  "In deze methode staat de bepaling van volgende esters en acrylaten in emissies (matrix lucht) beschreven: methylacetaat, Ethylacetaat, n-butylacetaat, iso-butylacetaat, t-butylacetaat, methylacrylaat, ethylacrylaat, methylmethacrylaat.\nDe esters en acrylaten worden op actieve kool gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
+        skos:definition  "In deze methode staat de bepaling van volgende esters en acrylaten in emissies (matrix lucht) beschreven: methylacetaat, Ethylacetaat, n-butylacetaat, iso-butylacetaat, t-butylacetaat, methylacrylaat, ethylacrylaat, methylmethacrylaat.De esters en acrylaten worden op actieve kool gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/IV/004" ;
         skos:prefLabel   "De kwantitatieve bepaling van op actieve kool geadsorbeerde esters en acrylaten met GC-MS"@nl ;
@@ -1728,7 +1728,7 @@ co:CMA_5_A.7  a         skos:Concept ;
 
 co:LUC_VII_002  a        skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_VII_002.pdf> ;
-        skos:definition  "Deze procedure beschrijft de methode voor bemonstering en analyse van trichlooramine in zwembadlucht.\nDe monsternemingstrein bestaat achtereenvolgens uit een patroon gevuld met silicagel, geïmpregneerd met sulfaminezuur, twee filters die geïmpregneerd zijn met natriumcarbonaat en arseentrioxide en een pomp. Het met sulfaminezuur geïmpregneerde silicagelpatroon houdt ongewenste chloorverbindingen (chloor, waterstofhypochloriet, mono- en dichlooramine) tegen met een efficiëntie van 95%. Het vluchtige  trichlooramine of NCl3 wordt met een efficiëntie van bijna 100% op de geïmpregneerde filters bemonsterd.   "@nl ;
+        skos:definition  "Deze procedure beschrijft de methode voor bemonstering en analyse van trichlooramine in zwembadlucht.De monsternemingstrein bestaat achtereenvolgens uit een patroon gevuld met silicagel, geïmpregneerd met sulfaminezuur, twee filters die geïmpregneerd zijn met natriumcarbonaat en arseentrioxide en een pomp. Het met sulfaminezuur geïmpregneerde silicagelpatroon houdt ongewenste chloorverbindingen (chloor, waterstofhypochloriet, mono- en dichlooramine) tegen met een efficiëntie van 95%. Het vluchtige  trichlooramine of NCl3 wordt met een efficiëntie van bijna 100% op de geïmpregneerde filters bemonsterd.   "@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/VII/002" ;
         skos:prefLabel   "Bepaling van trichlooramine in zwembadlucht"@nl ;
@@ -1931,7 +1931,7 @@ co:CMA_1_A.3  a          skos:Concept ;
 
 co:LUC_IV_011  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_IV_011.pdf> ;
-        skos:definition  "Deze methode beschrijft de bepaling van volgende vluchtige organische stoffen in emissies (matrix lucht) met behulp van actieve kool. Deze methode houdt rekening met de bepalingen uit CEN/TS 13649: \nBenzeen; 1,2-dichloorbenzeen; Chloorbenzeen; 1,4-dichloorbenzeen; Ethylbenzeen; Isopropenylbenzeen (alfa-methylstyreen); Isopropylbenzeen (cumeen); Styreen; Tolueen; Trimethylbenzenen (1,2,3-, 1,2,4- en 1,3,5-trimethylbenzeen); Xylenen (o-, m- en p-xyleen); 1,2-dibroomethaan; 1,1,2-trichloorethaan; 1,1-dichloorethyleen; 1,2-dichloorethaan; Chloroform (trichloormethaan); Tetrachloormethaan; 1,1,1-trichloorethaan; 1,1-dichloorethaan; 2-chloorpropaan; Tetrachloorethyleen; Trichloorethyleen; cis-1,2-dichlooretheen; Dichloormethaan; trans-1,2-dichlooretheen; 1-deceen; 1-hepteen; 1-hexeen; 1-noneen; 1-octeen; n-decaan; n-heptaan; n-hexaan; n-nonaan; n-octaan; n-pentaan; 1,4 –dioxaan; Tetrahydrofuraan; Di-ethylether; Di-isopropylether; Di-n-butylether; Vinylacetaat; Aceton; n-butylacetaat\nDe vluchtige organische stoffen worden op actieve kool gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
+        skos:definition  "Deze methode beschrijft de bepaling van volgende vluchtige organische stoffen in emissies (matrix lucht) met behulp van actieve kool. Deze methode houdt rekening met de bepalingen uit CEN/TS 13649: Benzeen; 1,2-dichloorbenzeen; Chloorbenzeen; 1,4-dichloorbenzeen; Ethylbenzeen; Isopropenylbenzeen (alfa-methylstyreen); Isopropylbenzeen (cumeen); Styreen; Tolueen; Trimethylbenzenen (1,2,3-, 1,2,4- en 1,3,5-trimethylbenzeen); Xylenen (o-, m- en p-xyleen); 1,2-dibroomethaan; 1,1,2-trichloorethaan; 1,1-dichloorethyleen; 1,2-dichloorethaan; Chloroform (trichloormethaan); Tetrachloormethaan; 1,1,1-trichloorethaan; 1,1-dichloorethaan; 2-chloorpropaan; Tetrachloorethyleen; Trichloorethyleen; cis-1,2-dichlooretheen; Dichloormethaan; trans-1,2-dichlooretheen; 1-deceen; 1-hepteen; 1-hexeen; 1-noneen; 1-octeen; n-decaan; n-heptaan; n-hexaan; n-nonaan; n-octaan; n-pentaan; 1,4 –dioxaan; Tetrahydrofuraan; Di-ethylether; Di-isopropylether; Di-n-butylether; Vinylacetaat; Aceton; n-butylacetaatDe vluchtige organische stoffen worden op actieve kool gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/IV/011" ;
         skos:prefLabel   "Gecombineerde methode voor de kwantitatieve bepaling van op actieve kool geadsorbeerde vluchtige organische stoffen met GC-MS"@nl ;
@@ -1959,7 +1959,7 @@ co:WAC_III_D_033  a      skos:Concept ;
 
 co:CMA_1_A.14  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/CMA_1_A.14.pdf> ;
-        skos:definition  "Deze procedure beschrijft de algemene richtlijnen en instructies voor het bemonsteren van afvalstoffen en grondstoffen1 in kader van VLAREM en VLAREA. De procedure behandelt zowel vloeibare, pasteuze als vaste materialen. De beschreven\nbemonsteringstechnieken zijn generiek en toepasbaar op een heel gamma aan afvalmatrices en\nparameters."@nl ;
+        skos:definition  "Deze procedure beschrijft de algemene richtlijnen en instructies voor het bemonsteren van afvalstoffen en grondstoffen1 in kader van VLAREM en VLAREA. De procedure behandelt zowel vloeibare, pasteuze als vaste materialen. De beschrevenbemonsteringstechnieken zijn generiek en toepasbaar op een heel gamma aan afvalmatrices enparameters."@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "CMA/1/A.14" ;
         skos:prefLabel   "Algemene richtlijnen monsterneming"@nl .
@@ -2061,7 +2061,7 @@ co:WAC_III_A_005  a      skos:Concept ;
 
 co:LUC_IV_005  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_IV_005.pdf> ;
-        skos:definition  "In deze methode staat de bepaling van volgende olefinische koolwaterstoffen in emissies (matrix lucht) beschreven: 1-hexeen, 1-hepteen, 1-octeen, 1-deceen. \nDe olefinische koolwaterstoffen worden op actieve kool gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
+        skos:definition  "In deze methode staat de bepaling van volgende olefinische koolwaterstoffen in emissies (matrix lucht) beschreven: 1-hexeen, 1-hepteen, 1-octeen, 1-deceen. De olefinische koolwaterstoffen worden op actieve kool gepreconcentreerd. De extractie - oplossing – verkregen na solventdesorptie – wordt m.b.v. GC-MS (gaschromatografie - massaspectrometrie) geanalyseerd. "@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "LUC/IV/005" ;
         skos:prefLabel   "De kwantitatieve bepaling van op actieve kool geadsorbeerde olefinische koolwaterstoffen met GC-MS"@nl ;
