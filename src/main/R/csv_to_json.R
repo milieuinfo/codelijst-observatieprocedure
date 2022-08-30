@@ -2,28 +2,10 @@
 library(tidyr)
 library(dplyr)
 library(jsonlite)
+setwd("/home/gehau/git/codelijst-observatieprocedure/src/main/R")
 
 df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv", sep=",", na.strings=c("","NA"))
-df <- df %>%
-  separate_rows(casNumbers, sep = "\\|")%>%
-  separate_rows(notations, sep = "\\|")%>%
-  separate_rows(altLabels, sep = "\\|")%>%
-  separate_rows(exactMatches, sep = "\\|")%>%
-  separate_rows(isSubjectOfs, sep = "\\|")%>%
-  separate_rows(collections, sep = "\\|")%>%
-  separate_rows(vmmParameterIds, sep = "\\|")%>% 
-  separate_rows(types, sep = "\\|")%>% 
-  rename(
-    casNumber = casNumbers,
-    notation = notations,
-    altLabel = altLabels,
-    exactMatch = exactMatches,
-    isSubjectOf = isSubjectOfs,
-    collection = collections,
-    vmmParameterId = vmmParameterIds,
-    "@type" = types
-  )
-for (col in list("https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/water","https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/lucht")) {
+for (col in list("https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/water","https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/lucht","https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/bodem")) {
   medium <- subset(df, collection == col ,
                    select=c(uri, collection)) 
   medium_members <- as.list(medium["uri"])
@@ -32,7 +14,8 @@ for (col in list("https://data.omgeving.vlaanderen.be/id/collection/observatiepr
   df <- bind_rows(df, df2)
 }
 df <- df %>%
-  rename("@id" = uri)
+  rename("@id" = uri,
+         "@type" = type)
 write.csv(df,"../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure_separate_rows.csv", row.names = FALSE)
 context <- jsonlite::read_json("../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/context.json")
 df_in_list <- list('@graph' = df, '@context' = context)

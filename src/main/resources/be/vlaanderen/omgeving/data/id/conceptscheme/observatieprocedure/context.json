@@ -1,42 +1,18 @@
-{
-    "smiles" : {
-      "@id" : "http://dbpedia.org/ontology/smiles",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "pubchem" : {
-      "@id" : "http://dbpedia.org/ontology/pubchem"
-    },
-    "iupacName" : {
-      "@id" : "http://dbpedia.org/ontology/iupacName",
-      "@language" : "en"
-    },
-    "casNumber" : {
-      "@id" : "http://dbpedia.org/ontology/casNumber",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+{   "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
     },
     "inScheme" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
       "@type" : "@id"
     },
-    "inchikey" : {
-      "@id" : "http://dbpedia.org/property/inchikey",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "theme" : {
+      "@id" : "http://www.w3.org/ns/dcat#theme",
+      "@type" : "@id"
     },
     "prefLabel" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
       "@language" : "nl"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-      "@type" : "@id"
-    },
-    "inchi" : {
-      "@id" : "http://dbpedia.org/ontology/inchi",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "formula" : {
-      "@id" : "https://data.vlaanderen.be/ns/chemische_stof#formula",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "notation" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#notation",
@@ -45,18 +21,6 @@
     "altLabel" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
       "@language" : "nl"
-    },
-    "vmmParameterId" : {
-      "@id" : "https://data.vlaanderen.be/ns/chemische_stof#vmmParameterId",
-      "@type" : "http://www.w3.org/2001/XMLSchema#int"
-    },
-    "isSubjectOf" : {
-      "@id" : "http://www.w3.org/2004/02/skos/core#isSubjectOf",
-      "@language" : "nl"
-    },
-    "exactMatch" : {
-      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-      "@type" : "@id"
     },
     "definition" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#definition",
@@ -69,15 +33,12 @@
     "xsd" : "http://www.w3.org/2001/XMLSchema#",
     "skos" : "http://www.w3.org/2004/02/skos/core#",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
-    "compound" : "https://pubchem.ncbi.nlm.nih.gov/compound/",
-    "dbo" : "http://dbpedia.org/ontology/",
-    "cs" : "https://data.vlaanderen.be/ns/chemische_stof#",
+    "op" : "https://data.vlaanderen.be/ns/observatieprocedure#",
     "vlcs" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
-    "csc" : "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
-    "cosc" : "https://data.omgeving.vlaanderen.be/id/collection/chemische_stof/",
-    "dbp" : "http://dbpedia.org/property/",
-    "wise" : "http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/",
+    "co" : "https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/",
+    "coo" : "https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/",
+    "dcat" : "http://www.w3.org/ns/dcat#",
     "dct" : "http://purl.org/dc/terms/",
-    "wk" : "https://data.omgeving.vlaanderen.be/ns/wk#",
-    "dc" : "http://purl.org/dc/elements/1.1/"
+    "dc" : "http://purl.org/dc/elements/1.1/",
+    "gemet" : "http://www.eionet.europa.eu/gemet/concept/"
   }
