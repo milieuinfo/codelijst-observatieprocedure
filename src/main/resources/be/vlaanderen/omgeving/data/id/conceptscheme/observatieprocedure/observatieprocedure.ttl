@@ -109,10 +109,13 @@ co:WAC_I_A_003  a        skos:Concept ;
         skos:prefLabel   "Ogenblikkelijke monstername (schepmonster) van water. "@nl ;
         dcat:theme       gemet:15179 .
 
-co:CMA_3_Q  a           skos:Concept ;
-        skos:inScheme   vlcs:observatieprocedure ;
-        skos:notation   "CMA/3/Q" ;
-        skos:prefLabel  "Oplosmiddelen aspecifiek"@nl .
+co:WAC_VI_A_001  a       skos:Concept ;
+        rdfs:seeAlso     <https://reflabos.vito.be/2021/WAC_VI_A_001.pdf> ;
+        skos:definition  "Het toepassingsgebied is verruimd tot alle analysemethoden. De aanpak voor het onderzoek inzake de gelijkwaardigheid van methoden wordt niet meer opgenomen vermits een statistische benadering voor gelijkwaardigheid een aantal beperkingen inhoudt qua matrices, concentratiegebied, enz. Het oordeel van expert(en) is doorslaggevend voor de uitspraak inzake de gelijkwaardigheid van analysemethoden."@nl ;
+        skos:inScheme    vlcs:observatieprocedure ;
+        skos:notation    "WAC/VI/A/001" ;
+        skos:prefLabel   "Prestatiekenmerken"@nl ;
+        dcat:theme       gemet:15179 .
 
 co:CMA_1_A.4  a          skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/CMA_1_A.4.pdf> ;
@@ -122,13 +125,10 @@ co:CMA_1_A.4  a          skos:Concept ;
         skos:prefLabel   "In-situ staalname van waterbodem"@nl ;
         dcat:theme       gemet:7884 .
 
-co:WAC_VI_A_001  a       skos:Concept ;
-        rdfs:seeAlso     <https://reflabos.vito.be/2021/WAC_VI_A_001.pdf> ;
-        skos:definition  "Het toepassingsgebied is verruimd tot alle analysemethoden. De aanpak voor het onderzoek inzake de gelijkwaardigheid van methoden wordt niet meer opgenomen vermits een statistische benadering voor gelijkwaardigheid een aantal beperkingen inhoudt qua matrices, concentratiegebied, enz. Het oordeel van expert(en) is doorslaggevend voor de uitspraak inzake de gelijkwaardigheid van analysemethoden."@nl ;
-        skos:inScheme    vlcs:observatieprocedure ;
-        skos:notation    "WAC/VI/A/001" ;
-        skos:prefLabel   "Prestatiekenmerken"@nl ;
-        dcat:theme       gemet:15179 .
+co:CMA_3_Q  a           skos:Concept ;
+        skos:inScheme   vlcs:observatieprocedure ;
+        skos:notation   "CMA/3/Q" ;
+        skos:prefLabel  "Oplosmiddelen aspecifiek"@nl .
 
 co:LUC_IV_012  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/LUC_IV_012.pdf> ;
@@ -138,17 +138,17 @@ co:LUC_IV_012  a         skos:Concept ;
         skos:prefLabel   "Gecombineerde methode voor de kwantitatieve bepaling van op koolstof moleculaire zeef geadsorbeerde vluchtige organische stoffen met GC-MS"@nl ;
         dcat:theme       gemet:270 .
 
-co:CMA_7_A.6  a         skos:Concept ;
-        skos:inScheme   vlcs:observatieprocedure ;
-        skos:notation   "CMA/7/A.6" ;
-        skos:prefLabel  "Methaan, ethaan en etheen in grondwater"@nl .
-
 co:CMA_2_II_A.5  a       skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/CMA_2_II_A.5.pdf> ;
         skos:definition  "In deze CMA methode wordt een overzicht gegeven van de te analyseren parameters voor de bepaling van de stookwaarde bij constante druk van een afvalstof (inclusief opgewerkte afgewerkte olie) met referentie naar de bijhorende CMA en/of Europese normering."@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "CMA/2/II/A.5" ;
         skos:prefLabel   "Stookwaarde bij constante druk"@nl .
+
+co:CMA_7_A.6  a         skos:Concept ;
+        skos:inScheme   vlcs:observatieprocedure ;
+        skos:notation   "CMA/7/A.6" ;
+        skos:prefLabel  "Methaan, ethaan en etheen in grondwater"@nl .
 
 co:CMA_1_A.15  a         skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/CMA_1_A.15.pdf> ;
@@ -1102,17 +1102,17 @@ co:CMA_2_I_D.7  a        skos:Concept ;
         skos:notation    "CMA/2/I/D.7" ;
         skos:prefLabel   "Totaal organische koolstof (TOC), opgeloste organische koolstof (DOC) en niet-purgeerbare organische koolstof (NPOC)"@nl .
 
-co:CMA_7_A.3  a         skos:Concept ;
-        skos:inScheme   vlcs:observatieprocedure ;
-        skos:notation   "CMA/7/A.3" ;
-        skos:prefLabel  "Vochtkarakteristiek (pF curve) - Ontwerp"@nl .
-
 co:CMA_2_II_A.2  a       skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/CMA_2_II_A.2.pdf> ;
         skos:definition  "Deze procedure beschrijft een methode voor de bepaling van het gloeiverlies/asrest van de droge stof bij 550°C. De droge stof wordt bepaald volgens NBN EN 15934. Deze methode is van toepassing op de bepaling van gloeiverlies/asrest van slib, behandeld biologisch afval, bodem en afval. Het gloeiverlies/asrest van sedimenten kan worden bepaald met deze methode."@nl ;
         skos:inScheme    vlcs:observatieprocedure ;
         skos:notation    "CMA/2/II/A.2" ;
         skos:prefLabel   "Asrest"@nl .
+
+co:CMA_7_A.3  a         skos:Concept ;
+        skos:inScheme   vlcs:observatieprocedure ;
+        skos:notation   "CMA/7/A.3" ;
+        skos:prefLabel  "Vochtkarakteristiek (pF curve) - Ontwerp"@nl .
 
 co:WAC_III_D_031  a      skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/WAC_III_D_031.pdf> ;
@@ -1289,10 +1289,13 @@ co:WAC_I_A_006  a        skos:Concept ;
         skos:prefLabel   "Monsterneming van macro-invertebraten en verwerking van de monsters"@nl ;
         dcat:theme       gemet:15179 .
 
-co:CMA_3_T  a           skos:Concept ;
-        skos:inScheme   vlcs:observatieprocedure ;
-        skos:notation   "CMA/3/T" ;
-        skos:prefLabel  "Polyaromatische koolwaterstoffen, organochloorpesticiden, polychloorbifenylen en hogere chloorbenzenen met gaschromatografie-tandem massaspectrometrie (GC-MS/MS)"@nl .
+co:WAC_VI_A_004  a       skos:Concept ;
+        rdfs:seeAlso     <https://reflabos.vito.be/2021/WAC_VI_A_004.pdf> ;
+        skos:definition  "Het doel van deze procedure is het vastleggen van uniforme vereisten voor de rapportering. De voorwaarden in deze procedure zijn te beschouwen als minimale vereisten, die voorrang hebben op eventuele bilaterale afspraken tussen het erkende laboratorium en zijn opdrachtgever, tenzij de bevoegde overheid anders bepaalt."@nl ;
+        skos:inScheme    vlcs:observatieprocedure ;
+        skos:notation    "WAC/VI/A/004" ;
+        skos:prefLabel   "Voorwaarden voor rapportering van monsternamegegevens en analyseresultaten  door een erkend laboratorium"@nl ;
+        dcat:theme       gemet:15179 .
 
 co:CMA_1_A.7  a          skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/CMA_1_A.7.pdf> ;
@@ -1302,13 +1305,10 @@ co:CMA_1_A.7  a          skos:Concept ;
         skos:prefLabel   "Monsterneming voor bepaling van asbest in bodemlagen"@nl ;
         dcat:theme       gemet:7884 .
 
-co:WAC_VI_A_004  a       skos:Concept ;
-        rdfs:seeAlso     <https://reflabos.vito.be/2021/WAC_VI_A_004.pdf> ;
-        skos:definition  "Het doel van deze procedure is het vastleggen van uniforme vereisten voor de rapportering. De voorwaarden in deze procedure zijn te beschouwen als minimale vereisten, die voorrang hebben op eventuele bilaterale afspraken tussen het erkende laboratorium en zijn opdrachtgever, tenzij de bevoegde overheid anders bepaalt."@nl ;
-        skos:inScheme    vlcs:observatieprocedure ;
-        skos:notation    "WAC/VI/A/004" ;
-        skos:prefLabel   "Voorwaarden voor rapportering van monsternamegegevens en analyseresultaten  door een erkend laboratorium"@nl ;
-        dcat:theme       gemet:15179 .
+co:CMA_3_T  a           skos:Concept ;
+        skos:inScheme   vlcs:observatieprocedure ;
+        skos:notation   "CMA/3/T" ;
+        skos:prefLabel  "Polyaromatische koolwaterstoffen, organochloorpesticiden, polychloorbifenylen en hogere chloorbenzenen met gaschromatografie-tandem massaspectrometrie (GC-MS/MS)"@nl .
 
 co:CMA_2_II_A.8  a       skos:Concept ;
         rdfs:seeAlso     <https://reflabos.vito.be/2021/CMA_2_II_A.8.pdf> ;
@@ -1417,7 +1417,7 @@ co:WAC_III_D_050  a      skos:Concept ;
         dcat:theme       gemet:15179 .
 
 coo:water  a            skos:Collection ;
-        skos:member     co:WAC_V_A_002 , co:WAC_IV_A_022 , co:WAC_IV_A_003 , co:WAC_I_A_011 , co:WAC_III_D_032 , co:WAC_III_C_001 , co:WAC_V_A_006 , co:WAC_IV_A_007 , co:WAC_V_B_005 , co:WAC_III_C_050 , co:WAC_IV_A_002 , co:WAC_III_D_020 , co:WAC_IV_A_006 , co:WAC_III_D_030 , co:WAC_I_A_003 , co:WAC_II_A_003 , co:WAC_III_A_001 , co:WAC_V_A_008 , co:WAC_V_B_007 , co:WAC_IV_B_040 , co:WAC_IV_A_008 , co:WAC_III_A_003 , co:WAC_III_D_002 , co:WAC_I_A_004 , co:WAC_IV_A_021 , co:WAC_VI_A_003 , co:WAC_IV_B_001 , co:WAC_III_E_023 , co:WAC_III_A_005 , co:WAC_V_B_002 , co:WAC_III_B_010 , co:WAC_I_A_006 , co:WAC_IV_A_001 , co:WAC_III_B_001 , co:WAC_III_B_014 , co:WAC_V_A_004 , co:WAC_IV_A_005 , co:WAC_IV_A_023 , co:WAC_V_A_001 , co:WAC_IV_B_025 , co:WAC_I_A_010 , co:WAC_III_B_002 , co:WAC_III_D_010 , co:WAC_I_A_001 , co:WAC_II_A_001 , co:WAC_IV_B_010 , co:WAC_III_C_020 , co:WAC_II_A_002 , co:WAC_III_E_022 , co:WAC_IV_B_012 , co:WAC_III_C_040 , co:WAC_V_C_002 , co:WAC_IV_A_031 , co:WAC_III_D_040 , co:WAC_I_A_005 , co:CMA_1_A.9 , co:WAC_IV_B_021 , co:WAC_VI_A_001 , co:WAC_V_B_004 , co:WAC_III_B_012 , co:WAC_III_A_008 , co:WAC_V_B_001 , co:WAC_IV_A_016 , co:WAC_IV_A_025 , co:WAC_III_D_031 , co:WAC_V_A_003 , co:WAC_III_C_002 , co:WAC_IV_A_029 , co:WAC_IV_B_005 , co:WAC_V_A_007 , co:WAC_IV_A_024 , co:WAC_IV_A_028 , co:WAC_III_A_009 , co:WAC_III_A_011 , co:WAC_III_C_022 , co:WAC_III_E_020 , co:CMA_1_A.10 , co:WAC_IV_A_004 , co:WAC_III_D_022 , co:WAC_III_D_050 , co:WAC_III_D_001 , co:WAC_V_A_009 , co:WAC_III_D_036 , co:WAC_III_E_021 , co:WAC_V_C_001 , co:WAC_IV_B_020 , co:WAC_IV_B_011 , co:WAC_I_1_012 , co:WAC_III_A_004 , co:WAC_III_D_003 , co:WAC_IV_A_030 , co:CMA_1_A.11 , co:WAC_III_B_011 , co:WAC_IV_B_022 , co:WAC_III_C_010 , co:WAC_IV_A_010 , co:WAC_VI_A_002 , co:WAC_III_A_006 , co:WAC_IV_B_026 , co:WAC_III_C_041 , co:WAC_V_B_003 , co:WAC_IV_A_015 , co:WAC_III_D_033 , co:WAC_IV_A_027 , co:WAC_III_C_030 , co:WAC_V_A_005 , co:WAC_III_A_010 , co:WAC_VI_A_004 ;
+        skos:member     co:WAC_V_A_002 , co:WAC_IV_A_022 , co:WAC_IV_A_003 , co:WAC_I_A_011 , co:WAC_III_D_032 , co:WAC_III_C_001 , co:WAC_V_A_006 , co:WAC_IV_A_007 , co:WAC_V_B_005 , co:WAC_III_C_050 , co:WAC_IV_A_002 , co:WAC_III_D_020 , co:WAC_IV_A_006 , co:WAC_III_D_030 , co:WAC_I_A_003 , co:WAC_II_A_003 , co:WAC_III_A_001 , co:WAC_V_A_008 , co:WAC_V_B_007 , co:WAC_IV_B_040 , co:WAC_IV_A_008 , co:WAC_III_A_003 , co:WAC_III_D_002 , co:WAC_I_A_004 , co:WAC_IV_A_021 , co:WAC_VI_A_003 , co:WAC_IV_B_001 , co:WAC_III_E_023 , co:WAC_III_A_005 , co:WAC_V_B_002 , co:WAC_III_B_010 , co:WAC_I_A_006 , co:WAC_IV_A_001 , co:WAC_III_B_001 , co:WAC_III_B_014 , co:WAC_V_A_004 , co:WAC_IV_A_005 , co:WAC_IV_A_023 , co:WAC_V_A_001 , co:WAC_IV_B_025 , co:WAC_I_A_010 , co:WAC_III_D_010 , co:WAC_III_B_002 , co:WAC_I_A_001 , co:WAC_II_A_001 , co:WAC_IV_B_010 , co:WAC_III_C_020 , co:WAC_II_A_002 , co:WAC_III_E_022 , co:WAC_IV_B_012 , co:WAC_III_C_040 , co:WAC_V_C_002 , co:WAC_IV_A_031 , co:WAC_III_D_040 , co:WAC_I_A_005 , co:WAC_VI_A_001 , co:WAC_IV_B_021 , co:CMA_1_A.9 , co:WAC_V_B_004 , co:WAC_III_B_012 , co:WAC_III_A_008 , co:WAC_V_B_001 , co:WAC_IV_A_016 , co:WAC_IV_A_025 , co:WAC_III_D_031 , co:WAC_V_A_003 , co:WAC_III_C_002 , co:WAC_IV_A_029 , co:WAC_IV_B_005 , co:WAC_V_A_007 , co:WAC_IV_A_024 , co:WAC_IV_A_028 , co:WAC_III_A_009 , co:WAC_III_A_011 , co:WAC_III_C_022 , co:WAC_III_E_020 , co:WAC_IV_A_004 , co:WAC_III_D_050 , co:WAC_III_D_022 , co:CMA_1_A.10 , co:WAC_III_D_001 , co:WAC_V_A_009 , co:WAC_III_D_036 , co:WAC_III_E_021 , co:WAC_V_C_001 , co:WAC_IV_B_020 , co:WAC_IV_B_011 , co:WAC_I_1_012 , co:WAC_III_A_004 , co:WAC_III_D_003 , co:WAC_IV_A_030 , co:CMA_1_A.11 , co:WAC_III_B_011 , co:WAC_IV_B_022 , co:WAC_III_C_010 , co:WAC_IV_A_010 , co:WAC_VI_A_002 , co:WAC_III_A_006 , co:WAC_IV_B_026 , co:WAC_III_C_041 , co:WAC_V_B_003 , co:WAC_IV_A_015 , co:WAC_III_D_033 , co:WAC_IV_A_027 , co:WAC_III_C_030 , co:WAC_V_A_005 , co:WAC_III_A_010 , co:WAC_VI_A_004 ;
         skos:prefLabel  "Collectie van observatieprocedures voor water"@nl .
 
 co:CMA_2_II_C.2  a       skos:Concept ;

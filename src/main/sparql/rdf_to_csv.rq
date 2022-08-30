@@ -26,6 +26,5 @@ optional {?uri rdfs:seeAlso ?seeAlso .}
 optional {?uri dcat:theme ?theme .}
 optional {?uri a skos:Concept . ?collection skos:member ?uri .}
 }
-
 ORDER BY ?uri
 
