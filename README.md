@@ -5,7 +5,7 @@ Lijst van observatieprocedures, zoals die binnen het kader van het OSLO thema om
 
 ## Gebruik
 
-- Voeg een definitie van een nieuwe chemische stof toe aan $PROJECT_HOME/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv
+- Voeg een definitie van een nieuwe chemische stof toe aan $PROJECT_HOME/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv
 
 ### csv naar rdf
 ```
@@ -15,7 +15,7 @@ bash csv_to_rfd.sh
 ### rdf naar csv
 ```
 cd $PROJECT_HOME/src/main/sparql
-sparql --results=CSV --data=../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl  --query rdf_to_csv.rq > ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv
+sparql --results=CSV --data=../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.ttl  --query rdf_to_csv.rq > ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv
 ```
 
 ## Dependencies
