@@ -5,7 +5,7 @@ Lijst van observatieprocedures, zoals die binnen het kader van het OSLO thema om
 
 ## Gebruik
 
-- Voeg een definitie van een nieuwe chemische stof toe aan $PROJECT_HOME/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv
+- Voeg een definitie van een nieuwe observatieprocedure toe aan $PROJECT_HOME/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv
 
 ### csv naar rdf
 ```
