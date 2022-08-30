@@ -1,0 +1,225 @@
+##sparql --results=CSV --data=../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.ttl  --query rdf_to_csv.rq > ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/chemische_stof/chemische_stof.csv
+
+prefix skos:  <http://www.w3.org/2004/02/skos/core#> 
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+prefix dbo:   <http://dbpedia.org/ontology/> 
+prefix cs:    <https://data.vlaanderen.be/ns/chemische_stof#> 
+prefix dbp:   <http://dbpedia.org/property/> 
+
+select DISTINCT
+(group_concat(?type;separator="|") as ?types)
+?uri
+?prefLabel 
+?notations 
+?altLabels
+?definition 
+?exactMatches  
+?scheme 
+?isSubjectOfs
+?collections
+?casNumbers
+?inchi
+?iupacName
+?pubchem
+?smiles
+?formula
+?vmmParameterIds
+?seeAlso
+?inchikey
+WHERE
+{
+select DISTINCT
+?type 
+?uri
+?prefLabel 
+?notations 
+?altLabels
+?definition 
+?exactMatches  
+?scheme 
+(group_concat(?isSubjectOf;separator="|") as ?isSubjectOfs) 
+?collections
+?casNumbers
+?inchi
+?iupacName
+?pubchem
+?smiles
+?formula
+?vmmParameterIds
+?seeAlso
+?inchikey
+WHERE
+{
+select DISTINCT
+?type 
+?uri
+?prefLabel 
+?notations 
+?altLabels
+?definition 
+(group_concat(?exactMatch;separator="|") as ?exactMatches)  
+?scheme 
+?isSubjectOf 
+?collections
+?casNumbers
+?inchi
+?iupacName
+?pubchem
+?smiles
+?formula
+?vmmParameterIds
+?seeAlso
+?inchikey
+WHERE
+{
+select DISTINCT
+?type 
+?uri
+?prefLabel 
+?notations 
+?altLabels
+?definition 
+?exactMatch 
+?scheme 
+?isSubjectOf 
+(group_concat(?collection;separator="|") as ?collections) 
+?casNumbers
+?inchi
+?iupacName
+?pubchem
+?smiles
+?formula
+?vmmParameterIds
+?seeAlso
+?inchikey
+WHERE
+{
+select DISTINCT
+?type 
+?uri
+?prefLabel 
+?notations 
+?altLabels
+?definition 
+?exactMatch 
+?scheme 
+?isSubjectOf 
+?collection
+?casNumbers
+?inchi
+?iupacName
+?pubchem
+?smiles
+?formula
+(group_concat(?vmmParameterId;separator="|") as ?vmmParameterIds) 
+?seeAlso
+?inchikey
+WHERE
+{
+select DISTINCT
+?type 
+?uri
+?prefLabel 
+(group_concat(?notation;separator="|") as ?notations) 
+?altLabels
+?definition 
+?exactMatch 
+?scheme 
+?isSubjectOf 
+?collection
+?casNumbers
+?inchi
+?iupacName
+?pubchem
+?smiles
+?formula
+?vmmParameterId
+?seeAlso
+?inchikey
+WHERE{
+select DISTINCT
+?type 
+?uri
+?prefLabel 
+?notation 
+(group_concat(?altLabel;separator="|") as ?altLabels) 
+?definition 
+?exactMatch 
+?scheme 
+?isSubjectOf 
+?collection
+?casNumbers
+?inchi
+?iupacName
+?pubchem
+?smiles
+?formula
+?vmmParameterId
+?seeAlso
+?inchikey
+WHERE{
+select distinct
+?type 
+?uri
+?prefLabel 
+?notation 
+?altLabel 
+?definition 
+?exactMatch 
+?scheme 
+?isSubjectOf 
+?collection
+(group_concat(?casNumber;separator="|") as ?casNumbers)
+?inchi
+?iupacName
+?pubchem
+?smiles
+?formula
+?vmmParameterId
+?seeAlso
+?inchikey
+where 
+{?uri
+a ?type .
+optional {?uri skos:altLabel ?altLabel }
+optional {?uri skos:definition ?definition }
+optional {?uri skos:exactMatch ?exactMatch }
+optional {?uri skos:inScheme ?scheme }
+optional {?uri skos:isSubjectOf ?isSubjectOf }
+optional {?uri skos:notation ?notation }
+optional {?uri skos:prefLabel ?prefLabel }
+optional {?uri dbo:casNumber ?casNumber }
+optional {?uri dbo:inchi ?inchi}
+optional {?uri dbo:iupacName ?iupacName }
+optional {?uri dbo:pubchem ?pubchem }
+optional {?uri dbo:smiles ?smiles }
+optional {?uri cs:formula ?formula }
+optional {?uri cs:vmmParameterId ?vmmParameterId }
+optional {?uri rdfs:seeAlso ?seeAlso .}
+optional {?uri dbp:inchikey ?inchikey }
+optional {?uri a skos:Concept . ?collection skos:member ?uri .}
+}
+group by ?type ?uri ?prefLabel ?notation ?altLabel ?definition ?exactMatch ?scheme ?isSubjectOf ?collection ?inchi ?iupacName ?pubchem ?smiles ?formula ?vmmParameterId ?seeAlso ?inchikey
+ORDER BY ?altLabel
+}
+group by ?type ?uri ?prefLabel ?notation ?definition ?exactMatch ?scheme ?isSubjectOf ?collection ?inchi ?iupacName ?pubchem ?smiles ?formula ?vmmParameterId ?seeAlso ?inchikey ?casNumbers
+ORDER BY ?notation 
+}
+group by ?type ?uri ?prefLabel ?definition ?exactMatch ?scheme ?isSubjectOf ?collection ?inchi ?iupacName ?pubchem ?smiles ?formula ?vmmParameterId ?seeAlso ?inchikey ?casNumbers ?altLabels
+ORDER BY ?vmmParameterId
+}
+group by ?type ?uri ?prefLabel ?definition ?exactMatch ?scheme ?isSubjectOf ?collection ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations
+ORDER BY ?collection
+}
+group by ?type ?uri ?prefLabel ?definition ?exactMatch ?scheme ?isSubjectOf ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations ?vmmParameterIds
+ORDER BY ?exactMatch
+}
+group by ?type ?uri ?prefLabel ?definition ?scheme ?isSubjectOf ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations ?vmmParameterIds ?collections
+ORDER BY ?isSubjectOf
+}
+group by ?type ?uri ?prefLabel ?definition ?scheme ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations ?vmmParameterIds ?collections ?exactMatches
+ORDER BY ?type
+}
+group by ?uri ?prefLabel ?definition ?scheme ?inchi ?iupacName ?pubchem ?smiles ?formula ?seeAlso ?inchikey ?casNumbers ?altLabels ?notations ?vmmParameterIds ?collections ?exactMatches ?isSubjectOfs
+ORDER BY ?uri
+
