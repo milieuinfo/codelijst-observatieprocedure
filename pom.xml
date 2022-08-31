@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <packaging>jar</packaging>
-  <groupId>be.vlaanderen.data.id.graph</groupId>
+  <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
   <artifactId>codelijst-observatieprocedure</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <name>codelijst-observatieprocedure</name>
