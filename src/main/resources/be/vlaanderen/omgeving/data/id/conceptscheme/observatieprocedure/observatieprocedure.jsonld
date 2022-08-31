@@ -40,6 +40,7 @@
       "@language" : "nl",
       "@value" : "Compendium voor de monsterneming, meting en analyse in het kader van bodembescherming (BOC)"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:7884"
   }, {
     "@id" : "co:CMA_1_A.0",
@@ -55,6 +56,7 @@
       "@language" : "nl",
       "@value" : "Bodem - Inleiding"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:7884"
   }, {
     "@id" : "co:CMA_1_A.1",
@@ -66,6 +68,7 @@
       "@language" : "nl",
       "@value" : "Vaste deel van de aarde"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:7884"
   }, {
     "@id" : "co:CMA_1_A.10",
@@ -81,6 +84,7 @@
       "@language" : "nl",
       "@value" : "Drinkwater"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:CMA_1_A.11",
@@ -96,6 +100,7 @@
       "@language" : "nl",
       "@value" : "Oppervlaktewater"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:CMA_1_A.13",
@@ -110,7 +115,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Inleiding, definities en referenties"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_1_A.14",
     "@type" : "skos:Concept",
@@ -124,7 +130,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Algemene richtlijnen monsterneming"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_1_A.15",
     "@type" : "skos:Concept",
@@ -138,7 +145,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Monsternemingstechnieken vaste materialen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_1_A.16",
     "@type" : "skos:Concept",
@@ -152,7 +160,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Monsternemingstechnieken vloeistoffen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_1_A.17",
     "@type" : "skos:Concept",
@@ -166,7 +175,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Monsternemingstechnieken (vloeibare) pasteuze materialen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_1_A.18",
     "@type" : "skos:Concept",
@@ -180,7 +190,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Monstervoorbehandeling ter plaatse"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_1_A.19",
     "@type" : "skos:Concept",
@@ -194,7 +205,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Monsterneming voor de bepaling van asbest in gerecycleerde granulaten"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_1_A.2",
     "@type" : "skos:Concept",
@@ -205,6 +217,7 @@
       "@language" : "nl",
       "@value" : "Grondwater"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:7884"
   }, {
     "@id" : "co:CMA_1_A.20",
@@ -219,7 +232,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Monsterneming voor de bepaling van asbest in verhardings- en funderingslagen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_1_A.21",
     "@type" : "skos:Concept",
@@ -233,7 +247,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Monstername van eindproducten bij de verwerking van dierlijke bijproducten"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_1_A.3",
     "@type" : "skos:Concept",
@@ -248,6 +263,7 @@
       "@language" : "nl",
       "@value" : "Passieve staalnametechnieken voor grondwater"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:7884"
   }, {
     "@id" : "co:CMA_1_A.4",
@@ -263,6 +279,7 @@
       "@language" : "nl",
       "@value" : "In-situ staalname van waterbodem"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:7884"
   }, {
     "@id" : "co:CMA_1_A.5",
@@ -278,6 +295,7 @@
       "@language" : "nl",
       "@value" : "Bodemvocht"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:7884"
   }, {
     "@id" : "co:CMA_1_A.6",
@@ -293,6 +311,7 @@
       "@language" : "nl",
       "@value" : "Bodemlucht, binnenlucht, omgevingslucht en emissies bij saneringen"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:7884"
   }, {
     "@id" : "co:CMA_1_A.7",
@@ -308,6 +327,7 @@
       "@language" : "nl",
       "@value" : "Monsterneming voor bepaling van asbest in bodemlagen"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:7884"
   }, {
     "@id" : "co:CMA_1_A.8",
@@ -323,6 +343,7 @@
       "@language" : "nl",
       "@value" : "Staalname van hopen/partijen bodemmaterialen"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:7884"
   }, {
     "@id" : "co:CMA_1_A.9",
@@ -338,6 +359,7 @@
       "@language" : "nl",
       "@value" : "Staalname bentonietslib"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:CMA_1_B",
@@ -352,7 +374,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Monsterconservering en -bewaring"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_1_C",
     "@type" : "skos:Concept",
@@ -366,7 +389,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Veiligheidsmaatregelen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_1_D",
     "@type" : "skos:Concept",
@@ -376,7 +400,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Referenties"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_III_A",
     "@type" : "skos:Concept",
@@ -390,7 +415,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Sedimentgehalte"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_III_C",
     "@type" : "skos:Concept",
@@ -404,7 +430,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Vlampunt"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_III_D",
     "@type" : "skos:Concept",
@@ -418,7 +445,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Zwavel en halogenen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_III_E",
     "@type" : "skos:Concept",
@@ -432,7 +460,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Watergehalte (volgens Karl Fischer)"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_III_F",
     "@type" : "skos:Concept",
@@ -446,7 +475,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Ontsluitingsmethode voor olie"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_III_G",
     "@type" : "skos:Concept",
@@ -460,7 +490,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Analysemethoden voor opgewerkte afgewerkte olie"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.1",
     "@type" : "skos:Concept",
@@ -474,7 +505,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Watergehalte en droogrest"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.11",
     "@type" : "skos:Concept",
@@ -488,7 +520,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Stenen en bodemvreemde materialen in uitgegraven bodem"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.12",
     "@type" : "skos:Concept",
@@ -502,7 +535,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Uitloging van anorganische componenten uit granulaire materialen en slib met de enkelvoudige schudtest"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.13",
     "@type" : "skos:Concept",
@@ -516,7 +550,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Analysemethoden voor afvalstoffen op stortplaatsen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.14",
     "@type" : "skos:Concept",
@@ -530,7 +565,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Analysemethoden voor houtafval"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.16",
     "@type" : "skos:Concept",
@@ -544,7 +580,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Kjeldahlstikstof"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.19",
     "@type" : "skos:Concept",
@@ -558,7 +595,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Uitloging van anorganische componenten uit bodemmaterialen met de enkelvoudige schudproef"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.2",
     "@type" : "skos:Concept",
@@ -572,7 +610,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Asrest"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.20",
     "@type" : "skos:Concept",
@@ -586,7 +625,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "pH in bodem en waterbodem"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.21",
     "@type" : "skos:Concept",
@@ -600,7 +640,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Geleidbaarheid in bodem"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.22",
     "@type" : "skos:Concept",
@@ -614,7 +655,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Vlottende, niet-vlottende verontreinigingen en glas op granulaire materialen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.23",
     "@type" : "skos:Concept",
@@ -628,7 +670,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Vlottende, niet-vlottende verontreinigingen en glas op fijnkorrelige granulaire materialen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.24",
     "@type" : "skos:Concept",
@@ -642,7 +685,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Chroom(VI) in bodem en vaste afvalstoffen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.3",
     "@type" : "skos:Concept",
@@ -656,7 +700,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Ontsluitingsmethode voor de bepaling van elementen in bodem, vaste en pasteuze materialen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.4",
     "@type" : "skos:Concept",
@@ -670,7 +715,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Steekvastheid"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.5",
     "@type" : "skos:Concept",
@@ -684,7 +730,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Stookwaarde bij constante druk"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.6",
     "@type" : "skos:Concept",
@@ -698,7 +745,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Kleigehalte (pipetmethode van Robinson-Köhn)"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.6_versie_ISO11277_2020",
     "@type" : "skos:Concept",
@@ -712,7 +760,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Kleigehalte (pipetmethode van Robinson-Köhn)"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.7",
     "@type" : "skos:Concept",
@@ -726,7 +775,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Totaal organisch koolstofgehalte (TOC)"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.8",
     "@type" : "skos:Concept",
@@ -740,7 +790,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Wateroplosbaar gedeelte"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.9.1",
     "@type" : "skos:Concept",
@@ -754,7 +805,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Uitloging van anorganische componenten met de kolomproef voor bouwstof"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.9.2",
     "@type" : "skos:Concept",
@@ -768,7 +820,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Uitloging van anorganische componenten uit vormgegeven en monolithische materialen met de diffusieproef"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.9.3",
     "@type" : "skos:Concept",
@@ -782,7 +835,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Maximale beschikbaarheid voor uitloging van anorganische componenten"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.9.4",
     "@type" : "skos:Concept",
@@ -796,7 +850,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Uitloging van anorganische componenten met de tweestapsschudtest"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_A.9.5",
     "@type" : "skos:Concept",
@@ -810,7 +865,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Uitloging van anorganische componenten met de kolomproef voor stortplaats"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_B.1",
     "@type" : "skos:Concept",
@@ -824,7 +880,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Fluoride na hydropyrolyse"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_B.2",
     "@type" : "skos:Concept",
@@ -838,7 +895,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Zwavel en halogenen na zuurstofverbranding in gesloten bom"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_C.2",
     "@type" : "skos:Concept",
@@ -852,7 +910,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Asbest in gerecycleerde granulaten en bodem"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_II_C.3",
     "@type" : "skos:Concept",
@@ -866,7 +925,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Asbest in verhardings-, funderings- en bodemlagen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_1",
     "@type" : "skos:Concept",
@@ -880,7 +940,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Vocht/droogrest"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_10",
     "@type" : "skos:Concept",
@@ -889,7 +950,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Kiemkrachtige zaden"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_11",
     "@type" : "skos:Concept",
@@ -898,7 +960,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Gehalte aan steentjes en onzuiverheden"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_12",
     "@type" : "skos:Concept",
@@ -907,7 +970,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Fytotoxiciteit"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_13",
     "@type" : "skos:Concept",
@@ -916,7 +980,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Zuurtegraad en elektrische geleidbaarheid"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_19",
     "@type" : "skos:Concept",
@@ -925,7 +990,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Elementen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_20",
     "@type" : "skos:Concept",
@@ -934,7 +1000,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Kwik"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_21",
     "@type" : "skos:Concept",
@@ -943,7 +1010,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Fijnheid"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_22",
     "@type" : "skos:Concept",
@@ -952,7 +1020,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Rijpheidsgraad (zelfverhittingstest)"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_24",
     "@type" : "skos:Concept",
@@ -961,7 +1030,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Volumedichtheid"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_25",
     "@type" : "skos:Concept",
@@ -970,7 +1040,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Stabiliteit met gesloten respirometer"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_3",
     "@type" : "skos:Concept",
@@ -984,7 +1055,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Organische stof en koolstofgehalte"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_4",
     "@type" : "skos:Concept",
@@ -994,7 +1066,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Totale stikstof"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_6",
     "@type" : "skos:Concept",
@@ -1003,7 +1076,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Bereiding van extracten en analyseoplossingen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_IV_7",
     "@type" : "skos:Concept",
@@ -1012,7 +1086,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Ammonium- en nitraatstikstof"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_A",
     "@type" : "skos:Concept",
@@ -1022,7 +1097,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Methoden voor algemene anorganische testen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_A.1",
     "@type" : "skos:Concept",
@@ -1036,7 +1112,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Zuurtegraad"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_A.2",
     "@type" : "skos:Concept",
@@ -1050,7 +1127,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Elektrische geleidbaarheid"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_A.3",
     "@type" : "skos:Concept",
@@ -1064,7 +1142,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Droogrest in water en eluaten"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_A.6.1",
     "@type" : "skos:Concept",
@@ -1078,7 +1157,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Ontsluiting voor de bepaling van geselecteerde elementen in water - aqua regia ontsluiting"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_A.6.3",
     "@type" : "skos:Concept",
@@ -1092,7 +1172,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Ontsluiting voor de bepaling van geselecteerde elementen in water - salpeterzuurontsluiting"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_A.7",
     "@type" : "skos:Concept",
@@ -1106,7 +1187,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Opgeloste zuurstof"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_B",
     "@type" : "skos:Concept",
@@ -1120,7 +1202,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Methoden voor bepaling van elementen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_B.1",
     "@type" : "skos:Concept",
@@ -1134,7 +1217,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Elementen met inductief gekoppeld plasma atomaire-emissiespectrometrie (ICP-AES)"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_B.2",
     "@type" : "skos:Concept",
@@ -1148,7 +1232,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Elementen met atomaire absorptie spectrometrie met grafietoven (ET-AAS)"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_B.3",
     "@type" : "skos:Concept",
@@ -1162,7 +1247,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Kwik"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_B.5",
     "@type" : "skos:Concept",
@@ -1176,7 +1262,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Elementen met inductief gekoppeld plasma massa spectrometrie (ICP-MS)"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_B.6",
     "@type" : "skos:Concept",
@@ -1190,7 +1277,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Antimoon, arseen en seleen met hydride atomaire absorptie spectrometrie (Hydride AAS)"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_C",
     "@type" : "skos:Concept",
@@ -1200,7 +1288,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Methoden voor bepaling van anionen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_C.1.1",
     "@type" : "skos:Concept",
@@ -1214,7 +1303,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Fluoride met ion selectieve electrode"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_C.1.2",
     "@type" : "skos:Concept",
@@ -1228,7 +1318,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Fotometrische bepaling van fluoride mbv een doorstroomanalysesysteem (CFA)"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_C.2.1",
     "@type" : "skos:Concept",
@@ -1242,7 +1333,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Fotometrische bepaling van het totale cyanidegehalte na manuele destillatie"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_C.2.2",
     "@type" : "skos:Concept",
@@ -1256,7 +1348,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Totaal cyanide met behulp van continue doorstroomanalyse"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_C.2.3",
     "@type" : "skos:Concept",
@@ -1270,7 +1363,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Vrije cyanide met behulp van continue doorstroomanalyse"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_C.3",
     "@type" : "skos:Concept",
@@ -1284,7 +1378,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Opgeloste anionen - bromide, chloride, fluoride, nitraat, nitriet, orthofosfaat en sulfaat - door vloeistofchromatografie"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_C.6",
     "@type" : "skos:Concept",
@@ -1298,7 +1393,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Nitrietstikstof en nitraatstikstof en de som van beide met behulp van doorstroomanalyse"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_C.7",
     "@type" : "skos:Concept",
@@ -1312,7 +1408,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Opgelost chroom VI door vloeistofchromatografie"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_C.8",
     "@type" : "skos:Concept",
@@ -1326,7 +1423,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Ionen met een discreet analysesysteem en spectrofotometrische detectie – ammonium, chloride, nitraat, nitriet, orthofosfaat en sulfaat"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_D",
     "@type" : "skos:Concept",
@@ -1336,7 +1434,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Methoden voor bepaling van somparameters"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_D.7",
     "@type" : "skos:Concept",
@@ -1350,7 +1449,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Totaal organische koolstof (TOC), opgeloste organische koolstof (DOC) en niet-purgeerbare organische koolstof (NPOC)"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_D.8",
     "@type" : "skos:Concept",
@@ -1364,7 +1464,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Fenolindex"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_E",
     "@type" : "skos:Concept",
@@ -1378,7 +1479,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Methoden voor bepaling van kationen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_E.1",
     "@type" : "skos:Concept",
@@ -1392,7 +1494,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Ammonium stikstof door manuele spectrofotometrie"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_E.2",
     "@type" : "skos:Concept",
@@ -1406,7 +1509,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Ammonium stikstof met behulp van doorstroomanalyse"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_E.3",
     "@type" : "skos:Concept",
@@ -1420,7 +1524,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Ammonium stikstof door destillatie en titratie"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_2_I_E.4",
     "@type" : "skos:Concept",
@@ -1434,7 +1539,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Ammonium stikstof met behulp van ion chromatografie"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_A",
     "@type" : "skos:Concept",
@@ -1443,7 +1549,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Polychloorbifenylen in oliën"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_B",
     "@type" : "skos:Concept",
@@ -1452,7 +1559,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Polycyclische aromatische koolwaterstoffen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_C",
     "@type" : "skos:Concept",
@@ -1461,7 +1569,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "TCE extraheerbare (apolaire) stoffen met IR"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_D",
     "@type" : "skos:Concept",
@@ -1470,7 +1579,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Per- en polyfluorverbindingen (PFAS)"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_E",
     "@type" : "skos:Concept",
@@ -1479,7 +1589,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Oplosmiddelen specifiek"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_F",
     "@type" : "skos:Concept",
@@ -1488,7 +1599,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Polychlorodibenzo-p-dioxines en polychlorodibenzofuranen in bodem en afvalstoffen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_G",
     "@type" : "skos:Concept",
@@ -1497,7 +1609,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Polychlorodibenzo-p-dioxines en polychlorodibenzofuranen in bodem en waterbodem met GC-MS/MS"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_H",
     "@type" : "skos:Concept",
@@ -1506,7 +1619,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Organofosforpesticiden en triazine-type herbiciden met GC/MS"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_I",
     "@type" : "skos:Concept",
@@ -1515,7 +1629,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Organochloorpesticiden, polychloorbifenylen en hogere chloorbenzenen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_J",
     "@type" : "skos:Concept",
@@ -1524,7 +1639,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Formaldehyde met LC-UV"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_K",
     "@type" : "skos:Concept",
@@ -1533,7 +1649,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Fenol en fenolische koolwaterstoffen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_L",
     "@type" : "skos:Concept",
@@ -1542,7 +1659,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Tributyltin in bodem, waterbodem, sediment, bagger- en ruimingsspecie"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_M",
     "@type" : "skos:Concept",
@@ -1551,7 +1669,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Medicijnresten en hormonen in luiermateriaal"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_N",
     "@type" : "skos:Concept",
@@ -1560,7 +1679,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Extraheerbare organische halogeenverbindingen in vaste en pasteuze stoffen en olie"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_Q",
     "@type" : "skos:Concept",
@@ -1569,7 +1689,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Oplosmiddelen aspecifiek"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_R.1",
     "@type" : "skos:Concept",
@@ -1578,7 +1699,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Minerale olie met GC/FID"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_R.2",
     "@type" : "skos:Concept",
@@ -1587,7 +1709,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Minerale olie met GC/MS"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_R.3",
     "@type" : "skos:Concept",
@@ -1596,7 +1719,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Petroleumkoolwaterstoffen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_R.4",
     "@type" : "skos:Concept",
@@ -1605,7 +1729,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Biogene/petrogene oorsprong van minerale olie verontreinigingen in waterbodem"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_R.5",
     "@type" : "skos:Concept",
@@ -1614,7 +1739,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Vluchtige minerale olie"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_R.6",
     "@type" : "skos:Concept",
@@ -1623,7 +1749,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Controle bij overschrijding minerale olie in waterbodem en veen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_T",
     "@type" : "skos:Concept",
@@ -1632,7 +1759,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Polyaromatische koolwaterstoffen, organochloorpesticiden, polychloorbifenylen en hogere chloorbenzenen met gaschromatografie-tandem massaspectrometrie (GC-MS/MS)"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_U",
     "@type" : "skos:Concept",
@@ -1641,7 +1769,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Organische screening met GC/MS"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_V",
     "@type" : "skos:Concept",
@@ -1650,7 +1779,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Pentachloorfenol en benzo(a)pyreen in houtafval"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_W",
     "@type" : "skos:Concept",
@@ -1659,7 +1789,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Polycyclische aromatische koolwaterstoffen en minerale olie in bodemverbeterend middel en meststof"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_X",
     "@type" : "skos:Concept",
@@ -1668,7 +1799,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Polychloorbifenylen en chloorbenzenen in bodemverbeterend middel en meststof"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_Y",
     "@type" : "skos:Concept",
@@ -1677,7 +1809,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Organochloorpesticiden in bagger- en ruimingsspecie"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_3_Z",
     "@type" : "skos:Concept",
@@ -1686,7 +1819,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Gel permeatie chromatografie (GPC) voor de zuivering van monsterextracten"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_4_A",
     "@type" : "skos:Concept",
@@ -1695,7 +1829,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Bacteriologische analyses van eindproducten bij de verwerking van dierlijke bijproducten"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_4_B",
     "@type" : "skos:Concept",
@@ -1704,7 +1839,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Bacteriologische analyses op teruggewonnen grondstoffen na de recyclage van wegwerpluiers"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_A.1",
     "@type" : "skos:Concept",
@@ -1713,7 +1849,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Inleiding, definities en referenties"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_A.2",
     "@type" : "skos:Concept",
@@ -1722,7 +1859,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Homogeniseren"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_A.3",
     "@type" : "skos:Concept",
@@ -1731,7 +1869,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Fasescheiding"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_A.4",
     "@type" : "skos:Concept",
@@ -1740,7 +1879,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Drogen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_A.5",
     "@type" : "skos:Concept",
@@ -1749,7 +1889,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Verkleinen deeltjesgrootte"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_A.6",
     "@type" : "skos:Concept",
@@ -1758,7 +1899,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Verkleinen monstergrootte en deelmonstername"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_A.7",
     "@type" : "skos:Concept",
@@ -1767,7 +1909,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Apparatuur en Technieken"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_A.8",
     "@type" : "skos:Concept",
@@ -1776,7 +1919,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Schema's en praktijkvoorbeelden"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_A.9",
     "@type" : "skos:Concept",
@@ -1785,7 +1929,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Minimale monstergrootte voor heterogene stoffen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_B.1",
     "@type" : "skos:Concept",
@@ -1794,7 +1939,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Meststof en bodemverbeterend middel"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_B.2",
     "@type" : "skos:Concept",
@@ -1803,7 +1949,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Houtafval"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_B.3",
     "@type" : "skos:Concept",
@@ -1812,7 +1959,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Waterbodem"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_B.4",
     "@type" : "skos:Concept",
@@ -1821,7 +1969,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Bodem"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_B.5",
     "@type" : "skos:Concept",
@@ -1830,7 +1979,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Shredder"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_B.6",
     "@type" : "skos:Concept",
@@ -1839,7 +1989,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Granulaten/as en slakken"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_B.7",
     "@type" : "skos:Concept",
@@ -1848,7 +1999,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Olie en vetten"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_5_B.8",
     "@type" : "skos:Concept",
@@ -1857,7 +2009,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Luier- en incontinentiematerialen"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_6_A",
     "@type" : "skos:Concept",
@@ -1866,7 +2019,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Prestatiekenmerken"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_6_B",
     "@type" : "skos:Concept",
@@ -1875,7 +2029,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Meetonzekerheid"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_6_C",
     "@type" : "skos:Concept",
@@ -1884,7 +2039,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Rekenvoorbeelden"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_6_D",
     "@type" : "skos:Concept",
@@ -1893,7 +2049,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Kwaliteitseisen voor analysemethoden"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_6_E",
     "@type" : "skos:Concept",
@@ -1902,7 +2059,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Voorwaarden voor rapportering van monsternamegegevens en analyseresultaten door een erkend laboratorium"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_7_A",
     "@type" : "skos:Concept",
@@ -1911,7 +2069,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Analysemethoden ter ondersteuning van bodemsaneringswerken"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_7_A.1",
     "@type" : "skos:Concept",
@@ -1920,7 +2079,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Acid volatile sulfide (AVS) - simultaneously extracted metals (SEM) - Ontwerp"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_7_A.2",
     "@type" : "skos:Concept",
@@ -1929,7 +2089,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Verzadigde hydraulische geleidbaarheid - Ontwerp"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_7_A.3",
     "@type" : "skos:Concept",
@@ -1938,7 +2099,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Vochtkarakteristiek (pF curve) - Ontwerp"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_7_A.4",
     "@type" : "skos:Concept",
@@ -1947,7 +2109,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Ionenbalans - Ontwerp"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_7_A.5",
     "@type" : "skos:Concept",
@@ -1956,7 +2119,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Redoxpotentiaal (veldmeting)"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:CMA_7_A.6",
     "@type" : "skos:Concept",
@@ -1965,7 +2129,8 @@
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Methaan, ethaan en etheen in grondwater"
-    }
+    },
+    "topConceptOf" : "vlcs:observatieprocedure"
   }, {
     "@id" : "co:LUC_0_001",
     "@type" : "skos:Concept",
@@ -1980,6 +2145,7 @@
       "@language" : "nl",
       "@value" : "Meetplaats in het gaskanaal"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_0_002",
@@ -1995,6 +2161,7 @@
       "@language" : "nl",
       "@value" : "Meting van afgastemperatuur"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_0_003",
@@ -2010,6 +2177,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van water in een gasstroom"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_0_004",
@@ -2025,6 +2193,7 @@
       "@language" : "nl",
       "@value" : "Meting van gassnelheid en volumedebiet in een gaskanaal"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_0_005",
@@ -2040,6 +2209,7 @@
       "@language" : "nl",
       "@value" : "Essentiële kwaliteitsvereisten voor emissiemetingen"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_0_006",
@@ -2055,6 +2225,7 @@
       "@language" : "nl",
       "@value" : "Voorwaarden voor rapportering van monsternamegegevens en analyseresultaten  door een erkend laboratorium"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_III_001",
@@ -2070,6 +2241,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de concentratie aan gasvormige anorganische chloriden in een afgaskanaal, uitgedrukt als HCl"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_III_002",
@@ -2085,6 +2257,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van lage gehaltes gasvormig chloor in een gaskanaal"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_III_003",
@@ -2100,6 +2273,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het gehalte NH3 in een gaskanaal"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_III_004",
@@ -2115,6 +2289,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het gehalte gasvormig formaldehyde in een gaskanaal"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_III_005",
@@ -2130,6 +2305,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het gehalte gasvormig fenol in een gaskanaal"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_III_006",
@@ -2145,6 +2321,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de concentratie van gasvormige fluoriden in een afgaskanaal, uitgedrukt als HF "
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_III_008",
@@ -2160,6 +2337,7 @@
       "@language" : "nl",
       "@value" : "Natchemische bepaling van SOx in een gaskanaal"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_III_009",
@@ -2175,6 +2353,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het gehalte gasvormig HCN in een gaskanaal"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_III_010",
@@ -2190,6 +2369,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het totale gehalte (som van de stofvormige- en gasvormige fractie) aan metalen in een gaskanaal"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_II_001",
@@ -2205,6 +2385,7 @@
       "@language" : "nl",
       "@value" : "Bemonstering voor afgassen en analyse van CO, CO2, SO2, NOx, O2 en TOC met monitoren"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_II_002",
@@ -2220,6 +2401,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de concentratie PER (tetrachlooretheen) in de lucht van textielreinigingsmachines die gebruikmaken van PER als reinigingsmiddel"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_IV_000",
@@ -2235,6 +2417,7 @@
       "@language" : "nl",
       "@value" : "Bemonstering van individuele vluchtige organische stoffen in een gasstroom"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_IV_001",
@@ -2250,6 +2433,7 @@
       "@language" : "nl",
       "@value" : "De kwantitatieve bepaling van op actieve kool geadsorbeerde aromatische koolwaterstoffen met GC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_IV_002",
@@ -2265,6 +2449,7 @@
       "@language" : "nl",
       "@value" : "De kwantitatieve bepaling van op actieve kool geadsorbeerde alifatische halogeenkoolwaterstoffen met GC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_IV_003",
@@ -2280,6 +2465,7 @@
       "@language" : "nl",
       "@value" : "De kwantitatieve bepaling van op actieve kool geadsorbeerde glycolethers met GC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_IV_004",
@@ -2295,6 +2481,7 @@
       "@language" : "nl",
       "@value" : "De kwantitatieve bepaling van op actieve kool geadsorbeerde esters en acrylaten met GC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_IV_005",
@@ -2310,6 +2497,7 @@
       "@language" : "nl",
       "@value" : "De kwantitatieve bepaling van op actieve kool geadsorbeerde olefinische koolwaterstoffen met GC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_IV_006",
@@ -2325,6 +2513,7 @@
       "@language" : "nl",
       "@value" : "De kwantitatieve bepaling van op actieve kool geadsorbeerde paraffinische koolwaterstoffen met GC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_IV_007",
@@ -2340,6 +2529,7 @@
       "@language" : "nl",
       "@value" : "De kwantitatieve bepaling van op koolstof moleculaire zeef geadsorbeerde ketonen met GC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_IV_008",
@@ -2355,6 +2545,7 @@
       "@language" : "nl",
       "@value" : "De kwantitatieve bepaling van op actieve kool geadsorbeerde ethers met GC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_IV_009",
@@ -2370,6 +2561,7 @@
       "@language" : "nl",
       "@value" : "De kwantitatieve bepaling van op koolstof moleculaire zeef geadsorbeerde alcoholen met GC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_IV_010",
@@ -2385,6 +2577,7 @@
       "@language" : "nl",
       "@value" : "De kwantitatieve bepaling van op koolstof moleculaire zeef geadsorbeerde dimethylformamide met GC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_IV_011",
@@ -2400,6 +2593,7 @@
       "@language" : "nl",
       "@value" : "Gecombineerde methode voor de kwantitatieve bepaling van op actieve kool geadsorbeerde vluchtige organische stoffen met GC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_IV_012",
@@ -2415,6 +2609,7 @@
       "@language" : "nl",
       "@value" : "Gecombineerde methode voor de kwantitatieve bepaling van op koolstof moleculaire zeef geadsorbeerde vluchtige organische stoffen met GC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_I_001",
@@ -2430,6 +2625,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het stofgehalte in een gaskanaal"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_I_002",
@@ -2445,6 +2641,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de stofvormige fractie van metalen in een gaskanaal"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_I_003",
@@ -2460,6 +2657,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de massaconcentraties PM10 en PM2,5 in een geleide gasstroom met behulp van tweetraps impactoren"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_VII_001",
@@ -2475,6 +2673,7 @@
       "@language" : "nl",
       "@value" : "NH3 rendementsbepaling van luchtwassers bij stalsystemen"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_VII_002",
@@ -2490,6 +2689,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van trichlooramine in zwembadlucht"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_VI_001",
@@ -2505,6 +2705,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het gehalte aan PAK’s"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_VI_002",
@@ -2520,6 +2721,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het gehalte aan PCDD’s, PCDF’s en dioxineachtige en merker PCB’s"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:LUC_V_001",
@@ -2535,6 +2737,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van zeer vluchtige organische stoffen (ZVOS) in emissies met behulp van gaschromatografie"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:270"
   }, {
     "@id" : "co:WAC_III_A_001",
@@ -2550,6 +2753,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de droogrest"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_A_003",
@@ -2565,6 +2769,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de temperatuur"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_A_004",
@@ -2580,6 +2785,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de elektrische geleidbaarheid"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_A_005",
@@ -2595,6 +2801,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de pH"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_A_006",
@@ -2610,6 +2817,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de alkaliniteit en buffercapaciteit"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_A_008",
@@ -2625,6 +2833,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van opgeloste zuurstof"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_A_009",
@@ -2640,6 +2849,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de totale hardheid"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_A_010",
@@ -2655,6 +2865,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de troebelingsgraad"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_A_011",
@@ -2670,6 +2881,7 @@
       "@language" : "nl",
       "@value" : "Berekening van de saturatie"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_B_001",
@@ -2685,6 +2897,7 @@
       "@language" : "nl",
       "@value" : "Ontsluiting voor de bepaling van geselecteerde elementen in water - salpeterzuurontsluiting"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_B_002",
@@ -2700,6 +2913,7 @@
       "@language" : "nl",
       "@value" : "Ontsluiting voor de bepaling van geselecteerde elementen in water - aqua regia ontsluiting"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_B_010",
@@ -2715,6 +2929,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de geselecteerde elementen met inductief gekoppeld plasma - atomaire emissiespectrometrie"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_B_011",
@@ -2730,6 +2945,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van elementen met inductief gekoppeld plasma -  massaspectrometrie (ICP-MS)"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_B_012",
@@ -2745,6 +2961,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van antimoon, arseen en seleen met hydride - atomaire absorptiespectrometrie"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_B_014",
@@ -2760,6 +2977,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van kwik"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_C_001",
@@ -2775,6 +2993,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van opgeloste anionen door vloeistofchromatografie. Bepaling van bromide, chloride, fluoride, nitraat, nitriet, orthofosfaat en sulfaat"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_C_002",
@@ -2790,6 +3009,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van ionen met een discreet analysesysteem en spectrofotometrische detectie – ammonium, chloride, nitraat, nitriet, orthofosfaat en sulfaat"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_C_010",
@@ -2805,6 +3025,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het gehalte aan orthofosfaat en totaal fosfor met behulp van doorstroomanalyse"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_C_020",
@@ -2820,6 +3041,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van opgelost en totaal anorganisch gebonden fluoride met ion selectieve elektrode"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_C_022",
@@ -2835,6 +3057,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van opgelost en totaal anorganisch gebonden fluoride met doorstroomanalyse"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_C_030",
@@ -2850,6 +3073,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het gehalte aan vrij cyanide met behulp van continue doorstroomanalyse"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_C_040",
@@ -2865,6 +3089,7 @@
       "@language" : "nl",
       "@value" : "Potentiometrische bepaling van opgelost en in zuur milieu oplosbare sulfiden"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_C_041",
@@ -2880,6 +3105,7 @@
       "@language" : "nl",
       "@value" : "Spectrofotometrische bepaling van opgelost en in zuur milieu oplosbare sulfiden"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_C_050",
@@ -2895,6 +3121,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van opgelost chroom VI in water door ionenchromatografie"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_D_001",
@@ -2910,6 +3137,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de bezinkbare stoffen"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_D_002",
@@ -2925,6 +3153,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van vaste stoffen in suspensie. Methode door filtratie op glasvezelfilter"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_D_003",
@@ -2940,6 +3169,7 @@
       "@language" : "nl",
       "@value" : "Bepaling afmeting zwevende stoffen"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_D_010",
@@ -2955,6 +3185,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het biochemisch zuurstofverbruik (BZV) na 5 dagen"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_D_020",
@@ -2970,6 +3201,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het chemisch zuurstofverbruik (CZV)"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_D_022",
@@ -2985,6 +3217,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de oxideerbaarheid bij warmte"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_D_030",
@@ -3000,6 +3233,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van Kjeldahl-stikstof. Methode na mineralisatie met selenium"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_D_031",
@@ -3015,6 +3249,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het gehalte aan nitrietstikstof en nitraatstikstof en de som van beide met behulp van doorstroomanalyse"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_D_032",
@@ -3030,6 +3265,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het totaal stikstofgehalte na oxidatieve digestie met peroxodisulfaat"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_D_033",
@@ -3045,6 +3281,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het totaal stikstofgehalte na oxidatie tot stikstofdioxiden"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_D_036",
@@ -3060,6 +3297,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het gehalte aan totaal cyanide met behulp van continue doorstroomanalyse"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_D_040",
@@ -3075,6 +3313,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de methyleenblauw actieve substanties (MBAS) index met behulp van doorstroomanalyse"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_D_050",
@@ -3090,6 +3329,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van totale organische koolstof (TOC) en/of de opgeloste organische koolstof (DOC)"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_E_020",
@@ -3105,6 +3345,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van ammonium stikstof door manuele spectrofotometrie"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_E_021",
@@ -3120,6 +3361,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het gehalte aan ammonium stikstof met behulp van doorstroomanalyse"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_E_022",
@@ -3135,6 +3377,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van ammonium stikstof door destillatie en titratie"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_III_E_023",
@@ -3150,6 +3393,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het gehalte aan ammonium stikstof met behulp van ionchromatografie"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_II_A_001",
@@ -3165,6 +3409,7 @@
       "@language" : "nl",
       "@value" : "CIE 1976 totaal kleurverschil"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_II_A_002",
@@ -3180,6 +3425,7 @@
       "@language" : "nl",
       "@value" : "Onderzoek en bepaling van kleur"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_II_A_003",
@@ -3195,6 +3441,7 @@
       "@language" : "nl",
       "@value" : "Kwalitatieve vaststelling en kwantitatieve bepaling van geur en smaak"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_001",
@@ -3210,6 +3457,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van fenolische verbindingen in water"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_002",
@@ -3225,6 +3473,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van polycyclische aromatische koolwaterstoffen in water"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_003",
@@ -3240,6 +3489,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van ureum"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_004",
@@ -3255,6 +3505,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van di-2-ethylhexylftalaat en andere ftalaten in oppervlaktewater"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_005",
@@ -3270,6 +3521,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van octylfenol, nonylfenol en bisfenol A in afvalwater met behulp van LC-MS/MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_006",
@@ -3285,6 +3537,7 @@
       "@language" : "nl",
       "@value" : "Toestelinstellingen van GC-MS/MS bij de bepaling van organische parameters"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_007",
@@ -3300,6 +3553,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van formaldehyde in water"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_008",
@@ -3315,6 +3569,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van ftalaten in water met GC-MS/MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_010",
@@ -3330,6 +3585,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van organofosforpesticiden in water"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_015",
@@ -3345,6 +3601,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van matig vluchtige chloorkoolwaterstoffen in water"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_016",
@@ -3360,6 +3617,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van vluchtige organische verbindingen in water"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_021",
@@ -3375,6 +3633,7 @@
       "@language" : "nl",
       "@value" : "Specifieke bepaling van niet-ionogene surfactanten in water met LC-am-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_022",
@@ -3390,6 +3649,7 @@
       "@language" : "nl",
       "@value" : "Specifieke bepaling van kationische surfactanten in water met LC- MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_023",
@@ -3405,6 +3665,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van dioxines en dioxineachtige verbindingen in water"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_024",
@@ -3420,6 +3681,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van aromatische amines in water"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_025",
@@ -3435,6 +3697,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van perfluorverbindingen in water met LC-MS/MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_027",
@@ -3450,6 +3713,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van pesticiden in water met LC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_028",
@@ -3465,6 +3729,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van pesticiden in water met GC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_029",
@@ -3480,6 +3745,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van glyfosaat en AMPA in water met LC-MS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_030",
@@ -3495,6 +3761,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van gebromeerde brandvertragers in water"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_A_031",
@@ -3510,6 +3777,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van organotinverbindingen in water"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_B_001",
@@ -3525,6 +3793,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de fenolindex met behulp van continue doorstroomanalyse"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_B_005",
@@ -3540,6 +3809,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van petroleumetherextraheerbare stoffen in water"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_B_010",
@@ -3555,6 +3825,7 @@
       "@language" : "nl",
       "@value" : "Extraheerbare organische halogeenverbindingen (EOX) in water"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_B_011",
@@ -3570,6 +3841,7 @@
       "@language" : "nl",
       "@value" : "Adsorbeerbare organische halogeenverbindingen (AOX) in water"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_B_012",
@@ -3585,6 +3857,7 @@
       "@language" : "nl",
       "@value" : "Purgeerbare organische halogeenverbindingen (POX) in water"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_B_020",
@@ -3600,6 +3873,7 @@
       "@language" : "nl",
       "@value" : "Organische screening"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_B_021",
@@ -3615,6 +3889,7 @@
       "@language" : "nl",
       "@value" : "Organische screening: Leidraad voor de identificatie van organische verbindingen in water met behulp UHPLC-HRMS"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_B_022",
@@ -3630,6 +3905,7 @@
       "@language" : "nl",
       "@value" : "Kwalitatieve GC screening"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_B_025",
@@ -3645,6 +3921,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van minerale olie in water met gaschromatografie"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_B_026",
@@ -3660,6 +3937,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van tetrachlooretheenextraheerbare stoffen in water met IR-spectrofotometrie"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_IV_B_040",
@@ -3675,6 +3953,7 @@
       "@language" : "nl",
       "@value" : "Gelpermeatiechromatografie (GPC) voor de zuivering van monsterextracten bij de bepaling van organische parameters"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_I_1_012",
@@ -3690,6 +3969,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van het debiet in controle-inrichtingen voor afvalwater"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_I_A_001",
@@ -3705,6 +3985,7 @@
       "@language" : "nl",
       "@value" : "Ogenblikkelijke monstername (aan kraan) vanwater voor menselijke consumptie"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_I_A_003",
@@ -3720,6 +4001,7 @@
       "@language" : "nl",
       "@value" : "Ogenblikkelijke monstername (schepmonster) van water. "
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_I_A_004",
@@ -3735,6 +4017,7 @@
       "@language" : "nl",
       "@value" : "Procedure voor het nemen van een verzamelmonster"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_I_A_005",
@@ -3750,6 +4033,7 @@
       "@language" : "nl",
       "@value" : "Monstername van water via een peilput, inclusief conservering en transport"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_I_A_006",
@@ -3765,6 +4049,7 @@
       "@language" : "nl",
       "@value" : "Monsterneming van macro-invertebraten en verwerking van de monsters"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_I_A_010",
@@ -3780,6 +4065,7 @@
       "@language" : "nl",
       "@value" : "Conservering en behandeling van watermonsters"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_I_A_011",
@@ -3795,6 +4081,7 @@
       "@language" : "nl",
       "@value" : "Meting ter plaatse van temperatuur, pH, elektrische geleidbaarheid, opgeloste zuurstof, vrije chloor en gebonden chloor"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_VI_A_001",
@@ -3810,6 +4097,7 @@
       "@language" : "nl",
       "@value" : "Prestatiekenmerken"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_VI_A_002",
@@ -3825,6 +4113,7 @@
       "@language" : "nl",
       "@value" : "Meetonzekerheid"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_VI_A_003",
@@ -3840,6 +4129,7 @@
       "@language" : "nl",
       "@value" : "Kwaliteitseisen voor de analysemethoden"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_VI_A_004",
@@ -3855,6 +4145,7 @@
       "@language" : "nl",
       "@value" : "Voorwaarden voor rapportering van monsternamegegevens en analyseresultaten  door een erkend laboratorium"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_A_001",
@@ -3870,6 +4161,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van totaal kiemgetal"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_A_002",
@@ -3885,6 +4177,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van totale coliformen en E.coli"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_A_003",
@@ -3900,6 +4193,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van enterokokken"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_A_004",
@@ -3915,6 +4209,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van Salmonella spp."
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_A_005",
@@ -3930,6 +4225,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van Legionella in drinkwater en in koeltorenwater"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_A_006",
@@ -3945,6 +4241,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van Pseudomonas aeruginosa"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_A_007",
@@ -3960,6 +4257,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van Clostridium perfringens"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_A_008",
@@ -3975,6 +4273,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van coagulase positieve stafylokokken"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_A_009",
@@ -3990,6 +4289,7 @@
       "@language" : "nl",
       "@value" : "Bepaling van de meetonzekerheid bij microbiologische analyses"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_B_001",
@@ -4005,6 +4305,7 @@
       "@language" : "nl",
       "@value" : "Ecotoxiciteitstest met invertebraten: acute toxiciteit voor de watervlo (Daphnia magna) of het pekelkreeftje (Artemia franciscana)"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_B_002",
@@ -4020,6 +4321,7 @@
       "@language" : "nl",
       "@value" : "Ecotoxiciteitstest met vissen: acute toxiciteit voor zebravisembryo (Danio rerio)"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_B_003",
@@ -4035,6 +4337,7 @@
       "@language" : "nl",
       "@value" : "Ecotoxiciteitstest met algen: groei-inhibitietest met de zoetwateralg (Pseudokirchneriella subcapitata) of de mariene alg (Phaeodactylum tricornutum)"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_B_004",
@@ -4050,6 +4353,7 @@
       "@language" : "nl",
       "@value" : "Ecotoxiciteitstest met bacterie: acute toxiciteit voor de luminescente bacterie (Aliivibrio fischeri)"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_B_005",
@@ -4065,6 +4369,7 @@
       "@language" : "nl",
       "@value" : "Zahn-Wellens test op afvalwaters: bioelimineerbaarheid van DOC en toxiciteit na 7 tot 28 dagen behandeling"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_B_007",
@@ -4080,6 +4385,7 @@
       "@language" : "nl",
       "@value" : "Ecotoxiciteitstest met vissen: acute toxiciteit voor forel (Oncorhynchus mykiss)"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_C_001",
@@ -4095,6 +4401,7 @@
       "@language" : "nl",
       "@value" : "BBI berekening op basis van op het veld verzamelde macro-invertebraten"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "co:WAC_V_C_002",
@@ -4110,10 +4417,12 @@
       "@language" : "nl",
       "@value" : "MMIF berekening op basis van op het veld verzamelde macro-invertebraten"
     },
+    "topConceptOf" : "vlcs:observatieprocedure",
     "theme" : "gemet:15179"
   }, {
     "@id" : "vlcs:observatieprocedure",
     "@type" : "skos:ConceptScheme",
+    "hasTopConcept" : [ "co:CMA_2_I_C.8", "co:CMA_5_A.8", "co:CMA_1_A.15", "co:WAC_IV_A_021", "co:WAC_IV_B_026", "co:CMA_1_A.13", "co:WAC_IV_B_001", "co:CMA_7_A.6", "co:CMA_3_W", "co:WAC_V_C_001", "co:CMA_7_A.4", "co:WAC_IV_A_028", "co:WAC_III_A_010", "co:WAC_III_C_022", "co:CMA_2_I_E", "co:CMA_2_II_A.9.1", "co:WAC_III_B_002", "co:CMA_5_B.7", "co:WAC_III_C_020", "co:LUC_VII_002", "co:CMA_2_I_C", "co:CMA_3_R.4", "co:CMA_2_IV_21", "co:CMA_3_R.2", "co:WAC_IV_A_031", "co:WAC_V_A_007", "co:CMA_2_I_D.7", "co:WAC_IV_A_029", "co:CMA_3_C", "co:CMA_2_IV_24", "co:WAC_IV_A_027", "co:WAC_V_A_005", "co:CMA_1_A.5", "co:WAC_IV_A_004", "co:CMA_3_J", "co:CMA_3_R.5", "co:WAC_V_B_002", "co:CMA_2_I_E.1", "co:WAC_III_B_014", "co:WAC_III_D_020", "co:CMA_1_A.3", "co:WAC_IV_A_002", "co:CMA_3_H", "co:CMA_3_R.3", "co:WAC_III_B_012", "co:CMA_2_II_A.11", "co:CMA_2_I_D.8", "co:CMA_2_III_E", "co:CMA_2_II_A.1", "co:WAC_IV_A_005", "co:LUC_IV_005", "co:CMA_2_I_A.3", "co:CMA_2_III_C", "co:WAC_I_A_003", "co:WAC_VI_A_004", "co:WAC_IV_A_003", "co:CMA_2_I_A.1", "co:WAC_III_E_020", "co:CMA_2_IV_3", "co:WAC_III_D_032", "co:LUC_III_009", "co:CMA_2_III_F", "co:WAC_III_D_030", "co:CMA_2_II_A.23", "co:CMA_2_II_A.2", "co:BOC", "co:LUC_IV_010", "co:LUC_IV_006", "co:CMA_2_IV_6", "co:CMA_2_III_D", "co:CMA_5_A.4", "co:CMA_2_I_B.2", "co:LUC_II_002", "co:CMA_2_IV_4", "co:CMA_2_II_A.24", "co:CMA_5_A.2", "co:WAC_III_D_033", "co:WAC_IV_A_015", "co:CMA_5_A.9", "co:WAC_III_D_031", "co:CMA_2_II_A.7", "co:WAC_V_B_007", "co:LUC_IV_011", "co:CMA_5_B.3", "co:CMA_1_A.21", "co:CMA_2_I_C.2.1", "co:CMA_7_A.5", "co:WAC_III_D_002", "co:CMA_1_C", "co:CMA_2_II_A.9.2", "co:WAC_III_A_005", "co:CMA_5_B.8", "co:CMA_2_II_A.8", "co:CMA_6_D", "co:WAC_III_B_001", "co:CMA_6_B", "co:CMA_3_D", "co:WAC_II_A_001", "co:CMA_1_A.20", "co:CMA_2_I_E.4", "co:WAC_IV_B_040", "co:WAC_V_A_002", "co:CMA_2_I_E.2", "co:CMA_2_IV_19", "co:CMA_2_II_A.12", "co:CMA_1_A.0", "co:CMA_3_E", "co:WAC_II_A_002", "co:LUC_IV_001", "co:WAC_IV_B_011", "co:WAC_I_A_004", "co:WAC_V_C_002", "co:LUC_III_005", "co:CMA_2_I_E.3", "co:CMA_2_II_A.13", "co:LUC_I_001", "co:LUC_0_002", "co:WAC_III_C_030", "co:LUC_III_003", "co:CMA_2_I_A.2", "co:LUC_IV_002", "co:LUC_III_010", "co:WAC_I_A_005", "co:LUC_IV_000", "co:CMA_2_II_A.20", "co:LUC_0_005", "co:CMA_2_I_B.5", "co:WAC_V_A_008", "co:CMA_1_A.8", "co:WAC_III_C_001", "co:CMA_3_M", "co:LUC_III_006", "co:CMA_1_A.10", "co:CMA_5_A.5", "co:WAC_IV_B_021", "co:LUC_0_003", "co:CMA_2_I_B.3", "co:CMA_2_I_C.1.1", "co:CMA_1_A.6", "co:CMA_3_K", "co:LUC_III_004", "co:WAC_V_B_003", "co:CMA_5_A.3", "co:CMA_2_I_C.6", "co:WAC_I_A_010", "co:WAC_IV_A_010", "co:CMA_2_I_B.6", "co:LUC_IV_012", "co:CMA_1_A.11", "co:CMA_2_II_A.19", "co:WAC_IV_B_022", "co:LUC_V_001", "co:WAC_III_A_001", "co:CMA_2_I_C.1.2", "co:CMA_5_B.4", "co:CMA_2_II_C.2", "co:CMA_2_II_A.6_versie_ISO11277_2020", "co:WAC_III_A_008", "co:CMA_7_A.2", "co:WAC_III_D_003", "co:CMA_2_I_C.7", "co:CMA_1_D", "co:WAC_III_E_021", "co:CMA_2_IV_12", "co:WAC_III_A_006", "co:CMA_5_B.5", "co:WAC_IV_A_024", "co:CMA_6_E", "co:CMA_1_B", "co:CMA_2_I_A", "co:CMA_1_A.16", "co:WAC_III_D_040", "co:WAC_IV_A_022", "co:CMA_6_C", "co:CMA_3_Z", "co:WAC_III_A_009", "co:CMA_3_X", "co:CMA_3_A", "co:CMA_2_IV_13", "co:WAC_V_A_003", "co:CMA_4_A", "co:WAC_IV_A_025", "co:CMA_1_A.17", "co:WAC_IV_A_023", "co:WAC_V_A_001", "co:CMA_1_A.1", "co:CMA_3_F", "co:WAC_II_A_003", "co:CMA_3_R.1", "co:CMA_4_B", "co:WAC_III_B_010", "co:WAC_IV_B_012", "co:CMA_3_Y", "co:WAC_III_D_050", "co:CMA_2_II_A.9.5", "co:WAC_IV_B_010", "co:CMA_2_II_A.9.3", "co:CMA_2_III_A", "co:WAC_I_A_001", "co:CMA_2_IV_25", "co:WAC_VI_A_002", "co:WAC_IV_A_001", "co:CMA_3_R.6", "co:CMA_2_IV_1", "co:WAC_III_B_011", "co:WAC_III_C_040", "co:CMA_2_II_A.21", "co:LUC_0_006", "co:WAC_V_A_009", "co:CMA_1_A.9", "co:WAC_III_C_002", "co:CMA_3_N", "co:CMA_2_II_B.2", "co:LUC_0_004", "co:WAC_III_C_041", "co:WAC_VI_A_003", "co:CMA_1_A.7", "co:WAC_IV_A_006", "co:CMA_3_L", "co:WAC_V_B_004", "co:WAC_VI_A_001", "co:WAC_III_D_022", "co:WAC_I_A_011", "co:CMA_2_II_C.3", "co:CMA_2_II_A.5", "co:WAC_V_B_005", "co:LUC_IV_009", "co:CMA_2_III_G", "co:CMA_2_I_A.6.1", "co:CMA_2_II_A.3", "co:CMA_5_B.1", "co:WAC_IV_A_007", "co:LUC_IV_007", "co:CMA_2_IV_7", "co:CMA_2_II_B.1", "co:LUC_I_002", "co:WAC_III_D_036", "co:CMA_7_A.3", "co:WAC_III_E_022", "co:WAC_III_A_003", "co:CMA_5_B.6", "co:CMA_7_A.1", "co:CMA_2_II_A.6", "co:CMA_3_T", "co:CMA_2_II_A.4", "co:WAC_III_E_023", "co:LUC_IV_008", "co:CMA_5_A.6", "co:CMA_3_B", "co:CMA_1_A.18", "co:CMA_2_I_C.2.2", "co:WAC_I_1_012", "co:CMA_3_U", "co:CMA_7_A", "co:WAC_III_D_010", "co:LUC_VI_001", "co:CMA_1_A.19", "co:CMA_2_I_C.2.3", "co:CMA_2_I_D", "co:CMA_2_II_A.9.4", "co:CMA_2_IV_22", "co:WAC_IV_B_005", "co:LUC_VII_001", "co:LUC_III_001", "co:CMA_2_I_B", "co:CMA_2_IV_20", "co:LUC_VI_002", "co:WAC_IV_A_030", "co:WAC_V_A_006", "co:CMA_2_II_A.16", "co:LUC_0_001", "co:CMA_2_I_B.1", "co:WAC_V_A_004", "co:CMA_1_A.4", "co:CMA_3_I", "co:LUC_III_002", "co:WAC_V_B_001", "co:CMA_2_II_A.14", "co:CMA_5_A.1", "co:CMA_1_A.2", "co:CMA_3_G", "co:LUC_IV_003", "co:WAC_IV_A_008", "co:WAC_I_A_006", "co:WAC_IV_B_020", "co:CMA_5_B.2", "co:LUC_I_003", "co:WAC_III_D_001", "co:CMA_2_I_A.6.3", "co:LUC_IV_004", "co:CMA_2_IV_10", "co:WAC_III_A_004", "co:WAC_III_C_050", "co:CMA_3_Q", "co:CMA_1_A.14", "co:CMA_2_II_A.22", "co:WAC_IV_B_025", "co:CMA_6_A", "co:LUC_III_008", "co:CMA_2_I_C.3", "co:CMA_2_I_A.7", "co:CMA_5_A.7", "co:WAC_III_A_011", "co:CMA_3_V", "co:WAC_IV_A_016", "co:WAC_III_C_010", "co:LUC_II_001", "co:CMA_2_IV_11" ],
     "prefLabel" : {
       "@language" : "nl",
       "@value" : "Conceptschema Observatieprocedures"
@@ -4122,6 +4431,10 @@
   "@context" : {
     "theme" : {
       "@id" : "http://www.w3.org/ns/dcat#theme",
+      "@type" : "@id"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
       "@type" : "@id"
     },
     "prefLabel" : {
@@ -4143,6 +4456,10 @@
     },
     "member" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#member",
+      "@type" : "@id"
+    },
+    "hasTopConcept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
       "@type" : "@id"
     },
     "op" : "https://data.vlaanderen.be/ns/observatieprocedure#",

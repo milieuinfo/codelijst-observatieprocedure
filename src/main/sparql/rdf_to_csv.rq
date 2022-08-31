@@ -15,6 +15,7 @@ select distinct
 ?inScheme
 ?theme
 ?seeAlso
+?topConceptOf
 where 
 {?uri
 a ?type .
@@ -24,6 +25,7 @@ optional {?uri skos:notation ?notation }
 optional {?uri skos:prefLabel ?prefLabel }
 optional {?uri rdfs:seeAlso ?seeAlso .}
 optional {?uri dcat:theme ?theme .}
+optional {?uri skos:topConceptOf ?topConceptOf .}
 optional {?uri a skos:Concept . ?collection skos:member ?uri .}
 }
 ORDER BY ?uri
