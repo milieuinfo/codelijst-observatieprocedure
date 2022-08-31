@@ -2,6 +2,7 @@
   "@graph" : [ {
     "@id" : "coo:bodem",
     "@type" : "skos:Collection",
+    "inScheme" : "vlcs:observatieprocedure",
     "member" : [ "co:BOC", "co:CMA_1_A.8", "co:CMA_1_A.7", "co:CMA_1_A.0", "co:CMA_1_A.6", "co:CMA_1_A.5", "co:CMA_1_A.4", "co:CMA_1_A.3", "co:CMA_1_A.2", "co:CMA_1_A.1" ],
     "prefLabel" : {
       "@language" : "nl",
@@ -10,6 +11,7 @@
   }, {
     "@id" : "coo:lucht",
     "@type" : "skos:Collection",
+    "inScheme" : "vlcs:observatieprocedure",
     "member" : [ "co:LUC_II_002", "co:LUC_I_002", "co:LUC_VI_001", "co:LUC_V_001", "co:LUC_IV_000", "co:LUC_0_002", "co:LUC_IV_012", "co:LUC_IV_009", "co:LUC_0_006", "co:LUC_IV_005", "co:LUC_VI_002", "co:LUC_0_003", "co:LUC_VII_002", "co:LUC_III_004", "co:LUC_IV_004", "co:LUC_III_010", "co:LUC_III_009", "co:LUC_I_003", "co:LUC_IV_001", "co:LUC_III_008", "co:LUC_III_005", "co:LUC_III_001", "co:LUC_IV_006", "co:LUC_0_004", "co:LUC_II_001", "co:LUC_III_002", "co:LUC_IV_002", "co:LUC_IV_010", "co:LUC_IV_007", "co:LUC_IV_011", "co:LUC_0_005", "co:LUC_III_006", "co:LUC_VII_001", "co:LUC_0_001", "co:LUC_III_003", "co:LUC_IV_008", "co:LUC_IV_003", "co:LUC_I_001" ],
     "prefLabel" : {
       "@language" : "nl",
@@ -18,6 +20,7 @@
   }, {
     "@id" : "coo:water",
     "@type" : "skos:Collection",
+    "inScheme" : "vlcs:observatieprocedure",
     "member" : [ "co:WAC_III_D_032", "co:WAC_IV_A_022", "co:WAC_I_A_011", "co:WAC_VI_A_004", "co:WAC_IV_A_003", "co:WAC_III_C_001", "co:WAC_V_A_006", "co:WAC_IV_A_007", "co:WAC_III_C_050", "co:WAC_IV_A_002", "co:WAC_V_B_005", "co:WAC_III_D_020", "co:WAC_IV_A_006", "co:WAC_III_D_030", "co:WAC_I_A_003", "co:WAC_II_A_003", "co:WAC_III_A_001", "co:WAC_V_A_008", "co:WAC_V_B_007", "co:WAC_IV_B_040", "co:WAC_IV_A_008", "co:WAC_III_A_003", "co:WAC_III_D_002", "co:WAC_I_A_004", "co:WAC_IV_A_021", "co:WAC_IV_B_001", "co:WAC_VI_A_003", "co:WAC_III_A_005", "co:WAC_III_E_023", "co:WAC_V_B_002", "co:WAC_III_B_010", "co:WAC_I_A_006", "co:WAC_IV_A_001", "co:WAC_III_B_001", "co:WAC_III_B_014", "co:WAC_V_A_004", "co:WAC_IV_A_005", "co:WAC_IV_A_023", "co:WAC_V_A_001", "co:WAC_IV_B_025", "co:WAC_I_A_010", "co:WAC_III_D_010", "co:WAC_III_B_002", "co:WAC_I_A_001", "co:WAC_II_A_001", "co:WAC_IV_B_010", "co:WAC_III_C_020", "co:WAC_II_A_002", "co:WAC_III_E_022", "co:WAC_IV_B_012", "co:WAC_III_C_040", "co:WAC_V_C_002", "co:WAC_IV_A_031", "co:WAC_III_D_040", "co:WAC_I_A_005", "co:CMA_1_A.9", "co:WAC_IV_B_021", "co:WAC_VI_A_001", "co:WAC_V_B_004", "co:WAC_III_B_012", "co:WAC_III_A_008", "co:WAC_V_B_001", "co:WAC_IV_A_016", "co:WAC_IV_A_025", "co:WAC_III_D_031", "co:WAC_V_A_003", "co:WAC_III_C_002", "co:WAC_IV_A_029", "co:WAC_IV_B_005", "co:WAC_V_A_007", "co:WAC_IV_A_024", "co:WAC_IV_A_028", "co:WAC_III_A_011", "co:WAC_III_A_009", "co:WAC_III_C_022", "co:WAC_III_E_020", "co:CMA_1_A.10", "co:WAC_IV_A_004", "co:WAC_III_D_022", "co:WAC_III_D_050", "co:WAC_III_D_001", "co:WAC_V_A_009", "co:WAC_III_D_036", "co:WAC_III_E_021", "co:WAC_V_C_001", "co:WAC_IV_B_020", "co:WAC_IV_B_011", "co:WAC_I_1_012", "co:WAC_III_A_004", "co:WAC_III_D_003", "co:WAC_IV_A_030", "co:CMA_1_A.11", "co:WAC_III_B_011", "co:WAC_IV_B_022", "co:WAC_III_C_010", "co:WAC_IV_A_010", "co:WAC_VI_A_002", "co:WAC_III_A_006", "co:WAC_IV_B_026", "co:WAC_III_C_041", "co:WAC_V_B_003", "co:WAC_IV_A_015", "co:WAC_III_D_033", "co:WAC_IV_A_027", "co:WAC_III_C_030", "co:WAC_V_A_005", "co:WAC_III_A_010", "co:WAC_V_A_002" ],
     "prefLabel" : {
       "@language" : "nl",
