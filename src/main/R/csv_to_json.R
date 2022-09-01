@@ -5,6 +5,16 @@ library(jsonlite)
 setwd("/home/gehau/git/codelijst-observatieprocedure/src/main/R")
 
 df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv", sep=",", na.strings=c("","NA"))
+df <- df %>%
+  separate_rows(definitions, sep = "\\|")%>%
+  separate_rows(themes, sep = "\\|")%>%
+  separate_rows(collections, sep = "\\|")%>%
+  rename(
+    definition = definitions,
+    theme = themes,
+    collection = collections,
+    "@type" = type
+  )
 for (col in list("https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/water","https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/lucht","https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/bodem")) {
   medium <- subset(df, collection == col ,
                    select=c(uri, collection)) 
@@ -20,8 +30,7 @@ df2 <- data.frame('https://data.omgeving.vlaanderen.be/id/conceptscheme/observat
 names(df2) <- c("uri","hasTopConcept")
 df <- bind_rows(df, df2)
 df <- df %>%
-  rename("@id" = uri,
-         "@type" = type)
+  rename("@id" = uri)
 write.csv(df,"../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure_separate_rows.csv", row.names = FALSE)
 context <- jsonlite::read_json("../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/context.json")
 df_in_list <- list('@graph' = df, '@context' = context)

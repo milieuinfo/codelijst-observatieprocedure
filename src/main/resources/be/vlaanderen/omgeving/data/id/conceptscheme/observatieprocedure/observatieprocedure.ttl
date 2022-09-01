@@ -48,11 +48,12 @@ co:LUC_IV_000  a           skos:Concept ;
 
 co:CMA_2_III_D  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_III_D.pdf> ;
-        skos:definition    "Zuurstofverbranding in een gesloten bom kan toegepast worden om oliemonsters te destrueren en zwavel en halogenen in oplossing te brengen. Andere gelijkwaardige destructietechnieken zijn wickbold voor fluor en hoge druk verasser voor chloor en zwavel. De methode met bomverbranding is de referentiemeetmethode voor de bepaling van zwavel en halogenen in oliemonsters."@nl ;
+        skos:definition    "Zuurstofverbranding in een gesloten bom kan toegepast worden om oliemonsters te destrueren en zwavel en halogenen in oplossing te brengen. Andere gelijkwaardige destructietechnieken zijn wickbold voor fluor en hoge druk verasser voor chloor en zwavel. De methode met bomverbranding is de referentiemeetmethode voor de bepaling van zwavel en halogenen in oliemonsters."@nl , "Deze procedure beschrijft de methode voor de bepaling van zwavel en halogenen na zuurstofverbranding in gesloten bom."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/III/D" ;
         skos:prefLabel     "Zwavel en halogenen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_D_022  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_D_022.pdf> ;
@@ -65,17 +66,20 @@ co:WAC_III_D_022  a        skos:Concept ;
 
 co:CMA_2_I_C.2.2  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_C.2.2.pdf> ;
-        skos:definition    "Deze procedure beschrijft de bepaling van totaal cyanide in water (bijvoorbeeld grond-, drink, oppervlakte- en afvalwater) met behulp van continue doorstroomanalyse methode. Het meetbereik van deze methode gaat van 10-100 µg/l. Bij hogere concentraties dient een geschikte verdunning te worden toegepast. De niet-chlooroxideerbare cyaniden worden berekend uit het verschil tussen de totaal cyaniden en de vrije cyaniden (zie CMA/2/I/C.2.3). Indien de vrije cyaniden < 1 mg/kg ds worden deze bij de verschilberekening gelijkgesteld aan 0 (lower bound benadering)."@nl ;
+        skos:definition    "Deze procedure beschrijft de bepaling van totaal cyanide in water (bijvoorbeeld grond-, drink, oppervlakte- en afvalwater) met behulp van continue doorstroomanalyse methode. Het meetbereik van deze methode gaat van 10-100 µg/l. Bij hogere concentraties dient een geschikte verdunning te worden toegepast. De niet-chlooroxideerbare cyaniden worden berekend uit het verschil tussen de totaal cyaniden en de vrije cyaniden (zie CMA/2/I/C.2.3). Indien de vrije cyaniden < 1 mg/kg ds worden deze bij de verschilberekening gelijkgesteld aan 0 (lower bound benadering)."@nl , "Deze procedure beschrijft de bepaling van totaal cyanide in water (bijvoorbeeld grond-, drink, oppervlakte- en afvalwater) met behulp van continue doorstroomanalyse methode."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/C.2.2" ;
         skos:prefLabel     "Totaal cyanide met behulp van continue doorstroomanalyse"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_6_B  a              skos:Concept ;
+        skos:definition    "Meetonzekerheid"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/6/B" ;
         skos:prefLabel     "Meetonzekerheid"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_V_A_005  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_V_A_005.pdf> ;
@@ -87,32 +91,38 @@ co:WAC_V_A_005  a          skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_F  a              skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de bepaling van polychloordibenzo-p-dioxines en polychloordibenzofuranen (\"dioxines\") in bodem en afvalstoffen."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/F" ;
         skos:prefLabel     "Polychlorodibenzo-p-dioxines en polychlorodibenzofuranen in bodem en afvalstoffen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_5_A.3  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Fasescheiding"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/A.3" ;
         skos:prefLabel     "Fasescheiding"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_I_A.6.3  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_A.6.3.pdf> ;
-        skos:definition    "Deze procedure beschrijft een methode voor de extractie van spoorelementen uit een waterstaal (bijvoorbeeld grond-, drink-, oppervlakte- en afvalwater) gebruik makend van salpeterzuur als ontsluitingsmedium. De methode is toepasbaar op alle types van water met een maximale hoeveelheid vaste stoffen in suspensie van 20 g/l (zie WAC/III/D/002) en een concentratie totale organische koolstof (TOC), uitgedrukt als koolstof, kleiner dan 5 g/l (zie CMA/2/I/D.7)."@nl ;
+        skos:definition    "Deze procedure beschrijft een methode voor de extractie van spoorelementen uit een waterstaal (bijvoorbeeld grond-, drink-, oppervlakte- en afvalwater) gebruik makend van salpeterzuur als ontsluitingsmedium. De methode is toepasbaar op alle types van water met een maximale hoeveelheid vaste stoffen in suspensie van 20 g/l (zie WAC/III/D/002) en een concentratie totale organische koolstof (TOC), uitgedrukt als koolstof, kleiner dan 5 g/l (zie CMA/2/I/D.7)."@nl , "Deze procedure beschrijft een methode voor de extractie van spoorelementen uit een waterstaal (bijvoorbeeld grond-, drink-, oppervlakte- en afvalwater) gebruik makend van salpeterzuur als ontsluitingsmedium."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/A.6.3" ;
         skos:prefLabel     "Ontsluiting voor de bepaling van geselecteerde elementen in water - salpeterzuurontsluiting"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_I_A.3  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_A.3.pdf> ;
-        skos:definition    "De totale hoeveelheid aan opgeloste en onopgeloste bestanddelen (TS-total solids), voor zover deze niet vluchtig zijn bij de aangewende werkomstandigheden, omvat de droogrest bepaling uitgevoerd op ongefiltreerd (afval)water. De totale hoeveelheid opgeloste bestanddelen (TDS-total dissolved solids), voor zover deze niet vluchtig zijn bij de aangewende werkomstandigheden, omvat de droogrest bepaling uitgevoerd op gefiltreerd (afval)water en eluaten. De droogrest gaat over het algemeen de bepaling van de asrest vooraf (zie Asrest, CMA/2/I/A.4). De beschreven methode is geschikt voor de bepaling van opgeloste (en onopgeloste) stoffen in drink-, oppervlakte- en zoutwater, alsook voor huishoudelijk, industrieel afvalwater en eluaten."@nl ;
+        skos:definition    "De totale hoeveelheid aan opgeloste en onopgeloste bestanddelen (TS-total solids), voor zover deze niet vluchtig zijn bij de aangewende werkomstandigheden, omvat de droogrest bepaling uitgevoerd op ongefiltreerd (afval)water. De totale hoeveelheid opgeloste bestanddelen (TDS-total dissolved solids), voor zover deze niet vluchtig zijn bij de aangewende werkomstandigheden, omvat de droogrest bepaling uitgevoerd op gefiltreerd (afval)water en eluaten. De droogrest gaat over het algemeen de bepaling van de asrest vooraf (zie Asrest, CMA/2/I/A.4). De beschreven methode is geschikt voor de bepaling van opgeloste (en onopgeloste) stoffen in drink-, oppervlakte- en zoutwater, alsook voor huishoudelijk, industrieel afvalwater en eluaten."@nl , "De beschreven methode is geschikt voor de bepaling van opgeloste (en onopgeloste) stoffen in drink-, oppervlakte- en zoutwater, alsook voor huishoudelijk, industrieel afvalwater en eluaten."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/A.3" ;
         skos:prefLabel     "Droogrest in water en eluaten"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_I_A_003  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_I_A_003.pdf> ;
@@ -124,14 +134,16 @@ co:WAC_I_A_003  a          skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_Q  a              skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de kwantitatieve bepaling van het totaalgehalte aan organische oplosmiddelen in oliestalen en vaste, niet-waterige stalen (watergehalte kleiner dan 30%) met behulp van gaschromatografie met vlamionisatie-detectie. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/Q" ;
         skos:prefLabel     "Oplosmiddelen aspecifiek"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_A.4  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.4.pdf> ;
-        skos:definition    "In deze procedure worden de meest gebruikte manuele staalnametechnieken besproken voor de insitu staalname van waterbodem. Hieronder worden zowel lineaire waterlopen verstaan, als nietlineaire wateroppervlakken (vijvers, poelen, wachtbekkens,…)."@nl ;
+        skos:definition    "In deze procedure worden de meest gebruikte manuele staalnametechnieken besproken voor de insitu staalname van waterbodem. Hieronder worden zowel lineaire waterlopen verstaan, als nietlineaire wateroppervlakken (vijvers, poelen, wachtbekkens,…)."@nl , "Deze procedure beschrijft de in situ staalname voor waterbodem in kader van bodemonderzoek"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.4" ;
         skos:prefLabel     "In-situ staalname van waterbodem"@nl ;
@@ -158,25 +170,30 @@ co:LUC_IV_012  a           skos:Concept ;
 
 co:CMA_2_II_A.5  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.5.pdf> ;
-        skos:definition    "In deze CMA methode wordt een overzicht gegeven van de te analyseren parameters voor de bepaling van de stookwaarde bij constante druk van een afvalstof (inclusief opgewerkte afgewerkte olie) met referentie naar de bijhorende CMA en/of Europese normering."@nl ;
+        skos:definition    "In deze CMA methode wordt een overzicht gegeven van de te analyseren parameters voor de bepaling van de stookwaarde bij constante druk van een afvalstof (inclusief opgewerkte afgewerkte olie) met referentie naar de bijhorende CMA en/of Europese normering."@nl , "Deze procedure beschrijft de methode voor de bepaling van de stookwaarde bij constant druk."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.5" ;
         skos:prefLabel     "Stookwaarde bij constante druk"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_7_A.6  a            skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de mehode voor de bepaling van de redoxpotentiaal (veldmeting).."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/7/A.6" ;
         skos:prefLabel     "Methaan, ethaan en etheen in grondwater"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_A.15  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.15.pdf> ;
-        skos:definition    "De procedure behandelt de monsternemingstechnieken die gehanteerd kunnen worden voor vaste afvalstoffen en grondstoffen1 . Onder deze noemer vallen oa. volgende monstertypes uit de analysepakketten voor erkenning als laboratorium voor afval: bouw- en sloopafval, assen en slakken, shredderafval, compost en houtafval"@nl ;
+        skos:altLabel      "Afvalstoffen – grondstoffen Monsternemingstechnieken vaste materialen"@nl ;
+        skos:definition    "Deze procedure beschrijft de monsterneming van vaste materialen en/of afvalstoffen en/of grondstoffen in het kader van VLAREM of VLAREMA. "@nl , "De procedure behandelt de monsternemingstechnieken die gehanteerd kunnen worden voor vaste afvalstoffen en grondstoffen1 . Onder deze noemer vallen oa. volgende monstertypes uit de analysepakketten voor erkenning als laboratorium voor afval: bouw- en sloopafval, assen en slakken, shredderafval, compost en houtafval"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.15" ;
         skos:prefLabel     "Monsternemingstechnieken vaste materialen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_II_001  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2018/LUC_II_001.pdf> ;
@@ -189,27 +206,30 @@ co:LUC_II_001  a           skos:Concept ;
 
 co:CMA_2_II_A.16  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.16.pdf> ;
-        skos:definition    "De methode laat toe de organisch gebonden stikstof (Kjeldahl stikstof) in vaste en pasteuze stoffen te bepalen, vooropgesteld dat zij onder de gekozen werkomstandigheden geoxideerd kunnen worden tot ammoniumionen. In de beschreven methode wordt stikstof, vervat in nitraat en nitriet, niet aangetast en dus ook niet meebepaald. De vrije ammoniumionen worden wel meebepaald daar zij niet vooraf worden verwijderd."@nl ;
+        skos:definition    "De methode laat toe de organisch gebonden stikstof (Kjeldahl stikstof) in vaste en pasteuze stoffen te bepalen, vooropgesteld dat zij onder de gekozen werkomstandigheden geoxideerd kunnen worden tot ammoniumionen. In de beschreven methode wordt stikstof, vervat in nitraat en nitriet, niet aangetast en dus ook niet meebepaald. De vrije ammoniumionen worden wel meebepaald daar zij niet vooraf worden verwijderd."@nl , "De methode laat toe de organisch gebonden stikstof (Kjeldahl stikstof)  in vaste en pasteuze stoffen te bepalen, vooropgesteld dat zij onder de gekozen werkomstandigheden geoxideerd kunnen worden tot ammoniumionen."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.16" ;
         skos:prefLabel     "Kjeldahlstikstof"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_IV_3  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_IV_3.pdf> ;
-        skos:definition    "Deze procedure is van toepassing voor alle matrixtypes met uitzondering van vloeibare monsters met een droge stof gehalte van < 2%. De beschreven methode is toepasbaar op het gedroogd (bij 105°C) en gehomogeniseerd monster. De analyse omvat een asrestbepaling en geeft een schatting van het gehalte niet vluchtige, anorganische bestanddelen aanwezig in het monster. Het verschil tussen de droog- en asrestbepaling geeft een schatting van het gehalte aan organische bestanddelen. Indien bij uitvoering van de asrestbepaling anorganische stoffen worden opgenomen (bv. CO2, O2) of afgestaan (bv. H2O, CO2, SO2), kan als alternatieve methode de TOC methode toegepast worden zoals beschreven in CMA/2/II/A.7. Het resultaat wordt uitgedrukt in % op vers analysemateriaal."@nl ;
+        skos:definition    "Deze procedure is van toepassing voor alle matrixtypes met uitzondering van vloeibare monsters met een droge stof gehalte van < 2%. De beschreven methode is toepasbaar op het gedroogd (bij 105°C) en gehomogeniseerd monster. De analyse omvat een asrestbepaling en geeft een schatting van het gehalte niet vluchtige, anorganische bestanddelen aanwezig in het monster. Het verschil tussen de droog- en asrestbepaling geeft een schatting van het gehalte aan organische bestanddelen. Indien bij uitvoering van de asrestbepaling anorganische stoffen worden opgenomen (bv. CO2, O2) of afgestaan (bv. H2O, CO2, SO2), kan als alternatieve methode de TOC methode toegepast worden zoals beschreven in CMA/2/II/A.7. Het resultaat wordt uitgedrukt in % op vers analysemateriaal."@nl , "Deze procedure beschrijft de methode voor de bepaling van de organische stof en het koolstofgehalte van bodemverbeterende middelen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/IV/3" ;
         skos:prefLabel     "Organische stof en koolstofgehalte"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_II_B.2  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_B.2.pdf> ;
-        skos:definition    "Zwavel en halogenen (fluor, chloor, broom en jood) kunnen in verschillende vormen voorkomen in afvalstoffen. Zuurstofverbranding in een gesloten bom kan toegepast worden om de afvalstoffen te destrueren en de te bepalen elementen in oplossing te brengen. Andere destructietechnieken zoals microgolf zuurdestructie, hydropyrolyse, wickbold en hoge druk verasser kunnen toegepast worden indien aangetoond kan worden dat ze gelijkwaardig zijn. In onderstaande tabel staan de referentiemeetmethoden beschreven per matrixtype en per parameter. Deze methode is toepasbaar voor zowel vaste als vloeibare afvalstoffen. Enkel de organisch en anorganisch gebonden zwavel en halogenen die door verbranding omgezet worden naar fluoride, chloride, bromide, iodide en sulfaat, en absorberen of oplossen in de waterige oplossing kunnen bepaald worden."@nl ;
+        skos:definition    "Zwavel en halogenen (fluor, chloor, broom en jood) kunnen in verschillende vormen voorkomen in afvalstoffen. Zuurstofverbranding in een gesloten bom kan toegepast worden om de afvalstoffen te destrueren en de te bepalen elementen in oplossing te brengen. Andere destructietechnieken zoals microgolf zuurdestructie, hydropyrolyse, wickbold en hoge druk verasser kunnen toegepast worden indien aangetoond kan worden dat ze gelijkwaardig zijn. In onderstaande tabel staan de referentiemeetmethoden beschreven per matrixtype en per parameter. Deze methode is toepasbaar voor zowel vaste als vloeibare afvalstoffen. Enkel de organisch en anorganisch gebonden zwavel en halogenen die door verbranding omgezet worden naar fluoride, chloride, bromide, iodide en sulfaat, en absorberen of oplossen in de waterige oplossing kunnen bepaald worden."@nl , "Deze procedure beschrijft de methode voor de bepaling van zwavel en halogenen na zuurstofverbranding in gesloten bom."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/B.2" ;
         skos:prefLabel     "Zwavel en halogenen na zuurstofverbranding in gesloten bom"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_III_003  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2018/LUC_III_003.pdf> ;
@@ -239,10 +259,12 @@ co:WAC_IV_A_008  a         skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_R.3  a            skos:Concept ;
+        skos:definition    "Deze procedure beschrijft een methode voor de kwalitatieve/semi-kwantitatieve bepaling van petroleumkoolwaterstoffen in water en bodem met behulp van gaschromatografie-vlamionisatiedetectie (GC-FID). "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/R.3" ;
         skos:prefLabel     "Petroleumkoolwaterstoffen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_I_C.8  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_C.8.pdf> ;
@@ -250,7 +272,8 @@ co:CMA_2_I_C.8  a          skos:Concept ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/C.8" ;
         skos:prefLabel     "Ionen met een discreet analysesysteem en spectrofotometrische detectie – ammonium, chloride, nitraat, nitriet, orthofosfaat en sulfaat"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_A_006  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_A_006.pdf> ;
@@ -280,24 +303,29 @@ co:CMA_2_II_A.6_versie_ISO11277_2020
         skos:topConceptOf  vlcs:observatieprocedure .
 
 co:CMA_2_IV_10  a          skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de methode voor de bepaling van kiemkrachtige zaden van bodemverbeterende middelen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/IV/10" ;
         skos:prefLabel     "Kiemkrachtige zaden"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_3_A  a              skos:Concept ;
+        skos:definition    "Deze  methode beschrijft de PCB-bepaling in oliën met electronenvangstdetectie (ECD) conform NBN-EN-12766-1. Voor laboratoria die massaspectrometrische detectie wensen te gebruiken is een variant opgenomen, afgeleid van DIN 38407-3 (2000)."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/A" ;
         skos:prefLabel     "Polychloorbifenylen in oliën"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_I_E  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_E.pdf> ;
-        skos:definition    "De volgende analysemethoden kunnen worden gebruikt voor de bepaling van ammonium in water (incl. extracten en destructieoplossingen)."@nl ;
+        skos:definition    "Deze koepelnorm beschrijft de methoden voor de bepaling van kationen."@nl , "De volgende analysemethoden kunnen worden gebruikt voor de bepaling van ammonium in water (incl. extracten en destructieoplossingen)."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/E" ;
         skos:prefLabel     "Methoden voor bepaling van kationen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_II_A_002  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_II_A_002.pdf> ;
@@ -318,16 +346,20 @@ co:WAC_III_C_040  a        skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_L  a              skos:Concept ;
+        skos:definition    "De beschreven analysemethode wordt gebruikt voor het bepalen van tributyltin (TBT)  met gaschromatografie (GC) na derivatisering. De methode is geschikt voor de bepaling van TBT in bodem; waterbodem; sediment; bagger- en ruiminsgspecie."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/L" ;
         skos:prefLabel     "Tributyltin in bodem, waterbodem, sediment, bagger- en ruimingsspecie"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_5_A.9  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Minimale monstergrootte voor heterogene stoffen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/A.9" ;
         skos:prefLabel     "Minimale monstergrootte voor heterogene stoffen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_7_A.1  a            skos:Concept ;
         skos:inScheme      vlcs:observatieprocedure ;
@@ -345,19 +377,21 @@ co:WAC_III_C_010  a        skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_W  a              skos:Concept ;
+        skos:definition    "Deze methode wordt gebruikt voor het bepalen van polycyclische aromatische koolwaterstoffen (PAK’s) en minerale olie in afvalstoffen die in of als bodemverbeterend middel of meststof worden gebruikt zoals compost, digestaten, aanverwante input- en outputstromen van de verwerking van organisch biologisch afval,  zuiveringsslib. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/W" ;
         skos:prefLabel     "Polycyclische aromatische koolwaterstoffen en minerale olie in bodemverbeterend middel en meststof"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_A.10  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.10.pdf> ;
-        skos:definition    "Deze procedure is van toepassing voor de bemonstering van drinkwater met als doel de bepaling van volgende parameters: metalen, anorganische verbindingen, organische verbindingen (zowel vluchtige als niet-vluchtige), biologische parameters, fysico-chemische eigenschappen en het gehalte aan zwevende stof. Het doel van de procedure CMA/1/A.10 is om een representatief monster te verkrijgen om de kwaliteit van het drinkwater te beoordelen met inbegrip van eventuele invloed van de netwerkvoorzieningen in een gebouw."@nl ;
+        skos:definition    "Deze procedure beschrijft de staalname van drinkwater"@nl , "Deze procedure is van toepassing voor de bemonstering van drinkwater met als doel de bepaling van volgende parameters: metalen, anorganische verbindingen, organische verbindingen (zowel vluchtige als niet-vluchtige), biologische parameters, fysico-chemische eigenschappen en het gehalte aan zwevende stof. Het doel van de procedure CMA/1/A.10 is om een representatief monster te verkrijgen om de kwaliteit van het drinkwater te beoordelen met inbegrip van eventuele invloed van de netwerkvoorzieningen in een gebouw."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.10" ;
         skos:prefLabel     "Drinkwater"@nl ;
         skos:topConceptOf  vlcs:observatieprocedure ;
-        dcat:theme         gemet:15179 .
+        dcat:theme         gemet:15179 , gemet:7884 .
 
 co:BOC  a                  skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2017/BOC_versie_2.1.pdf> ;
@@ -378,34 +412,39 @@ co:WAC_IV_A_021  a         skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_2_IV_22  a          skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de methode voor de bepaling van de rijpheidsgraad (zelfverhittingstest) van bodemverbeterende middelen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/IV/22" ;
         skos:prefLabel     "Rijpheidsgraad (zelfverhittingstest)"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_II_A.9.1  a       skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.9.1.pdf> ;
-        skos:definition    "Deze methode beschrijft de kolomproef waarbij 7 eluaatfracties worden opgevangen en waarin dan telkens de uitloging van anorganische componenten uit granulaire materialen wordt bepaald als functie van de verhouding tussen vloeistof en vaste stof (L/S-waarde), over een traject variërend van 0,1 tot en met 10 liter per kg droge stof. Het gaat om een dynamische uitloging, waarbij het materiaal éénmalig doorstroomd wordt met een hoeveelheid water."@nl ;
+        skos:definition    "Deze methode beschrijft de kolomproef waarbij 7 eluaatfracties worden opgevangen en waarin dan telkens de uitloging van anorganische componenten uit granulaire materialen wordt bepaald als functie van de verhouding tussen vloeistof en vaste stof (L/S-waarde), over een traject variërend van 0,1 tot en met 10 liter per kg droge stof. Het gaat om een dynamische uitloging, waarbij het materiaal éénmalig doorstroomd wordt met een hoeveelheid water. "@nl , "Deze methode beschrijft de kolomproef waarbij 7 eluaatfracties worden opgevangen en waarin dan telkens de uitloging van anorganische componenten uit granulaire materialen wordt bepaald als functie van de verhouding tussen vloeistof en vaste stof (L/S-waarde), over een traject variërend van 0,1 tot en met 10 liter per kg droge stof. Het gaat om een dynamische uitloging, waarbij het materiaal éénmalig doorstroomd wordt met een hoeveelheid water."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.9.1" ;
         skos:prefLabel     "Uitloging van anorganische componenten met de kolomproef voor bouwstof"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_B  a              skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_B.pdf> ;
-        skos:definition    "De methode beschrijft de monsterconservering en –bewaringscondities voor diverse matrices waaronder bodem, waterbodem, grondwater, shredder, hout, meststof en bodemverbeterende middelen, bouwstof, olie en vetten, verwerkte dierlijk bijproducten. De methode volgt op de procedures rond monsterneming CMA/1/A.0 t.e.m. CMA/1/A.21."@nl ;
+        skos:definition    "De procedure beschrijft de monstercondervering en - bewaring."@nl , "De methode beschrijft de monsterconservering en –bewaringscondities voor diverse matrices waaronder bodem, waterbodem, grondwater, shredder, hout, meststof en bodemverbeterende middelen, bouwstof, olie en vetten, verwerkte dierlijk bijproducten. De methode volgt op de procedures rond monsterneming CMA/1/A.0 t.e.m. CMA/1/A.21."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/B" ;
         skos:prefLabel     "Monsterconservering en -bewaring"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_II_A.11  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.11.pdf> ;
-        skos:definition    "Deze methode laat enkel toe om in uitgegraven bodem het gehalte aan stenen te meten en het gehalte aan bodemvreemde materialen groter dan 2 mm te bepalen. De bepaling van bodemvreemde materialen en bodemvreemde stenen kleiner dan 2 mm dient te gebeuren via visueel en/of manueel onderzoek. Het resultaat is de aanduiding van de aard van het bodemvreemd materiaal en/of stenen."@nl ;
+        skos:definition    "Deze procedure beschrijft een methode voor de bepaling van stenen en bodemvreemde materialen in uitgegraven bodem"@nl , "Deze methode laat enkel toe om in uitgegraven bodem het gehalte aan stenen te meten en het gehalte aan bodemvreemde materialen groter dan 2 mm te bepalen. De bepaling van bodemvreemde materialen en bodemvreemde stenen kleiner dan 2 mm dient te gebeuren via visueel en/of manueel onderzoek. Het resultaat is de aanduiding van de aard van het bodemvreemd materiaal en/of stenen."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.11" ;
         skos:prefLabel     "Stenen en bodemvreemde materialen in uitgegraven bodem"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_B_005  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_B_005.pdf> ;
@@ -427,11 +466,12 @@ co:WAC_I_A_010  a          skos:Concept ;
 
 co:CMA_2_I_E.2  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_E.2.pdf> ;
-        skos:definition    "Deze procedure beschrijft de bepaling van ammonium stikstof in water met continu-doorstroomanalyse (CFA) met spectrometrische detectie."@nl ;
+        skos:definition    "Deze procedure beschrijft de bepaling van ammonium stikstof in water met continu-doorstroomanalyse (CFA) met spectrometrische detectie."@nl , "Deze procedure beschrijft de bepaling van ammonium stikstof in water (bijvoorbeeld grond-, drink, oppervlakte- en afvalwater) met een continu-doorstroomanalyse (CFA) met spectrometrische detectie."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/E.2" ;
         skos:prefLabel     "Ammonium stikstof met behulp van doorstroomanalyse"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_V_B_001  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_V_B_001.pdf> ;
@@ -443,18 +483,21 @@ co:WAC_V_B_001  a          skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_5_B.6  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Granulaten/as en slakken"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/B.6" ;
         skos:prefLabel     "Granulaten/as en slakken"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_I_B.6  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_B.6.pdf> ;
-        skos:definition    "Deze methode beschrijft een procedure voor de bepaling van arseen, antimoon en seleen inclusief de organisch gebonden vormen. De methode is toepasbaar op grondwater, destructievloeistoffen en eluaten in een concentratiegebied van 1 tot 10 µg/l. Hogere concentraties kunnen gemeten worden door een gepaste verdunning van het watermonster"@nl ;
+        skos:definition    "Deze methode vervangt de procedure van oktober 2019 en beschrijft een procedure voor de bepaling van arseen, antimoon en seleen inclusief de organisch gebonden vormen. "@nl , "Deze methode beschrijft een procedure voor de bepaling van arseen, antimoon en seleen inclusief de organisch gebonden vormen. De methode is toepasbaar op grondwater, destructievloeistoffen en eluaten in een concentratiegebied van 1 tot 10 µg/l. Hogere concentraties kunnen gemeten worden door een gepaste verdunning van het watermonster"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/B.6" ;
-        skos:prefLabel     "Antimoon, arseen en seleen met hydride atomaire absorptie spectrometrie (Hydride AAS)"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:prefLabel     "Antimoon, arseen en seleen met hydride atomaire absorptie spectrometrie (Hydride-AAS)"@nl ;
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_C_022  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_C_022.pdf> ;
@@ -507,11 +550,12 @@ co:LUC_0_003  a            skos:Concept ;
 
 co:CMA_2_I_C.3  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_C.3.pdf> ;
-        skos:definition    "Deze procedure beschrijft een methode voor de bepaling van opgelost bromide, chloride, fluoride, nitraat, nitriet, orthofosfaat en sulfaat in water, i.e. drinkwater, grondwater, oppervlaktewater, afvalwater, eluaten en destructieoplossingen door vloeistofchromatografie. Het laagste meetpunt is ≥ 0.05 mg/l voor bromide en nitriet, en ≥ 0.1 mg/l voor chloride, fluoride, nitraat, orthofosfaat en sulfaat. Het laagste meetpunt is afhankelijk van de matrix en de aanwezige interferenten. Het werkgebied kan worden uitgebreid naar lagere concentraties."@nl ;
+        skos:definition    "Deze procedure beschrijft een methode voor de bepaling van opgelost bromide, chloride, fluoride, nitraat, nitriet, orthofosfaat en sulfaat in water, i.e. drinkwater, grondwater, oppervlaktewater, afvalwater, eluaten en destructieoplossingen door vloeistofchromatografie. Het laagste meetpunt is ≥ 0.05 mg/l voor bromide en nitriet, en ≥ 0.1 mg/l voor chloride, fluoride, nitraat, orthofosfaat en sulfaat. Het laagste meetpunt is afhankelijk van de matrix en de aanwezige interferenten. Het werkgebied kan worden uitgebreid naar lagere concentraties."@nl , "Deze procedure beschrijft een methode voor de bepaling van opgelost bromide, chloride, fluoride, nitraat, nitriet, orthofosfaat en sulfaat in water, i.e. drinkwater, grondwater, oppervlaktewater, afvalwater, eluaten en destructieoplossingen door vloeistofchromatografie."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/C.3" ;
         skos:prefLabel     "Opgeloste anionen - bromide, chloride, fluoride, nitraat, nitriet, orthofosfaat en sulfaat - door vloeistofchromatografie"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_A_001  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_A_001.pdf> ;
@@ -551,25 +595,29 @@ co:LUC_IV_001  a           skos:Concept ;
 
 co:CMA_2_III_E  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_III_E.pdf> ;
-        skos:definition    "De beschreven methode is toepasbaar voor het bepalen van het watergehalte in afvalolie. De ondergrens van het concentratiebereik bedraagt 0,05 m %."@nl ;
+        skos:definition    "De beschreven methode is toepasbaar voor het bepalen van het watergehalte in afvalolie. De ondergrens van het concentratiebereik bedraagt 0,05 m %."@nl , "De beschreven methode is toepasbaar voor het bepalen van het watergehalte in afvalolie. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/III/E" ;
         skos:prefLabel     "Watergehalte (volgens Karl Fischer)"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_I_C.2.3  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_C.2.3.pdf> ;
-        skos:definition    "Deze procedure beschrijft de bepaling van vrij cyanide in water (bijvoorbeeld grond-, drink, oppervlakte- en afvalwater) met behulp van continue doorstroomanalyse methode. Het meetbereik van deze methode gaat van 10-100 µg/l. Bij hogere concentraties dient een geschikte verdunning te worden toegepast. Voor de bepaling van vrije cyanide in bodem en vaste/pasteuze afvalstoffen wordt een rapporteergrens van 1 mg/kg ds gehanteerd."@nl ;
+        skos:definition    "Deze procedure beschrijft de bepaling van vrije cyanide in water (bijvoorbeeld grond-, drink, oppervlakte- en afvalwater) met behulp van continue doorstroomanalyse methode."@nl , "Deze procedure beschrijft de bepaling van vrij cyanide in water (bijvoorbeeld grond-, drink, oppervlakte- en afvalwater) met behulp van continue doorstroomanalyse methode. Het meetbereik van deze methode gaat van 10-100 µg/l. Bij hogere concentraties dient een geschikte verdunning te worden toegepast. Voor de bepaling van vrije cyanide in bodem en vaste/pasteuze afvalstoffen wordt een rapporteergrens van 1 mg/kg ds gehanteerd."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/C.2.3" ;
         skos:prefLabel     "Vrije cyanide met behulp van continue doorstroomanalyse"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_6_C  a              skos:Concept ;
+        skos:definition    "Rekenvoorbeelden prestatiekenmerken"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/6/C" ;
         skos:prefLabel     "Rekenvoorbeelden"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_A_015  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_A_015.pdf> ;
@@ -590,16 +638,20 @@ co:WAC_V_A_006  a          skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_G  a              skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de bepaling van polychloordibenzo-p-dioxines en polychloordibenzofuranen (PCDDF) in bodem, waterbodem en bagger- en ruimingsspecie met gaschromatografie gekoppeld aan tandem massaspectrometrie (GC-MS/MS)."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/G" ;
         skos:prefLabel     "Polychlorodibenzo-p-dioxines en polychlorodibenzofuranen in bodem en waterbodem met GC-MS/MS"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_5_A.4  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Drogen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/A.4" ;
         skos:prefLabel     "Drogen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_I_A_004  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_I_A_004.pdf> ;
@@ -612,7 +664,7 @@ co:WAC_I_A_004  a          skos:Concept ;
 
 co:CMA_1_A.5  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.5.pdf> ;
-        skos:definition    "De bepaling van het bodemvochtgehalte kan belangrijk zijn daar verontreiniging aanwezig in hetonverzadigde deel van de bodem zich via het bodemvocht kan verspreiden en op die wijze in hetgrondwater terechtkomen. Best worden hier met betrekking tot de verspreiding modelmatigeberekeningen uitgevoerd. Voor de bepaling van het volumetrisch vochtgehalte neemt men een ongestoord monster met gekend volume (gekalibreerde ringen van 100 cm3 ). Het ganse monster wordt gewogen, gedroogd (meestal 110°C) en opnieuw gewogen. Het volumetrische vochtgehalte wordt dan berekend uit de verhouding volume water tot het bodemvolume."@nl ;
+        skos:definition    "Deze procedure beschrijft de bepaling van bodemvocht"@nl , "De bepaling van het bodemvochtgehalte kan belangrijk zijn daar verontreiniging aanwezig in hetonverzadigde deel van de bodem zich via het bodemvocht kan verspreiden en op die wijze in hetgrondwater terechtkomen. Best worden hier met betrekking tot de verspreiding modelmatigeberekeningen uitgevoerd. Voor de bepaling van het volumetrisch vochtgehalte neemt men een ongestoord monster met gekend volume (gekalibreerde ringen van 100 cm3 ). Het ganse monster wordt gewogen, gedroogd (meestal 110°C) en opnieuw gewogen. Het volumetrische vochtgehalte wordt dan berekend uit de verhouding volume water tot het bodemvolume."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.5" ;
         skos:prefLabel     "Bodemvocht"@nl ;
@@ -630,19 +682,22 @@ co:WAC_VI_A_002  a         skos:Concept ;
 
 co:CMA_2_II_A.6  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.6.pdf> ;
-        skos:definition    "Het kleigehalte wordt bepaald door een gedeeltelijke textuuranalyse uit te voeren. De textuuranalyse betreft de scheiding van de minerale bodem in korrelgroottefracties, met name zand, leem en klei, alsook de bepaling van de proporties van de fracties. De analyse wordt uitgevoerd op de fijne aarde (< 2 mm), na afscheiding van de grove elementen. Om een goede dispersie van de kleifractie te bekomen, dienen alle cementerende materialen als organisch materiaal, CaCO3, oxiden en aanwezige opgeloste zouten verwijderd te worden. De fijne fracties (leem en klei) worden gescheiden van het zand door natte zeving op een zeef van 50 µm of 63 µm. De bepaling van het kleigehalte gebeurt met behulp van een pipet van RobinsonKöhn na dispersie van de colloïdale fractie met een dispergerende stof. De tijd en de diepte van de pipetopname worden afgeleid van de Wet van Stokes."@nl ;
+        skos:definition    "Het kleigehalte wordt bepaald door een gedeeltelijke textuuranalyse uit te voeren. De textuuranalyse betreft de scheiding van de minerale bodem in korrelgroottefracties, met name zand, leem en klei, alsook de bepaling van de proporties van de fracties. De analyse wordt uitgevoerd op de fijne aarde (< 2 mm), na afscheiding van de grove elementen. Om een goede dispersie van de kleifractie te bekomen, dienen alle cementerende materialen als organisch materiaal, CaCO3, oxiden en aanwezige opgeloste zouten verwijderd te worden. De fijne fracties (leem en klei) worden gescheiden van het zand door natte zeving op een zeef van 50 µm of 63 µm. De bepaling van het kleigehalte gebeurt met behulp van een pipet van RobinsonKöhn na dispersie van de colloïdale fractie met een dispergerende stof. De tijd en de diepte van de pipetopname worden afgeleid van de Wet van Stokes."@nl , "Deze procedure beschrijft de methode voor de bepaling van het kleigehalte met de pipetmethode van Robinson-Köhn."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.6" ;
         skos:prefLabel     "Kleigehalte (pipetmethode van Robinson-Köhn)"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_A.16  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.16.pdf> ;
-        skos:definition    "De monsterneming van vloeibare en semi-vloeibare afvalstoffen en grondstoffen1 vormt een speciale uitdaging in het verzamelen van een representatief monster. Onder de noemer vloeibare afvalstoffen vallen een brede waaier van afvalstoffen, die dikwijls in de meest uiteenlopende manieren worden opgeslagen. Meestal gaat het niet om een zuivere chemische stof, maar om suspensies of vloeistofmengsels met variërende densiteit, viscositeit en samenstelling. Deze procedure voorziet ook in een visuele inspectie van de te bemonsteren vloeistof. Deze is gericht op het identificeren van verschillende fasen in de partij (vast-vloeibaar, vloeibaar-vloeibaar) en in de identificatie van het medium (waterig, niet-waterig). Qua monsternemingstechnieken is er geen onderscheid naar gelang de identiteit van het medium (bijv. olie, water) ; qua monstervoorbehandeling wel. "@nl ;
+        skos:altLabel      "Afvalstoffen – grondstoffen Monsternemingstechnieken vloeistoffen"@nl ;
+        skos:definition    "De monsterneming van vloeibare en semi-vloeibare afvalstoffen en grondstoffen1 vormt een speciale uitdaging in het verzamelen van een representatief monster. Onder de noemer vloeibare afvalstoffen vallen een brede waaier van afvalstoffen, die dikwijls in de meest uiteenlopende manieren worden opgeslagen. Meestal gaat het niet om een zuivere chemische stof, maar om suspensies of vloeistofmengsels met variërende densiteit, viscositeit en samenstelling. Deze procedure voorziet ook in een visuele inspectie van de te bemonsteren vloeistof. Deze is gericht op het identificeren van verschillende fasen in de partij (vast-vloeibaar, vloeibaar-vloeibaar) en in de identificatie van het medium (waterig, niet-waterig). Qua monsternemingstechnieken is er geen onderscheid naar gelang de identiteit van het medium (bijv. olie, water) ; qua monstervoorbehandeling wel. "@nl , "Deze procedure beschrijft de monsterneming van vloeibare materialen en/of afvalstoffen en/of grondstoffen in het kader van VLAREM of VLAREMA. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.16" ;
         skos:prefLabel     "Monsternemingstechnieken vloeistoffen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_A_027  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_A_027.pdf> ;
@@ -663,10 +718,12 @@ co:LUC_II_002  a           skos:Concept ;
         dcat:theme         gemet:270 .
 
 co:CMA_5_B.1  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Meststof en bodemverbeterend middel"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/B.1" ;
         skos:prefLabel     "Meststof en bodemverbeterend middel"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_I_001  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2018/LUC_I_001.pdf> ;
@@ -679,18 +736,21 @@ co:LUC_I_001  a            skos:Concept ;
 
 co:CMA_2_I_B.1  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_B.1.pdf> ;
-        skos:definition    "De beschreven methode laat toe de elementen aluminium, antimoon, arseen, barium, beryllium, bismuth, boor, calcium, cadmium, chroom, fosfor, gallium, ijzer, indium, kalium, kobalt, koper, lithium, lood, magnesium, mangaan, molybdeen, natrium, nikkel, seleen, silicium, strontium, thallium, titaan, vanadium, tin, wolfraam, zilver, zink, zirkonium en zwavel te bepalen met de inductief gekoppeld plasma atomaire-emissiespectrometrie analysetechniek. De beschreven analysemethode kan gebruikt worden voor het bepalen van bovenvermelde elementen in water (bijvoorbeeld grond-, drink-, oppervlakte- en afvalwater), uitlogingen, alsook in de ontsluitingsvloeistoffen."@nl ;
+        skos:definition    "De beschreven methode laat toe de elementen aluminium, antimoon, arseen, barium, beryllium, bismuth, boor, calcium, cadmium, chroom, fosfor, gallium, ijzer, indium, kalium, kobalt, koper, lithium, lood, magnesium, mangaan, molybdeen, natrium, nikkel, seleen, silicium, strontium, thallium, titaan, vanadium, tin, wolfraam, zilver, zink, zirkonium en zwavel te bepalen met de inductief gekoppeld plasma atomaire-emissiespectrometrie analysetechniek. De beschreven analysemethode kan gebruikt worden voor het bepalen van bovenvermelde elementen in water (bijvoorbeeld grond-, drink-, oppervlakte- en afvalwater), uitlogingen, alsook in de ontsluitingsvloeistoffen."@nl , "De beschreven methode laat toe de elementen aluminium, antimoon, arseen, barium, beryllium, bismuth, boor, calcium, cadmium, chroom, fosfor, gallium, ijzer, indium, kalium, kobalt, koper, lithium, lood, magnesium, mangaan, molybdeen, natrium, nikkel, seleen, silicium, strontium, thallium, titaan, vanadium, tin, wolfraam, zilver, zink, zirkonium en zwavel te bepalen met de inductief gekoppeld plasma  atomaire-emissiespectrometrie analysetechniek.  De beschreven analysemethode kan gebruikt worden voor het bepalen van bovenvermelde elementen in water (bijvoorbeeld grond-, drink-, oppervlakte- en afvalwater), uitlogingen, alsook in de ontsluitingsvloeistoffen."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/B.1" ;
         skos:prefLabel     "Elementen met inductief gekoppeld plasma atomaire-emissiespectrometrie (ICP-AES)"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_IV_4  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_IV_4.pdf> ;
+        skos:definition    "Deze procedure beschrijft de methode voor de bepaling van het totaal stlstof gehalte van bodemverbeterende middelen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/IV/4" ;
         skos:prefLabel     "Totale stikstof"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_V_B_007  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_V_B_007.pdf> ;
@@ -721,11 +781,12 @@ co:WAC_III_E_020  a        skos:Concept ;
 
 co:CMA_2_I_C.1.1  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_C.1.1.pdf> ;
-        skos:definition    "De beschreven methode is toepasbaar voor de analyse van grondwater en eluaten met een fluorideconcentratie van 0.2 mg/l tot 2 g/l. Fluoride concentraties in destillaten bekomen na hydropyrolyse (CMA/2/II/B.1) en absorptieoplossingen na bomverbranding (CMA/2/II/B.2) kunnen met deze methode bepaald worden. De meting met ISE is beschreven in ISO10359-1 /DIN 38405-D4 en is van toepassing mits onderstaande aanvullingen."@nl ;
+        skos:definition    "Deze methode beschrijft de bepaling van  fluoride met ion-selectieve electrode (ISE). "@nl , "De beschreven methode is toepasbaar voor de analyse van grondwater en eluaten met een fluorideconcentratie van 0.2 mg/l tot 2 g/l. Fluoride concentraties in destillaten bekomen na hydropyrolyse (CMA/2/II/B.1) en absorptieoplossingen na bomverbranding (CMA/2/II/B.2) kunnen met deze methode bepaald worden. De meting met ISE is beschreven in ISO10359-1 /DIN 38405-D4 en is van toepassing mits onderstaande aanvullingen."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/C.1.1" ;
         skos:prefLabel     "Fluoride met ion selectieve electrode"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_B_012  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_B_012.pdf> ;
@@ -737,10 +798,12 @@ co:WAC_IV_B_012  a         skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_R.4  a            skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de analyse en interpretatie van biogene en petrogene indicatoren in waterbodem. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/R.4" ;
-        skos:prefLabel     "Biogene/petrogene oorsprong van minerale olie verontreinigingen in waterbodem"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:prefLabel     "Biogene / petrogene oorsprong van minerale olie verontreinigingen in waterbodem"@nl ;
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_B_010  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_B_010.pdf> ;
@@ -770,10 +833,12 @@ co:WAC_IV_A_010  a         skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_2_IV_11  a          skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de methode voor de bepaling van het gehalte aan steentjes en onzuiverheden van bodemverbeterende middelen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/IV/11" ;
         skos:prefLabel     "Gehalte aan steentjes en onzuiverheden"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_V_A_001  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_V_A_001.pdf> ;
@@ -785,10 +850,12 @@ co:WAC_V_A_001  a          skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_B  a              skos:Concept ;
+        skos:definition    "Deze procedure wordt gebruikt voor het bepalen van PAK’s met gaschromatografie (GC) of met vloeistofchromatografie in bodem, met inbegrip van onderwaterbodem of sediment; in slib, voor zover ontwaterd tot een droge stof gehalte van min. 5 %; in vaste afvalstoffen; in grondwater, eluaten en waterig afval; in olie en organische solventen."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/B" ;
         skos:prefLabel     "Polycyclische aromatische koolwaterstoffen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_II_A_003  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_II_A_003.pdf> ;
@@ -810,7 +877,7 @@ co:WAC_III_C_041  a        skos:Concept ;
 
 co:CMA_1_A.0  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.0.pdf> ;
-        skos:definition    "Het CMA heeft tot doel een reeks richtlijnen te bundelen met betrekking tot klassiek bodemonderzoek (i.e. plaatsen van boringen en peilbuizen; staalname van bodem en grondwater) voor de erkend bodemsaneringsdeskundige en de veldwerker om dergelijke representatieve staalname mogelijk maken. De richtlijnen opgenomen in de CMA procedures sluiten de toepassing van alternatieve onderzoekstechnieken niet uit (zie standaardprocedure beschrijvend bodemonderzoek)."@nl ;
+        skos:definition    "Inleiding"@nl , "Het CMA heeft tot doel een reeks richtlijnen te bundelen met betrekking tot klassiek bodemonderzoek (i.e. plaatsen van boringen en peilbuizen; staalname van bodem en grondwater) voor de erkend bodemsaneringsdeskundige en de veldwerker om dergelijke representatieve staalname mogelijk maken. De richtlijnen opgenomen in de CMA procedures sluiten de toepassing van alternatieve onderzoekstechnieken niet uit (zie standaardprocedure beschrijvend bodemonderzoek)."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.0" ;
         skos:prefLabel     "Bodem - Inleiding"@nl ;
@@ -831,11 +898,12 @@ co:CMA_7_A.2  a            skos:Concept ;
 
 co:CMA_2_II_A.1  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.1.pdf> ;
-        skos:definition    "Deze procedure beschrijft een methode voor het berekenen van de droge stof fractie van slib, behandeld biologisch afval, bodem en afval waarvoor de resultaten van de uitgevoerde analyses moeten worden berekend op de droge stof basis. Afhankelijk van de aard en de herkomst van het monster, wordt de berekening gebaseerd op een bepaling van de droogrest (methode A) of een bepaling van het watergehalte (methode B). Het geldt voor monsters met meer dan 1% (massafractie) van de droogrest of meer dan 1% (massafractie) water. Methode A is van toepassing op slib, behandeld biologisch afval, bodem en afval. Methode B geldt voor vloeibaar afval en monsters die zijn besmet of vermoedelijk vluchtige stoffen bevatten, behalve voor water. Enkel methode A is van toepassing voor de analysen in uitvoering van het Materialendecreet en het Bodemsaneringsdecreet."@nl ;
+        skos:definition    "Deze procedure beschrijft een methode voor het berekenen van de droge stof fractie van slib, behandeld biologisch afval, bodem en afval."@nl , "Deze procedure beschrijft een methode voor het berekenen van de droge stof fractie van slib, behandeld biologisch afval, bodem en afval waarvoor de resultaten van de uitgevoerde analyses moeten worden berekend op de droge stof basis. Afhankelijk van de aard en de herkomst van het monster, wordt de berekening gebaseerd op een bepaling van de droogrest (methode A) of een bepaling van het watergehalte (methode B). Het geldt voor monsters met meer dan 1% (massafractie) van de droogrest of meer dan 1% (massafractie) water. Methode A is van toepassing op slib, behandeld biologisch afval, bodem en afval. Methode B geldt voor vloeibaar afval en monsters die zijn besmet of vermoedelijk vluchtige stoffen bevatten, behalve voor water. Enkel methode A is van toepassing voor de analysen in uitvoering van het Materialendecreet en het Bodemsaneringsdecreet."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.1" ;
         skos:prefLabel     "Watergehalte en droogrest"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_D_030  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_D_030.pdf> ;
@@ -854,12 +922,12 @@ co:CMA_3_X  a              skos:Concept ;
 
 co:CMA_1_A.11  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.11.pdf> ;
-        skos:definition    "Deze procedure is van toepassing voor de bemonstering van oppervlaktewater met als doel de bepaling van volgende parameters: metalen, anorganische verbindingen, organische verbindingen (zowel vluchtige als niet-vluchtige), fysico-chemische eigenschappen en het gehalte aan zwevende stof. Het doel van de procedure CMA/1/A.11 is om de kwaliteit van een oppervlaktewater te bepalen en de invloed van een eventuele lozing na te gaan ."@nl ;
+        skos:definition    "Deze procedure beschrijft de staalname van oppervlaktewater, De bemonstering van oppervlaktewater is bedoeld om na te gaan in hoeverre een vastgestelde bodemverontreiniging eventueel aanleiding heeft gegeven tot verontreiniging van het oppervlaktewater. "@nl , "Deze procedure is van toepassing voor de bemonstering van oppervlaktewater met als doel de bepaling van volgende parameters: metalen, anorganische verbindingen, organische verbindingen (zowel vluchtige als niet-vluchtige), fysico-chemische eigenschappen en het gehalte aan zwevende stof. Het doel van de procedure CMA/1/A.11 is om de kwaliteit van een oppervlaktewater te bepalen en de invloed van een eventuele lozing na te gaan ."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.11" ;
         skos:prefLabel     "Oppervlaktewater"@nl ;
         skos:topConceptOf  vlcs:observatieprocedure ;
-        dcat:theme         gemet:15179 .
+        dcat:theme         gemet:7884 , gemet:15179 .
 
 co:WAC_IV_A_022  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_A_022.pdf> ;
@@ -872,27 +940,30 @@ co:WAC_IV_A_022  a         skos:Concept ;
 
 co:CMA_2_II_A.9.2  a       skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.9.2.pdf> ;
-        skos:definition    "In deze methode wordt de diffusieproef beschreven, die kan worden gebruikt voor de bepaling van het uitlooggedrag van vaste, niet-korrelvormige materialen in het kader van karakterisering als secundaire grondstof in vormgegeven toepassingen. Deze proef levert onder meer als resultaat de cumulatieve emissie uit het aan uitloging blootgestelde oppervlak (in mg/m²). Op grond van de resultaten van de diffusieproef kan een oordeel worden gevormd over de tijdsafhankelijkheid van de uitloging van een materiaal onder praktijkomstandigheden."@nl ;
+        skos:definition    "In deze methode wordt de diffusieproef beschreven, die kan worden gebruikt voor de bepaling van het uitlooggedrag van vaste, niet-korrelvormige materialen in het kader van karakterisering als secundaire grondstof in vormgegeven toepassingen. Deze proef levert onder meer als resultaat de cumulatieve emissie uit het aan uitloging blootgestelde oppervlak (in mg/m²). Op grond van de resultaten van de diffusieproef kan een oordeel worden gevormd over de tijdsafhankelijkheid van de uitloging van een materiaal onder praktijkomstandigheden."@nl , "In deze methode wordt de diffusieproef beschreven, die kan worden gebruikt voor de bepaling van het uitlooggedrag van vaste, niet-korrelvormige materialen in het kader van karakterisering als secundaire grondstof in vormgegeven toepassingen. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.9.2" ;
         skos:prefLabel     "Uitloging van anorganische componenten uit vormgegeven en monolithische materialen met de diffusieproef"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_C  a              skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_C.pdf> ;
-        skos:definition    "Om de veiligheid van het personeel maximaal te verzekeren is het nodig de risico's verbonden aan de monstername zo correct mogelijk in te schatten. De mogelijke risico's worden wettelijk omschreven als (o.a. ARAB art. 723 bis 1 tot 5) en kunnen als volgt onderverdeeld worden: • giftigheid van stoffen • gebruikte apparatuur • brand- en explosiegevaar • ondergrondse leidingen • reactiviteit van stoffen • plaatselijke omstandigheden • agressiviteit van stoffen"@nl ;
+        skos:definition    "Om de veiligheid van het personeel maximaal te verzekeren is het nodig de risico's verbonden aan de monstername zo correct mogelijk in te schatten. De mogelijke risico's worden wettelijk omschreven als (o.a. ARAB art. 723 bis 1 tot 5) en kunnen als volgt onderverdeeld worden: • giftigheid van stoffen • gebruikte apparatuur • brand- en explosiegevaar • ondergrondse leidingen • reactiviteit van stoffen • plaatselijke omstandigheden • agressiviteit van stoffen"@nl , "Deze proceudre beschrijft veiligheidsmaatregelen bij monsterneming."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/C" ;
         skos:prefLabel     "Veiligheidsmaatregelen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_II_A.12  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.12.pdf> ;
-        skos:definition    "Deze methode beschrijft de uitloging uit vaste stoffen met een deeltjesgrootte kleiner dan 4 mm (met of zonder verkleining van het materiaal) in de enkelvoudige schudtest bij een vloeistof-totvaste-stof verhouding (L/S) van 10 l/kg ds. De methode is geschikt voor bepaling van de uitloging van anorganische componenten uit granulaire materialen en afvalstoffen met een droge stofgehalte van meer dan 10% (zoals baggerspecie, ruimingsspecie, waterbodem en andere pasteuze afvalstoffen). Het resultaat van deze bepaling is de afgifte van componenten (in mg per kg droge stof) die optreedt onder de experimentele testcondities, zoals hierna beschreven."@nl ;
+        skos:definition    "Deze methode beschrijft de uitloging uit vaste stoffen met een deeltjesgrootte kleiner dan 4 mm (met of zonder verkleining van het materiaal) in de enkelvoudige schudtest bij een vloeistof-totvaste-stof verhouding (L/S) van 10 l/kg ds. De methode is geschikt voor bepaling van de uitloging van anorganische componenten uit granulaire materialen en afvalstoffen met een droge stofgehalte van meer dan 10% (zoals baggerspecie, ruimingsspecie, waterbodem en andere pasteuze afvalstoffen). Het resultaat van deze bepaling is de afgifte van componenten (in mg per kg droge stof) die optreedt onder de experimentele testcondities, zoals hierna beschreven."@nl , "Deze methode beschrijft de uitloging uit vaste stoffen met een deeltjesgrootte kleiner dan 4 mm (met of zonder verkleining van het materiaal) in de enkelvoudige schudtest bij een vloeistof-tot-vaste-stof verhouding (L/S) van 10 l/kg ds. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.12" ;
         skos:prefLabel     "Uitloging van anorganische componenten uit granulaire materialen en slib met de enkelvoudige schudtest"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_I_A_011  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_I_A_011.pdf> ;
@@ -905,11 +976,12 @@ co:WAC_I_A_011  a          skos:Concept ;
 
 co:CMA_2_I_E.3  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_E.3.pdf> ;
-        skos:definition    "Deze procedure beschrijft een destillatie- en titratiemethode voor de bepaling van ammonium in water."@nl ;
+        skos:definition    "Deze procedure beschrijft een destillatie- en titratiemethode voor de bepaling van ammonium in water."@nl , "Deze procedure beschrijft een destillatie en titratiemethode voor de bepaling van ammonium in water."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/E.3" ;
         skos:prefLabel     "Ammonium stikstof door destillatie en titratie"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_V_B_002  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_V_B_002.pdf> ;
@@ -921,10 +993,12 @@ co:WAC_V_B_002  a          skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_5_B.7  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Olie en vetten"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/B.7" ;
         skos:prefLabel     "Olie en vetten"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_A_004  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_A_004.pdf> ;
@@ -937,11 +1011,12 @@ co:WAC_IV_A_004  a         skos:Concept ;
 
 co:CMA_2_II_A.24  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2022/CMA_2_II_A.24.pdf> ;
-        skos:definition    "De procedure beschrijft de bepaling van Cr(VI) in bodem en vaste afvalstoffen door alkalische digestie en ionenchromatografie met spectrofotometrische detectie. Deze methode kan gebruikt worden voor de bepaling van de Cr(VI) massa fractie in vaste monsters hoger dan 0.1 mg/kg."@nl ;
+        skos:definition    "De procedure beschrijft de bepaling van Cr(VI) in bodem en vaste afvalstoffen door alkalische digestie en ionenchromatografie met spectrofotometrische detectie. Deze methode kan gebruikt worden voor de bepaling van de Cr(VI) massa fractie in vaste monsters hoger dan 0.1 mg/kg."@nl , "De procedure beschrijft de bepaling van Cr(VI) in bodem en vaste afvalstoffen door alkalische digestie en ionenchromatografie met spectrofotometrische detectie. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.24" ;
         skos:prefLabel     "Chroom(VI) in bodem en vaste afvalstoffen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_0_004  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2018/LUC_0_004.pdf> ;
@@ -963,11 +1038,12 @@ co:LUC_IV_002  a           skos:Concept ;
 
 co:CMA_2_III_F  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_III_F.pdf> ;
-        skos:definition    "Voor de bepaling van het 'totale' metaalgehalte in olie wordt een ontsluitingsmethode op het te analyseren monster toegepast. Zowel de metalen die organisch als anorganisch gebonden zijn worden hierbij vrijgezet. De aanwezige metalen worden omgezet in de oplosbare metaalzouten zodat ze aansluitend kunnen gemeten worden met inductief gekoppeld plasma atoom emissie spectrometrie (ICP-AES), atomaire absorptie spectrometrie (AAS) of andere meetmethoden. Zoals beschreven in CMA/2/III/G kan de ontsluitingsmethode volgens IP 592 ook worden toegepast."@nl ;
+        skos:definition    "Voor de bepaling van het 'totale' metaalgehalte in olie wordt een ontsluitingsmethode op het te analyseren monster toegepast. Zowel de metalen die organisch als anorganisch gebonden zijn worden hierbij vrijgezet. De aanwezige metalen worden omgezet in de oplosbare metaalzouten zodat ze aansluitend kunnen gemeten worden met inductief gekoppeld plasma atoom emissie spectrometrie (ICP-AES), atomaire absorptie spectrometrie (AAS) of andere meetmethoden. Zoals beschreven in CMA/2/III/G kan de ontsluitingsmethode volgens IP 592 ook worden toegepast."@nl , "Voor de bepaling van het 'totale' metaalgehalte in olie wordt een ontsluitingsmethode op het te analyseren monster toegepast. Zowel de metalen die organisch als anorganisch gebonden zijn worden hierbij vrijgezet. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/III/F" ;
         skos:prefLabel     "Ontsluitingsmethode voor olie"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_V_001  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/LUC_V_001.pdf> ;
@@ -988,17 +1064,21 @@ co:WAC_IV_A_016  a         skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_6_D  a              skos:Concept ;
+        skos:definition    "Kwaliteitseisen voor analysemethoden"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/6/D" ;
         skos:prefLabel     "Kwaliteitseisen voor analysemethoden"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_I_A  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_A.pdf> ;
+        skos:definition    "Deze koepelnorm beschrijft de methoden voor de bepaling van de algemene anorganische parameters."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/A" ;
         skos:prefLabel     "Methoden voor algemene anorganische testen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_VI_001  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/LUC_VI_001.pdf> ;
@@ -1019,16 +1099,20 @@ co:WAC_V_A_007  a          skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_H  a              skos:Concept ;
+        skos:definition    ". Deze procedure beschrijft een methode voor de kwantitatieve bepaling van organofosforpesticiden (OPP) en triazine-type herbiciden in bodem en sommige vaste afvalstalen met behulp van gaschromatografie-massaspectrometrie. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/H" ;
         skos:prefLabel     "Organofosforpesticiden en triazine-type herbiciden met GC/MS"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_5_A.5  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Verkleinen deeltjesgrootte"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/A.5" ;
         skos:prefLabel     "Verkleinen deeltjesgrootte"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_I_A_005  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_I_A_005.pdf> ;
@@ -1041,7 +1125,7 @@ co:WAC_I_A_005  a          skos:Concept ;
 
 co:CMA_1_A.6  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.6.pdf> ;
-        skos:definition    "Voor de staalname van (bodem)lucht wordt een onderscheid gemaakt tussen passieve of actieve staalname. De keuze van één van beide bemonsteringstechnieken is functie van de doelstelling van het onderzoek en van de karakteristieken van de bepalende parameters (e.g. dampdruk en Henry coëfficiënt)."@nl ;
+        skos:definition    "Voor de staalname van (bodem)lucht wordt een onderscheid gemaakt tussen passieve of actieve staalname. De keuze van één van beide bemonsteringstechnieken is functie van de doelstelling van het onderzoek en van de karakteristieken van de bepalende parameters (e.g. dampdruk en Henry coëfficiënt)."@nl , "De rubriek (bodem)lucht omvat richtlijnen voor de staalname van bodemlucht; van binnenlucht; i.k.v. emissiemetingen bij saneringen."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.6" ;
         skos:prefLabel     "Bodemlucht, binnenlucht, omgevingslucht en emissies bij saneringen"@nl ;
@@ -1063,7 +1147,8 @@ co:CMA_2_II_A.7  a         skos:Concept ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.7" ;
         skos:prefLabel     "Totaal organisch koolstofgehalte (TOC)"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_D_036  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_D_036.pdf> ;
@@ -1075,18 +1160,22 @@ co:WAC_III_D_036  a        skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_7_A  a              skos:Concept ;
+        skos:definition    "Deze koepelnorm beschrijft analysemethoden ter ondersteuning van bodemsaneringswerken."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/7/A" ;
         skos:prefLabel     "Analysemethoden ter ondersteuning van bodemsaneringswerken"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_A.17  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.17.pdf> ;
-        skos:definition    "In deze procedure worden de courante manuele bemonsteringstechnieken besproken voor slibachtige grondstoffen1, zoals zuiveringsslibs van (riool)waterzuiveringsinstallaties en/of diverse industriële processen. "@nl ;
+        skos:altLabel      "Afvalstoffen – grondstoffen Monsternemingstechnieken (vloeibare) pasteuze materialen"@nl ;
+        skos:definition    "In deze procedure worden de courante manuele bemonsteringstechnieken besproken voor slibachtige grondstoffen1, zoals zuiveringsslibs van (riool)waterzuiveringsinstallaties en/of diverse industriële processen. "@nl , "Deze procedure beschrijft de monsterneming van (vloeibare) pasteuze materialen en/of afvalstoffen en/of grondstoffen in het kader van VLAREM of VLAREMA. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.17" ;
         skos:prefLabel     "Monsternemingstechnieken (vloeibare) pasteuze materialen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_A_028  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_A_028.pdf> ;
@@ -1107,10 +1196,12 @@ co:WAC_IV_B_001  a         skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_5_B.2  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Houtafval"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/B.2" ;
         skos:prefLabel     "Houtafval"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_I_002  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2018/LUC_I_002.pdf> ;
@@ -1123,11 +1214,12 @@ co:LUC_I_002  a            skos:Concept ;
 
 co:CMA_2_I_B.2  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_B.2.pdf> ;
-        skos:definition    "De methode beschrijft de bepaling van de elementen Ag, Al, As, Cd, Co, Cr, Cu, Fe, Mn, Mo, Ni, Pb, Se, Tl, V en Zn in grondwater, destructievloeistoffen en eluaten, gebruikmakend van atomaire absorptie spectrometrie met electrothermische atomisatie in een grafietoven"@nl ;
+        skos:definition    "De methode beschrijft de bepaling van de elementen Ag, Al, As, Cd, Co, Cr, Cu, Fe, Mn, Mo, Ni, Pb, Se, Tl, V en Zn in grondwater, destructievloeistoffen en eluaten, gebruikmakend van atomaire absorptie spectrometrie met electrothermische atomisatie in een grafietoven."@nl , "De methode beschrijft de bepaling van de elementen Ag, Al, As, Cd, Co, Cr, Cu, Fe, Mn, Mo, Ni, Pb, Se, Tl, V en Zn in grondwater, destructievloeistoffen en eluaten, gebruikmakend van atomaire absorptie spectrometrie met electrothermische atomisatie in een grafietoven"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/B.2" ;
         skos:prefLabel     "Elementen met atomaire absorptie spectrometrie met grafietoven (ET-AAS)"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_III_005  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2018/LUC_III_005.pdf> ;
@@ -1149,17 +1241,20 @@ co:WAC_III_E_021  a        skos:Concept ;
 
 co:CMA_2_I_C.1.2  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_C.1.2.pdf> ;
-        skos:definition    "Deze methode beschrijft de bepaling van opgelost fluoride met doorstroomanalyse. De beschreven methode is toepasbaar voor de analyse van grondwater en eluaten met een fluorideconcentratie ≥ 0.2 mg/l. Fluoride concentraties in destillaten bekomen na hydropyrolyse (CMA/2/II/B.1) en absorptieoplossingen na bomverbranding (CMA/2/II/B.2) kunnen met deze methode bepaald worden. De fluoride meting met de doorstroomanalyse met on-line destillatie en spectrofotometrische detectie wordt in onderstaande procedure beschreven. Opmerking: Doorstroomanalyse met potentiometrische detectie mag toegepast worden."@nl ;
+        skos:definition    "Deze methode beschrijft de bepaling van opgelost fluoride met doorstroomanalyse. De beschreven methode is toepasbaar voor de analyse van grondwater en eluaten met een fluorideconcentratie ≥ 0.2 mg/l. Fluoride concentraties in destillaten bekomen na hydropyrolyse (CMA/2/II/B.1) en absorptieoplossingen na bomverbranding (CMA/2/II/B.2) kunnen met deze methode bepaald worden. De fluoride meting met de doorstroomanalyse met on-line destillatie en spectrofotometrische detectie wordt in onderstaande procedure beschreven. Opmerking: Doorstroomanalyse met potentiometrische detectie mag toegepast worden."@nl , "Deze methode beschrijft de bepaling van  fluoride met doorstroomanalyse. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/C.1.2" ;
         skos:prefLabel     "Fotometrische bepaling van fluoride mbv een doorstroomanalysesysteem (CFA)"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_3_R.5  a            skos:Concept ;
+        skos:definition    "Deze methode beschrijft de kwantitatieve bepaling van vluchtige minerale olie in bodem en grondwater met behulp van gaschromatografie. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/R.5" ;
         skos:prefLabel     "Vluchtige minerale olie"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_B_011  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_B_011.pdf> ;
@@ -1190,11 +1285,12 @@ co:WAC_III_A_008  a        skos:Concept ;
 
 co:CMA_2_III_A  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_III_A.pdf> ;
-        skos:definition    "De beschreven methode laat de bepaling toe van het sedimentgehalte in afgewerkte olie door extractie met tolueen."@nl ;
+        skos:definition    "De beschreven methode laat de bepaling toe van het sedimentgehalte in afvalolie door extractie met tolueen."@nl , "De beschreven methode laat de bepaling toe van het sedimentgehalte in afgewerkte olie door extractie met tolueen."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/III/A" ;
         skos:prefLabel     "Sedimentgehalte"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_IV_008  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/LUC_IV_008.pdf> ;
@@ -1230,13 +1326,16 @@ co:WAC_V_A_002  a          skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_C  a              skos:Concept ;
+        skos:definition    "De procedure beschrijft de kwantitatieve bepaling van met tetrachlooretheen (TCE) extraheerbare organische verbindingen in water en vaste stoffen met behulp van infrarood(IR)spectrofotometrie. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/C" ;
         skos:prefLabel     "TCE extraheerbare (apolaire) stoffen met IR"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_A.1  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.1.pdf> ;
+        skos:definition    "Deze procedure beschrijft voor bodemmonsters de wijze waarop het boorprogramma moet worden vastgelegd; beschikbare boortechnieken; de milieutechnische uitvoering van boringen; de verschillende methoden die bij de staalname van bodem gehanteerd kunnen worden."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.1" ;
         skos:prefLabel     "Vaste deel van de aarde"@nl ;
@@ -1244,26 +1343,30 @@ co:CMA_1_A.1  a            skos:Concept ;
         dcat:theme         gemet:7884 .
 
 co:CMA_3_N  a              skos:Concept ;
+        skos:definition    "De procedure beschrijft een werkwijze voor de bepaling van het halogeengehalte afkomstig van met aceton/hexaan extraheerbare organohalogeenverbindingen (EOX) in bodem, sediment, vaste afvalstoffen, olie, slib en bodemverbeterende middelen, waarbij X staat voor de halogenen chloor, broom en jood."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/N" ;
         skos:prefLabel     "Extraheerbare organische halogeenverbindingen in vaste en pasteuze stoffen en olie"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_I_D.7  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_D.7.pdf> ;
-        skos:definition    "Totaal organische koolstof (TOC) is een maat voor het koolstofgehalte van het in het water aanwezige opgeloste en onopgeloste organische materiaal. Het geeft geen informatie over de aard van de organische substantie. Deze procedure geeft richtlijnen over de bepaling van het totaal, opgeloste en niet-purgeerbare organisch koolstofgehalte in eluaten. De procedures zoals beschreven in NBN EN 1484 en ISO 8245 zijn van toepassing mits volgende verduidelijkingen en aanvullingen."@nl ;
+        skos:definition    "Totaal organische koolstof (TOC) is een maat voor het koolstofgehalte van het in het water aanwezige opgeloste en onopgeloste organische materiaal. Het geeft geen informatie over de aard van de organische substantie. Deze procedure geeft richtlijnen over de bepaling van het totaal, opgeloste en niet-purgeerbare organisch koolstofgehalte in eluaten. De procedures zoals beschreven in NBN EN 1484 en ISO 8245 zijn van toepassing mits volgende verduidelijkingen en aanvullingen."@nl , "Deze procedure geeft richtlijnen over de bepaling van het organisch koolstofgehalte in eluaten."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/D.7" ;
         skos:prefLabel     "Totaal organische koolstof (TOC), opgeloste organische koolstof (DOC) en niet-purgeerbare organische koolstof (NPOC)"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_II_A.2  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.2.pdf> ;
-        skos:definition    "Deze procedure beschrijft een methode voor de bepaling van het gloeiverlies/asrest van de droge stof bij 550°C. De droge stof wordt bepaald volgens NBN EN 15934. Deze methode is van toepassing op de bepaling van gloeiverlies/asrest van slib, behandeld biologisch afval, bodem en afval. Het gloeiverlies/asrest van sedimenten kan worden bepaald met deze methode."@nl ;
+        skos:definition    "Deze procedure beschrijft een methode voor de bepaling van het gloeiverlies/asrest van de droge stof bij 550°C. De droge stof wordt bepaald volgens NBN EN 15934. Deze methode is van toepassing op de bepaling van gloeiverlies/asrest van slib, behandeld biologisch afval, bodem en afval. Het gloeiverlies/asrest van sedimenten kan worden bepaald met deze methode."@nl , "Deze procedure beschrijft een methode voor de bepaling van het gloeiverlies/asrest van de droge stof bij 550°C. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.2" ;
         skos:prefLabel     "Asrest"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_7_A.3  a            skos:Concept ;
         skos:inScheme      vlcs:observatieprocedure ;
@@ -1281,10 +1384,12 @@ co:WAC_III_D_031  a        skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_Y  a              skos:Concept ;
+        skos:definition    "In deze procedure wordt een methode beschreven voor de extractie, zuivering en analyse van een aantal organochloorpesticiden (OCP’s) in bagger- en ruimingsspecie. De methode is eveneens toepasbaar op waterbodem. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/Y" ;
         skos:prefLabel     "Organochloorpesticiden in bagger- en ruimingsspecie"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_A_023  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_A_023.pdf> ;
@@ -1296,10 +1401,12 @@ co:WAC_IV_A_023  a         skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_2_IV_24  a          skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de methode voor de bepaling van de volumedichtheid van bodemverbeterende middelen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/IV/24" ;
         skos:prefLabel     "Volumedichtheid"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_D_001  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_D_001.pdf> ;
@@ -1312,34 +1419,39 @@ co:WAC_III_D_001  a        skos:Concept ;
 
 co:CMA_2_II_A.9.3  a       skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.9.3.pdf> ;
-        skos:definition    "Hier wordt een methode beschreven om de maximale beschikbaarheid voor uitloging van anorganische componenten uit vaste grond- en steenachtige materialen te bepalen (beschikbaarheidproef). De beschikbaarheidproef heeft als doel aan te geven, welke hoeveelheid van een bepaalde component kan uitlogen, indien een materiaal in aëroob milieu aan extreme omstandigheden wordt blootgesteld (zoals op zeer lange termijn, na desintegratie van het materiaal, na volledige oxidatie en/of bij opheffing van het zuurneutraliserend vermogen)."@nl ;
+        skos:definition    "Hier wordt een methode beschreven om de maximale beschikbaarheid voor uitloging van anorganische componenten uit vaste grond- en steenachtige materialen te bepalen (beschikbaarheidproef). De beschikbaarheidproef heeft als doel aan te geven, welke hoeveelheid van een bepaalde component kan uitlogen, indien een materiaal in aëroob milieu aan extreme omstandigheden wordt blootgesteld (zoals op zeer lange termijn, na desintegratie van het materiaal, na volledige oxidatie en/of bij opheffing van het zuurneutraliserend vermogen)."@nl , "Hier wordt een methode beschreven om de maximale beschikbaarheid voor uitloging van anorganische componenten uit vaste grond- en steenachtige materialen te bepalen (beschikbaarheidproef). "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.9.3" ;
         skos:prefLabel     "Maximale beschikbaarheid voor uitloging van anorganische componenten"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_D  a              skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_D.pdf> ;
+        skos:definition    "referenties"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/D" ;
         skos:prefLabel     "Referenties"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_II_A.13  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.13.pdf> ;
-        skos:definition    "In deze CMA methode wordt een overzicht gegeven van de te analyseren parameters in het kader van aanvaardbaarheidscriteria voor afvalstoffen op stortplaatsen met referentie naar de bijhorende CMA procedure of Internationale/Europese normering."@nl ;
+        skos:definition    "In deze CMA methode wordt een overzicht gegeven van de te analyseren parameters in het kader van aanvaardbaarheidscriteria voor afvalstoffen op stortplaatsen met referentie naar de bijhorende CMA procedure of Internationale/Europese normering."@nl , "Deze koepelnorm beschrijft methoden voor de analyse van afvalstoffen op stortplaatsen."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.13" ;
         skos:prefLabel     "Analysemethoden voor afvalstoffen op stortplaatsen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_I_E.4  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_E.4.pdf> ;
-        skos:definition    "Deze procedure beschrijft de bepaling van ammonium stikstof in water met ion chromatografie."@nl ;
+        skos:definition    "Deze procedure beschrijft de bepaling van ammonium stikstof in water met ion chromatografie."@nl , "Deze procedure beschrijft de bepaling van ammonium stikstof in water (bijvoorbeeld grond-, drink, oppervlakte- en afvalwater) met ionenchromatografie."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/E.4" ;
         skos:prefLabel     "Ammonium stikstof met behulp van ion chromatografie"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_V_B_003  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_V_B_003.pdf> ;
@@ -1351,10 +1463,12 @@ co:WAC_V_B_003  a          skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_5_B.8  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Luier- en incontinentiematerialen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/B.8" ;
         skos:prefLabel     "Luier- en incontinentiematerialen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_A_005  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_A_005.pdf> ;
@@ -1394,11 +1508,12 @@ co:LUC_IV_003  a           skos:Concept ;
 
 co:CMA_2_III_G  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_III_G.pdf> ;
-        skos:definition    "De product technische kwaliteitscriteria van opgewerkte afgewerkte olie voor gebruik als brandstof en de bijhorende referentiemethoden zijn beschreven in ISO 8217. Bijkomend dient opgewerkte afgewerkte olie voor gebruik als brandstof getoetst te worden aan de end-of-waste criteria die de milieuhygiënische parameters omvatten. Deze CMA methode geeft een overzicht van de te analyseren parameters en de bijhorende referentiemethoden voor toetsing van deze end-of-waste criteria."@nl ;
+        skos:definition    "Deze koepelnorm beshrijft de analysemethoden voor opgewerkte afvalolie."@nl , "De product technische kwaliteitscriteria van opgewerkte afgewerkte olie voor gebruik als brandstof en de bijhorende referentiemethoden zijn beschreven in ISO 8217. Bijkomend dient opgewerkte afgewerkte olie voor gebruik als brandstof getoetst te worden aan de end-of-waste criteria die de milieuhygiënische parameters omvatten. Deze CMA methode geeft een overzicht van de te analyseren parameters en de bijhorende referentiemethoden voor toetsing van deze end-of-waste criteria."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/III/G" ;
         skos:prefLabel     "Analysemethoden voor opgewerkte afgewerkte olie"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_B_020  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_B_020.pdf> ;
@@ -1410,18 +1525,21 @@ co:WAC_IV_B_020  a         skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_6_E  a              skos:Concept ;
+        skos:definition    "Voorwaarden voor rapportering van monsternamegegevens en analyseresultaten    door een erkend laboratorium"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/6/E" ;
         skos:prefLabel     "Voorwaarden voor rapportering van monsternamegegevens en analyseresultaten door een erkend laboratorium"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_I_B  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_B.pdf> ;
-        skos:definition    "Voor grondwater en eluaten dient geen ontsluiting te worden uitgevoerd. De analysen worden uitgevoerd op de gefiltreerde (0.45 µm) monsters. Enkel indien een neerslag wordt waargenomen, dient een ontsluiting te worden uitgevoerd conform CMA/2/I/A.6.1 of CMA/2/I/A.6.3. Voor bodem, vaste en pasteuze afvalstoffen dient een destructie te worden uitgevoerd conform CMA/2/II/A.3. Voor materialen die als meststof/bodemverbeterend middel worden aangewend, dient de destructie te worden uitgevoerd conform CMA/2/IV/6 met uitzondering van vloeibare monsters met een droge stofgehalte < 2%. Deze worden behandeld als een afvalwater en ontsloten conform WAC/III/B/002. Voor olie dient een destructie te worden uitgevoerd conform CMA/2/III/F."@nl ;
+        skos:definition    "Voor grondwater en eluaten dient geen ontsluiting te worden uitgevoerd. De analysen worden uitgevoerd op de gefiltreerde (0.45 µm) monsters. Enkel indien een neerslag wordt waargenomen, dient een ontsluiting te worden uitgevoerd conform CMA/2/I/A.6.1 of CMA/2/I/A.6.3. Voor bodem, vaste en pasteuze afvalstoffen dient een destructie te worden uitgevoerd conform CMA/2/II/A.3. Voor materialen die als meststof/bodemverbeterend middel worden aangewend, dient de destructie te worden uitgevoerd conform CMA/2/IV/6 met uitzondering van vloeibare monsters met een droge stofgehalte < 2%. Deze worden behandeld als een afvalwater en ontsloten conform WAC/III/B/002. Voor olie dient een destructie te worden uitgevoerd conform CMA/2/III/F."@nl , "Deze koepelnorm beschrijft de methoden voor de bepaling van de elementen."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/B" ;
         skos:prefLabel     "Methoden voor bepaling van elementen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_VI_002  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/LUC_VI_002.pdf> ;
@@ -1442,16 +1560,20 @@ co:WAC_V_A_008  a          skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_I  a              skos:Concept ;
+        skos:definition    "In deze procedure wordt een methode beschreven voor de extractie, zuivering en analyse van een aantal matig vluchtige chloorkoolwaterstoffen zoals polychloorbifenylverbindingen (PCB’s),   organochloorpesticiden (OCP’s) en chloorbenzenen in bodem, sediment, slib, en afvalstoffen,  en  water. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/I" ;
         skos:prefLabel     "Organochloorpesticiden, polychloorbifenylen en hogere chloorbenzenen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_5_A.6  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Verkleinen monstergrootte en deelmonstername"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/A.6" ;
         skos:prefLabel     "Verkleinen monstergrootte en deelmonstername"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_VII_001  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/LUC_VII_001.pdf> ;
@@ -1472,14 +1594,16 @@ co:WAC_I_A_006  a          skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_T  a              skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de bepaling  van polycyclische aromatische koolwaterstoffen (PAK) en een aantal matig vluchtige chloorkoolwaterstoffen zoals polychloorbifenylen (PCB), organochloorpesticiden (OCP) en chloorbenzenen (CBz) met gaschromatografie gekoppeld aan een tandem massa spectrometer (GC-MS/MS). "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/T" ;
         skos:prefLabel     "Polyaromatische koolwaterstoffen, organochloorpesticiden, polychloorbifenylen en hogere chloorbenzenen met gaschromatografie-tandem massaspectrometrie (GC-MS/MS)"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_A.7  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.7.pdf> ;
-        skos:definition    "Het doel van deze procedure is het vastleggen van een representatieve en pragmatische staalname voor asbestverdachte (puinhoudende) bodem. In deze procedure worden de richtlijnen omtrent de visuele inspectie en bemonstering (kortweg veldonderzoek) vastgelegd voor een asbestonderzoek uitgevoerd in het kader van het Bodemdecreet en het VLAREBO."@nl ;
+        skos:definition    "Het doel van deze procedure is het vastleggen van een representatieve en pragmatische staalname voor asbestverdachte (puinhoudende) bodem. In deze procedure worden de richtlijnen omtrent de visuele inspectie en bemonstering (kortweg veldonderzoek) vastgelegd voor een asbestonderzoek uitgevoerd in het kader van het Bodemdecreet en het VLAREBO."@nl , "Deze procedure beschrijft de staalname van asbest in bodemlagen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.7" ;
         skos:prefLabel     "Monsterneming voor bepaling van asbest in bodemlagen"@nl ;
@@ -1497,19 +1621,22 @@ co:WAC_VI_A_004  a         skos:Concept ;
 
 co:CMA_2_II_A.8  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.8.pdf> ;
-        skos:definition    "Deze methode beschrijft de bepaling van het wateroplosbaar gedeelte van vaste stoffen met de enkelvoudige schudtest. Het resultaat van deze bepaling is de hoeveelheid materiaal die oplost onder gedefinieerde experimentele testcondities. Deze bepaling is gebaseerd op een 1 staps uitloging met water bij een vloeistof tot vaste stof verhouding van 10 l/kg op een materiaal met een deeltjesgrootte kleiner dan 10 mm."@nl ;
+        skos:definition    "Deze methode beschrijft de bepaling van het wateroplosbaar gedeelte van vaste stoffen met de enkelvoudige schudtest. Het resultaat van deze bepaling is de hoeveelheid materiaal die oplost onder gedefinieerde experimentele testcondities. Deze bepaling is gebaseerd op een 1 staps uitloging met water bij een vloeistof tot vaste stof verhouding van 10 l/kg op een materiaal met een deeltjesgrootte kleiner dan 10 mm."@nl , "Deze methode beschrijft de bepaling van het wateroplosbaar gedeelte van vaste stoffen met de enkelvoudige schudtest. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.8" ;
         skos:prefLabel     "Wateroplosbaar gedeelte"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_A.18  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.18.pdf> ;
-        skos:definition    "Deze procedure beschrijft de monstervoorbehandeling ter plaatse van vaste, vloeibare en pasteuze grondstoffen1 die moet uitgevoerd worden na de eigenlijke monsterneming, maar welke wel als onderdeel van het monsternemingsproces aanzien wordt. Deze methode is niet van toepassing voor de specifieke monstervoorbehandeling ter plaatse voor van monsters voor de analyse van asbest. Hiervoor wordt verwezen naar de richtlijnen in de betreffende monsternameprocedures (CMA/1/A.19, CMA/1/A.20)."@nl ;
+        skos:altLabel      "Afvalstoffen - grondstoffen Monstervoorbehandeling ter plaatse"@nl ;
+        skos:definition    "Deze proceudre beschrijft de monstervoorbehandeling ter plaatse van vaste, vloeibare en pasteuze materialen en/of afvalstoffen en/of grondstoffen  in het kader van VLAREM of VLAREMA. "@nl , "Deze procedure beschrijft de monstervoorbehandeling ter plaatse van vaste, vloeibare en pasteuze grondstoffen1 die moet uitgevoerd worden na de eigenlijke monsterneming, maar welke wel als onderdeel van het monsternemingsproces aanzien wordt. Deze methode is niet van toepassing voor de specifieke monstervoorbehandeling ter plaatse voor van monsters voor de analyse van asbest. Hiervoor wordt verwezen naar de richtlijnen in de betreffende monsternameprocedures (CMA/1/A.19, CMA/1/A.20)."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.18" ;
         skos:prefLabel     "Monstervoorbehandeling ter plaatse"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_A_029  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_A_029.pdf> ;
@@ -1521,10 +1648,12 @@ co:WAC_IV_A_029  a         skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_5_B.3  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Waterbodem"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/B.3" ;
         skos:prefLabel     "Waterbodem"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_I_003  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2018/LUC_I_003.pdf> ;
@@ -1537,25 +1666,29 @@ co:LUC_I_003  a            skos:Concept ;
 
 co:CMA_2_I_B.3  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_B.3.pdf> ;
-        skos:definition    "Deze procedure beschrijft de bepaling van kwik in grondwater, eluaten en destructievloeistoffen. Deze procedure beschrijft 2 normmethoden voor de bepaling van Hg: • NBN EN ISO 12846:2012 Water quality – Determination of mercury – Method using atomic absorption spectrometry (AAS) with and without enrichment. • NBN EN ISO 17852:2008 Water quality - Determination of mercury – Method using atomic fluorescence spectrometry (AFS)"@nl ;
+        skos:definition    "Deze procedure beschrijft de bepaling van kwik in grondwater, eluaten en destructievloeistoffen. Deze procedure beschrijft 2 normmethoden voor de bepaling van Hg: • NBN EN ISO 12846:2012 Water quality – Determination of mercury – Method using atomic absorption spectrometry (AAS) with and without enrichment. • NBN EN ISO 17852:2008 Water quality - Determination of mercury – Method using atomic fluorescence spectrometry (AFS)"@nl , "Deze procedure beschrijft de bepaling van kwik in grondwater, eluaten en destructievloeistoffen. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/B.3" ;
         skos:prefLabel     "Kwik"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_II_A.19  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.19.pdf> ;
-        skos:definition    "Deze methode beschrijft een test die informatie geeft over de uitloging uit bodem en bodemmaterialen bij een vloeistof-tot-vaste-stof verhouding (L/S) van 10 l/kg ds. Deze schudproef is eveneens van toepassing op zeefzand bij de zelfcontrole in het kader van het eenheidsreglement voor gerecycleerde granulaten https://www.ovam.be/gerecycleerdegranulaten. Deze methode is geschikt voor bepaling van de uitloging van anorganische componenten. De methode is van toepassing op partijen die redelijkerwijs kunnen aanzien worden als bodem. Het testmateriaal heeft een korrelgrootte kleiner dan of gelijk aan 4 mm (met of zonder verkleining)."@nl ;
+        skos:definition    "Deze procedure beschrijft een methode die informatie geeft over de uitloging uit bodem en bodemmaterialen bij een vloeistof-tot-vaste-stof verhouding (L/S) van 10 l/kg ds. "@nl , "Deze methode beschrijft een test die informatie geeft over de uitloging uit bodem en bodemmaterialen bij een vloeistof-tot-vaste-stof verhouding (L/S) van 10 l/kg ds. Deze schudproef is eveneens van toepassing op zeefzand bij de zelfcontrole in het kader van het eenheidsreglement voor gerecycleerde granulaten https://www.ovam.be/gerecycleerdegranulaten. Deze methode is geschikt voor bepaling van de uitloging van anorganische componenten. De methode is van toepassing op partijen die redelijkerwijs kunnen aanzien worden als bodem. Het testmateriaal heeft een korrelgrootte kleiner dan of gelijk aan 4 mm (met of zonder verkleining)."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.19" ;
         skos:prefLabel     "Uitloging van anorganische componenten uit bodemmaterialen met de enkelvoudige schudproef"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_IV_6  a           skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de methode voor het bereiden van extracten en analyseoplossingen van bodemverbeterende middelen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/IV/6" ;
         skos:prefLabel     "Bereiding van extracten en analyseoplossingen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_A_030  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_A_030.pdf> ;
@@ -1590,7 +1723,8 @@ co:CMA_2_II_A.20  a        skos:Concept ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.20" ;
         skos:prefLabel     "pH in bodem en waterbodem"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_3_R.6  a            skos:Concept ;
         skos:inScheme      vlcs:observatieprocedure ;
@@ -1623,11 +1757,12 @@ coo:water  a            skos:Collection ;
 
 co:CMA_2_II_C.2  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_C.2.pdf> ;
-        skos:definition    "Het doel van deze procedure is het vaststellen van de soort (chrysotiel, amosiet, crocidoliet, vezelvormig antophylliet, vezelvormig actinoliet, vezelvormig tremoliet) en de hechtgebondenheid (voor de kwalitatieve bepaling), en (voor een kwantitatieve bepaling) van het massapercentage asbest en de concentratie asbest in monsters van gerecycleerde granulaten of bodem."@nl ;
+        skos:definition    "In deze procedure worden de richtlijnen vastgelegd omtrent de analyse van asbest van de monsters die worden genomen volgens de specifieke monsternameprocedures m.b.t. asbest in granulaten of in bodem, zoals beschreven in de CMA. "@nl , "Het doel van deze procedure is het vaststellen van de soort (chrysotiel, amosiet, crocidoliet, vezelvormig antophylliet, vezelvormig actinoliet, vezelvormig tremoliet) en de hechtgebondenheid (voor de kwalitatieve bepaling), en (voor een kwantitatieve bepaling) van het massapercentage asbest en de concentratie asbest in monsters van gerecycleerde granulaten of bodem."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/C.2" ;
         skos:prefLabel     "Asbest in gerecycleerde granulaten en bodem"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_A_009  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_A_009.pdf> ;
@@ -1666,10 +1801,12 @@ co:LUC_IV_009  a           skos:Concept ;
         dcat:theme         gemet:270 .
 
 co:CMA_2_IV_13  a          skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de methode voor de bepaling van de zuurtegraad en elektrische geleidbaarheid van bodemverbeterende middelen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/IV/13" ;
         skos:prefLabel     "Zuurtegraad en elektrische geleidbaarheid"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_B_026  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_B_026.pdf> ;
@@ -1690,16 +1827,20 @@ co:WAC_V_A_003  a          skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_D  a              skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de kwantitatieve bepaling van per- en polyfluorverbindingen in bodem en sediment met behulp van vloeistofchromatografie. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/D" ;
         skos:prefLabel     "Per- en polyfluorverbindingen (PFAS)"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_5_A.1  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - inleiding"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/A.1" ;
         skos:prefLabel     "Inleiding, definities en referenties"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_A_010  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_A_010.pdf> ;
@@ -1721,22 +1862,25 @@ co:WAC_I_A_001  a          skos:Concept ;
 
 co:CMA_2_I_A.6.1  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_A.6.1.pdf> ;
-        skos:definition    "Deze procedure beschrijft een methode voor de extractie van spoorelementen uit een waterstaal (bijvoorbeeld grond-, drink-, oppervlakte- en afvalwater) gebruik makend van aqua regia als ontsluitingsmedium. De methode is toepasbaar op alle types van water met een maximale hoeveelheid vaste stoffen in suspensie van 20 g/l (zie WAC/III/D/002) en een concentratie totale organische koolstof (TOC), uitgedrukt als koolstof, kleiner dan 5 g/l (zie CMA/2/I/D.7)."@nl ;
+        skos:definition    "Deze procedure beschrijft een methode voor de extractie van spoorelementen uit een waterstaal (bijvoorbeeld grond-, drink-, oppervlakte- en afvalwater) gebruik makend van aqua regia als ontsluitingsmedium. De methode is toepasbaar op alle types van water met een maximale hoeveelheid vaste stoffen in suspensie van 20 g/l (zie WAC/III/D/002) en een concentratie totale organische koolstof (TOC), uitgedrukt als koolstof, kleiner dan 5 g/l (zie CMA/2/I/D.7)."@nl , "Deze procedure beschrijft een methode voor de extractie van spoorelementen uit een waterstaal (bijvoorbeeld grond-, drink-, oppervlakte- en afvalwater) gebruik makend van aqua regia als ontsluitingsmedium."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/A.6.1" ;
         skos:prefLabel     "Ontsluiting voor de bepaling van geselecteerde elementen in water - aqua regia ontsluiting"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_I_A.1  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_A.1.pdf> ;
-        skos:definition    "Deze procedure beschrijft een methode voor de bepaling van de pH waarde in regen-, drink en mineraal water, zwembadwater, oppervlakte- en grondwater, huishoudelijk en industrieel afvalwater, en vloeibare slib in een gebied tussen pH 2 en pH 12 met een ionensterkte beneden I = 0,3 mol/kg solvent (λ25°C < 2000 mS/cm) en in een temperatuursgebied tussen 0°C en 50°C."@nl ;
+        skos:definition    "Deze procedure beschrijft een methode voor de bepaling van de pH waarde in regen-, drink en mineraal water, zwembadwater, oppervlakte- en grondwater, huishoudelijk en industrieel afvalwater, en vloeibare slib in een gebied tussen pH 2 en pH 12 met een ionensterkte beneden I = 0,3 mol/kg solvent (25°C < 2000 mS/cm) en in een temperatuursgebied tussen 0°C en 50°C."@nl , "Deze procedure beschrijft een methode voor de bepaling van de pH waarde in regen-, drink en mineraal water, zwembadwater, oppervlakte- en grondwater, huishoudelijk en industrieel afvalwater, en vloeibare slib in een gebied tussen pH 2 en pH 12 met een ionensterkte beneden I = 0,3 mol/kg solvent (λ25°C < 2000 mS/cm) en in een temperatuursgebied tussen 0°C en 50°C."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/A.1" ;
         skos:prefLabel     "Zuurtegraad"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_A.2  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.2.pdf> ;
+        skos:definition    "Deze procedure beschrijft de staalrname voor grondwater in kader van bodemonderzoek"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.2" ;
         skos:prefLabel     "Grondwater"@nl ;
@@ -1745,11 +1889,12 @@ co:CMA_1_A.2  a            skos:Concept ;
 
 co:CMA_2_I_D.8  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_D.8.pdf> ;
-        skos:definition    "De methode beschrijft de bepaling van de fenolindex in water (oa. eluaten). De term fenolindex omvat de fenolen welke na stoomdestillatie bij pH 1.4 en zonder chloroform extractie reageren met 4-aminoantipyrine."@nl ;
+        skos:definition    "De methode beschrijft de bepaling van de fenolindex in water (oa. eluaten). De term fenolindex omvat de fenolen welke na stoomdestillatie bij pH 1.4 en zonder chloroform extractie reageren met 4-aminoantipyrine. "@nl , "De methode beschrijft de bepaling van de fenolindex in water (oa. eluaten). De term fenolindex omvat de fenolen welke na stoomdestillatie bij pH 1.4 en zonder chloroform extractie reageren met 4-aminoantipyrine."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/D.8" ;
         skos:prefLabel     "Fenolindex"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_IV_010  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/LUC_IV_010.pdf> ;
@@ -1768,11 +1913,12 @@ co:CMA_7_A.4  a            skos:Concept ;
 
 co:CMA_2_II_A.3  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.3.pdf> ;
-        skos:definition    "Deze methode beschrijft de ontsluitingsprocedure met een zuurmengsel van HBF4, HNO3 en HCl voor de ontsluiting van bodem, vaste en pasteuze materialen. Bij de destructie worden de elementen vrijgezet en omgezet in oplosbare zouten zodat zij aansluitend gemeten kunnen worden met inductief gekoppeld plasma atoom emissie spectrometrie (ICP-AES), vlam atomaire absorptie spectrometrie (AAS), atomaire fluorescentie spectrometrie (AFS) of andere meetmethoden."@nl ;
+        skos:definition    "Deze methode beschrijft de ontsluitingsprocedure van bodem, vaste en pasteuze materialen door het gebruik van een zuurmengsel bestaande uit zoutzuur (HCl), salpeterzuur (HNO3) en tetrafluorboor (HBF4) als de ontsluitingsoplossing."@nl , "Deze methode beschrijft de ontsluitingsprocedure met een zuurmengsel van HBF4, HNO3 en HCl voor de ontsluiting van bodem, vaste en pasteuze materialen. Bij de destructie worden de elementen vrijgezet en omgezet in oplosbare zouten zodat zij aansluitend gemeten kunnen worden met inductief gekoppeld plasma atoom emissie spectrometrie (ICP-AES), vlam atomaire absorptie spectrometrie (AAS), atomaire fluorescentie spectrometrie (AFS) of andere meetmethoden."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.3" ;
         skos:prefLabel     "Ontsluitingsmethode voor de bepaling van elementen in bodem, vaste en pasteuze materialen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_D_032  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_D_032.pdf> ;
@@ -1784,18 +1930,22 @@ co:WAC_III_D_032  a        skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_Z  a              skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de toepassing van GPC als zuiveringsmethode voor extracten ter bepaling van organische parameters. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/Z" ;
         skos:prefLabel     "Gel permeatie chromatografie (GPC) voor de zuivering van monsterextracten"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_A.13  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.13.pdf> ;
-        skos:definition    "In deze methode worden de basisbegrippen en referenties m.b.t. tot monsterneming en monstervoorbehandeling ter plaatse opgelijst. De algemene principes, concrete richtlijnen inzake monsternemingstechnieken en de monstervoorbehandeling ter plaatse komen aan bod"@nl ;
+        skos:altLabel      "Afvalstoffen – grondstoffen   Inleiding, definities en referenties"@nl ;
+        skos:definition    "In deze methode worden de basisbegrippen en referenties m.b.t. tot monsterneming en monstervoorbehandeling ter plaatse opgelijst. De algemene principes, concrete richtlijnen inzake monsternemingstechnieken en de monstervoorbehandeling ter plaatse komen aan bod"@nl , "Inleiding voor algemene methoden voor de monsterneming en monstervoorbehandeling ter plaatse van vaste, vloeibare en pasteuze materialen en/of afvalstoffen en/of grondstoffen  in het kader van VLAREM of VLAREMA. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.13" ;
         skos:prefLabel     "Inleiding, definities en referenties"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_A_024  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_A_024.pdf> ;
@@ -1821,40 +1971,47 @@ co:WAC_III_D_002  a        skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_2_IV_25  a          skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de methode voor de bepaling van de stabiliteit met gesloten respirometer van bodemverbeterende middelen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/IV/25" ;
         skos:prefLabel     "Stabiliteit met gesloten respirometer"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_4_A  a              skos:Concept ;
+        skos:definition    "De bacteriologische analyses van afgeleide producten die vrijkomen bij verwerkers van dierlijke bijproducten: vaste fracties (beendermeel, verenmeel, bloedmeel, …. ) en vloeibare fracties (vet) omvatten de volgende procedures: de bepaling van het aantal Enterobacteriaceae, de detectie van Salmonella en de bepaling van Clostridium perfringens. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/4/A" ;
         skos:prefLabel     "Bacteriologische analyses van eindproducten bij de verwerking van dierlijke bijproducten"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_II_A.9.4  a       skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.9.4.pdf> ;
-        skos:definition    "Deze methode beschrijft de uitloging uit vaste stoffen met een deeltjesgrootte kleiner dan 4 mm (met of zonder verkleining van het materiaal) in de tweestapsschudtest bij een vloeistof-tot-vastestof verhouding (L/S) van 2 l/kg ds en 8 l/kg ds (opeenvolgend). De methode is geschikt voor bepaling van de uitloging van anorganische componenten uit granulaire materialen en slibs. Het resultaat van deze bepaling is de afgifte van componenten (emissie) in mg per kg droge stof die optreedt onder de experimentele testcondities, zoals hierna beschreven."@nl ;
+        skos:definition    "Deze methode beschrijft de uitloging uit vaste stoffen met een deeltjesgrootte kleiner dan 4 mm (met of zonder verkleining van het materiaal) in de tweestapsschudtest bij een vloeistof-tot-vastestof verhouding (L/S) van 2 l/kg ds en 8 l/kg ds (opeenvolgend). De methode is geschikt voor bepaling van de uitloging van anorganische componenten uit granulaire materialen en slibs. Het resultaat van deze bepaling is de afgifte van componenten (emissie) in mg per kg droge stof die optreedt onder de experimentele testcondities, zoals hierna beschreven."@nl , "Deze methode beschrijft de uitloging uit vaste stoffen met een deeltjesgrootte kleiner dan 4 mm (met of zonder verkleining van het materiaal) in de tweestapsschudtest bij een vloeistof-tot-vaste-stof verhouding (L/S) van 2 l/kg ds en 8 l/kg ds (opeenvolgend). "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.9.4" ;
         skos:prefLabel     "Uitloging van anorganische componenten met de tweestapsschudtest"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_II_A.14  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.14.pdf> ;
-        skos:definition    "Voor de karakterisatie van houtafval en de toetsing aan de richtwaarden voor niet-verontreinigd behandeld houtafval (cfr. art. 5.2.3bis.4.14 §1. van Vlarem II) dienen verschillende parameters bepaald te worden. Deze parameters zijn arseen, koper, lood, chroom, fluor, chloor, pentachloorfenol en benzo-a-pyreen. Een beschrijving van de toe te passen analysemethoden is terug te vinden in de bestaande CMA methoden. Een overzicht van de parameters en de bijhorende referentiemeetmethoden zijn beschreven in Tabel 1. In Tabel 2 zijn alternatieve meettechnieken opgenomen."@nl ;
+        skos:definition    "Voor de karakterisatie van houtafval en de toetsing aan de richtwaarden voor niet-verontreinigd behandeld houtafval (cfr. art. 5.2.3bis.4.14 §1. van Vlarem II) dienen verschillende parameters bepaald te worden. Deze parameters zijn arseen, koper, lood, chroom, fluor, chloor, pentachloorfenol en benzo-a-pyreen. Een beschrijving van de toe te passen analysemethoden is terug te vinden in de bestaande CMA methoden. Een overzicht van de parameters en de bijhorende referentiemeetmethoden zijn beschreven in Tabel 1. In Tabel 2 zijn alternatieve meettechnieken opgenomen."@nl , "Deze koepelnorm beschrijft methoden voor de analyse vanhoutafval."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.14" ;
         skos:prefLabel     "Analysemethoden voor houtafval"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_IV_1  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_IV_1.pdf> ;
-        skos:definition    "Deze procedure is van toepassing voor alle matrixtypes (met uitzondering van vloeibare monsters met een droge stof gehalte van < 2%)."@nl ;
+        skos:definition    "Deze procedure is van toepassing voor alle matrixtypes (met uitzondering van vloeibare monsters met een droge stof gehalte van < 2%)."@nl , "Deze procedure beschrijft de methode voor de bepaling van het vochtgehalte/droogrest van bodemverbeterende middelen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/IV/1" ;
         skos:prefLabel     "Vocht/droogrest"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_V_B_004  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_V_B_004.pdf> ;
@@ -1884,10 +2041,12 @@ co:WAC_IV_A_006  a         skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_R.1  a            skos:Concept ;
+        skos:definition    "Deze methode beschrijft de kwantitatieve bepaling van het minerale olie gehalte in bodem, sediment, slib, vast afval en water met behulp van gaschromatografie. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/R.1" ;
         skos:prefLabel     "Minerale olie met GC/FID"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_0_006  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2018/LUC_0_006.pdf> ;
@@ -1904,7 +2063,8 @@ co:CMA_2_I_C.6  a          skos:Concept ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/C.6" ;
         skos:prefLabel     "Nitrietstikstof en nitraatstikstof en de som van beide met behulp van doorstroomanalyse"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_A_004  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_A_004.pdf> ;
@@ -1926,7 +2086,7 @@ co:LUC_IV_004  a           skos:Concept ;
 
 coo:bodem  a            skos:Collection ;
         skos:inScheme   vlcs:observatieprocedure ;
-        skos:member     co:CMA_1_A.8 , co:BOC , co:CMA_1_A.7 , co:CMA_1_A.0 , co:CMA_1_A.6 , co:CMA_1_A.5 , co:CMA_1_A.4 , co:CMA_1_A.3 , co:CMA_1_A.2 , co:CMA_1_A.1 ;
+        skos:member     co:CMA_2_IV_4 , co:CMA_6_D , co:CMA_2_III_D , co:CMA_2_II_A.9.4 , co:CMA_2_IV_11 , co:CMA_2_I_C.7 , co:CMA_2_IV_21 , co:CMA_2_II_A.4 , co:CMA_3_E , co:CMA_2_II_A.21 , co:CMA_2_II_A.22 , co:CMA_2_I_B.2 , co:CMA_2_II_A.8 , co:CMA_5_A.3 , co:CMA_3_I , co:CMA_2_II_A.13 , co:CMA_3_Y , co:BOC , co:CMA_1_A.14 , co:CMA_2_I_C.2.1 , co:CMA_7_A.5 , co:CMA_3_A , co:CMA_3_N , co:CMA_2_I_A.1 , co:CMA_2_III_A , co:CMA_2_II_A.9.2 , co:CMA_5_B.3 , co:CMA_6_C , co:CMA_3_U , co:CMA_1_D , co:CMA_2_II_A.1 , co:CMA_2_II_A.2 , co:CMA_2_IV_6 , co:CMA_2_III_F , co:CMA_1_A.2 , co:CMA_3_R.4 , co:CMA_4_A , co:CMA_2_II_A.6 , co:CMA_2_I_E.1 , co:CMA_5_B.7 , co:CMA_5_A.1 , co:CMA_3_W , co:CMA_1_A.6 , co:CMA_2_I_A , co:CMA_2_I_B , co:CMA_3_H , co:CMA_1_A.10 , co:CMA_5_A.5 , co:CMA_5_A.6 , co:CMA_1_A.13 , co:CMA_1_A.21 , co:CMA_5_B.1 , co:CMA_1_A.17 , co:CMA_6_A , co:CMA_2_I_A.3 , co:CMA_3_C , co:CMA_5_A.9 , co:CMA_1_A.1 , co:CMA_2_I_D.8 , co:CMA_6_E , co:CMA_2_IV_24 , co:CMA_5_B.5 , co:CMA_2_II_A.11 , co:CMA_3_R.3 , co:CMA_2_I_C.8 , co:CMA_2_I_C.1.1 , co:CMA_1_A.4 , co:CMA_3_F , co:CMA_2_I_B.3 , co:CMA_1_A.11 , co:CMA_1_A.8 , co:CMA_2_I_D , co:CMA_3_K , co:CMA_2_II_A.14 , co:CMA_2_IV_19 , co:CMA_1_A.15 , co:CMA_2_I_C.2.2 , co:CMA_1_A.20 , co:CMA_3_B , co:CMA_2_I_A.2 , co:CMA_2_IV_3 , co:CMA_2_III_C , co:CMA_2_II_A.9.3 , co:CMA_5_B.4 , co:CMA_2_II_C.2 , co:CMA_2_IV_10 , co:CMA_2_IV_13 , co:CMA_2_I_C.6 , co:CMA_3_R.1 , co:CMA_1_A.18 , co:CMA_1_A.19 , co:CMA_2_I_C.1.2 , co:CMA_2_IV_20 , co:CMA_2_II_A.3 , co:CMA_2_IV_7 , co:CMA_2_III_G , co:CMA_2_II_A.20 , co:CMA_1_A.3 , co:CMA_2_I_B.1 , co:CMA_2_I_E.4 , co:CMA_3_R.5 , co:CMA_7_A , co:CMA_2_II_A.7 , co:CMA_2_I_E.2 , co:CMA_5_B.8 , co:CMA_5_A.2 , co:CMA_2_II_A.12 , co:CMA_1_A.7 , co:CMA_2_I_B.5 , co:CMA_2_II_B.2 , co:CMA_2_I_C , co:CMA_2_I_A.6.3 , co:CMA_2_II_A.24 , co:CMA_5_A.7 , co:CMA_2_II_A.16 , co:CMA_2_II_A.19 , co:CMA_2_IV_1 , co:CMA_2_II_A.9.1 , co:CMA_5_B.2 , co:CMA_2_I_C.3 , co:CMA_6_B , co:CMA_3_Q , co:CMA_3_T , co:CMA_1_C , co:CMA_2_I_A.7 , co:CMA_3_D , co:CMA_2_III_E , co:CMA_2_II_A.9.5 , co:CMA_2_IV_22 , co:CMA_2_II_A.5 , co:CMA_2_IV_25 , co:CMA_2_I_A.6.1 , co:CMA_5_B.6 , co:CMA_2_I_E.3 , co:CMA_2_II_C.3 , co:CMA_1_A.5 , co:CMA_3_V , co:CMA_2_I_B.6 , co:CMA_3_G , co:CMA_2_II_B.1 , co:CMA_5_A.4 , co:CMA_1_A.9 , co:CMA_3_Z , co:CMA_2_I_E , co:CMA_3_L , co:CMA_7_A.6 , co:CMA_1_A.16 , co:CMA_2_I_C.2.3 , co:CMA_5_A.8 , co:CMA_1_A.0 , co:CMA_1_B , co:CMA_2_I_D.7 ;
         skos:prefLabel  "Collectie van observatieprocedures voor bodem."@nl .
 
 co:WAC_IV_B_021  a         skos:Concept ;
@@ -1940,16 +2100,20 @@ co:WAC_IV_B_021  a         skos:Concept ;
 
 co:CMA_2_I_C  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_C.pdf> ;
+        skos:definition    "Deze koepelnorm beschrijft de methoden voor de bepaling van de anionen."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/C" ;
         skos:prefLabel     "Methoden voor bepaling van anionen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_IV_19  a          skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de methode voor de bepaling van de elementen van bodemverbeterende middelen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/IV/19" ;
         skos:prefLabel     "Elementen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_V_A_009  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_V_A_009.pdf> ;
@@ -1967,10 +2131,12 @@ co:CMA_3_J  a              skos:Concept ;
         skos:topConceptOf  vlcs:observatieprocedure .
 
 co:CMA_5_A.7  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Apparatuur en technieken"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/A.7" ;
         skos:prefLabel     "Apparatuur en Technieken"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_VII_002  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/LUC_VII_002.pdf> ;
@@ -1983,15 +2149,16 @@ co:LUC_VII_002  a          skos:Concept ;
 
 co:CMA_2_I_A.7  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_A.7.pdf> ;
-        skos:definition    "De beschreven methode laat om de opgeloste zuurstof te bepalen in water door middel van een elektrochemische cel die afgesloten is met gaspermeabel membraan. De methode kan toegepast worden op alle soorten water. Bij gebruik voor zout water, zoals zeewater, moet er een correctie voor het zoutgehalte toe gepast worden. Opgeloste zuurstof kan ook bepaald worden met jodometrie (ISO 5813) of met een luminescentie sensor (EPA method 360.3)."@nl ;
+        skos:definition    "De beschreven methode laat om de opgeloste zuurstof te bepalen in water door middel van een elektrochemische cel die afgesloten is met gaspermeabel membraan. De methode kan toegepast worden op alle soorten water. Bij gebruik voor zout water, zoals zeewater, moet er een correctie voor het zoutgehalte toe gepast worden. Opgeloste zuurstof kan ook bepaald worden met jodometrie (ISO 5813) of met een luminescentie sensor (EPA method 360.3)."@nl , "De beschreven methode laat om de opgeloste zuurstof te bepalen in water door middel van een elektrochemische cel die afgesloten is met gaspermeabel membraan. De methode kan toegepast worden op alle soorten water. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/A.7" ;
         skos:prefLabel     "Opgeloste zuurstof"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_A.8  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.8.pdf> ;
-        skos:definition    "De procedure behandelt de staalnametechnieken die toegepast worden bij het bemonsteren van hopen/partijen steekvaste en niet-steekvaste bodemmaterialen aanwezig in opslag zoals in TOP’s (tijdelijke opslagplaatsen), CGR’s (centra voor grondreiniging) en CSV’s (centra voor sedimentverwerking) en in het kader van bodemonderzoeken. Het doel van de procedure is om een representatief staal te bekomen voor de bepaling van parameters in hopen/partijen steekvaste en niet-steekvaste bodemmaterialen. Het aantal te nemen stalen uit een partij bodemmaterialen en de keuze van de techniek is terug te vinden in de standaardprocedure ‘Regeling voor gebruik van bodemmaterialen – Opmaak van een technisch verslag’ en de Code van Goede Praktijk – Opslag, bewerking en/of reiniging van bodemmaterialen."@nl ;
+        skos:definition    "De procedure behandelt de staalnametechnieken die toegepast worden bij het bemonsteren van hopen/partijen steekvaste en niet-steekvaste bodemmaterialen aanwezig in opslag zoals in TOP’s (tijdelijke opslagplaatsen), CGR’s (centra voor grondreiniging) en CSV’s (centra voor sedimentverwerking) en in het kader van bodemonderzoeken. Het doel van de procedure is om een representatief staal te bekomen voor de bepaling van parameters in hopen/partijen steekvaste en niet-steekvaste bodemmaterialen. Het aantal te nemen stalen uit een partij bodemmaterialen en de keuze van de techniek is terug te vinden in de standaardprocedure ‘Regeling voor gebruik van bodemmaterialen – Opmaak van een technisch verslag’ en de Code van Goede Praktijk – Opslag, bewerking en/of reiniging van bodemmaterialen."@nl , "De procedure behandelt de staalnametechnieken die toegepast worden bij het bemonsteren van hopen/partijen steekvaste en niet-steekvaste bodemmaterialen aanwezig in opslag zoals in TOP’s (tijdelijke opslagplaatsen), CGR’s (centra voor grondreiniging) en CSV’s (centra voor sedimentverwerking) en in het kader van bodemonderzoeken. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.8" ;
         skos:prefLabel     "Staalname van hopen/partijen bodemmaterialen"@nl ;
@@ -1999,24 +2166,29 @@ co:CMA_1_A.8  a            skos:Concept ;
         dcat:theme         gemet:7884 .
 
 co:CMA_3_U  a              skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de werkwijze die gevolgd wordt bij de identificatie en semi-kwantitatieve bepaling van de aanwezige organische verbindingen in water, bodem, sediment, slib, vaste afvalstoffen, olie en solventmengsels. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/U" ;
         skos:prefLabel     "Organische screening met GC/MS"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_IV_20  a          skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de methode voor de bepaling van kwik van bodemverbeterende middelen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/IV/20" ;
         skos:prefLabel     "Kwik"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_A.19  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.19.pdf> ;
-        skos:definition    "In deze procedure worden de richtlijnen vastgelegd omtrent de monsterneming en monstervoorbehandeling ter plaatse (kortweg veldonderzoek) m.b.t. een asbestonderzoek. Deze methode is enkel van toepassing op partijen die bemonsterd werden conform CMA/1/A.14 en CMA/1/.15. Voor gerecycleerde granulaten die reeds als fundering of verharding of ophoging van wegen of terreinen zijn toegepast, wordt een specifieke monsternemingsmethode toegepast, zoals beschreven in CMA/1/A.20."@nl ;
+        skos:definition    "In deze procedure worden de richtlijnen vastgelegd omtrent de monsterneming en monstervoorbehandeling ter plaatse (kortweg veldonderzoek) m.b.t. een asbestonderzoek. Deze methode is enkel van toepassing op partijen die bemonsterd werden conform CMA/1/A.14 en CMA/1/.15. Voor gerecycleerde granulaten die reeds als fundering of verharding of ophoging van wegen of terreinen zijn toegepast, wordt een specifieke monsternemingsmethode toegepast, zoals beschreven in CMA/1/A.20."@nl , "Deze procedure beschrijft de monsterneming voor bepaling van asbest in gerecycleerde granulaten."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.19" ;
         skos:prefLabel     "Monsterneming voor de bepaling van asbest in gerecycleerde granulaten"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_C_050  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_C_050.pdf> ;
@@ -2028,16 +2200,20 @@ co:WAC_III_C_050  a        skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_5_B.4  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Bodem"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/B.4" ;
         skos:prefLabel     "Bodem"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_IV_7  a           skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de methode voor de bepaling van het ammonium- en nitraatgehalte van bodemverbeterende middelen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/IV/7" ;
         skos:prefLabel     "Ammonium- en nitraatstikstof"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_B_001  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_B_001.pdf> ;
@@ -2059,11 +2235,12 @@ co:WAC_III_C_020  a        skos:Concept ;
 
 co:CMA_1_A.20  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.20.pdf> ;
-        skos:definition    "Het doel van deze procedure is het vaststellen van een representatieve en pragmatische staalnamestrategie voor asbestverdachte verhardings- of funderingslaag. In deze procedure worden de richtlijnen omtrent een visuele inspectie en bemonsteringsstrategie (kortweg veldonderzoek) voor een asbestonderzoek vastgelegd."@nl ;
+        skos:definition    "Het doel van deze procedure is het vaststellen van een representatieve en pragmatische staalnamestrategie voor asbestverdachte verhardings- of funderingslaag. In deze procedure worden de richtlijnen omtrent een visuele inspectie en bemonsteringsstrategie (kortweg veldonderzoek) voor een asbestonderzoek vastgelegd."@nl , "Deze procedure beschrijft de monsterneming voor bepaling van asbest in verhardings- en funderingslagen."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.20" ;
         skos:prefLabel     "Monsterneming voor de bepaling van asbest in verhardings- en funderingslagen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_A_031  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_A_031.pdf> ;
@@ -2103,11 +2280,12 @@ co:WAC_IV_A_001  a         skos:Concept ;
 
 co:CMA_2_II_A.21  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.21.pdf> ;
-        skos:definition    "De methode beschrijft een procedure voor de bepaling van de geleidbaarheid. Voorbehandelde bodem wordt gedurende 30 minuten met water geëxtraheerd bij 20 ± 1 °C bij een extractieverhouding van 1:5 (m/V) om de electrolyten op te lossen. De specifieke electrische geleidbaarheid van het gefiltreerde extract wordt gemeten en het resultaat wordt gecorrigeerd naar een temperatuur van 25°C."@nl ;
+        skos:definition    "De methode beschrijft een procedure voor de bepaling van de geleidbaarheid. Voorbehandelde bodem wordt gedurende 30 minuten met water geëxtraheerd bij 20 ± 1 °C bij een extractieverhouding van 1:5 (m/V) om de electrolyten op te lossen. De specifieke electrische geleidbaarheid van het gefiltreerde extract wordt gemeten en het resultaat wordt gecorrigeerd naar een temperatuur van 25°C."@nl , "De methode beschrijft een procedure voor de bepaling van de geleidbaarheid. Voorbehandelde bodem wordt gedurende 30 minuten met water geëxtraheerd bij 20 ± 1 °C bij een extractieverhouding van 1:5 (m/V) om de electrolyten op te lossen. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.21" ;
         skos:prefLabel     "Geleidbaarheid in bodem"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_0_001  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2018/LUC_0_001.pdf> ;
@@ -2120,19 +2298,21 @@ co:LUC_0_001  a            skos:Concept ;
 
 co:CMA_2_II_C.3  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_C.3.pdf> ;
-        skos:definition    "Het doel van deze procedure is het vaststellen van het gehalte, de soort (chrysotiel, amosiet, crocidoliet, vezelvormig antophylliet, vezelvormig actinoliet, vezelvormig tremoliet) en de hechtgebondenheid van asbest in verhardings- en funderingslagen en bodem. In deze procedure worden de richtlijnen vastgelegd omtrent de analyse van asbest van de monsters die worden genomen volgens de bemonsteringsprocedure en visuele inspectie beschreven in de bemonsteringsprocedures CMA/1/A.20 (funderings- en verhardingslagen) en CMA/1/A/.7 (bodem)."@nl ;
+        skos:definition    "In deze procedure worden de richtlijnen vastgelegd omtrent de analyse van asbest van de monsters die worden genomen volgens de bemonsteringsprocedure en visuele inspectie beschreven in de bemonsteringsprocedures CMA/1/A.20 (funderings- en verhardingslagen) en CMA/1/A/.7 (bodem). "@nl , "Het doel van deze procedure is het vaststellen van het gehalte, de soort (chrysotiel, amosiet, crocidoliet, vezelvormig antophylliet, vezelvormig actinoliet, vezelvormig tremoliet) en de hechtgebondenheid van asbest in verhardings- en funderingslagen en bodem. In deze procedure worden de richtlijnen vastgelegd omtrent de analyse van asbest van de monsters die worden genomen volgens de bemonsteringsprocedure en visuele inspectie beschreven in de bemonsteringsprocedures CMA/1/A.20 (funderings- en verhardingslagen) en CMA/1/A/.7 (bodem)."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/C.3" ;
         skos:prefLabel     "Asbest in verhardings-, funderings- en bodemlagen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_III_C  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_III_C.pdf> ;
-        skos:definition    "De methode is toepasbaar voor het bepalen van het vlampunt van afvalolie in een gesloten vat met het toestel van Pensky - Martens. De methode wordt gebruikt om de verontreiniging van olie door (kleine hoeveelheden) vluchtige producten in te schatten. De methode is toepasbaar voor vloeistoffen met een vlampunt boven 40°C."@nl ;
+        skos:definition    "De methode is toepasbaar voor het bepalen van het vlampunt van afvalolie in een gesloten vat met het toestel van Pensky - Martens. De methode wordt gebruikt om de verontreiniging van olie door (kleine hoeveelheden) vluchtige producten in te schatten. De methode is toepasbaar voor vloeistoffen met een vlampunt boven 40°C."@nl , "De methode is toepasbaar voor het bepalen van het vlampunt van afvalolie in een gesloten vat met het toestel van Pensky - Martens. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/III/C" ;
         skos:prefLabel     "Vlampunt"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_C_002  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_C_002.pdf> ;
@@ -2145,17 +2325,20 @@ co:WAC_III_C_002  a        skos:Concept ;
 
 co:CMA_2_I_C.2.1  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_C.2.1.pdf> ;
-        skos:definition    "De beschreven methode laat toe het totale (vrije en niet-chlooroxideerbare) cyanidegehalte te bepalen in waterige oplossingen. De niet-chlooroxideerbare cyaniden worden berekend uit het verschil tussen de totaal cyaniden en de vrije cyaniden (zie CMA/2/I/C.2.3). Indien de vrije cyaniden < 1 mg/kg ds worden deze bij de verschilberekening gelijkgesteld aan 0 (lower bound benadering). Chlooroxydeerbare worden gelijkgesteld aan vrije cyaniden. De toxiciteit van cyanideverbindingen wordt bepaald door het vermogen om CN- ionen af te splitsen en de daarmee gepaard gaande vorming van HCN."@nl ;
+        skos:definition    "De beschreven methode laat toe het totale (vrije en niet-chlooroxideerbare) cyanidegehalte te bepalen in waterige oplossingen. De niet-chlooroxideerbare cyaniden worden berekend uit het verschil tussen de totaal cyaniden en de vrije cyaniden (zie CMA/2/I/C.2.3). Indien de vrije cyaniden < 1 mg/kg ds worden deze bij de verschilberekening gelijkgesteld aan 0 (lower bound benadering). Chlooroxydeerbare worden gelijkgesteld aan vrije cyaniden. De toxiciteit van cyanideverbindingen wordt bepaald door het vermogen om CN- ionen af te splitsen en de daarmee gepaard gaande vorming van HCN."@nl , "De beschreven methode laat toe het totale (vrije en niet-chlooroxideerbare) cyanidegehalte te bepalen in waterige oplossingen. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/C.2.1" ;
         skos:prefLabel     "Fotometrische bepaling van het totale cyanidegehalte na manuele destillatie"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_6_A  a              skos:Concept ;
+        skos:definition    "Prestatiekenmerken"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/6/A" ;
         skos:prefLabel     "Prestatiekenmerken"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_V_A_004  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_V_A_004.pdf> ;
@@ -2167,16 +2350,20 @@ co:WAC_V_A_004  a          skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_E  a              skos:Concept ;
+        skos:definition    "De  beschreven methode beoogt de kwantitatieve bepaling van een reeks monocyclische aromatische en gehalogeneerde verbindingen met kookpunten gaande van -30°C tot 218°C. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/E" ;
         skos:prefLabel     "Oplosmiddelen specifiek"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_5_A.2  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Homogeniseren"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/A.2" ;
         skos:prefLabel     "Homogeniseren"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_A_011  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_A_011.pdf> ;
@@ -2189,15 +2376,16 @@ co:WAC_III_A_011  a        skos:Concept ;
 
 co:CMA_2_I_A.2  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_A.2.pdf> ;
-        skos:definition    "Deze procedure beschrijft de bepaling van de elektrische geleidbaarheid in water (bijvoorbeeld grondwater, eluaten,…). De beschreven methode is bruikbaar voor alle types water in een gebied van 1 tot 20 000 mS/m. De geleidbaarheid is een maatstaf voor de ionenactiviteit in water of voor de aanwezigheid van gedissocieerde stoffen in een waterige oplossing. Oplossingen van de meeste anorganische zuren, basen en zouten zijn relatief goede geleiders. Organische bestanddelen, niet gedissocieerd in waterige oplossingen, zijn zwakke stroomgeleiders."@nl ;
+        skos:definition    "Deze procedure beschrijft de bepaling van de elektrische geleidbaarheid in water (bijvoorbeeld grondwater, eluaten,…). De beschreven methode is bruikbaar voor alle types water in een gebied van 1 tot 20 000 mS/m. De geleidbaarheid is een maatstaf voor de ionenactiviteit in water of voor de aanwezigheid van gedissocieerde stoffen in een waterige oplossing. Oplossingen van de meeste anorganische zuren, basen en zouten zijn relatief goede geleiders. Organische bestanddelen, niet gedissocieerd in waterige oplossingen, zijn zwakke stroomgeleiders."@nl , "Deze procedure beschrijft de bepaling van de elektrische geleidbaarheid in water (bijvoorbeeld grondwater, eluaten,…). "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/A.2" ;
         skos:prefLabel     "Elektrische geleidbaarheid"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_A.3  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.3.pdf> ;
-        skos:definition    "Klassiek gezien gebeurt staalname van grondwater door middel van low flow staalname uit een peilbuis. De richtlijnen met betrekking tot klassieke staalname van grondwater zijn opgenomen in de hierboven vermelde procedure. Deze procedure sluit de toepassing van alternatieve staalnametechnieken, zoals passieve staalname van grondwater, echter niet uit (zie eveneens standaardprocedure beschrijvend bodemonderzoek)."@nl ;
+        skos:definition    "Klassiek gezien gebeurt staalname van grondwater door middel van low flow staalname uit een peilbuis. De richtlijnen met betrekking tot klassieke staalname van grondwater zijn opgenomen in de hierboven vermelde procedure. Deze procedure sluit de toepassing van alternatieve staalnametechnieken, zoals passieve staalname van grondwater, echter niet uit (zie eveneens standaardprocedure beschrijvend bodemonderzoek)."@nl , "Deze procedure beschrijft de passieve staalname voor grondwater in kader van bodemonderzoek"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.3" ;
         skos:prefLabel     "Passieve staalnametechnieken voor grondwater"@nl ;
@@ -2214,18 +2402,21 @@ co:LUC_IV_011  a           skos:Concept ;
         dcat:theme         gemet:270 .
 
 co:CMA_7_A.5  a            skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de mehode voor de bepaling van methaan, ethaan en etheen in grondwater."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/7/A.5" ;
         skos:prefLabel     "Redoxpotentiaal (veldmeting)"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_II_A.4  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.4.pdf> ;
-        skos:definition    "De bepaling van de vintest-afschuifkracht is van belang bij de bepaling van de steekvastheid van slibvormige en pasteuze afvalstoffen. De bepaling is enkel zinvol voor plastisch en cohesief materiaal. De vintest is een grondmechanische bepalingsmethode. In de grondmechanica wordt zij toegepast voor klei en kleiïge substraten."@nl ;
+        skos:definition    "Deze procedure beschrijft een methode voor de bepaling van de steekvastheid van slibvormige en pasteuze afvalstoffen."@nl , "De bepaling van de vintest-afschuifkracht is van belang bij de bepaling van de steekvastheid van slibvormige en pasteuze afvalstoffen. De bepaling is enkel zinvol voor plastisch en cohesief materiaal. De vintest is een grondmechanische bepalingsmethode. In de grondmechanica wordt zij toegepast voor klei en kleiïge substraten."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.4" ;
         skos:prefLabel     "Steekvastheid"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_D_033  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_D_033.pdf> ;
@@ -2238,11 +2429,13 @@ co:WAC_III_D_033  a        skos:Concept ;
 
 co:CMA_1_A.14  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.14.pdf> ;
-        skos:definition    "Deze procedure beschrijft de algemene richtlijnen en instructies voor het bemonsteren van afvalstoffen en grondstoffen1 in kader van VLAREM en VLAREA. De procedure behandelt zowel vloeibare, pasteuze als vaste materialen. De beschrevenbemonsteringstechnieken zijn generiek en toepasbaar op een heel gamma aan afvalmatrices enparameters."@nl ;
+        skos:altLabel      "Afvalstoffen – grondstoffen   Algemene richtlijnen monsterneming"@nl ;
+        skos:definition    "Deze procedure beschrijft de algemene richtlijnen en instructies voor het bemonsteren van afvalstoffen en grondstoffen1 in kader van VLAREM en VLAREA. De procedure behandelt zowel vloeibare, pasteuze als vaste materialen. De beschrevenbemonsteringstechnieken zijn generiek en toepasbaar op een heel gamma aan afvalmatrices enparameters."@nl , "Algemene richtlijnen voor de monsterneming en monstervoorbehandeling ter plaatse van vaste, vloeibare en pasteuze materialen en/of afvalstoffen en/of grondstoffen  in het kader van VLAREM of VLAREMA. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.14" ;
         skos:prefLabel     "Algemene richtlijnen monsterneming"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_IV_A_025  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_IV_A_025.pdf> ;
@@ -2270,11 +2463,12 @@ co:WAC_III_D_003  a        skos:Concept ;
 
 co:CMA_2_II_A.9.5  a       skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.9.5.pdf> ;
-        skos:definition    "Deze methode beschrijft de kolomproef waarbij slechts één eluaatfractie wordt opgevangen en waarin dan de cumulatieve uitloging van anorganische componenten uit granulaire materialen wordt bepaald. Het gaat om een dynamische uitloging, waarbij het materiaal éénmalig doorstroomd wordt met een hoeveelheid water. Het resultaat van deze bepaling is de afgifte (uitloging) van componenten (in mg per kg droge stof) die optreedt onder de experimentele testcondities, zoals hierna beschreven."@nl ;
+        skos:definition    "Deze methode beschrijft de kolomproef waarbij slechts één eluaatfractie wordt opgevangen en waarin dan de cumulatieve uitloging van anorganische componenten uit granulaire materialen wordt bepaald. Het gaat om een dynamische uitloging, waarbij het materiaal éénmalig doorstroomd wordt met een hoeveelheid water. Het resultaat van deze bepaling is de afgifte (uitloging) van componenten (in mg per kg droge stof) die optreedt onder de experimentele testcondities, zoals hierna beschreven."@nl , "Deze methode beschrijft de kolomproef waarbij slechts één eluaatfractie wordt opgevangen en waarin dan de cumulatieve uitloging van anorganische componenten uit granulaire materialen wordt bepaald. Het gaat om een dynamische uitloging, waarbij het materiaal éénmalig doorstroomd wordt met een hoeveelheid water. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.9.5" ;
         skos:prefLabel     "Uitloging van anorganische componenten met de kolomproef voor stortplaats"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_V_B_005  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_V_B_005.pdf> ;
@@ -2287,11 +2481,12 @@ co:WAC_V_B_005  a          skos:Concept ;
 
 co:CMA_2_II_B.1  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_B.1.pdf> ;
-        skos:definition    "De hydropyrolyse destructiemethode kan toegepast worden voor de bepaling van het totale fluoride gehalte in vaste en pasteuze stoffen. Het beschreven analyseprocédé is toepasbaar indien het fluoride gehalte in het te analyseren monster lager is dan 500 µg absoluut (met een maximum af te wegen hoeveelheid monster van 0,5 g). In onderstaande tabel staan de referentiemethoden (ontsluiting+meting) beschreven per matrixtype."@nl ;
+        skos:definition    "De hydropyrolyse destructiemethode kan toegepast worden voor de bepaling van het totale fluoride gehalte in vaste en pasteuze stoffen. Het beschreven analyseprocédé is toepasbaar indien het fluoride gehalte in het te analyseren monster lager is dan 500 µg absoluut (met een maximum af te wegen hoeveelheid monster van 0,5 g). In onderstaande tabel staan de referentiemethoden (ontsluiting+meting) beschreven per matrixtype."@nl , "De hydropyrolyse destructiemethode kan toegepast worden voor de bepaling van het totale fluoride gehalte in vaste en pasteuze stoffen.  "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/B.1" ;
         skos:prefLabel     "Fluoride na hydropyrolyse"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_III_002  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2018/LUC_III_002.pdf> ;
@@ -2337,11 +2532,12 @@ co:CMA_3_R.2  a            skos:Concept ;
 
 co:CMA_2_I_C.7  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_C.7.pdf> ;
-        skos:definition    "Deze methode beschrijft de bepaling van chroom VI in water zoals grond- en afvalwater, na ionchromatografische scheiding. Hierbij onderscheidt men 2 methoden: • Rechtstreekse meting met UV-detectie bij 365 nm (ISO 10304-3:1997 Water quality – Determination of dissolved anions by liquid chromatography of ions – Part 3: Determination of chromate, iodide, sulfite, thiocyanate and thiosulfate). • Colorimetrische meting met 1,5 diphenylcarbazide bij 530 nm (EPA 7199:1996 Determination of hexavalent chromium in drinking water, groundwater and industrial waste water effluents by ion chromatography). De colorimetrische methode is gevoeliger dan de rechtstreekse methode. De selectie van de methode wordt bijgevolg bepaald door de gevraagde rapporteer-/bepalingsgrens."@nl ;
+        skos:definition    "Deze methode beschrijft de bepaling van chroom VI in water zoals grond- en afvalwater, na ionchromatografische scheiding. Hierbij onderscheidt men 2 methoden: • Rechtstreekse meting met UV-detectie bij 365 nm (ISO 10304-3:1997 Water quality – Determination of dissolved anions by liquid chromatography of ions – Part 3: Determination of chromate, iodide, sulfite, thiocyanate and thiosulfate). • Colorimetrische meting met 1,5 diphenylcarbazide bij 530 nm (EPA 7199:1996 Determination of hexavalent chromium in drinking water, groundwater and industrial waste water effluents by ion chromatography). De colorimetrische methode is gevoeliger dan de rechtstreekse methode. De selectie van de methode wordt bijgevolg bepaald door de gevraagde rapporteer-/bepalingsgrens."@nl , "Deze methode beschrijft de bepaling van chroom VI in water zoals grond- en afvalwater, na ionchromatografische scheiding."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/C.7" ;
         skos:prefLabel     "Opgelost chroom VI door vloeistofchromatografie"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_A_005  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_A_005.pdf> ;
@@ -2372,10 +2568,12 @@ co:WAC_IV_B_022  a         skos:Concept ;
 
 co:CMA_2_I_D  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_D.pdf> ;
+        skos:definition    "Deze koepelnorm beschrijft de methoden voor de bepaling van groepsparameters."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/D" ;
         skos:prefLabel     "Methoden voor bepaling van somparameters"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_II_A_001  a         skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_II_A_001.pdf> ;
@@ -2387,37 +2585,46 @@ co:WAC_II_A_001  a         skos:Concept ;
         dcat:theme         gemet:15179 .
 
 co:CMA_3_K  a              skos:Concept ;
+        skos:definition    "In deze procedure wordt een methode beschreven voor de extractie, derivatisering, zuivering en analyse van fenolen in bodem, afvalstoffen, sediment en water. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/K" ;
         skos:prefLabel     "Fenol en fenolische koolwaterstoffen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_5_A.8  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Schema’s en praktijkvoorbeelden"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/A.8" ;
         skos:prefLabel     "Schema's en praktijkvoorbeelden"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_1_A.9  a            skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2023/CMA_1_A.9.pdf> ;
-        skos:definition    "Bentonietslib wordt in het bodemdecreet gedefinieerd als “een mengsel van uitgegraven bodem en bentoniet dat gecreëerd kan worden bij grond- en putboringen en grondwerken”. Het toepassingsgebied voor dit CMA betreft bentonietslib als mengsel van bentoniet en eventueel uitgegraven bodem in suspensie van water. De ontzande fractie en het ontwaterd materiaal vallen buiten het toepassingsgebied van dit CMA. Bij het uitvoeren van gestuurde boringen en het plaatsen van diepwanden kan een mengsel van water en bentoniet worden toegepast om het boorgat/de put open te houden. Hierbij komt vervolgens een hoeveelheid bentonietslib vrij waarvan het gebruik via de grondverzetsregeling verder moet worden opgevolgd."@nl ;
+        skos:altLabel      "Water - Inleiding"@nl ;
+        skos:definition    "Inleiding"@nl , "Bentonietslib wordt in het bodemdecreet gedefinieerd als “een mengsel van uitgegraven bodem en bentoniet dat gecreëerd kan worden bij grond- en putboringen en grondwerken”. Het toepassingsgebied voor dit CMA betreft bentonietslib als mengsel van bentoniet en eventueel uitgegraven bodem in suspensie van water. De ontzande fractie en het ontwaterd materiaal vallen buiten het toepassingsgebied van dit CMA. Bij het uitvoeren van gestuurde boringen en het plaatsen van diepwanden kan een mengsel van water en bentoniet worden toegepast om het boorgat/de put open te houden. Hierbij komt vervolgens een hoeveelheid bentonietslib vrij waarvan het gebruik via de grondverzetsregeling verder moet worden opgevolgd."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.9" ;
         skos:prefLabel     "Staalname bentonietslib"@nl ;
         skos:topConceptOf  vlcs:observatieprocedure ;
-        dcat:theme         gemet:15179 .
+        dcat:theme         gemet:7884 , gemet:15179 .
 
 co:CMA_3_V  a              skos:Concept ;
+        skos:definition    "In deze procedure wordt een methode beschreven voor de kwantitatieve bepaling van pentachloorfenol (PCP) en benzo(a)pyreen (BaP) in houtafval "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/3/V" ;
         skos:prefLabel     "Pentachloorfenol en benzo(a)pyreen in houtafval"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_IV_21  a          skos:Concept ;
+        skos:definition    "Deze procedure beschrijft de methode voor de bepaling van de fijnheid van bodemverbeterende middelen"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/IV/21" ;
         skos:prefLabel     "Fijnheid"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_I_E.1  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_E.1.pdf> ;
@@ -2425,13 +2632,16 @@ co:CMA_2_I_E.1  a          skos:Concept ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/E.1" ;
         skos:prefLabel     "Ammonium stikstof door manuele spectrofotometrie"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_5_B.5  a            skos:Concept ;
+        skos:definition    "Monstervoorbehandeling - Shredder"@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/5/B.5" ;
         skos:prefLabel     "Shredder"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:CMA_2_I_B.5  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_I_B.5.pdf> ;
@@ -2439,7 +2649,8 @@ co:CMA_2_I_B.5  a          skos:Concept ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/I/B.5" ;
         skos:prefLabel     "Elementen met inductief gekoppeld plasma massa spectrometrie (ICP-MS)"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:WAC_III_B_002  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/WAC_III_B_002.pdf> ;
@@ -2461,11 +2672,12 @@ co:WAC_III_D_040  a        skos:Concept ;
 
 co:CMA_1_A.21  a           skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_1_A.21.pdf> ;
-        skos:definition    "Dierlijke bijproducten zijn een brede groep van producten, die zowel grondstoffen als afvalstoffen kunnen omvatten. Deze procedure omvat de monstername van de eindproducten bij de verwerking van dierlijke bijproducten bestemd voor microbiologische analyses. De methode is toepasbaar voor de monsterneming van afgeleide producten die vrijkomen bij verwerkers van dierlijke bijproducten: vaste fracties (beendermeel, verenmeel, bloedmeel, ….) en vloeibare fracties (vet)."@nl ;
+        skos:definition    "Dierlijke bijproducten zijn een brede groep van producten, die zowel grondstoffen als afvalstoffen kunnen omvatten. Deze procedure omvat de monstername van de eindproducten bij de verwerking van dierlijke bijproducten bestemd voor microbiologische analyses. De methode is toepasbaar voor de monsterneming van afgeleide producten die vrijkomen bij verwerkers van dierlijke bijproducten: vaste fracties (beendermeel, verenmeel, bloedmeel, ….) en vloeibare fracties (vet)."@nl , "Deze procedure beschrijft de monsterneming van eindproducten bij de verwreking van dierlijke bijproducten."@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/1/A.21" ;
         skos:prefLabel     "Monstername van eindproducten bij de verwerking van dierlijke bijproducten"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .
 
 co:LUC_III_008  a          skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2018/LUC_III_008.pdf> ;
@@ -2496,8 +2708,9 @@ co:WAC_IV_A_002  a         skos:Concept ;
 
 co:CMA_2_II_A.22  a        skos:Concept ;
         rdfs:seeAlso       <https://reflabos.vito.be/2021/CMA_2_II_A.22.pdf> ;
-        skos:definition    "De methode beschrijft de bepaling van vlottende, niet-vlottende verontreinigingen en glas in granulaire materialen (korrelmaat van 0 tot D, met D maximaal 90 mm) in het kader van de karakterisering van grondstoffen voor gebruik in of als bouwstof. Alle vlottende deeltjes worden beschouwd als een verontreiniging."@nl ;
+        skos:definition    "De methode beschrijft de bepaling van vlottende, niet-vlottende verontreinigingen en glas in granulaire materialen (korrelmaat van 0 tot D, met D maximaal 90 mm) in het kader van de karakterisering van grondstoffen voor gebruik in of als bouwstof. Alle vlottende deeltjes worden beschouwd als een verontreiniging."@nl , "De methode beschrijft de  bepaling van vlottende, niet-vlottende verontreinigingen en glas in granulaire materialen (korrelmaat van 0 tot D, met D maximaal 90 mm) in het kader van de karakterisering van grondstoffen voor gebruik in of als bouwstof. "@nl ;
         skos:inScheme      vlcs:observatieprocedure ;
         skos:notation      "CMA/2/II/A.22" ;
         skos:prefLabel     "Vlottende, niet-vlottende verontreinigingen en glas op granulaire materialen"@nl ;
-        skos:topConceptOf  vlcs:observatieprocedure .
+        skos:topConceptOf  vlcs:observatieprocedure ;
+        dcat:theme         gemet:7884 .

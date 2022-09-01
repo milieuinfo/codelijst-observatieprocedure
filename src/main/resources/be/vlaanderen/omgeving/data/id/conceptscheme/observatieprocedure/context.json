@@ -30,6 +30,10 @@
       "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
       "@language" : "nl"
     },
+    "isSubjectOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#isSubjectOf",
+      "@language" : "nl"
+    },
     "definition" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#definition",
       "@language" : "nl"
