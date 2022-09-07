@@ -2,7 +2,6 @@
 library(tidyr)
 library(dplyr)
 library(jsonlite)
-setwd("/home/gehau/git/codelijst-observatieprocedure/src/main/R")
 
 df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv", sep=",", na.strings=c("","NA"))
 df <- df %>%
