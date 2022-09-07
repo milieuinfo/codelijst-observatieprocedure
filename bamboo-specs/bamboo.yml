@@ -1,0 +1,85 @@
+---
+version: 2
+plan:
+  project-key: CODELIJST
+  key: OBSERVATIEPROCEDURE
+  name: codelijst-observatieprocedure
+
+triggers:
+  - polling: 130
+
+variables:
+  release_version: patch
+
+stages:
+  - Build:
+      jobs:
+        - Build
+  - Release:
+      manual: true
+      jobs:
+        - Release
+
+Build:
+  key: BD
+  tasks:
+    - maven:
+        executable: Maven 3.5
+        jdk: JDK11
+        goal: clean deploy
+  requirements:
+    - REMOTE_ONLY
+
+Release:
+  key: REL
+  tasks:
+    - any-task:
+        plugin-key: com.davidehringer.atlassian.bamboo.maven.maven-pom-parser-plugin:maven-pom-parser-plugin
+        configuration:
+          variableType: '0'
+          gavOrCustom: '0'
+          prefixOption: '1'
+    - script:
+        interpreter: BINSH_OR_CMDEXE
+        scripts:
+        - |-
+          #!/bin/bash
+  
+          export bamboo_maven_version="${bamboo.maven.version}"
+          /opt/scripts/release/extract_maven_version.sh
+    - inject-variables:
+        file: versions.properties
+        scope: LOCAL
+        namespace: inject
+    - script:
+        interpreter: BINSH_OR_CMDEXE
+        scripts:
+        - rm versions.properties
+    - maven:
+        executable: Maven 3.5
+        jdk: JDK11
+        goal: release:clean release:prepare -e --batch-mode -DreleaseVersion=${bamboo.inject.release_version} -DdevelopmentVersion=${bamboo.inject.snapshot_version} -Dtag=${bamboo.SVN}
+    - maven:
+        executable: Maven 3.5
+        jdk: JDK11
+        goal: release:perform --batch-mode -s /opt/maven-settings/release/settings.xml
+  requirements:
+    - REMOTE_ONLY
+
+---
+version: 2
+plan:
+  key: CODELIJST-OBSERVATIEPROCEDURE
+
+plan-permissions:
+  - groups:
+      - bamboo-admin
+      - bamboo-release
+      - developer-admin
+    permissions:
+      - view
+      - edit
+      - build
+      - clone
+      - admin
+
