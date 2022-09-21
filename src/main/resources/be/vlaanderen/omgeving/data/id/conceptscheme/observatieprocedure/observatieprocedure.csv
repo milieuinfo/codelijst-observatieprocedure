@@ -1,4 +1,4 @@
-type,uri,notation,prefLabel,altLabel,definitions,collections,inScheme,themes,seeAlso,topConceptOf
+type,uri,notation,prefLabel,altLabel,definition,collection,inScheme,theme,seeAlso,topConceptOf
 http://www.w3.org/2004/02/skos/core#Collection,https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/bodem,,Collectie van observatieprocedures voor bodem.,,,,https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure,,,
 http://www.w3.org/2004/02/skos/core#Collection,https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/lucht,,Collectie van observatieprocedures voor lucht.,,,,https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure,,,
 http://www.w3.org/2004/02/skos/core#Collection,https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/water,,Collectie van observatieprocedures voor water,,,,https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure,,,
