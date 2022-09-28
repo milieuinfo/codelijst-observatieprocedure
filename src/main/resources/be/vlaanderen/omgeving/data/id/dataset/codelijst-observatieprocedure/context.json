@@ -107,6 +107,9 @@
     "versionInfo" : {
       "@id" : "http://spdx.org/rdf/terms#versionInfo"
     },
+    "owl.versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
     "packageName" : {
       "@id" : "http://spdx.org/rdf/terms#packageName"
     },
@@ -116,6 +119,10 @@
     "downloadLocation" : {
       "@id" : "http://spdx.org/rdf/terms#downloadLocation",
       "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "relationshipType_packageOf" : {
+      "@id" : "http://spdx.org/rdf/terms#relationshipType_packageOf",
+      "@type" : "@id"
     },
     "availableGraphs" : {
       "@id" : "http://www.w3.org/ns/sparql-service-description#availableGraphs",
