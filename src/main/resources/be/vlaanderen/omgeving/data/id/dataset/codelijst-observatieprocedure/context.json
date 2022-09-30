@@ -242,6 +242,7 @@
     "datatheme_be" : "http://vocab.belgif.be/auth/datatheme/",
     "omg_conceptscheme" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
     "omg_package" : "https://data.omgeving.vlaanderen.be/id/package/",
-    "dc" : "http://purl.org/dc/elements/1.1/"
+    "dc" : "http://purl.org/dc/elements/1.1/",
+    "vlcs" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/"
   }
 

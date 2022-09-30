@@ -16,6 +16,7 @@
 @prefix access_right: <http://publications.europa.eu/resource/authority/access-right/> .
 @prefix frequency: <http://publications.europa.eu/resource/authority/frequency/> .
 @prefix sd:    <http://www.w3.org/ns/sparql-service-description#> .
+@prefix vlcs:  <https://data.omgeving.vlaanderen.be/id/conceptscheme/> .
 @prefix omg_periodoftime: <https://data.omgeving.vlaanderen.be/id/periodoftime/> .
 @prefix omg_collection: <https://data.omgeving.vlaanderen.be/id/collection/> .
 @prefix file_type: <http://publications.europa.eu/resource/authority/file-type/> .
@@ -52,10 +53,10 @@ omg_distribution:codelijst-observatieprocedure_ttl
         dcterms:issued        "2022-09-10"^^xsd:date ;
         dcterms:rightsHolder  ovo:OVO003751 ;
         dcterms:title         "Codelijst Observatieprocedure in Turtle rdf-formaat."@nl ;
-        owl:versionInfo       "1.0.3" ;
+        owl:versionInfo       "1.0.4" ;
         dcat:accessURL        <https://github.com/milieuinfo/codelijst-observatieprocedure.git> ;
         dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-        dcat:downloadURL      <https://github.com/milieuinfo/codelijst-observatieprocedure/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.ttl> ;
+        dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.ttl> ;
         dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle> ;
         foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure_ttl.html> .
 
@@ -79,10 +80,10 @@ omg_distribution:codelijst-observatieprocedure_jsonld
         dcterms:issued        "2022-09-10"^^xsd:date ;
         dcterms:rightsHolder  ovo:OVO003751 ;
         dcterms:title         "Codelijst Observatieprocedure in jsonld rdf-formaat."@nl ;
-        owl:versionInfo       "1.0.3" ;
+        owl:versionInfo       "1.0.4" ;
         dcat:accessURL        <https://github.com/milieuinfo/codelijst-observatieprocedure.git> ;
         dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-        dcat:downloadURL      <https://github.com/milieuinfo/codelijst-observatieprocedure/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.jsonld> ;
+        dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.jsonld> ;
         dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json> ;
         foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure_jsonld.html> .
 
@@ -104,7 +105,8 @@ omg_dataset:codelijst-observatieprocedure
         dcterms:spatial             <https://www.geonames.org/3337388/flanders> , country:BEL ;
         dcterms:temporal            omg_periodoftime:dataset_omg ;
         dcterms:title               "Thesaurus observatieproceduretypes"@nl ;
-        owl:versionInfo             "1.0.3" ;
+        void:rootResource           omg_conceptscheme:observatieprocedure ;
+        owl:versionInfo             "1.0.4" ;
         dcat:contactPoint           omg_vcard:helpdesk ;
         dcat:distribution           omg_distribution:codelijst-observatieprocedure_ttl , omg_distribution:codelijst-observatieprocedure_jsonld , omg_distribution:codelijst-observatieprocedure_csv ;
         dcat:landingPage            <https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html> ;
@@ -122,9 +124,9 @@ omg_distribution:codelijst-observatieprocedure_csv
         dcterms:issued        "2022-09-10"^^xsd:date ;
         dcterms:rightsHolder  ovo:OVO003751 ;
         dcterms:title         "Codelijst Observatieprocedure in text/csv formaat."@nl ;
-        owl:versionInfo       "1.0.3" ;
+        owl:versionInfo       "1.0.4" ;
         dcat:accessURL        <https://github.com/milieuinfo/codelijst-observatieprocedure.git> ;
         dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip> ;
-        dcat:downloadURL      <https://github.com/milieuinfo/codelijst-observatieprocedure/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv> ;
+        dcat:downloadURL      <https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv> ;
         dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv> ;
         foaf:page             <https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure_csv.html> .

@@ -42,11 +42,12 @@
       "@language" : "nl",
       "@value" : "Thesaurus observatieproceduretypes"
     },
+    "rootResource" : "vlcs:observatieprocedure",
     "label" : {
       "@language" : "nl",
       "@value" : "Dataset Codelijst Observatieprocedure"
     },
-    "versionInfo" : "1.0.3",
+    "versionInfo" : "1.0.4",
     "contactPoint" : "omg_vcard:helpdesk",
     "distribution" : [ "omg_distribution:codelijst-observatieprocedure_ttl", "omg_distribution:codelijst-observatieprocedure_jsonld", "omg_distribution:codelijst-observatieprocedure_csv" ],
     "landingPage" : "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html",
@@ -75,10 +76,10 @@
       "@language" : "nl",
       "@value" : "Codelijst Observatieprocedure, in text/csv formaat."
     },
-    "versionInfo" : "1.0.3",
+    "versionInfo" : "1.0.4",
     "accessURL" : "https://github.com/milieuinfo/codelijst-observatieprocedure.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
-    "downloadURL" : "https://github.com/milieuinfo/codelijst-observatieprocedure/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv",
+    "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv",
     "mediaType" : "https://www.iana.org/assignments/media-types/text/csv",
     "page" : "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure_csv.html"
   }, {
@@ -104,10 +105,10 @@
       "@language" : "nl",
       "@value" : "Codelijst Observatieprocedure, in jsonld rdf-formaat."
     },
-    "versionInfo" : "1.0.3",
+    "versionInfo" : "1.0.4",
     "accessURL" : "https://github.com/milieuinfo/codelijst-observatieprocedure.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
-    "downloadURL" : "https://github.com/milieuinfo/codelijst-observatieprocedure/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.jsonld",
+    "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.jsonld",
     "mediaType" : "https://www.iana.org/assignments/media-types/application/ld+json",
     "page" : "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure_jsonld.html"
   }, {
@@ -133,10 +134,10 @@
       "@language" : "nl",
       "@value" : "Codelijst Observatieprocedure, in Turtle rdf-formaat."
     },
-    "versionInfo" : "1.0.3",
+    "versionInfo" : "1.0.4",
     "accessURL" : "https://github.com/milieuinfo/codelijst-observatieprocedure.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
-    "downloadURL" : "https://github.com/milieuinfo/codelijst-observatieprocedure/raw/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.ttl",
+    "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.ttl",
     "mediaType" : "https://www.iana.org/assignments/media-types/text/turtle",
     "page" : "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure_ttl.html"
   } ],
@@ -149,8 +150,9 @@
       "@id" : "http://purl.org/dc/terms/accessRights",
       "@type" : "@id"
     },
-    "versionInfo" : {
-      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    "downloadURL" : {
+      "@id" : "http://www.w3.org/ns/dcat#downloadURL",
+      "@type" : "@id"
     },
     "identifier" : {
       "@id" : "http://purl.org/dc/elements/1.1/identifier"
@@ -166,6 +168,9 @@
       "@id" : "http://purl.org/dc/terms/rightsHolder",
       "@type" : "@id"
     },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
     "accessURL" : {
       "@id" : "http://www.w3.org/ns/dcat#accessURL",
       "@type" : "@id"
@@ -180,10 +185,6 @@
     },
     "title" : {
       "@id" : "http://purl.org/dc/terms/title"
-    },
-    "downloadURL" : {
-      "@id" : "http://www.w3.org/ns/dcat#downloadURL",
-      "@type" : "@id"
     },
     "page" : {
       "@id" : "http://xmlns.com/foaf/0.1/page",
@@ -232,6 +233,10 @@
       "@id" : "http://www.w3.org/ns/dcat#landingPage",
       "@type" : "@id"
     },
+    "rootResource" : {
+      "@id" : "http://rdfs.org/ns/void#rootResource",
+      "@type" : "@id"
+    },
     "accrualPeriodicity" : {
       "@id" : "http://purl.org/dc/terms/accrualPeriodicity",
       "@type" : "@id"
@@ -261,6 +266,7 @@
     "access_right" : "http://publications.europa.eu/resource/authority/access-right/",
     "frequency" : "http://publications.europa.eu/resource/authority/frequency/",
     "sd" : "http://www.w3.org/ns/sparql-service-description#",
+    "vlcs" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
     "omg_periodoftime" : "https://data.omgeving.vlaanderen.be/id/periodoftime/",
     "omg_collection" : "https://data.omgeving.vlaanderen.be/id/collection/",
     "file_type" : "http://publications.europa.eu/resource/authority/file-type/",
