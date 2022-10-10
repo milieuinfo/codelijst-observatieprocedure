@@ -47,7 +47,7 @@
       "@language" : "nl",
       "@value" : "Dataset Codelijst Observatieprocedure"
     },
-    "versionInfo" : "1.0.4",
+    "versionInfo" : "1.0.5",
     "contactPoint" : "omg_vcard:helpdesk",
     "distribution" : [ "omg_distribution:codelijst-observatieprocedure_ttl", "omg_distribution:codelijst-observatieprocedure_jsonld", "omg_distribution:codelijst-observatieprocedure_csv" ],
     "landingPage" : "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html",
@@ -76,7 +76,7 @@
       "@language" : "nl",
       "@value" : "Codelijst Observatieprocedure, in text/csv formaat."
     },
-    "versionInfo" : "1.0.4",
+    "versionInfo" : "1.0.5",
     "accessURL" : "https://github.com/milieuinfo/codelijst-observatieprocedure.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv",
@@ -105,7 +105,7 @@
       "@language" : "nl",
       "@value" : "Codelijst Observatieprocedure, in jsonld rdf-formaat."
     },
-    "versionInfo" : "1.0.4",
+    "versionInfo" : "1.0.5",
     "accessURL" : "https://github.com/milieuinfo/codelijst-observatieprocedure.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.jsonld",
@@ -134,7 +134,7 @@
       "@language" : "nl",
       "@value" : "Codelijst Observatieprocedure, in Turtle rdf-formaat."
     },
-    "versionInfo" : "1.0.4",
+    "versionInfo" : "1.0.5",
     "accessURL" : "https://github.com/milieuinfo/codelijst-observatieprocedure.git",
     "compressFormat" : "http://www.iana.org/assignments/media-types/application/gzip",
     "downloadURL" : "https://raw.githubusercontent.com/milieuinfo/codelijst-observatieprocedure/main/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.ttl",
@@ -142,6 +142,9 @@
     "page" : "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure_ttl.html"
   } ],
   "@context" : {
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
     "compressFormat" : {
       "@id" : "http://www.w3.org/ns/dcat#compressFormat",
       "@type" : "@id"
@@ -167,9 +170,6 @@
     "rightsHolder" : {
       "@id" : "http://purl.org/dc/terms/rightsHolder",
       "@type" : "@id"
-    },
-    "versionInfo" : {
-      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
     "accessURL" : {
       "@id" : "http://www.w3.org/ns/dcat#accessURL",
