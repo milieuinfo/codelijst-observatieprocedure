@@ -76,7 +76,7 @@ update_version <- function(df) {
   setDT(df)[type == "dcat:Distribution", id := paste(id,version_next_release, sep = ".")]
   setDT(df)[type == "dcat:Dataset", dc.identifier := paste(dc.identifier,version_next_release, sep = ".")]
   setDT(df)[type == "dcat:Distribution", dc.identifier := paste(dc.identifier,version_next_release, sep = ".")]
-  setDT(df)[type == "dcat:Dataset", identifier := paste(identifier,version_next_release, sep = "'")]
+  setDT(df)[type == "dcat:Dataset", identifier := paste(identifier,version_next_release, sep = ".")]
   setDT(df)[type == "dcat:Distribution", identifier := paste(identifier,version_next_release, sep = ".")]
   setDT(df)[type == "dcat:Dataset", distribution := paste(distribution,version_next_release, sep = ".")]
   setDT(df)[type == "dcat:Distribution", downloadURL := gsub("/src", paste('-',version_next_release,'/src', sep = ""), downloadURL)]
