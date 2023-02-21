@@ -68,7 +68,8 @@ collapse_df_on_pipe <- function(df) {
 
 
 update_version <- function(df) {
-  df2 <- data.frame(id=subset(df, type == 'dcat:Dataset')$id, hasVersion=paste(subset(df, type == 'dcat:Dataset')$id,version_next_release, sep = "."), type='dcat:Dataset')
+  df2 <- data.frame(id=subset(df, type == 'dcat:Dataset')$id, label=subset(df, type == 'dcat:Dataset')$title, hasVersion=paste(subset(df, type == 'dcat:Dataset')$id,version_next_release, sep = "."), type='dcat:Dataset')%>%
+    distinct()
   setDT(df)[type == "dcat:Dataset", owl.versionInfo := version_next_release]
   setDT(df)[type == "dcat:Distribution", owl.versionInfo := version_next_release]
   setDT(df)[type == "spdx:Package", owl.versionInfo := version_next_release]
