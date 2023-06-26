@@ -1,5 +1,7 @@
 {
-    "source" : {
+  "id": "@id",
+  "type": "@type",
+  "source" : {
       "@id" : "http://purl.org/dc/terms/source",
       "@type" : "@id"
     },
@@ -13,6 +15,10 @@
     },
     "hasVersion" : {
       "@id" : "http://purl.org/dc/terms/hasVersion",
+      "@type" : "@id"
+    },
+    "isVersionOf" : {
+      "@id" : "http://purl.org/dc/terms/isVersionOf",
       "@type" : "@id"
     },
     "label" : {
@@ -123,7 +129,6 @@
     "downloadLocation" : {
       "@id" : "http://spdx.org/rdf/terms#downloadLocation",
       "@type" : "@id"
-     // "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
     },
     "relationshipType_packageOf" : {
       "@id" : "http://spdx.org/rdf/terms#relationshipType_packageOf",
