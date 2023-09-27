@@ -42,6 +42,10 @@
       "@id" : "http://www.w3.org/2004/02/skos/core#member",
       "@type" : "@id"
     },
+    "references" : {
+      "@id" : "http://purl.org/dc/terms/references",
+      "@type" : "@id"
+    },
     "xsd" : "http://www.w3.org/2001/XMLSchema#",
     "skos" : "http://www.w3.org/2004/02/skos/core#",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
@@ -50,6 +54,7 @@
     "co" : "https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/",
     "coo" : "https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/",
     "dcat" : "http://www.w3.org/ns/dcat#",
+    "csc" : "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
     "dct" : "http://purl.org/dc/terms/",
     "dc" : "http://purl.org/dc/elements/1.1/",
     "gemet" : "http://www.eionet.europa.eu/gemet/concept/"

@@ -1,0 +1,347 @@
+@prefix vv:            <https://data.vlaanderen.be/ns/> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix xhv:           <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:          <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix omg_dataset:   <https://data.omgeving.vlaanderen.be/id/dataset/> .
+@prefix dct:           <http://purl.org/dc/terms/> .
+@prefix sh:            <http://www.w3.org/ns/shacl#> .
+@prefix omg_ont:       <https://data.omgeving.vlaanderen.be/id/ontology/> .
+@prefix omg_ag_cl:     <https://data.omgeving.vlaanderen.be/id/person/codelijst/> .
+@prefix omg_voc:       <https://data.omgeving.vlaanderen.be/ns/> .
+@prefix vl_org:        <http://data.vlaanderen.be/id/organisatie/> .
+@prefix xkos:          <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix dbo:           <http://dbpedia.org/ontology/> .
+@prefix vcs:            <https://data.vlaanderen.be/ns/observatieprocedure#> .
+@prefix dbp:           <http://dbpedia.org/property/> .
+@prefix omg_ps:        <https://data.omgeving.vlaanderen.be/id/propertyshape/> .
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ons:           <https://data.omgeving.vlaanderen.be/id/nodeshape/> .
+@prefix schema:        <http://schema.org/> .
+@prefix foaf:          <http://xmlns.com/foaf/0.1/> .
+@prefix csc:           <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+
+omg_ont:observatieprocedure-ap-constraints
+    a               owl:Ontology ;
+    rdfs:comment
+                    "Specifieert hoe de data in de codelijst van observatieprocedures te encoderen in RDF (i.e. RDF termen, kardinaliteiten,...)."@nl ;
+    rdfs:label      "Observatieprocedure AP Constraints"@nl ;
+    dct:abstract    "Het observatieprocedure applicatieprofiel specifieert de RDF termen (klassen en properties) en bijhorende constraints die gebruikt worden voor het beschrijven van observatieprocedures. Het maakt hierbij zoveel mogelijk gebruik van bestaande termen (klassen en properties) uit bestaande , skos, dbo, dbp en een minimale set van nieuwe termen gedefinieerd in het Observatieprocedure Vocabularium."@nl ;
+    dct:alternative "Observatieprocedure AP Shapes"@nl ;
+    dct:creator     omg_ag_cl:creator ;
+    dct:description "Dit is de SHACL encodering van het applicatieprofiel van een observatieprocedure."@nl ;
+    dct:issued      "2022-10-03"^^xsd:date ;
+    dct:title       "Observatieprocedure AP Constraints"@nl ;
+    xkos:belongsTo  omg_dataset:codelijst-observatieprocedure ;
+    xhv:last        omg_voc:observatieprocedure-ap-constraints ;
+    owl:sameAs      omg_voc:observatieprocedure-ap-constraints ;
+    owl:versionInfo "Versie 1.0.0  oktober 2023"@nl .
+
+
+omg_voc:observatieprocedure-ap-constraints
+    a          owl:Ontology ;
+    rdfs:label "Observatieprocedure AP Constraints"@nl ;
+    owl:sameAs omg_ont:observatieprocedure-ap-constraints .
+
+omg_ag_cl:creator
+    rdfs:label "Ontwikkelaar codelijst"@nl ;
+    schema:affiliation vl_org:OVO003751 ;
+    a foaf:Person;
+    foaf:firstName "Geert";
+    foaf:lastName "Van Haute";
+    foaf:mbox <mailto:geert.vanhaute@vlaanderen.be>.
+
+# Node Shapes
+ons:observatieprocedure_schema
+    a                sh:NodeShape ;
+    rdfs:label       "conceptschema van observatieprocedures"@nl ;
+    sh:name          "conceptschema van observatieprocedures"@nl ;
+    sh:description   "Het schema waarbinnen de observatieprocedures gedefinieerd zijn"@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:property      omg_ps:conceptscheme_prefLabel, omg_ps:observatieprocedure_schema_hasTopConcept,
+                     omg_ps:observatieprocedure_definition ;
+    sh:targetClass   skos:ConceptScheme .
+
+
+
+ons:observatieprocedure_collection
+    a                sh:NodeShape ;
+    rdfs:label       "verzameling"@nl ;
+    sh:name          "verzameling"@nl ;
+    sh:description   "Verzamelingen bundelen observatieprocedures met gelijkaardige eigenschappen, analysemethoden of matrices waarin ze gemeten worden."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:property      omg_ps:observatieprocedure_prefLabel, omg_ps:observatieprocedure_collection_member,
+                     omg_ps:observatieprocedure_inScheme ;
+    sh:targetClass   skos:Collection .
+
+
+#                   dct:references     csc:XFXPMWWXUTWYJX-UHFFFAOYSA-N;
+#                   skos:definition    "Deze procedure beschrijft de bepaling van totaal cyanide in water (bijvoorbeeld grond-, drink, oppervlakte- en afvalwater) met behulp van continue doorstroomanalyse methode.|Deze procedure beschrijft de bepaling van totaal cyanide in water (bijvoorbeeld grond-, drink, oppervlakte- en afvalwater) met behulp van continue doorstroomanalyse methode. Het meetbereik van deze methode gaat van 10-100 \uFFFDg/l. Bij hogere concentraties dient een geschikte verdunning te worden toegepast. De niet-chlooroxideerbare cyaniden worden berekend uit het verschil tussen de totaal cyaniden en de vrije cyaniden (zie CMA/2/I/C.2.3). Indien de vrije cyaniden < 1 mg/kg ds worden deze bij de verschilberekening gelijkgesteld aan 0 (lower bound benadering)."@nl;
+#                   skos:inScheme      vlcs:observatieprocedure;
+#                   skos:notation      "CMA/2/I/C.2.2";
+#                   skos:prefLabel     "Totaal cyanide met behulp van continue doorstroomanalyse"@nl;
+#                   skos:topConceptOf  vlcs:observatieprocedure;
+#                   dcat:theme         gemet:7884 .
+
+
+ons:observatieprocedure
+    a                sh:NodeShape ;
+    rdfs:label       "observatieprocedure"@nl ;
+    sh:name          "observatieprocedure"@nl ;
+    sh:description   "analysemethodes"@nl ;
+    rdfs:comment     "compendia onderhouden door VITO"@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:property      omg_ps:observatieprocedure_notation, omg_ps:observatieprocedure_exactMatch, omg_ps:observatieprocedure_inScheme,
+                     omg_ps:observatieprocedure_references, omg_ps:observatieprocedure_comment, omg_ps:observatieprocedure_definition,
+                     omg_ps:observatieprocedure_altLabel, omg_ps:observatieprocedure_prefLabel, omg_ps:observatieprocedure_theme,
+                     omg_ps:observatieprocedure_broader, omg_ps:observatieprocedure_narrower, omg_ps:observatieprocedure_seeAlso;
+
+    sh:targetClass   skos:Concept .
+
+
+
+
+
+ #                skos:definition  "Organic compounds containing the functional group -CO-Cl."@nl ;
+ons:concept a sh:SPARQLTarget ;
+            rdfs:label "Sparql query list of nil"@en ;
+            sh:select "SELECT ?this WHERE { ?this a <http://www.w3.org/2004/02/skos/core#Concept>. FILTER NOT EXISTS { ?this a <http://dbpedia.org/ontology/ChemicalSubstance>. } }"^^xsd:string .
+
+
+# Property Shapes
+
+
+
+omg_ps:observatieprocedure_theme
+        a                sh:PropertyShape ;
+    rdfs:label       "thema"@nl ;
+    sh:name          "thema"@nl ;
+    sh:description   "De relatie naar een europees thema"@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:minCount      1 ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          dcat:theme .
+
+omg_ps:observatieprocedure_narrower
+    a                sh:PropertyShape ;
+    rdfs:label       "specifieker concept"@nl ;
+    sh:name          "specifieker concept"@nl ;
+    sh:description   "De relatie tussen een concept en een nauwer, specifieker concept binnen hetzelfde schema."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:class         skos:Concept ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:narrower .
+
+
+
+omg_ps:observatieprocedure_broader
+    a                sh:PropertyShape ;
+    rdfs:label       "breder concept"@nl ;
+    sh:name          "breder concept"@nl ;
+    sh:description   "De relatie tussen een concept en een breder, minder specifiek concept binnen hetzelfde schema."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:class         skos:Concept ;
+    sh:maxCount      1 ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:broader .
+
+
+
+
+
+
+omg_ps:categorie_stof_topConceptOf
+    a                sh:PropertyShape ;
+    rdfs:label       "topconcept van"@nl ;
+    sh:name          "topconcept van"@nl ;
+    sh:description   "De relatie tussen een concept en het schema, waarvan het een topconcept is."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:class         skos:ConceptScheme ;
+    sh:maxCount      1 ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:topConceptOf .
+
+
+omg_ps:observatieprocedure_altLabel
+    a                sh:PropertyShape ;
+    rdfs:label       "alternatief label"@nl ;
+    sh:name          "alternatief label"@nl ;
+    sh:description   "Een alternatief lexicaal label voor een bepaalde bron."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:datatype      rdf:langString ;
+    sh:languageIn    ( "nl" "en" ) ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          skos:altLabel .
+
+
+
+
+omg_ps:observatieprocedure_collection_member
+    a                sh:PropertyShape ;
+    rdfs:label       "onderdeel"@nl ;
+    sh:name          "onderdeel"@nl ;
+    sh:description   "Een collectie heeft minstens 1 onderdeel."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:class         skos:Concept ;
+    sh:minCount      1 ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:member .
+
+omg_ps:observatieprocedure_seeAlso
+    a                sh:PropertyShape ;
+    rdfs:label       "zie ook"@nl ;
+    sh:name          "zie ook"@nl ;
+    sh:description   "Een verwijzing naar een gelijkaardige 'resource' of een document over het onderwerp."@nl ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:maxCount      1 ;
+    sh:minCount      1 ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          rdfs:seeAlso .
+
+
+
+
+
+omg_ps:observatieprocedure_exactMatch
+    a                sh:PropertyShape ;
+    rdfs:label       "heeft exacte overeenkomst"@nl ;
+    sh:name          "heeft exacte overeenkomst"@nl ;
+    sh:description   "skos:exactMatch wordt gebruikt om twee concepten te koppelen, wat aangeeft dat er een hoge mate van vertrouwen bestaat dat de concepten onderling uitwisselbaar kunnen worden gebruikt in een breed scala aan toepassingen voor het ophalen van informatie. skos:exactMatch is een transitieve eigenschap en is een subeigenschap van skos:closeMatch"@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:exactMatch .
+
+
+
+
+
+omg_ps:observatieprocedure_notation
+    a                sh:PropertyShape ;
+    rdfs:label       "notatie"@nl ;
+    sh:name          "notatie"@nl ;
+    sh:description   "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een stof op unieke wijze te identificeren binnen de context van dit schema."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:datatype      xsd:string ;
+    sh:nodeKind      sh:Literal ;
+    sh:property      omg_ps:observatieprocedure_unique_notation ;
+    sh:path          skos:notation .
+
+omg_ps:observatieprocedure_unique_notation
+    a                  sh:PropertyShape ;
+    rdfs:label         "unieke notatie"@nl ;
+    sh:name            "unieke notatie"@nl ;
+    sh:description     "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een stof op unieke wijze te identificeren binnen de context van dit schema. Er kan vanuit verschillende classificatiesystemen, met meerdere notaties verwezen worden naar een stof, maar een notatie is uniek voor een stof, ttz. vanuit 1 notatie kan slechts naar 1 stof worden verwezen."@nl ;
+    rdfs:isDefinedBy   omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:nodeKind        sh:IRI ;
+    sh:targetObjectsOf skos:notation ;
+    sh:path            [ sh:inversePath skos:notation ] ;
+    sh:minCount        1 ;
+    sh:maxCount        1 .
+
+
+
+omg_ps:observatieprocedure_schema_hasTopConcept
+    a                sh:PropertyShape ;
+    rdfs:label       "heeft topconcept"@nl ;
+    sh:name          "heeft topconcept"@nl ;
+    sh:description   "Verbindt een conceptschema met een concept dat bovenaan in een 'broader/narrower' hierarchie staat en voorziet aldus een ingang tot die hierarchie."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:class         skos:Concept ; #dbo:ChemicalCompound, dbo:ChemicalSubstance,
+    sh:minCount      1 ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:hasTopConcept .
+
+omg_ps:observatieprocedure_comment
+    a                sh:PropertyShape ;
+    rdfs:label       "commentaar"@nl ;
+    sh:name          "commentaar"@nl ;
+    sh:description   "Binnen dit schema wordt rdfs:comment gebruikt om de relatie, in tekstformaat, naar wetgeving en analysemethodes te leggen, die betrekking hebben op de observatieprocedure. Dit tekstformaat wordt op termijn vervangen door linken naar 'resources'."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:datatype      rdf:langString ;
+    sh:languageIn    ( "nl" ) ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          rdfs:comment .
+
+omg_ps:observatieprocedure_references
+    a                sh:PropertyShape ;
+    rdfs:label       "wordt vermeld in"@nl ;
+    sh:name          "wordt vermeld in"@nl ;
+    sh:description   "Binnen dit schema wordt dct:references gebruikt om de relatie tussen analysemethodes en wat geanalyseerd wordt te leggen, die betrekking hebben op de observatieprocedure."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          dct:references .
+
+
+
+omg_ps:observatieprocedure_definition
+    a                sh:PropertyShape ;
+    rdfs:label       "definitie"@nl ;
+    sh:name          "definitie"@nl ;
+    sh:description   "Een uitspraak over de betekenis van het concept, de collectie of het schema."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:datatype      rdf:langString ;
+    sh:languageIn    ( "nl" "en" ) ;
+    sh:maxCount      2 ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          skos:definition .
+
+
+
+
+
+
+
+omg_ps:observatieprocedure_prefLabel
+    a                sh:PropertyShape ;
+    rdfs:label       "voorkeurslabel"@nl ;
+    sh:name          "voorkeurslabel"@nl ;
+    sh:description   "Het voorkeurslabel in de Nederlandse taal. Slechts 1 voorkeurslabel is toegelaten."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:datatype      rdf:langString ;
+    sh:languageIn    ( "nl" ) ;
+    sh:maxCount      1 ;
+    sh:minCount      1 ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          skos:prefLabel .
+
+omg_ps:categorie_prefLabel
+    a                sh:PropertyShape ;
+    rdfs:label       "voorkeurslabel"@nl ;
+    sh:name          "voorkeurslabel"@nl ;
+    sh:description   "Het voorkeurslabel in de engelse taal. Slechts 1 voorkeurslabel is toegelaten."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:datatype      rdf:langString ;
+    sh:languageIn    ( "en" ) ;
+    sh:maxCount      1 ;
+    sh:minCount      1 ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          skos:prefLabel .
+
+omg_ps:conceptscheme_prefLabel
+    a                sh:PropertyShape ;
+    rdfs:label       "voorkeurslabel"@nl ;
+    sh:name          "voorkeurslabel"@nl ;
+    sh:description   "Het voorkeurslabel."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:datatype      rdf:langString ;
+    sh:languageIn    ( "en" "nl" ) ;
+    sh:maxCount      2 ;
+    sh:minCount      1 ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          skos:prefLabel .
+
+
+
+omg_ps:observatieprocedure_inScheme
+    a                sh:PropertyShape ;
+    rdfs:label       "is in schema"@nl ;
+    sh:name          "is in schema"@nl ;
+    sh:description   "Drukt de relatie uit tussen een 'resource' en het schema dat het bevat."@nl ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:class         skos:ConceptScheme ;
+    sh:maxCount      1 ;
+    sh:minCount      1 ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:inScheme .
