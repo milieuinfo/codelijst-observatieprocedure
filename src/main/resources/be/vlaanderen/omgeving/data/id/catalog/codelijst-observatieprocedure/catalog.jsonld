@@ -2,559 +2,372 @@
     "@graph": [
         {
             "@id": "omg_dataset:codelijst-observatieprocedure.2.0.0",
-            "dcat:theme": [
-                {
-                    "@id": "eurovoc:2407"
-                },
-                {
-                    "@id": "gemet:10087"
-                },
-                {
-                    "@id": "datatheme_be:ENVI"
-                },
-                {
-                    "@id": "datatheme_eu:ENVI"
-                }
-            ],
-            "dcat:landingPage": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html"
+            "dcterms:language": {
+                "@id": "language:NLD"
             },
-            "dcterms:identifier": {
-                "@id": "omg_dataset:codelijst-observatieprocedure.2.0.0"
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
             },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure (2.0.0)"
-            },
-            "dcterms:alternative": {
-                "@language": "nl",
-                "@value": "Dataset codelijst observatieprocedure"
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-observatieprocedure.2.0.0.html"
             },
             "dcat:distribution": [
                 {
-                    "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.jsonld"
-                },
-                {
-                    "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.csv"
+                    "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.2.0.0"
                 },
                 {
                     "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.ttl"
                 },
                 {
-                    "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.2.0.0"
-                }
-            ],
-            "dcterms:issued": {
-                "@value": "2023-06-26",
-                "@type": "xsd:date"
-            },
-            "dcterms:spatial": [
-                {
-                    "@id": "country:BEL"
+                    "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.csv"
                 },
                 {
-                    "@id": "https://www.geonames.org/3337388/flanders"
+                    "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.jsonld"
                 }
             ],
-            "@type": "dcat:Dataset",
-            "void:rootResource": {
-                "@id": "omg_conceptscheme:observatieprocedure"
-            },
-            "dcterms:accrualPeriodicity": {
-                "@id": "frequency:IRREG"
-            },
-            "dcterms:isVersionOf": {
-                "@id": "omg_dataset:codelijst-observatieprocedure"
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.dataset.codelijst-observatieprocedure.2.0.0",
-            "dc:language": {
+            "dcterms:description": {
                 "@language": "nl",
-                "@value": "nl"
+                "@value": "Deze dataset bevat een lijst van observatieproceduretypes, die gebruikt worden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
             },
-            "dcterms:temporal": {
-                "@id": "omg_id:periodoftime/dataset_omg"
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "owl:versionInfo": "2.0.0",
+            "dcterms:license": {
+                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+            },
+            "dcat:theme": [
+                {
+                    "@id": "datatheme_eu:ENVI"
+                },
+                {
+                    "@id": "datatheme_be:ENVI"
+                },
+                {
+                    "@id": "gemet:10087"
+                },
+                {
+                    "@id": "eurovoc:2407"
+                }
+            ],
+            "dcterms:publisher": {
+                "@id": "ovo:OVO003323"
             },
             "dcterms:title": {
                 "@language": "nl",
                 "@value": "Codelijst observatieprocedure"
             },
-            "dcterms:publisher": {
-                "@id": "ovo:OVO003323"
+            "dcterms:temporal": {
+                "@id": "omg_id:periodoftime/dataset_omg"
             },
-            "dcterms:license": {
-                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
-            },
-            "owl:versionInfo": "2.0.0",
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dcterms:description": {
+            "dc:language": {
                 "@language": "nl",
-                "@value": "Deze dataset bevat een lijst van observatieproceduretypes, die gebruikt worden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
+                "@value": "nl"
             },
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-observatieprocedure.2.0.0.html"
+            "dcterms:spatial": [
+                {
+                    "@id": "https://www.geonames.org/3337388/flanders"
+                },
+                {
+                    "@id": "country:BEL"
+                }
+            ],
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.dataset.codelijst-observatieprocedure.2.0.0",
+            "dcterms:isVersionOf": {
+                "@id": "omg_dataset:codelijst-observatieprocedure"
             },
-            "dcat:contactPoint": {
-                "@id": "omg_id:vcard/helpdesk"
+            "dcterms:accrualPeriodicity": {
+                "@id": "frequency:IRREG"
             },
-            "dcterms:language": {
-                "@id": "language:NLD"
-            }
-        },
-        {
-            "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.jsonld",
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
+            "void:rootResource": {
+                "@id": "omg_conceptscheme:observatieprocedure"
             },
-            "@type": "dcat:Distribution",
+            "@type": "dcat:Dataset",
             "dcterms:issued": {
                 "@value": "2023-06-26",
                 "@type": "xsd:date"
             },
+            "dcterms:alternative": {
+                "@language": "nl",
+                "@value": "Dataset codelijst observatieprocedure"
+            },
             "rdfs:label": {
                 "@language": "nl",
-                "@value": "Codelijst observatieprocedure, in jsonld rdf-formaat."
+                "@value": "Codelijst observatieprocedure (2.0.0)"
             },
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+            "dcterms:identifier": {
+                "@id": "omg_dataset:codelijst-observatieprocedure.2.0.0"
+            },
+            "dcat:landingPage": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html"
+            }
+        },
+        {
+            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.2.0.0",
+            "dcterms:identifier": {
+                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.2.0.0"
+            },
+            "spdx:downloadLocation": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-observatieprocedure/2.0.0/codelijst-observatieprocedure-2.0.0.jar"
+            },
+            "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure",
+            "spdx:versionInfo": "2.0.0",
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.2.0.0",
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure in jar-formaat."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package codelijst-observatieprocedure"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, Jar maven package."
+            },
+            "dcterms:format": {
+                "@id": "file_type:JAR"
+            },
+            "@type": [
+                "spdx:Package",
+                "dcat:Distribution"
+            ],
+            "spdx:packageFileName": "codelijst-observatieprocedure-2.0.0.jar",
+            "dcat:downloadURL": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-observatieprocedure/2.0.0/codelijst-observatieprocedure-2.0.0.jar"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:issued": {
+                "@value": "2023-06-26",
+                "@type": "xsd:date"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.ttl",
+            "dcterms:format": {
+                "@id": "file_type:RDF_TURTLE"
+            },
+            "@type": "dcat:Distribution",
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.2.0.0.observatieprocedure.ttl",
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, in Turtle rdf-formaat."
             },
             "dcat:accessURL": {
                 "@id": "https://github.com/milieuinfo/codelijst-observatieprocedure.git"
             },
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.jsonld"
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.2.0.0.observatieprocedure.ttl.html"
             },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure, geserialiseerd in een jsonld bestand."
+            "dcat:downloadURL": {
+                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.2.0.0.observatieprocedure.ttl"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/turtle"
             },
             "dcterms:title": {
                 "@language": "nl",
-                "@value": "Codelijst observatieprocedure in jsonld rdf-formaat."
+                "@value": "Codelijst observatieprocedure in Turtle rdf-formaat."
             },
             "dcat:compressFormat": {
                 "@id": "http://www.iana.org/assignments/media-types/application/gzip"
             },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.2.0.0.observatieprocedure.jsonld",
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.ttl"
+            },
+            "dcterms:issued": {
+                "@value": "2023-06-26",
+                "@type": "xsd:date"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, geserialiseerd in Turtle bestand."
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.csv",
+            "dcterms:format": {
+                "@id": "file_type:CSV"
+            },
+            "dcterms:issued": {
+                "@value": "2023-06-26",
+                "@type": "xsd:date"
+            },
+            "@type": "dcat:Distribution",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, in text/csv formaat."
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, geserialiseerd in csv tabelformaat."
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.2.0.0.observatieprocedure.csv",
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
             },
             "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.2.0.0.observatieprocedure.jsonld.html"
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.2.0.0.observatieprocedure.csv.html"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
             },
             "dcat:downloadURL": {
-                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.2.0.0.observatieprocedure.jsonld"
+                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.2.0.0.observatieprocedure.csv"
             },
-            "dcterms:format": {
-                "@id": "file_type:JSON_LD"
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-observatieprocedure.git"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure in text/csv formaat."
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.csv"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/csv"
             }
         },
         {
             "@id": "omg_dataset:codelijst-observatieprocedure",
             "dcat:theme": [
                 {
-                    "@id": "gemet:10087"
-                },
-                {
-                    "@id": "eurovoc:2407"
+                    "@id": "datatheme_eu:ENVI"
                 },
                 {
                     "@id": "datatheme_be:ENVI"
                 },
                 {
-                    "@id": "datatheme_eu:ENVI"
-                }
-            ],
-            "dcterms:license": {
-                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.dataset.codelijst-observatieprocedure",
-            "dcat:contactPoint": {
-                "@id": "omg_id:vcard/helpdesk"
-            },
-            "dcterms:spatial": [
-                {
-                    "@id": "https://www.geonames.org/3337388/flanders"
+                    "@id": "eurovoc:2407"
                 },
                 {
-                    "@id": "country:BEL"
+                    "@id": "gemet:10087"
                 }
             ],
-            "dcterms:description": {
+            "dcterms:publisher": {
+                "@id": "ovo:OVO003323"
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-observatieprocedure.html"
+            },
+            "@type": "dcat:Dataset",
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:temporal": {
+                "@id": "omg_id:periodoftime/dataset_omg"
+            },
+            "dc:language": {
                 "@language": "nl",
-                "@value": "Deze dataset bevat een lijst van observatieproceduretypes, die gebruikt worden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
+                "@value": "nl"
             },
-            "dcterms:identifier": {
-                "@id": "omg_dataset:codelijst-observatieprocedure"
+            "dcterms:accrualPeriodicity": {
+                "@id": "frequency:IRREG"
             },
-            "dcterms:language": {
-                "@id": "language:NLD"
-            },
-            "rdfs:label": {
+            "dcterms:alternative": {
                 "@language": "nl",
-                "@value": "Codelijst observatieprocedure"
-            },
-            "dcat:landingPage": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html"
+                "@value": "Dataset codelijst observatieprocedure"
             },
             "dcterms:hasVersion": [
+                {
+                    "@id": "omg_dataset:codelijst-observatieprocedure.1.1.2"
+                },
                 {
                     "@id": "omg_dataset:codelijst-observatieprocedure.2.0.0"
                 },
                 {
-                    "@id": "omg_dataset:codelijst-observatieprocedure.1.1.2"
+                    "@id": "omg_dataset:codelijst-observatieprocedure.3.0.0"
                 }
             ],
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure"
+            },
             "void:rootResource": {
                 "@id": "omg_conceptscheme:observatieprocedure"
             },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure"
+            "dcat:landingPage": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html"
             },
-            "dcterms:alternative": {
-                "@language": "nl",
-                "@value": "Dataset codelijst observatieprocedure"
-            },
-            "dcterms:accrualPeriodicity": {
-                "@id": "frequency:IRREG"
-            },
-            "dc:language": {
-                "@language": "nl",
-                "@value": "nl"
-            },
-            "dcterms:temporal": {
-                "@id": "omg_id:periodoftime/dataset_omg"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "@type": "dcat:Dataset",
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-observatieprocedure.html"
-            },
-            "dcterms:publisher": {
-                "@id": "ovo:OVO003323"
-            }
-        },
-        {
-            "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.csv",
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/text/csv"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.csv"
-            },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure in text/csv formaat."
-            },
-            "dcat:accessURL": {
-                "@id": "https://github.com/milieuinfo/codelijst-observatieprocedure.git"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.2.0.0.observatieprocedure.csv"
-            },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.2.0.0.observatieprocedure.csv.html"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.2.0.0.observatieprocedure.csv",
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure, geserialiseerd in csv tabelformaat."
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure, in text/csv formaat."
-            },
-            "@type": "dcat:Distribution",
-            "dcterms:issued": {
-                "@value": "2023-06-26",
-                "@type": "xsd:date"
-            },
-            "dcterms:format": {
-                "@id": "file_type:CSV"
-            }
-        },
-        {
-            "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.ttl",
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure, geserialiseerd in Turtle bestand."
-            },
-            "dcterms:issued": {
-                "@value": "2023-06-26",
-                "@type": "xsd:date"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.ttl"
-            },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure in Turtle rdf-formaat."
-            },
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/text/turtle"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.2.0.0.observatieprocedure.ttl"
-            },
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.2.0.0.observatieprocedure.ttl.html"
-            },
-            "dcat:accessURL": {
-                "@id": "https://github.com/milieuinfo/codelijst-observatieprocedure.git"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure, in Turtle rdf-formaat."
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.2.0.0.observatieprocedure.ttl",
-            "@type": "dcat:Distribution",
-            "dcterms:format": {
-                "@id": "file_type:RDF_TURTLE"
-            }
-        },
-        {
-            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.2.0.0",
-            "dcterms:issued": {
-                "@value": "2023-06-26",
-                "@type": "xsd:date"
-            },
-            "@type": [
-                "dcat:Distribution",
-                "spdx:Package"
-            ],
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-observatieprocedure/2.0.0/codelijst-observatieprocedure-2.0.0.jar"
-            },
-            "spdx:packageFileName": "codelijst-observatieprocedure-2.0.0.jar",
-            "dcterms:format": {
-                "@id": "file_type:JAR"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure, Jar maven package."
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Package codelijst-observatieprocedure"
-            },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure in jar-formaat."
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.2.0.0",
-            "spdx:versionInfo": "2.0.0",
-            "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure",
-            "spdx:downloadLocation": {
-                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-observatieprocedure/2.0.0/codelijst-observatieprocedure-2.0.0.jar"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.2.0.0"
-            }
-        },
-        {
-            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.1.1.2",
-            "spdx:versionInfo": "1.1.2",
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure in jar-formaat."
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "@type": [
-                "dcat:Distribution",
-                "spdx:Package"
-            ],
-            "dcterms:identifier": {
-                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.1.1.2"
-            },
-            "spdx:downloadLocation": {
-                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-observatieprocedure/1.1.2/codelijst-observatieprocedure-1.1.2.jar"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure, Jar maven package."
-            },
-            "spdx:packageFileName": "codelijst-observatieprocedure-1.1.2.jar",
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Package codelijst-observatieprocedure"
-            },
-            "dcterms:issued": {
-                "@value": "2023-04-04",
-                "@type": "xsd:date"
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.1.1.2",
-            "dcat:downloadURL": {
-                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-observatieprocedure/1.1.2/codelijst-observatieprocedure-1.1.2.jar"
-            },
-            "dcterms:format": {
-                "@id": "file_type:JAR"
-            },
-            "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure"
-        },
-        {
-            "@id": "omg_dataset:codelijst-observatieprocedure.1.1.2",
             "dcterms:spatial": [
                 {
-                    "@id": "https://www.geonames.org/3337388/flanders"
-                },
-                {
                     "@id": "country:BEL"
+                },
+                {
+                    "@id": "https://www.geonames.org/3337388/flanders"
                 }
             ],
-            "owl:versionInfo": "1.1.2",
-            "dcterms:isVersionOf": {
-                "@id": "omg_dataset:codelijst-observatieprocedure"
-            },
-            "@type": "dcat:Dataset",
-            "dcat:theme": [
-                {
-                    "@id": "gemet:10087"
-                },
-                {
-                    "@id": "datatheme_eu:ENVI"
-                },
-                {
-                    "@id": "datatheme_be:ENVI"
-                },
-                {
-                    "@id": "eurovoc:2407"
-                }
-            ],
-            "dcterms:publisher": {
-                "@id": "ovo:OVO003323"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dcterms:issued": {
-                "@value": "2023-04-04",
-                "@type": "xsd:date"
-            },
             "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure (1.1.2)"
-            },
-            "dcat:distribution": [
-                {
-                    "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.jsonld"
-                },
-                {
-                    "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.csv"
-                },
-                {
-                    "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.ttl"
-                },
-                {
-                    "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.1.1.2"
-                }
-            ],
-            "dcterms:identifier": {
-                "@id": "omg_dataset:codelijst-observatieprocedure.1.1.2"
-            },
-            "dcat:contactPoint": {
-                "@id": "omg_id:vcard/helpdesk"
-            },
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-observatieprocedure.1.1.2.html"
-            },
-            "dcterms:title": {
                 "@language": "nl",
                 "@value": "Codelijst observatieprocedure"
             },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
+            "dcterms:language": {
+                "@id": "language:NLD"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_dataset:codelijst-observatieprocedure"
             },
             "dcterms:description": {
                 "@language": "nl",
                 "@value": "Deze dataset bevat een lijst van observatieproceduretypes, die gebruikt worden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
             },
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.dataset.codelijst-observatieprocedure",
             "dcterms:license": {
                 "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
-            },
-            "dcterms:accrualPeriodicity": {
-                "@id": "frequency:IRREG"
-            },
-            "dc:language": {
-                "@language": "nl",
-                "@value": "nl"
-            },
-            "dcterms:alternative": {
-                "@language": "nl",
-                "@value": "Dataset codelijst observatieprocedure"
-            },
-            "dcat:landingPage": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html"
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.dataset.codelijst-observatieprocedure.1.1.2",
-            "dcterms:temporal": {
-                "@id": "omg_id:periodoftime/dataset_omg"
-            },
-            "void:rootResource": {
-                "@id": "omg_conceptscheme:observatieprocedure"
-            },
-            "dcterms:language": {
-                "@id": "language:NLD"
             }
         },
         {
-            "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.jsonld",
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.1.1.2.observatieprocedure.jsonld",
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.jsonld"
-            },
-            "@type": "dcat:Distribution",
+            "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.jsonld",
             "dcterms:format": {
                 "@id": "file_type:JSON_LD"
             },
-            "dcterms:issued": {
-                "@value": "2023-04-04",
-                "@type": "xsd:date"
+            "dcat:downloadURL": {
+                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.2.0.0.observatieprocedure.jsonld"
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.2.0.0.observatieprocedure.jsonld.html"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.2.0.0.observatieprocedure.jsonld",
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
             },
             "dcterms:title": {
                 "@language": "nl",
                 "@value": "Codelijst observatieprocedure in jsonld rdf-formaat."
             },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, geserialiseerd in een jsonld bestand."
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieprocedure.2.0.0.observatieprocedure.jsonld"
             },
             "dcat:accessURL": {
                 "@id": "https://github.com/milieuinfo/codelijst-observatieprocedure.git"
@@ -562,118 +375,365 @@
             "dcat:mediaType": {
                 "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
             },
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.1.1.2.observatieprocedure.jsonld.html"
-            },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.1.1.2.observatieprocedure.jsonld"
-            },
             "rdfs:label": {
                 "@language": "nl",
                 "@value": "Codelijst observatieprocedure, in jsonld rdf-formaat."
             },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure, geserialiseerd in een jsonld bestand."
+            "dcterms:issued": {
+                "@value": "2023-06-26",
+                "@type": "xsd:date"
+            },
+            "@type": "dcat:Distribution",
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
             }
         },
         {
-            "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.csv",
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
+            "@id": "omg_distribution:codelijst-observatieprocedure.3.0.0.observatieprocedure.csv",
+            "@type": "dcat:Distribution",
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-observatieprocedure.git"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.3.0.0.observatieprocedure.csv",
+            "dcterms:issued": {
+                "@value": "2023-09-27",
+                "@type": "xsd:date"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieprocedure.3.0.0.observatieprocedure.csv"
             },
             "dcterms:description": {
                 "@language": "nl",
                 "@value": "Codelijst observatieprocedure, geserialiseerd in csv tabelformaat."
             },
-            "dcterms:issued": {
-                "@value": "2023-04-04",
-                "@type": "xsd:date"
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
             },
             "dcat:compressFormat": {
                 "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "dcterms:format": {
-                "@id": "file_type:CSV"
-            },
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.1.1.2.observatieprocedure.csv.html"
             },
             "dcterms:title": {
                 "@language": "nl",
                 "@value": "Codelijst observatieprocedure in text/csv formaat."
             },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.1.1.2.observatieprocedure.csv",
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.3.0.0.observatieprocedure.csv.html"
             },
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.csv"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.1.1.2.observatieprocedure.csv"
-            },
-            "@type": "dcat:Distribution",
             "dcat:mediaType": {
                 "@id": "https://www.iana.org/assignments/media-types/text/csv"
             },
-            "dcat:accessURL": {
-                "@id": "https://github.com/milieuinfo/codelijst-observatieprocedure.git"
+            "dcat:downloadURL": {
+                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.3.0.0.observatieprocedure.csv"
             },
             "rdfs:label": {
                 "@language": "nl",
                 "@value": "Codelijst observatieprocedure, in text/csv formaat."
+            },
+            "dcterms:format": {
+                "@id": "file_type:CSV"
             }
         },
         {
-            "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.ttl",
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.ttl"
+            "@id": "omg_dataset:codelijst-observatieprocedure.1.1.2",
+            "dcterms:language": {
+                "@id": "language:NLD"
+            },
+            "void:rootResource": {
+                "@id": "omg_conceptscheme:observatieprocedure"
+            },
+            "dcat:theme": [
+                {
+                    "@id": "eurovoc:2407"
+                },
+                {
+                    "@id": "datatheme_be:ENVI"
+                },
+                {
+                    "@id": "datatheme_eu:ENVI"
+                },
+                {
+                    "@id": "gemet:10087"
+                }
+            ],
+            "dcterms:temporal": {
+                "@id": "omg_id:periodoftime/dataset_omg"
+            },
+            "dcat:distribution": [
+                {
+                    "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.1.1.2"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.ttl"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.csv"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.jsonld"
+                }
+            ],
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.dataset.codelijst-observatieprocedure.1.1.2",
+            "dcat:landingPage": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html"
+            },
+            "dcterms:alternative": {
+                "@language": "nl",
+                "@value": "Dataset codelijst observatieprocedure"
+            },
+            "dc:language": {
+                "@language": "nl",
+                "@value": "nl"
+            },
+            "dcterms:accrualPeriodicity": {
+                "@id": "frequency:IRREG"
+            },
+            "dcterms:license": {
+                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
             },
             "dcterms:description": {
                 "@language": "nl",
-                "@value": "Codelijst observatieprocedure, geserialiseerd in Turtle bestand."
+                "@value": "Deze dataset bevat een lijst van observatieproceduretypes, die gebruikt worden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
             },
-            "@type": "dcat:Distribution",
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/text/turtle"
-            },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.1.1.2.observatieprocedure.ttl",
-            "dcterms:format": {
-                "@id": "file_type:RDF_TURTLE"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.1.1.2.observatieprocedure.ttl"
-            },
-            "dcat:accessURL": {
-                "@id": "https://github.com/milieuinfo/codelijst-observatieprocedure.git"
-            },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst observatieprocedure, in Turtle rdf-formaat."
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
             },
             "dcterms:title": {
                 "@language": "nl",
-                "@value": "Codelijst observatieprocedure in Turtle rdf-formaat."
+                "@value": "Codelijst observatieprocedure"
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-observatieprocedure.1.1.2.html"
+            },
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_dataset:codelijst-observatieprocedure.1.1.2"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure (1.1.2)"
             },
             "dcterms:issued": {
                 "@value": "2023-04-04",
                 "@type": "xsd:date"
             },
-            "foaf:page": {
-                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.1.1.2.observatieprocedure.ttl.html"
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:publisher": {
+                "@id": "ovo:OVO003323"
+            },
+            "@type": "dcat:Dataset",
+            "dcterms:spatial": [
+                {
+                    "@id": "country:BEL"
+                },
+                {
+                    "@id": "https://www.geonames.org/3337388/flanders"
+                }
+            ],
+            "dcterms:isVersionOf": {
+                "@id": "omg_dataset:codelijst-observatieprocedure"
+            },
+            "owl:versionInfo": "1.1.2"
+        },
+        {
+            "@id": "omg_dataset:codelijst-observatieprocedure.3.0.0",
+            "dcat:distribution": [
+                {
+                    "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.3.0.0"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieprocedure.3.0.0.observatieprocedure.jsonld"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieprocedure.3.0.0.observatieprocedure.csv"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieprocedure.3.0.0.observatieprocedure.ttl"
+                }
+            ],
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Deze dataset bevat een lijst van observatieproceduretypes, die gebruikt worden binnen het beleidsdomein omgeving van de Vlaamse Overheid en zoals die initieel binnen het kader van het OSLO thema omgeving is opgesteld."
+            },
+            "dcterms:license": {
+                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+            },
+            "dcat:theme": [
+                {
+                    "@id": "eurovoc:2407"
+                },
+                {
+                    "@id": "gemet:10087"
+                },
+                {
+                    "@id": "datatheme_be:ENVI"
+                },
+                {
+                    "@id": "datatheme_eu:ENVI"
+                }
+            ],
+            "dcterms:alternative": {
+                "@language": "nl",
+                "@value": "Dataset codelijst observatieprocedure"
             },
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_dataset:codelijst-observatieprocedure.3.0.0"
+            },
+            "dcterms:publisher": {
+                "@id": "ovo:OVO003323"
+            },
+            "dcterms:language": {
+                "@id": "language:NLD"
+            },
+            "void:rootResource": {
+                "@id": "omg_conceptscheme:observatieprocedure"
+            },
+            "dcterms:issued": {
+                "@value": "2023-09-27",
+                "@type": "xsd:date"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure"
+            },
+            "dcat:landingPage": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.dataset.codelijst-observatieprocedure.3.0.0",
+            "dcterms:spatial": [
+                {
+                    "@id": "country:BEL"
+                },
+                {
+                    "@id": "https://www.geonames.org/3337388/flanders"
+                }
+            ],
+            "dcterms:accrualPeriodicity": {
+                "@id": "frequency:IRREG"
+            },
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
+            "owl:versionInfo": "3.0.0",
+            "dcterms:temporal": {
+                "@id": "omg_id:periodoftime/dataset_omg"
+            },
+            "dcterms:isVersionOf": {
+                "@id": "omg_dataset:codelijst-observatieprocedure"
+            },
+            "@type": "dcat:Dataset",
+            "dc:language": {
+                "@language": "nl",
+                "@value": "nl"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure (3.0.0)"
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/dataset/codelijst-observatieprocedure.3.0.0.html"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            }
+        },
+        {
+            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.3.0.0",
+            "dcat:downloadURL": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-observatieprocedure/3.0.0/codelijst-observatieprocedure-3.0.0.jar"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.3.0.0",
+            "@type": [
+                "spdx:Package",
+                "dcat:Distribution"
+            ],
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:format": {
+                "@id": "file_type:JAR"
+            },
+            "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure",
+            "dcterms:identifier": {
+                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.3.0.0"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, Jar maven package."
+            },
+            "spdx:versionInfo": "3.0.0",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package codelijst-observatieprocedure"
+            },
+            "spdx:downloadLocation": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-observatieprocedure/3.0.0/codelijst-observatieprocedure-3.0.0.jar"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure in jar-formaat."
+            },
+            "dcterms:issued": {
+                "@value": "2023-09-27",
+                "@type": "xsd:date"
+            },
+            "spdx:packageFileName": "codelijst-observatieprocedure-3.0.0.jar",
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.csv",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, in text/csv formaat."
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-observatieprocedure.git"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/csv"
+            },
+            "@type": "dcat:Distribution",
+            "dcat:downloadURL": {
+                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.1.1.2.observatieprocedure.csv"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.csv"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.1.1.2.observatieprocedure.csv",
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure in text/csv formaat."
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.1.1.2.observatieprocedure.csv.html"
+            },
+            "dcterms:format": {
+                "@id": "file_type:CSV"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:issued": {
+                "@value": "2023-04-04",
+                "@type": "xsd:date"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, geserialiseerd in csv tabelformaat."
             },
             "dcterms:accessRights": {
                 "@id": "access_right:PUBLIC"
@@ -685,6 +745,243 @@
                 "@id": "omg_dataset:codelijst-observatieprocedure"
             },
             "@type": "dcat:Catalog"
+        },
+        {
+            "@id": "omg_distribution:codelijst-observatieprocedure.3.0.0.observatieprocedure.ttl",
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieprocedure.3.0.0.observatieprocedure.ttl"
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.3.0.0.observatieprocedure.ttl.html"
+            },
+            "@type": "dcat:Distribution",
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/turtle"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, geserialiseerd in Turtle bestand."
+            },
+            "dcterms:issued": {
+                "@value": "2023-09-27",
+                "@type": "xsd:date"
+            },
+            "dcterms:format": {
+                "@id": "file_type:RDF_TURTLE"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.3.0.0.observatieprocedure.ttl",
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.3.0.0.observatieprocedure.ttl"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, in Turtle rdf-formaat."
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-observatieprocedure.git"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure in Turtle rdf-formaat."
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.jsonld",
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, geserialiseerd in een jsonld bestand."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, in jsonld rdf-formaat."
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.1.1.2.observatieprocedure.jsonld"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.1.1.2.observatieprocedure.jsonld.html"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-observatieprocedure.git"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure in jsonld rdf-formaat."
+            },
+            "dcterms:issued": {
+                "@value": "2023-04-04",
+                "@type": "xsd:date"
+            },
+            "dcterms:format": {
+                "@id": "file_type:JSON_LD"
+            },
+            "@type": "dcat:Distribution",
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.jsonld"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.1.1.2.observatieprocedure.jsonld"
+        },
+        {
+            "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.ttl",
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.1.1.2.observatieprocedure.ttl.html"
+            },
+            "dcterms:issued": {
+                "@value": "2023-04-04",
+                "@type": "xsd:date"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure in Turtle rdf-formaat."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, in Turtle rdf-formaat."
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-observatieprocedure.git"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.1.1.2.observatieprocedure.ttl"
+            },
+            "dcterms:format": {
+                "@id": "file_type:RDF_TURTLE"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.1.1.2.observatieprocedure.ttl",
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/turtle"
+            },
+            "@type": "dcat:Distribution",
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, geserialiseerd in Turtle bestand."
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieprocedure.1.1.2.observatieprocedure.ttl"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-observatieprocedure.3.0.0.observatieprocedure.jsonld",
+            "@type": "dcat:Distribution",
+            "dcat:downloadURL": {
+                "@id": "https://datasets.omgeving.vlaanderen.be/be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.3.0.0.observatieprocedure.jsonld"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure in jsonld rdf-formaat."
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieprocedure.3.0.0.observatieprocedure.jsonld"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/milieuinfo/codelijst-observatieprocedure.git"
+            },
+            "dcterms:issued": {
+                "@value": "2023-09-27",
+                "@type": "xsd:date"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.distribution.codelijst-observatieprocedure.3.0.0.observatieprocedure.jsonld",
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, geserialiseerd in een jsonld bestand."
+            },
+            "foaf:page": {
+                "@id": "https://data.omgeving.vlaanderen.be/doc/distribution/codelijst-observatieprocedure.3.0.0.observatieprocedure.jsonld.html"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:format": {
+                "@id": "file_type:JSON_LD"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, in jsonld rdf-formaat."
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            }
+        },
+        {
+            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.1.1.2",
+            "@type": [
+                "spdx:Package",
+                "dcat:Distribution"
+            ],
+            "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure",
+            "dcterms:format": {
+                "@id": "file_type:JAR"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-observatieprocedure/1.1.2/codelijst-observatieprocedure-1.1.2.jar"
+            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.1.1.2",
+            "dcterms:issued": {
+                "@value": "2023-04-04",
+                "@type": "xsd:date"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package codelijst-observatieprocedure"
+            },
+            "spdx:packageFileName": "codelijst-observatieprocedure-1.1.2.jar",
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure, Jar maven package."
+            },
+            "spdx:downloadLocation": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst-observatieprocedure/1.1.2/codelijst-observatieprocedure-1.1.2.jar"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst-observatieprocedure.1.1.2"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieprocedure in jar-formaat."
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "spdx:versionInfo": "1.1.2"
         }
     ],
     "@context": {
