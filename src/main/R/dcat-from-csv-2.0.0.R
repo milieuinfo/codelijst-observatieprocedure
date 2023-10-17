@@ -331,9 +331,9 @@ RCTYPE_DSVERSIE <- "VERSIE-DATASET"
 RCTYPE_DSDVERSIE <- "VERSIE-DISTRIB"
 RCTYPE_DSPVERSIE <- "VERSIE-PACKAGE"
 
-DS_VERSIE <- str_replace(RCTYPE_DSVERSIE,"VERSIE",paste("V",version_next_release,sep = ""))
-DSD_VERSIE <- str_replace(RCTYPE_DSDVERSIE,"VERSIE",paste("V",version_next_release,sep = ""))
-DSP_VERSIE <- str_replace(RCTYPE_DSPVERSIE,"VERSIE",paste("V",version_next_release,sep = ""))
+DS_VERSIE <- gsub("VERSIE",paste("V",version_next_release, sep = ""),RCTYPE_DSVERSIE)
+DSD_VERSIE <- gsub("VERSIE",paste("V",version_next_release,sep = ""),RCTYPE_DSDVERSIE)
+DSP_VERSIE <- gsub("VERSIE",paste("V",version_next_release,sep = ""),RCTYPE_DSPVERSIE)
 
 OP_GEN_DATASET <- "genereer_dataset"
 OP_UPD_CATALOG <- "opdate_catalog_source"

@@ -55,6 +55,7 @@
     "coo" : "https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/",
     "dcat" : "http://www.w3.org/ns/dcat#",
     "csc" : "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
+    "css" : "https://data.omgeving.vlaanderen.be/id/concept/sommatie_stoffen/",
     "dct" : "http://purl.org/dc/terms/",
     "dc" : "http://purl.org/dc/elements/1.1/",
     "gemet" : "http://www.eionet.europa.eu/gemet/concept/"

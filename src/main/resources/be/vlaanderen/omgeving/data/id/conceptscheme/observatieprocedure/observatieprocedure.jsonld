@@ -1167,6 +1167,9 @@
                 "@language": "nl",
                 "@value": "Deze procedure beschrijft de bepaling van de methyleenblauw actieve substanties (MBAS) in water (bijvoorbeeld grond-, drink, oppervlakte- en afvalwater) met een continu-doorstroomanalyse (CFA) met spectrometrische detectie"
             },
+            "dct:references": {
+                "@id": "css:mbas"
+            },
             "rdfs:seeAlso": {
                 "@id": "https://reflabos.vito.be/2023/WAC_III_D_040.pdf"
             },
@@ -1641,29 +1644,34 @@
         },
         {
             "@id": "co:WAC_IV_B_010",
-            "dcat:theme": {
-                "@id": "gemet:15179"
-            },
-            "skos:topConceptOf": {
+            "dct:references": [
+                {
+                    "@id": "csc:QBYJBZPUGVGKQQ-UHFFFAOYSA-N"
+                },
+                {
+                    "@id": "css:eox"
+                }
+            ],
+            "skos:inScheme": {
                 "@id": "vlcs:observatieprocedure"
             },
             "skos:prefLabel": {
                 "@language": "nl",
                 "@value": "Extraheerbare organische halogeenverbindingen (EOX) in water"
             },
-            "skos:notation": "WAC/IV/B/010",
-            "skos:inScheme": {
-                "@id": "vlcs:observatieprocedure"
+            "rdfs:seeAlso": {
+                "@id": "https://reflabos.vito.be/2023/WAC_IV_B_010.pdf"
             },
             "skos:definition": {
                 "@language": "nl",
                 "@value": "De beschreven methode laat toe het halogeengehalte van met petroleumether uit water extraheerbare, niet vluchtige organohalogeenverbindingen (EOX) te bepalen. De beschreven methode is toepasbaar voor de bepaling van het EOX gehalte in niet gefilterde watermonsters waaronder drinkwater, oppervlaktewater en afvalwater vanaf een gehalte van 1 µg Cl/l."
             },
-            "dct:references": {
-                "@id": "csc:QBYJBZPUGVGKQQ-UHFFFAOYSA-N"
+            "skos:topConceptOf": {
+                "@id": "vlcs:observatieprocedure"
             },
-            "rdfs:seeAlso": {
-                "@id": "https://reflabos.vito.be/2023/WAC_IV_B_010.pdf"
+            "skos:notation": "WAC/IV/B/010",
+            "dcat:theme": {
+                "@id": "gemet:15179"
             },
             "@type": "skos:Concept"
         },
@@ -3012,31 +3020,42 @@
         },
         {
             "@id": "co:WAC_IV_A_031",
-            "dcat:theme": {
-                "@id": "gemet:15179"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:observatieprocedure"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Bepaling van organotinverbindingen in water"
-            },
-            "skos:notation": "WAC/IV/A/031",
+            "dct:references": [
+                {
+                    "@id": "csc:AFCAKJKUYFLYFK-UHFFFAOYSA-N"
+                },
+                {
+                    "@id": "css:tbt"
+                },
+                {
+                    "@id": "css:dbt"
+                },
+                {
+                    "@id": "css:tpht"
+                }
+            ],
             "skos:inScheme": {
                 "@id": "vlcs:observatieprocedure"
-            },
-            "skos:definition": {
-                "@language": "nl",
-                "@value": "Deze procedure beschrijft een methode voor de bepaling van organotinverbindingen (OT) in water. De volgende componenten dienen bepaald te worden: dibutyltin (DBT), tributyltin (TBT), tetrabutyltin (TeBT) en triphenyltin (TPhT)."
-            },
-            "dct:references": {
-                "@id": "csc:AFCAKJKUYFLYFK-UHFFFAOYSA-N"
             },
             "rdfs:seeAlso": {
                 "@id": "https://reflabos.vito.be/2023/WAC_IV_A_031.pdf"
             },
-            "@type": "skos:Concept"
+            "dcat:theme": {
+                "@id": "gemet:15179"
+            },
+            "skos:notation": "WAC/IV/A/031",
+            "skos:topConceptOf": {
+                "@id": "vlcs:observatieprocedure"
+            },
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Bepaling van organotinverbindingen in water"
+            },
+            "skos:definition": {
+                "@language": "nl",
+                "@value": "Deze procedure beschrijft een methode voor de bepaling van organotinverbindingen (OT) in water. De volgende componenten dienen bepaald te worden: dibutyltin (DBT), tributyltin (TBT), tetrabutyltin (TeBT) en triphenyltin (TPhT)."
+            }
         },
         {
             "@id": "co:CMA_1_A.20",
@@ -8103,28 +8122,168 @@
         },
         {
             "@id": "co:WAC_IV_B_025",
+            "dct:references": [
+                {
+                    "@id": "css:mineraleoliec5-c9"
+                },
+                {
+                    "@id": "css:mineraleoliec14-c20"
+                },
+                {
+                    "@id": "css:mineraleoliec6-c16"
+                },
+                {
+                    "@id": "css:mineraleoliec17"
+                },
+                {
+                    "@id": "css:mineraleoliec24-c28"
+                },
+                {
+                    "@id": "css:mineraleoliec12-c16"
+                },
+                {
+                    "@id": "css:persist__min__olie"
+                },
+                {
+                    "@id": "css:min_oliec6-c10"
+                },
+                {
+                    "@id": "css:mineraleoliec22-c30"
+                },
+                {
+                    "@id": "css:mineraleolievluchtigtotaal"
+                },
+                {
+                    "@id": "css:mineraleoliec36-c40"
+                },
+                {
+                    "@id": "css:diesel"
+                },
+                {
+                    "@id": "css:mineraleoliec12-c14"
+                },
+                {
+                    "@id": "css:mineraleoliec30-c40"
+                },
+                {
+                    "@id": "css:mineraleoliec32-c36"
+                },
+                {
+                    "@id": "css:mineraleoliec16-c20"
+                },
+                {
+                    "@id": "css:mineraleoliec30-c36"
+                },
+                {
+                    "@id": "css:mineraleoliec20-c30"
+                },
+                {
+                    "@id": "css:mineraleoliec6-c10"
+                },
+                {
+                    "@id": "css:mineraleoliec10-c16"
+                },
+                {
+                    "@id": "css:mineraleoliec9-c15"
+                },
+                {
+                    "@id": "css:mineraleoliegroterdanc15"
+                },
+                {
+                    "@id": "css:mineraleoliec26-c34"
+                },
+                {
+                    "@id": "css:mineraleoliec10-c20"
+                },
+                {
+                    "@id": "css:mineraleoliekleinerdanc25"
+                },
+                {
+                    "@id": "css:mineraleoliec2-c6"
+                },
+                {
+                    "@id": "css:min_oliec10-c40"
+                },
+                {
+                    "@id": "css:mineraleoliec28-c32"
+                },
+                {
+                    "@id": "css:mineraleoliec12-c22"
+                },
+                {
+                    "@id": "css:mineraleoliec5-c8"
+                },
+                {
+                    "@id": "css:mineraleoliec16-c22"
+                },
+                {
+                    "@id": "css:mineraleoliec25-c40"
+                },
+                {
+                    "@id": "css:mineraleoliec10-c25"
+                },
+                {
+                    "@id": "css:mineraleoliec20-c24"
+                },
+                {
+                    "@id": "css:mineraleoliec6-c12"
+                },
+                {
+                    "@id": "css:mineraleoliec20-c26"
+                },
+                {
+                    "@id": "css:mineraleoliec6-c40"
+                },
+                {
+                    "@id": "css:mineraleoliec10-c40"
+                },
+                {
+                    "@id": "css:mineraleoliec6-c8"
+                },
+                {
+                    "@id": "css:mineraleoliec34-c40"
+                },
+                {
+                    "@id": "css:benzine"
+                },
+                {
+                    "@id": "css:mineraleoliec10-c12"
+                },
+                {
+                    "@id": "css:m_ol_kws"
+                },
+                {
+                    "@id": "css:dieselolie"
+                },
+                {
+                    "@id": "css:mineraleoliec8-c10"
+                },
+                {
+                    "@id": "css:mineraleoliec8-c12"
+                }
+            ],
             "dcat:theme": {
                 "@id": "gemet:15179"
-            },
-            "skos:topConceptOf": {
-                "@id": "vlcs:observatieprocedure"
             },
             "skos:prefLabel": {
                 "@language": "nl",
                 "@value": "Bepaling van minerale olie in water met gaschromatografie"
             },
             "skos:notation": "WAC/IV/B/025",
-            "skos:inScheme": {
-                "@id": "vlcs:observatieprocedure"
+            "rdfs:seeAlso": {
+                "@id": "https://reflabos.vito.be/2023/WAC_IV_B_025.pdf"
             },
             "skos:definition": {
                 "@language": "nl",
                 "@value": "Deze methode beschrijft de kwantitatieve bepaling van het minerale olie gehalte in oppervlaktewater, grondwater, drinkwater en afvalwater met behulp van gaschromatografie. Onder minerale olie wordt het geheel aan verbindingen bedoeld die met hexaan extraheerbaar zijn uit water, die niet adsorberen aan florisil en die gaschromatografeerbaar zijn met retentietijden gelegen tussen de retentietijden van ndecaan en n-tetracontaan (op een apolaire kolom)."
             },
-            "rdfs:seeAlso": {
-                "@id": "https://reflabos.vito.be/2023/WAC_IV_B_025.pdf"
+            "skos:inScheme": {
+                "@id": "vlcs:observatieprocedure"
             },
-            "@type": "skos:Concept"
+            "@type": "skos:Concept",
+            "skos:topConceptOf": {
+                "@id": "vlcs:observatieprocedure"
+            }
         },
         {
             "@id": "co:WAC_III_D_001",
@@ -8617,6 +8776,9 @@
             "skos:definition": {
                 "@language": "nl",
                 "@value": "Deze procedure beschrijft de gravimetrische bepaling van met petroleumetherextraheerbare organische verbindingen in water."
+            },
+            "dct:references": {
+                "@id": "css:es_pe"
             },
             "rdfs:seeAlso": {
                 "@id": "https://reflabos.vito.be/2023/WAC_IV_B_005.pdf"
@@ -9295,6 +9457,9 @@
             "skos:definition": {
                 "@language": "nl",
                 "@value": "Bepaling van purgeerbare organisch gebonden halogenen die meer dan 10 µg/l aan organisch gebonden halogenen Cl, Br, I (bepaald als chloride) bevatten."
+            },
+            "dct:references": {
+                "@id": "css:pox"
             },
             "rdfs:seeAlso": {
                 "@id": "https://reflabos.vito.be/2023/WAC_IV_B_012.pdf"
@@ -10857,6 +11022,9 @@
             "skos:definition": {
                 "@language": "nl",
                 "@value": "Deze procedure beschrijft de bepaling van aan actieve kool adsorbeerbare organische halogeenverbindingen (AOX) in waters die meer dan 10 µg/l organisch gebonden halogenen Cl, Br, I (bepaald als chloride) bevatte. Deze procedure is gebaseerd op ISO 9562:2004."
+            },
+            "dct:references": {
+                "@id": "css:aox"
             },
             "rdfs:seeAlso": {
                 "@id": "https://reflabos.vito.be/2023/WAC_IV_B_011.pdf"
@@ -12768,6 +12936,7 @@
     "@context": {
         "op": "https://data.vlaanderen.be/ns/observatieprocedure#",
         "coo": "https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/",
+        "css": "https://data.omgeving.vlaanderen.be/id/concept/sommatie_stoffen/",
         "gemet": "http://www.eionet.europa.eu/gemet/concept/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "skos": "http://www.w3.org/2004/02/skos/core#",

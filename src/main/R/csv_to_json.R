@@ -3,7 +3,7 @@ library(tidyr)
 library(dplyr)
 library(jsonlite)
 library(stringr)
-df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure2.csv", sep=",", na.strings=c("","NA"))
+df <- read.csv(file = "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv", sep=",", na.strings=c("","NA"))
 # fix voor vctrs_error_incompatible in pubchem column
 df <- df %>%
   mutate_all(list(~ str_c("", .)))

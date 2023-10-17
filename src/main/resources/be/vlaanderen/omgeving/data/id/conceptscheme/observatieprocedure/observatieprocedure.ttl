@@ -1,6 +1,7 @@
 @prefix co:    <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/> .
 @prefix coo:   <https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/> .
 @prefix csc:   <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/> .
+@prefix css:   <https://data.omgeving.vlaanderen.be/id/concept/sommatie_stoffen/> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dcat:  <http://www.w3.org/ns/dcat#> .
 @prefix dct:   <http://purl.org/dc/terms/> .
@@ -60,6 +61,7 @@ co:CMA_1_A.21  a           skos:Concept;
 
 co:WAC_III_D_040  a        skos:Concept;
         rdfs:seeAlso       <https://reflabos.vito.be/2023/WAC_III_D_040.pdf>;
+        dct:references     css:mbas;
         skos:definition    "Deze procedure beschrijft de bepaling van de methyleenblauw actieve substanties (MBAS) in water (bijvoorbeeld grond-, drink, oppervlakte- en afvalwater) met een continu-doorstroomanalyse (CFA) met spectrometrische detectie"@nl;
         skos:inScheme      vlcs:observatieprocedure;
         skos:notation      "WAC/III/D/040";
@@ -225,7 +227,7 @@ co:WAC_IV_A_007  a         skos:Concept;
 
 co:WAC_IV_B_010  a         skos:Concept;
         rdfs:seeAlso       <https://reflabos.vito.be/2023/WAC_IV_B_010.pdf>;
-        dct:references     csc:QBYJBZPUGVGKQQ-UHFFFAOYSA-N;
+        dct:references     csc:QBYJBZPUGVGKQQ-UHFFFAOYSA-N , css:eox;
         skos:definition    "De beschreven methode laat toe het halogeengehalte van met petroleumether uit water extraheerbare, niet vluchtige organohalogeenverbindingen (EOX) te bepalen. De beschreven methode is toepasbaar voor de bepaling van het EOX gehalte in niet gefilterde watermonsters waaronder drinkwater, oppervlaktewater en afvalwater vanaf een gehalte van 1 µg Cl/l."@nl;
         skos:inScheme      vlcs:observatieprocedure;
         skos:notation      "WAC/IV/B/010";
@@ -523,7 +525,7 @@ co:WAC_III_E_023  a        skos:Concept;
 
 co:WAC_IV_A_031  a         skos:Concept;
         rdfs:seeAlso       <https://reflabos.vito.be/2023/WAC_IV_A_031.pdf>;
-        dct:references     csc:AFCAKJKUYFLYFK-UHFFFAOYSA-N;
+        dct:references     csc:AFCAKJKUYFLYFK-UHFFFAOYSA-N , css:tbt , css:dbt , css:tpht;
         skos:definition    "Deze procedure beschrijft een methode voor de bepaling van organotinverbindingen (OT) in water. De volgende componenten dienen bepaald te worden: dibutyltin (DBT), tributyltin (TBT), tetrabutyltin (TeBT) en triphenyltin (TPhT)."@nl;
         skos:inScheme      vlcs:observatieprocedure;
         skos:notation      "WAC/IV/A/031";
@@ -1518,6 +1520,7 @@ co:WAC_V_A_002  a          skos:Concept;
 
 co:WAC_IV_B_025  a         skos:Concept;
         rdfs:seeAlso       <https://reflabos.vito.be/2023/WAC_IV_B_025.pdf>;
+        dct:references     css:mineraleoliec5-c9 , css:mineraleoliec14-c20 , css:mineraleoliec6-c16 , css:mineraleoliec17 , css:mineraleoliec24-c28 , css:mineraleoliec12-c16 , css:persist__min__olie , css:min_oliec6-c10 , css:mineraleoliec22-c30 , css:mineraleolievluchtigtotaal , css:mineraleoliec36-c40 , css:diesel , css:mineraleoliec12-c14 , css:mineraleoliec30-c40 , css:mineraleoliec32-c36 , css:mineraleoliec16-c20 , css:mineraleoliec30-c36 , css:mineraleoliec20-c30 , css:mineraleoliec6-c10 , css:mineraleoliec10-c16 , css:mineraleoliec9-c15 , css:mineraleoliegroterdanc15 , css:mineraleoliec26-c34 , css:mineraleoliec10-c20 , css:mineraleoliekleinerdanc25 , css:mineraleoliec2-c6 , css:min_oliec10-c40 , css:mineraleoliec28-c32 , css:mineraleoliec12-c22 , css:mineraleoliec5-c8 , css:mineraleoliec16-c22 , css:mineraleoliec25-c40 , css:mineraleoliec10-c25 , css:mineraleoliec20-c24 , css:mineraleoliec6-c12 , css:mineraleoliec20-c26 , css:mineraleoliec6-c40 , css:mineraleoliec10-c40 , css:mineraleoliec6-c8 , css:mineraleoliec34-c40 , css:benzine , css:mineraleoliec10-c12 , css:m_ol_kws , css:dieselolie , css:mineraleoliec8-c10 , css:mineraleoliec8-c12;
         skos:definition    "Deze methode beschrijft de kwantitatieve bepaling van het minerale olie gehalte in oppervlaktewater, grondwater, drinkwater en afvalwater met behulp van gaschromatografie. Onder minerale olie wordt het geheel aan verbindingen bedoeld die met hexaan extraheerbaar zijn uit water, die niet adsorberen aan florisil en die gaschromatografeerbaar zijn met retentietijden gelegen tussen de retentietijden van ndecaan en n-tetracontaan (op een apolaire kolom)."@nl;
         skos:inScheme      vlcs:observatieprocedure;
         skos:notation      "WAC/IV/B/025";
@@ -2083,6 +2086,7 @@ co:CMA_3_R.4  a            skos:Concept;
 
 co:WAC_IV_B_012  a         skos:Concept;
         rdfs:seeAlso       <https://reflabos.vito.be/2023/WAC_IV_B_012.pdf>;
+        dct:references     css:pox;
         skos:definition    "Bepaling van purgeerbare organisch gebonden halogenen die meer dan 10 µg/l aan organisch gebonden halogenen Cl, Br, I (bepaald als chloride) bevatten."@nl;
         skos:inScheme      vlcs:observatieprocedure;
         skos:notation      "WAC/IV/B/012";
@@ -2457,6 +2461,7 @@ co:WAC_I_A_010  a          skos:Concept;
 
 co:WAC_IV_B_005  a         skos:Concept;
         rdfs:seeAlso       <https://reflabos.vito.be/2023/WAC_IV_B_005.pdf>;
+        dct:references     css:es_pe;
         skos:definition    "Deze procedure beschrijft de gravimetrische bepaling van met petroleumetherextraheerbare organische verbindingen in water."@nl;
         skos:inScheme      vlcs:observatieprocedure;
         skos:notation      "WAC/IV/B/005";
@@ -2679,6 +2684,7 @@ co:WAC_IV_A_008  a         skos:Concept;
 
 co:WAC_IV_B_011  a         skos:Concept;
         rdfs:seeAlso       <https://reflabos.vito.be/2023/WAC_IV_B_011.pdf>;
+        dct:references     css:aox;
         skos:definition    "Deze procedure beschrijft de bepaling van aan actieve kool adsorbeerbare organische halogeenverbindingen (AOX) in waters die meer dan 10 µg/l organisch gebonden halogenen Cl, Br, I (bepaald als chloride) bevatte. Deze procedure is gebaseerd op ISO 9562:2004."@nl;
         skos:inScheme      vlcs:observatieprocedure;
         skos:notation      "WAC/IV/B/011";
