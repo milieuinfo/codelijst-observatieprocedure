@@ -61,7 +61,8 @@ ons:observatieprocedure_schema
     sh:description   "Het schema waarbinnen de observatieprocedures gedefinieerd zijn"@nl ;
     rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
     sh:property      omg_ps:conceptscheme_prefLabel, omg_ps:observatieprocedure_schema_hasTopConcept,
-                     omg_ps:observatieprocedure_definition ;
+                     omg_ps:observatieprocedure_definition, omg_ps:observatieprocedure_rdf_type;
+        sh:closed true ;
     sh:targetClass   skos:ConceptScheme .
 
 
@@ -73,17 +74,10 @@ ons:observatieprocedure_collection
     sh:description   "Verzamelingen bundelen observatieprocedures met gelijkaardige eigenschappen, analysemethoden of matrices waarin ze gemeten worden."@nl ;
     rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
     sh:property      omg_ps:observatieprocedure_prefLabel, omg_ps:observatieprocedure_collection_member,
-                     omg_ps:observatieprocedure_inScheme ;
+                     omg_ps:observatieprocedure_inScheme, omg_ps:observatieprocedure_rdf_type;
+    sh:closed true ;
     sh:targetClass   skos:Collection .
 
-
-#                   dct:references     csc:XFXPMWWXUTWYJX-UHFFFAOYSA-N;
-#                   skos:definition    "Deze procedure beschrijft de bepaling van totaal cyanide in water (bijvoorbeeld grond-, drink, oppervlakte- en afvalwater) met behulp van continue doorstroomanalyse methode.|Deze procedure beschrijft de bepaling van totaal cyanide in water (bijvoorbeeld grond-, drink, oppervlakte- en afvalwater) met behulp van continue doorstroomanalyse methode. Het meetbereik van deze methode gaat van 10-100 \uFFFDg/l. Bij hogere concentraties dient een geschikte verdunning te worden toegepast. De niet-chlooroxideerbare cyaniden worden berekend uit het verschil tussen de totaal cyaniden en de vrije cyaniden (zie CMA/2/I/C.2.3). Indien de vrije cyaniden < 1 mg/kg ds worden deze bij de verschilberekening gelijkgesteld aan 0 (lower bound benadering)."@nl;
-#                   skos:inScheme      vlcs:observatieprocedure;
-#                   skos:notation      "CMA/2/I/C.2.2";
-#                   skos:prefLabel     "Totaal cyanide met behulp van continue doorstroomanalyse"@nl;
-#                   skos:topConceptOf  vlcs:observatieprocedure;
-#                   dcat:theme         gemet:7884 .
 
 
 ons:observatieprocedure
@@ -96,22 +90,38 @@ ons:observatieprocedure
     sh:property      omg_ps:observatieprocedure_notation, omg_ps:observatieprocedure_exactMatch, omg_ps:observatieprocedure_inScheme,
                      omg_ps:observatieprocedure_references, omg_ps:observatieprocedure_comment, omg_ps:observatieprocedure_definition,
                      omg_ps:observatieprocedure_altLabel, omg_ps:observatieprocedure_prefLabel, omg_ps:observatieprocedure_theme,
-                     omg_ps:observatieprocedure_broader, omg_ps:observatieprocedure_narrower, omg_ps:observatieprocedure_seeAlso;
-
+                     omg_ps:observatieprocedure_broader, omg_ps:observatieprocedure_topConceptOf,
+                     omg_ps:observatieprocedure_rdf_type,
+                     omg_ps:observatieprocedure_narrower, omg_ps:observatieprocedure_seeAlso;
+    sh:closed true ;
     sh:targetClass   skos:Concept .
 
 
 
-
-
- #                skos:definition  "Organic compounds containing the functional group -CO-Cl."@nl ;
-ons:concept a sh:SPARQLTarget ;
-            rdfs:label "Sparql query list of nil"@en ;
-            sh:select "SELECT ?this WHERE { ?this a <http://www.w3.org/2004/02/skos/core#Concept>. FILTER NOT EXISTS { ?this a <http://dbpedia.org/ontology/ChemicalSubstance>. } }"^^xsd:string .
-
-
 # Property Shapes
 
+omg_ps:observatieprocedure_rdf_type
+    a                sh:PropertyShape ;
+    rdfs:label       "rdf type"@nl ;
+    sh:name          "rdf type"@nl ;
+    sh:description   "Aanduiding dat een bron een instantie van een bepaalde klasse is."@nl ;
+    rdfs:isDefinedBy omg_ont:sommatie-stoffen-ap-constraints-limited, omg_voc:sommatie-stoffen-ap-constraints-limited ;
+    sh:maxCount      1 ;
+    sh:minCount      1 ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          rdf:type .
+
+
+omg_ps:observatieprocedure_topConceptOf
+    a                sh:PropertyShape ;
+    rdfs:label       "topconcept van"@nl ;
+    sh:name          "topconcept van"@nl ;
+    sh:description   "De relatie tussen een concept en het schema, waarvan het een topconcept is."@nl ;
+    rdfs:isDefinedBy omg_ont:chemische-stof-ap-constraints, omg_voc:chemische-stof-ap-constraints ;
+    sh:class         skos:ConceptScheme ;
+    sh:maxCount      1 ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          skos:topConceptOf .
 
 
 omg_ps:observatieprocedure_theme
@@ -135,7 +145,6 @@ omg_ps:observatieprocedure_narrower
     sh:path          skos:narrower .
 
 
-
 omg_ps:observatieprocedure_broader
     a                sh:PropertyShape ;
     rdfs:label       "breder concept"@nl ;
@@ -146,10 +155,6 @@ omg_ps:observatieprocedure_broader
     sh:maxCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:broader .
-
-
-
-
 
 
 omg_ps:categorie_stof_topConceptOf
@@ -176,8 +181,6 @@ omg_ps:observatieprocedure_altLabel
     sh:path          skos:altLabel .
 
 
-
-
 omg_ps:observatieprocedure_collection_member
     a                sh:PropertyShape ;
     rdfs:label       "onderdeel"@nl ;
@@ -201,9 +204,6 @@ omg_ps:observatieprocedure_seeAlso
     sh:path          rdfs:seeAlso .
 
 
-
-
-
 omg_ps:observatieprocedure_exactMatch
     a                sh:PropertyShape ;
     rdfs:label       "heeft exacte overeenkomst"@nl ;
@@ -212,9 +212,6 @@ omg_ps:observatieprocedure_exactMatch
     rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:exactMatch .
-
-
-
 
 
 omg_ps:observatieprocedure_notation
@@ -239,7 +236,6 @@ omg_ps:observatieprocedure_unique_notation
     sh:path            [ sh:inversePath skos:notation ] ;
     sh:minCount        1 ;
     sh:maxCount        1 .
-
 
 
 omg_ps:observatieprocedure_schema_hasTopConcept
@@ -272,7 +268,6 @@ omg_ps:observatieprocedure_references
     rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
     sh:nodeKind      sh:IRI ;
     sh:path          dct:references .
-
 
 
 omg_ps:observatieprocedure_definition
@@ -327,6 +322,7 @@ omg_ps:conceptscheme_prefLabel
     rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "en" "nl" ) ;
+    sh:uniqueLang true ;
     sh:maxCount      2 ;
     sh:minCount      1 ;
     sh:nodeKind      sh:Literal ;

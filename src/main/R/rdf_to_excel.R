@@ -6,7 +6,7 @@ library(xlsx)
 
 
 
-setwd('/home/gehau/git/codelijst-observatieprocedure/src/main/R')
+#setwd('/home/gehau/git/codelijst-observatieprocedure/src/main/R')
 
 
 collapse_df_on_pipe <- function(df, id_col) {
@@ -34,6 +34,7 @@ collapse_df_on_pipe <- function(df, id_col) {
 ttl_file <- tempfile(fileext = ".ttl")
 csv_file <- tempfile(fileext = ".csv")
 excel_file <- "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.xlsx"
+target_csv_file <- "../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv"
 riot_cmd <- paste("riot --formatted=TURTLE ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/*.ttl > ", ttl_file, sep="")
 system(riot_cmd)
 sparql_cmd <- paste("sparql --results=CSV --query ../sparql/rdf_to_excel.rq --data=", ttl_file, " > ", csv_file, sep="")
@@ -43,6 +44,7 @@ df <- read.csv(file = csv_file, sep=",")
 
 df <- collapse_df_on_pipe(df, 'uri') 
 df[is.na(df)] = ""
+write.csv(df, target_csv_file,  row.names=FALSE)
 write.xlsx(df, excel_file, sheetName = 'codelijst observatieprocedure', row.names=FALSE)
 
 

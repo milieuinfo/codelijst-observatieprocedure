@@ -1252,7 +1252,7 @@ co:CMA_5_A.6  a            skos:Concept;
 
 co:CMA_3_I  a              skos:Concept;
         rdfs:seeAlso       <https://reflabos.vito.be/2023/CMA_3_I.pdf>;
-        dct:references     csc:WBHQEUPUMONIKF-UHFFFAOYSA-N , csc:RPUMZMSNLZHIGZ-UHFFFAOYSA-N , csc:BZTYNSQSZHARAZ-UHFFFAOYSA-N , csc:MVWHGTYKUMDIHL-UHFFFAOYSA-N , csc:IUTPYMGCWINGEY-UHFFFAOYSA-N , csc:HCWZEPKLWVAEOV-UHFFFAOYSA-N , csc:LAHWLEDBADHJGA-UHFFFAOYSA-N;
+        dct:references     csc:WBHQEUPUMONIKF-UHFFFAOYSA-N , csc:RPUMZMSNLZHIGZ-UHFFFAOYSA-N , csc:BZTYNSQSZHARAZ-UHFFFAOYSA-N , csc:MVWHGTYKUMDIHL-UHFFFAOYSA-N , csc:IUTPYMGCWINGEY-UHFFFAOYSA-N , csc:HCWZEPKLWVAEOV-UHFFFAOYSA-N , css:pcb_t , csc:LAHWLEDBADHJGA-UHFFFAOYSA-N;
         skos:definition    "In deze procedure wordt een methode beschreven voor de extractie, zuivering en analyse van een aantal matig vluchtige chloorkoolwaterstoffen zoals polychloorbifenylverbindingen (PCB’s),   organochloorpesticiden (OCP’s) en chloorbenzenen in bodem, sediment, slib, en afvalstoffen,  en  water. "@nl;
         skos:inScheme      vlcs:observatieprocedure;
         skos:notation      "CMA/3/I";
