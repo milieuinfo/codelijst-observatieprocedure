@@ -19,8 +19,7 @@
   "author": "Geert Van Haute",
   "license": "ISC",
   "dependencies": {
-    "file-system": "^2.2.2",
     "js-yaml": "^4.1.0",
-    "maven-metadata-generator-npm": "^0.2.29"
+    "maven-metadata-generator-npm": "^0.2.32"
   }
 }
