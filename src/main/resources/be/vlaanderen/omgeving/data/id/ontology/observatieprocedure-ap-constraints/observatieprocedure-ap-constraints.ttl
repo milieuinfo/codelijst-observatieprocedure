@@ -22,6 +22,7 @@
 @prefix foaf:          <http://xmlns.com/foaf/0.1/> .
 @prefix csc:           <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/> .
 @prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/>.
 
 omg_ont:observatieprocedure-ap-constraints
     a               owl:Ontology ;
@@ -87,11 +88,11 @@ ons:observatieprocedure
     sh:description   "analysemethodes"@en ;
     rdfs:comment     "compendia onderhouden door VITO"@en ;
     rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
-    sh:property      omg_ps:observatieprocedure_notation, omg_ps:observatieprocedure_inScheme,
+    sh:property      omg_ps:observatieprocedure_notation, omg_ps:observatieprocedure_casNumber, omg_ps:observatieprocedure_note, omg_ps:observatieprocedure_inScheme,
                      omg_ps:observatieprocedure_references, omg_ps:observatieprocedure_definition,
                      omg_ps:observatieprocedure_prefLabel, omg_ps:observatieprocedure_theme,
-                      omg_ps:observatieprocedure_topConceptOf, omg_ps:observatieprocedure_altLabel,
-                     omg_ps:observatieprocedure_rdf_type, omg_ps:observatieprocedure_seeAlso;
+                      omg_ps:observatieprocedure_topConceptOf, omg_ps:observatieprocedure_altLabel, omg_ps:observatieprocedure_references, omg_ps:observatieprocedure_isReferencedBy,
+                     omg_ps:observatieprocedure_rdf_type, omg_ps:observatieprocedure_seeAlso, omg_ps:observatieprocedure_relation;
     sh:closed true ;
     sh:targetClass   skos:Concept .
 
@@ -105,7 +106,6 @@ omg_ps:observatieprocedure_rdf_type
     sh:name          "rdf type"@en ;
     sh:description   "Aanduiding dat een bron een instantie van een bepaalde klasse is."@en ;
     rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
-    sh:maxCount      1 ;
     sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          rdf:type .
@@ -132,6 +132,33 @@ omg_ps:observatieprocedure_theme
     sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          dcat:theme .
+
+omg_ps:observatieprocedure_relation
+    a                sh:PropertyShape ;
+    rdfs:label       "relation"@en ;
+    sh:name          "relation"@en ;
+    sh:description   "A related resource."@en ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          dcterms:relation .
+
+omg_ps:observatieprocedure_isReferencedBy
+    a                sh:PropertyShape ;
+    rdfs:label       "Is Referenced By"@en ;
+    sh:name          "Is Referenced By"@en ;
+    sh:description   "A related resource that references, cites, or otherwise points to the described resource."@en ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          dcterms:isReferencedBy .
+
+omg_ps:observatieprocedure_references
+    a                sh:PropertyShape ;
+    rdfs:label       "References"@en ;
+    sh:name          "References"@en ;
+    sh:description   "A related resource that is referenced, cited, or otherwise pointed to by the described resource."@en ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:nodeKind      sh:IRI ;
+    sh:path          dcterms:references .
 
 #omg_ps:observatieprocedure_narrower
 #    a                sh:PropertyShape ;
@@ -206,6 +233,29 @@ omg_ps:observatieprocedure_seeAlso
 #    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
 #    sh:nodeKind      sh:IRI ;
 #    sh:path          skos:exactMatch .
+
+
+
+omg_ps:observatieprocedure_note
+    a                sh:PropertyShape ;
+    rdfs:label       "nota"@en ;
+    sh:name          "nota"@en ;
+    sh:description   "Een nota."@en ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:datatype      rdf:langString ;
+    sh:languageIn    ( "nl" "en" ) ;
+    sh:nodeKind      sh:Literal ;
+        sh:path          skos:note .
+
+omg_ps:observatieprocedure_casNumber
+    a                sh:PropertyShape ;
+    rdfs:label       "cas number"@en ;
+    sh:name          "cas number"@en ;
+    sh:description   "Chemical Abstracts Service number. Applicable to ChemicalCompound or Biomolecule (eg Protein)"@en ;
+    rdfs:isDefinedBy omg_ont:observatieprocedure-ap-constraints, omg_voc:observatieprocedure-ap-constraints ;
+    sh:datatype      xsd:string ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          dbo:casNumber .
 
 omg_ps:observatieprocedure_notation
     a                sh:PropertyShape ;

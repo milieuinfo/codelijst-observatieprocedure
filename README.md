@@ -5,39 +5,32 @@ Lijst van observatieprocedures, zoals die binnen het kader van het OSLO thema om
 
 ## Gebruik
 
-- Voeg een definitie van een nieuwe observatieprocedure toe aan $PROJECT_HOME/src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv
+### Voeg een definitie van een nieuwe observatieprocedure toe aan $PROJECT_HOME/src/source/codelijst-source.csv
 
-### csv naar rdf
+### Voer het het transformatiescript uit:
 ```
-cd $PROJECT_HOME/src/main/bash
-bash csv_to_rfd.sh
+cd $PROJECT_HOME/src/
+node 01_codelijst_skos_from_csv.js
 ```
-### rdf naar csv
+
+### run een maven build ( testen worden uitgevoerd en metadata aangemaakt)
 ```
-cd $PROJECT_HOME/src/main/sparql
-sparql --results=CSV --data=../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.ttl  --query rdf_to_csv.rq > ../resources/be/vlaanderen/omgeving/data/id/conceptscheme/observatieprocedure/observatieprocedure.csv
+cd $PROJECT_HOME
+mvn clean install
 ```
 
 ## Dependencies
 
-**_RDF tools:_**
+**_nodejs_**
 
-In dit project worden twee jena cli-tools gebruikt: riot en sparql.
-Sparql wordt gebruikt om het rdf-formaat om te zetten naar csv, riot wordt gebruikt om de rdf-formaten om te zetten, e.i. json-ld naar turtle.
-- Lees eerst [deze documentatie](https://jena.apache.org/documentation/tools/index.html).
-- Installeer de jena [binaries](https://dlcdn.apache.org/jena/binaries/).
-Bijvoorbeeld:
+### Installeer nodejs en npm
 ```
-curl -O https://dlcdn.apache.org/jena/binaries/apache-jena-4.6.0.tar.gz
-tar -xf apache-jena-4.6.0.tar.gz -C /opt
-echo 'export PATH="/opt/apache-jena-4.6.0/bin:$PATH"' >> ~/.bashrc
-. ~/.bashrc
+apt-get install node
+apt-get install npm
 ```
 
-**_R:_**
-
-Met behulp van de tidyverse bibliotheek in R wordt de csv omgezet naar jsonld.
+### Installeer libraries in package.json
 ```
-sudo apt install r-base build-essential r-cran-jsonlite r-cran-tidyr r-cran-dplyr
+cd $PROJECT_HOME
+/usr/bin/node /usr/lib/node_modules/npm/bin/npm-cli.js install --scripts-prepend-node-path=auto
 ```
-

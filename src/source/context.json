@@ -1,0 +1,288 @@
+{
+  "collections": {
+    "@type": "@id",
+    "@reverse": "member"
+  },
+  "id": "@id",
+  "type" : {
+    "@id" : "@type",
+    "@type" : "@id"
+  },
+  "source" : {
+    "@id" : "http://purl.org/dc/terms/source",
+    "@type" : "@id"
+  },
+  "sparql-service-description-name" : {
+    "@id" : "http://www.w3.org/ns/sparql-service-description#name",
+    "@type" : "@id"
+  },
+  "identifier" : {
+    "@id" : "http://purl.org/dc/terms/identifier",
+    "@type" : "@id"
+  },
+  "hasVersion" : {
+    "@id" : "http://purl.org/dc/terms/hasVersion",
+    "@type" : "@id"
+  },
+  "isVersionOf" : {
+    "@id" : "http://purl.org/dc/terms/isVersionOf",
+    "@type" : "@id"
+  },
+  "label" : {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+    "@language" : "nl"
+  },
+  "distribution" : {
+    "@id" : "http://www.w3.org/ns/dcat#distribution",
+    "@type" : "@id"
+  },
+  "alternative" : {
+    "@id" : "http://purl.org/dc/terms/alternative",
+    "@language" : "nl"
+  },
+  "description" : {
+    "@id" : "http://purl.org/dc/terms/description",
+    "@language" : "nl"
+  },
+  "spatial" : {
+    "@id" : "http://purl.org/dc/terms/spatial",
+    "@type" : "@id"
+  },
+  "page" : {
+    "@id" : "http://xmlns.com/foaf/0.1/page",
+    "@type" : "@id"
+  },
+  "theme" : {
+    "@id" : "http://www.w3.org/ns/dcat#theme",
+    "@type" : "@id"
+  },
+  "title" : {
+    "@id" : "http://purl.org/dc/terms/title",
+    "@language" : "nl"
+  },
+  "landingPage" : {
+    "@id" : "http://www.w3.org/ns/dcat#landingPage",
+    "@type" : "@id"
+  },
+  "rightsHolder" : {
+    "@id" : "http://purl.org/dc/terms/rightsHolder",
+    "@type" : "@id"
+  },
+  "language" : "http://publications.europa.eu/resource/authority/language/",
+  "accrualPeriodicity" : {
+    "@id" : "http://purl.org/dc/terms/accrualPeriodicity",
+    "@type" : "@id"
+  },
+  "publisher" : {
+    "@id" : "http://purl.org/dc/terms/publisher",
+    "@type" : "@id"
+  },
+  "dct.language" : {
+    "@id" : "http://purl.org/dc/terms/language",
+    "@type" : "@id"
+  },
+  "contactPoint" : {
+    "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+    "@type" : "@id"
+  },
+  "temporal" : {
+    "@id" : "http://purl.org/dc/terms/temporal",
+    "@type" : "@id"
+  },
+  "issued" : {
+    "@id" : "http://purl.org/dc/terms/issued",
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  },
+  "accessRights" : {
+    "@id" : "http://purl.org/dc/terms/accessRights",
+    "@type" : "@id"
+  },
+  "license" : {
+    "@id" : "http://purl.org/dc/terms/license",
+    "@type" : "@id"
+  },
+  "accessURL" : {
+    "@id" : "http://www.w3.org/ns/dcat#accessURL",
+    "@type" : "@id"
+  },
+  "compressFormat" : {
+    "@id" : "http://www.w3.org/ns/dcat#compressFormat",
+    "@type" : "@id"
+  },
+  "downloadURL" : {
+    "@id" : "http://www.w3.org/ns/dcat#downloadURL",
+    "@type" : "@id"
+  },
+  "mediaType" : {
+    "@id" : "http://www.w3.org/ns/dcat#mediaType",
+    "@type" : "@id"
+  },
+  "format" : {
+    "@id" : "http://purl.org/dc/terms/format",
+    "@type" : "@id"
+  },
+  "versionInfo" : {
+    "@id" : "http://spdx.org/rdf/terms#versionInfo"
+  },
+
+  "packageName" : {
+    "@id" : "http://spdx.org/rdf/terms#packageName"
+  },
+  "packageFileName" : {
+    "@id" : "http://spdx.org/rdf/terms#packageFileName"
+  },
+  "downloadLocation" : {
+    "@id" : "http://spdx.org/rdf/terms#downloadLocation",
+    "@type" : "@id"
+  },
+  "relationshipType_packageOf" : {
+    "@id" : "http://spdx.org/rdf/terms#relationshipType_packageOf",
+    "@type" : "@id"
+  },
+  "availableGraphs" : {
+    "@id" : "http://www.w3.org/ns/sparql-service-description#availableGraphs",
+    "@type" : "@id"
+  },
+  "resultFormat" : {
+    "@id" : "http://www.w3.org/ns/sparql-service-description#resultFormat",
+    "@type" : "@id"
+  },
+  "feature" : {
+    "@id" : "http://www.w3.org/ns/sparql-service-description#feature",
+    "@type" : "@id"
+  },
+  "supportedLanguage" : {
+    "@id" : "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+    "@type" : "@id"
+  },
+  "url" : {
+    "@id" : "http://www.w3.org/ns/sparql-service-description#url",
+    "@type" : "@id"
+  },
+  "comment" : {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "@language" : "nl"
+  },
+  "defaultDataset" : {
+    "@id" : "http://www.w3.org/ns/sparql-service-description#defaultDataset",
+    "@type" : "@id"
+  },
+  "endpoint" : {
+    "@id" : "http://www.w3.org/ns/sparql-service-description#endpoint",
+    "@type" : "@id"
+  },
+  "namedGraph" : {
+    "@id" : "http://www.w3.org/ns/sparql-service-description#namedGraph",
+    "@type" : "@id"
+  },
+  "homepage" : {
+    "@id" : "http://xmlns.com/foaf/0.1/homepage",
+    "@type" : "@id"
+  },
+  "service" : {
+    "@id" : "http://www.w3.org/ns/dcat#service",
+    "@type" : "@id"
+  },
+  "rootResource" : {
+    "@id" : "http://rdfs.org/ns/void#rootResource",
+    "@type" : "@id"
+  },
+  "dataset" : {
+    "@id" : "http://www.w3.org/ns/dcat#dataset",
+    "@type" : "@id"
+  },
+  "servesDataset" : {
+    "@id" : "http://www.w3.org/ns/dcat#servesDataset",
+    "@type" : "@id"
+  },
+  "endpointDescription" : {
+    "@id" : "http://www.w3.org/ns/dcat#endpointDescription",
+    "@type" : "@id"
+  },
+  "endpointURL" : {
+    "@id" : "http://www.w3.org/ns/dcat#endpointURL",
+    "@type" : "@id"
+  },
+  "conformsTo" : {
+    "@id" : "http://purl.org/dc/terms/conformsTo",
+    "@type" : "@id"
+  },
+  "dc.identifier" : {
+    "@id" : "http://purl.org/dc/elements/1.1/identifier"
+  },
+  "dc.language" : {
+    "@id" : "http://purl.org/dc/elements/1.1/language",
+    "@language" : "nl"
+  },
+  "dc.source" : {
+    "@id" : "http://purl.org/dc/elements/1.1/source"
+  },
+  "version" : {
+    "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+  },
+  "name" : {
+    "@id" : "http://spdx.org/rdf/terms#name"
+  },
+  "seeAlso" : {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "@type" : "@id"
+  },
+  "inScheme" : {
+    "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+    "@type" : "@id"
+  },
+  "topConceptOf" : {
+    "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+    "@type" : "@id"
+  },
+  "hasTopConcept" : {
+    "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+    "@type" : "@id"
+  },
+  "uri" : {
+    "@id" : "@id",
+    "@type" : "@id"
+  },
+  "prefLabel" : {
+    "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "@language" : "nl"
+  },
+  "notation" : {
+    "@id" : "http://www.w3.org/2004/02/skos/core#notation"
+  },
+  "altLabel" : {
+    "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
+    "@language" : "nl"
+  },
+  "note" : {
+    "@id" : "http://www.w3.org/2004/02/skos/core#note",
+    "@language" : "nl"
+  },
+  "definition" : {
+    "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+    "@language" : "nl"
+  },
+  "member" : {
+    "@id" : "http://www.w3.org/2004/02/skos/core#member",
+    "@type" : "@id"
+  },
+  "casNumber" : {
+    "@id" : "http://dbpedia.org/ontology/casNumber"
+  },
+  "references" : {
+    "@id" : "http://purl.org/dc/terms/references",
+    "@type" : "@id"
+  },
+  "isReferencedBy" : {
+    "@id" : "http://purl.org/dc/terms/isReferencedBy",
+    "@type" : "@id"
+  },
+  "relation" : {
+    "@id" : "http://purl.org/dc/terms/relation",
+    "@type" : "@id"
+  },
+  "graph" : {
+    "@id" : "@graph"
+  }
+}
+

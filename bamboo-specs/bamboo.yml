@@ -24,7 +24,7 @@ Build:
   key: BD
   tasks:
     - maven:
-        executable: Maven 3.5
+        executable: Maven 3.8
         jdk: JDK11
         goal: clean deploy
   requirements:
@@ -56,11 +56,11 @@ Release:
         scripts:
         - rm versions.properties
     - maven:
-        executable: Maven 3.5
+        executable: Maven 3.8
         jdk: JDK11
         goal: release:clean release:prepare -e --batch-mode -DreleaseVersion=${bamboo.inject.release_version} -DdevelopmentVersion=${bamboo.inject.snapshot_version} -Dtag=${bamboo.SVN}
     - maven:
-        executable: Maven 3.5
+        executable: Maven 3.8
         jdk: JDK11
         goal: release:perform --batch-mode -s /opt/maven-settings/release/settings.xml
   requirements:
