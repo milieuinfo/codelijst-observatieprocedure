@@ -106,6 +106,18 @@ const frame_skos_no_prefixes = {
     }
 }
 
+const ttl = config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.turtle
 
-export {  frame_skos_prefixes, frame_skos_no_prefixes, config };
+const nt = config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.nt
 
+const jsonld = [config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.jsonld, frame_skos_prefixes]
+
+const csv = [config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.csv, frame_skos_no_prefixes]
+
+
+export {
+    ttl,
+    nt,
+    jsonld,
+    csv
+};
