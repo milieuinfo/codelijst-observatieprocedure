@@ -14,12 +14,13 @@
     "skos",
     "rdfjs",
     "dcat",
+    "n3-reasoning",
     "maven"
   ],
   "author": "Geert Van Haute",
   "license": "ISC",
   "dependencies": {
     "js-yaml": "^4.1.0",
-    "maven-metadata-generator-npm": "^0.2.33"
+    "maven-metadata-generator-npm": "^0.2.34"
   }
 }
