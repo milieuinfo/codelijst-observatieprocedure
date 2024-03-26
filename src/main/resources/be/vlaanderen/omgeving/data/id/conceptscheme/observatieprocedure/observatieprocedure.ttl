@@ -1,6 +1,7 @@
 @prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
 @prefix adms: <http://www.w3.org/ns/adms#>.
 @prefix assettype: <http://purl.org/adms/assettype/>.
+@prefix bioindicator: <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/>.
 @prefix chemische_stof: <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/>.
 @prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/>.
 @prefix country: <http://publications.europa.eu/resource/authority/country/>.
@@ -64,6 +65,57 @@
     skos:inScheme conceptscheme:observatieprocedure;
     skos:member <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/CMA_1_A.10>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/CMA_1_A.11>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/CMA_1_A.9>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_A_001>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_A_003>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_A_004>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_A_005>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_A_006>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_A_008>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_A_009>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_A_010>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_A_011>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_B>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_B_001>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_B_002>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_B_010>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_B_011>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_B_012>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_B_014>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_C>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_C_001>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_C_002>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_C_010>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_C_020>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_C_022>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_C_030>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_C_040>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_C_041>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_C_050>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_D>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_D_001>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_D_002>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_D_003>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_D_010>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_D_020>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_D_022>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_D_030>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_D_031>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_D_032>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_D_033>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_D_036>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_D_040>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_D_050>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_E>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_E_020>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_E_021>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_E_022>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_III_E_023>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_II_A_001>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_II_A_002>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_II_A_003>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_001>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_002>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_003>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_004>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_005>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_006>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_007>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_008>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_010>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_015>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_016>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_021>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_022>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_023>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_024>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_025>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_027>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_028>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_029>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_030>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_031>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_B_001>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_B_005>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_B_010>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_B_011>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_B_012>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_B_020>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_B_021>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_B_022>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_B_025>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_B_026>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_B_040>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_I_1_012>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_I_A_001>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_I_A_003>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_I_A_004>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_I_A_005>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_I_A_006>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_I_A_010>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_I_A_011>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_VI_A_001>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_VI_A_002>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_VI_A_003>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_VI_A_004>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_008>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_009>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_002>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_004>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_005>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_007>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_C_001>, <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_C_002>;
     skos:prefLabel "Collectie van observatieprocedures voor water"@nl.
+bioindicator:aliivibrio_fischeri dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_004>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_004>;
+    a rdfs:Resource.
+bioindicator:anostraca dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001>;
+    a rdfs:Resource.
+bioindicator:clostridium_perfringens dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007>;
+    a rdfs:Resource.
+bioindicator:coagulase_positieve_staphylococci dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_008>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_008>;
+    a rdfs:Resource.
+bioindicator:coliformen dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002>;
+    a rdfs:Resource.
+bioindicator:danio_rerio dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_002>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_002>;
+    a rdfs:Resource.
+bioindicator:daphnia_magna dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001>;
+    a rdfs:Resource.
+bioindicator:escherichia_coli dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002>;
+    a rdfs:Resource.
+bioindicator:intestinale_enterococci dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003>;
+    a rdfs:Resource.
+bioindicator:kiemgetal_bij_22c_en_36c dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001>;
+    a rdfs:Resource.
+bioindicator:legionella_pneumophila dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005>;
+    a rdfs:Resource.
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._> dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005>;
+    a rdfs:Resource.
+bioindicator:oncorhyncus_mykiss dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_007>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_007>;
+    a rdfs:Resource.
+bioindicator:phaeodactylum_tricornutum dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003>;
+    a rdfs:Resource.
+bioindicator:pseudokirchneriella_subcapitata dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003>;
+    a rdfs:Resource.
+bioindicator:pseudomonas_aeruginosa dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006>;
+    a rdfs:Resource.
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004>;
+    a rdfs:Resource.
 chemische_stof:AAEVYOVXGOFMJO-UHFFFAOYSA-N dct:isReferencedBy <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_027>;
     dct:relation <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_027>;
     a rdfs:Resource.
@@ -4363,7 +4415,9 @@ chemische_stof:ZXFXBSWRVIQKOD-UHFFFAOYSA-N dct:isReferencedBy <https://data.omge
     skos:prefLabel "Voorwaarden voor rapportering van monsternamegegevens en analyseresultaten  door een erkend laboratorium"@nl;
     skos:topConceptOf conceptscheme:observatieprocedure;
     dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
-<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001> a skos:Concept;
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001> dct:references bioindicator:kiemgetal_bij_22c_en_36c;
+    dct:relation bioindicator:kiemgetal_bij_22c_en_36c;
+    a rdfs:Resource, skos:Concept;
     rdfs:seeAlso <https://reflabos.vito.be/2023/WAC_V_A_001.pdf>;
     skos:definition "De procedure is van toepassing bij het bacteriologisch onderzoek van drinkwater, mineraal water, grondwater, afvalwater, oppervlaktewater en recreatiewater. Bepaling van de parameter totaal kiemgetal in water bij 22°C en 36°C (ISO 6222)."@nl;
     skos:inScheme conceptscheme:observatieprocedure;
@@ -4372,7 +4426,9 @@ chemische_stof:ZXFXBSWRVIQKOD-UHFFFAOYSA-N dct:isReferencedBy <https://data.omge
     skos:prefLabel "Bepaling van totaal kiemgetal"@nl;
     skos:topConceptOf conceptscheme:observatieprocedure;
     dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
-<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> a skos:Concept;
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> dct:references bioindicator:coliformen, bioindicator:escherichia_coli;
+    dct:relation bioindicator:coliformen, bioindicator:escherichia_coli;
+    a rdfs:Resource, skos:Concept;
     rdfs:seeAlso <https://reflabos.vito.be/2023/WAC_V_A_002.pdf>;
     skos:definition "De procedure is van toepassing bij het bacteriologisch onderzoek van drinkwater, […] grondwater, oppervlaktewater (incl. recreatiewater) en afvalwater."@nl;
     skos:inScheme conceptscheme:observatieprocedure;
@@ -4381,7 +4437,9 @@ chemische_stof:ZXFXBSWRVIQKOD-UHFFFAOYSA-N dct:isReferencedBy <https://data.omge
     skos:prefLabel "Bepaling van totale coliformen en E.coli"@nl;
     skos:topConceptOf conceptscheme:observatieprocedure;
     dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
-<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003> a skos:Concept;
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003> dct:references bioindicator:intestinale_enterococci;
+    dct:relation bioindicator:intestinale_enterococci;
+    a rdfs:Resource, skos:Concept;
     rdfs:seeAlso <https://reflabos.vito.be/2023/WAC_V_A_003.pdf>;
     skos:definition "De procedure is van toepassing bij het bacteriologisch onderzoek van drinkwater, mineraal water enerzijds en grondwater, oppervlaktewater, recreatiewater, en afvalwater anderzijds."@nl;
     skos:inScheme conceptscheme:observatieprocedure;
@@ -4390,7 +4448,9 @@ chemische_stof:ZXFXBSWRVIQKOD-UHFFFAOYSA-N dct:isReferencedBy <https://data.omge
     skos:prefLabel "Bepaling van enterokokken"@nl;
     skos:topConceptOf conceptscheme:observatieprocedure;
     dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
-<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004> a skos:Concept;
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004> dct:references <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.>;
+    dct:relation <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.>;
+    a rdfs:Resource, skos:Concept;
     rdfs:seeAlso <https://reflabos.vito.be/2023/WAC_V_A_004.pdf>;
     skos:definition "De procedure is van toepassing bij het bacteriologisch onderzoek van drinkwater, mineraal water enerzijds en grondwater, oppervlaktewater en recreatiewater, en afvalwater anderzijds."@nl;
     skos:inScheme conceptscheme:observatieprocedure;
@@ -4399,7 +4459,9 @@ chemische_stof:ZXFXBSWRVIQKOD-UHFFFAOYSA-N dct:isReferencedBy <https://data.omge
     skos:prefLabel "Bepaling van Salmonella spp."@nl;
     skos:topConceptOf conceptscheme:observatieprocedure;
     dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
-<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> a skos:Concept;
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> dct:references bioindicator:legionella_pneumophila, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._>;
+    dct:relation bioindicator:legionella_pneumophila, <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._>;
+    a rdfs:Resource, skos:Concept;
     rdfs:seeAlso <https://reflabos.vito.be/2023/WAC_V_A_005.pdf>;
     skos:definition "Deze procedure beschrijft methodes voor het aantonen en kwantificeren van Legionella in drinkwater en in koeltorenwater conform ISO 11731:2017."@nl;
     skos:inScheme conceptscheme:observatieprocedure;
@@ -4408,7 +4470,9 @@ chemische_stof:ZXFXBSWRVIQKOD-UHFFFAOYSA-N dct:isReferencedBy <https://data.omge
     skos:prefLabel "Bepaling van Legionella in drinkwater en in koeltorenwater"@nl;
     skos:topConceptOf conceptscheme:observatieprocedure;
     dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
-<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006> a skos:Concept;
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006> dct:references bioindicator:pseudomonas_aeruginosa;
+    dct:relation bioindicator:pseudomonas_aeruginosa;
+    a rdfs:Resource, skos:Concept;
     rdfs:seeAlso <https://reflabos.vito.be/2023/WAC_V_A_006.pdf>;
     skos:definition "Dit voorschrift volgt de ISO 16266:2006 procedure, die een methode geeft voor het aantonen en kwantificeren van Pseudomonas aeruginosa in water. De procedure is van toepassing bij het onderzoek van flessenwater alsook bijvoorbeeld van water bestemd voor menselijke consumptie, recreatiewater en zwemwater."@nl;
     skos:inScheme conceptscheme:observatieprocedure;
@@ -4417,7 +4481,9 @@ chemische_stof:ZXFXBSWRVIQKOD-UHFFFAOYSA-N dct:isReferencedBy <https://data.omge
     skos:prefLabel "Bepaling van Pseudomonas aeruginosa"@nl;
     skos:topConceptOf conceptscheme:observatieprocedure;
     dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
-<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007> a skos:Concept;
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007> dct:references bioindicator:clostridium_perfringens;
+    dct:relation bioindicator:clostridium_perfringens;
+    a rdfs:Resource, skos:Concept;
     rdfs:seeAlso <https://reflabos.vito.be/2023/WAC_V_A_007.pdf>;
     skos:definition "Deze procedure beschrijft een methode voor het kwantificeren van de parameter Clostridium perfringens in water via membraanfiltratie op selectieve media. De procedure is van toepassing bij het onderzoek van water bestemd voor menselijke consumptie enerzijds en oa. oppervlaktewater, recreatiewater anderzijds."@nl;
     skos:inScheme conceptscheme:observatieprocedure;
@@ -4426,7 +4492,9 @@ chemische_stof:ZXFXBSWRVIQKOD-UHFFFAOYSA-N dct:isReferencedBy <https://data.omge
     skos:prefLabel "Bepaling van Clostridium perfringens"@nl;
     skos:topConceptOf conceptscheme:observatieprocedure;
     dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
-<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_008> a skos:Concept;
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_008> dct:references bioindicator:coagulase_positieve_staphylococci;
+    dct:relation bioindicator:coagulase_positieve_staphylococci;
+    a rdfs:Resource, skos:Concept;
     rdfs:seeAlso <https://reflabos.vito.be/2023/WAC_V_A_008.pdf>;
     skos:definition "De procedure beschrijft de bepaling van de parameter coagulase positieve stafylokokken in water via membraanfiltratie op de voedingsbodems."@nl;
     skos:inScheme conceptscheme:observatieprocedure;
@@ -4444,7 +4512,9 @@ chemische_stof:ZXFXBSWRVIQKOD-UHFFFAOYSA-N dct:isReferencedBy <https://data.omge
     skos:prefLabel "Bepaling van de meetonzekerheid bij microbiologische analyses"@nl;
     skos:topConceptOf conceptscheme:observatieprocedure;
     dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
-<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> a skos:Concept;
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> dct:references bioindicator:anostraca, bioindicator:daphnia_magna;
+    dct:relation bioindicator:anostraca, bioindicator:daphnia_magna;
+    a rdfs:Resource, skos:Concept;
     rdfs:seeAlso <https://reflabos.vito.be/2023/WAC_V_B_001.pdf>;
     skos:definition "Deze procedure beschrijft de werkwijze om de acute toxiciteit voor 2 soorten van aquatische invertebraten (kreeftachtigen) te bepalen. Deze organismen vertegenwoordigen het trofische niveau van de primaire consumenten in het aquatisch ecosysteem."@nl;
     skos:inScheme conceptscheme:observatieprocedure;
@@ -4453,7 +4523,9 @@ chemische_stof:ZXFXBSWRVIQKOD-UHFFFAOYSA-N dct:isReferencedBy <https://data.omge
     skos:prefLabel "Ecotoxiciteitstest met invertebraten: acute toxiciteit voor de watervlo (Daphnia magna) of het pekelkreeftje (Artemia franciscana)"@nl;
     skos:topConceptOf conceptscheme:observatieprocedure;
     dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
-<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_002> a skos:Concept;
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_002> dct:references bioindicator:danio_rerio;
+    dct:relation bioindicator:danio_rerio;
+    a rdfs:Resource, skos:Concept;
     rdfs:seeAlso <https://reflabos.vito.be/2023/WAC_V_B_002.pdf>;
     skos:definition "Deze procedure beschrijft de werkwijze om de acute toxiciteit voor vissen met het zebravisembryo als testorganisme te bepalen en ze maakt deel uit van het erkenningspakket “W.9.2.2, acute toxiciteit voor vissen”. Vissen vertegenwoordigen een belangrijk trofisch niveau, als primaire of secundaire consumenten in het aquatisch ecosysteem."@nl;
     skos:inScheme conceptscheme:observatieprocedure;
@@ -4463,8 +4535,8 @@ chemische_stof:ZXFXBSWRVIQKOD-UHFFFAOYSA-N dct:isReferencedBy <https://data.omge
     skos:topConceptOf conceptscheme:observatieprocedure;
     dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> dbo:casNumber "14158-23-7", "14798-03-9", "14808-79-8", "16887-00-6", "18785-72-3", "6684-80-6";
-    dct:references chemische_stof:QAOWNCQODCNURD-UHFFFAOYSA-L, chemische_stof:QGZKDVFQNNGYKY-UHFFFAOYSA-O, chemische_stof:VEXZGXHMUGYJMC-UHFFFAOYSA-M;
-    dct:relation chemische_stof:QAOWNCQODCNURD-UHFFFAOYSA-L, chemische_stof:QGZKDVFQNNGYKY-UHFFFAOYSA-O, chemische_stof:VEXZGXHMUGYJMC-UHFFFAOYSA-M;
+    dct:references bioindicator:phaeodactylum_tricornutum, bioindicator:pseudokirchneriella_subcapitata, chemische_stof:QAOWNCQODCNURD-UHFFFAOYSA-L, chemische_stof:QGZKDVFQNNGYKY-UHFFFAOYSA-O, chemische_stof:VEXZGXHMUGYJMC-UHFFFAOYSA-M;
+    dct:relation bioindicator:phaeodactylum_tricornutum, bioindicator:pseudokirchneriella_subcapitata, chemische_stof:QAOWNCQODCNURD-UHFFFAOYSA-L, chemische_stof:QGZKDVFQNNGYKY-UHFFFAOYSA-O, chemische_stof:VEXZGXHMUGYJMC-UHFFFAOYSA-M;
     a rdfs:Resource, skos:Concept;
     rdfs:seeAlso <https://reflabos.vito.be/2023/WAC_V_B_003.pdf>;
     skos:definition "Deze procedure beschrijft de werkwijze om de acute en chronische toxiciteit voor 2 soorten van ééncellige algen te bepalen. Deze test wordt als een chronische test beschouwd omdat de generatietijd korter is dan de blootstellingsduur. De test op algen wordt gebruikt om de toxiciteit voor het trofische niveau van de primaire producenten te meten."@nl;
@@ -4474,7 +4546,9 @@ chemische_stof:ZXFXBSWRVIQKOD-UHFFFAOYSA-N dct:isReferencedBy <https://data.omge
     skos:prefLabel "Ecotoxiciteitstest met algen: groei-inhibitietest met de zoetwateralg (Pseudokirchneriella subcapitata) of de mariene alg (Phaeodactylum tricornutum)"@nl;
     skos:topConceptOf conceptscheme:observatieprocedure;
     dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
-<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_004> a skos:Concept;
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_004> dct:references bioindicator:aliivibrio_fischeri;
+    dct:relation bioindicator:aliivibrio_fischeri;
+    a rdfs:Resource, skos:Concept;
     rdfs:seeAlso <https://reflabos.vito.be/2023/WAC_V_B_004.pdf>;
     skos:definition "Deze procedure beschrijft de werkwijze om de acute toxiciteit voor de zoutwaterbacterie Aliivibrio fischeri (vroeger ook Vibrio fischeri of Photobacterium fischeri genoemd) te evalueren. Deze test heeft tot doel de acute toxiciteit voor het trofische niveau van micro-organismen (reducenten) in te schatten."@nl;
     skos:inScheme conceptscheme:observatieprocedure;
@@ -4492,7 +4566,9 @@ chemische_stof:ZXFXBSWRVIQKOD-UHFFFAOYSA-N dct:isReferencedBy <https://data.omge
     skos:prefLabel "Zahn-Wellens test op afvalwaters: bioelimineerbaarheid van DOC en toxiciteit na 7 tot 28 dagen behandeling"@nl;
     skos:topConceptOf conceptscheme:observatieprocedure;
     dcat:theme <http://www.eionet.europa.eu/gemet/concept/15179>.
-<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_007> a skos:Concept;
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_007> dct:references bioindicator:oncorhyncus_mykiss;
+    dct:relation bioindicator:oncorhyncus_mykiss;
+    a rdfs:Resource, skos:Concept;
     rdfs:seeAlso <https://reflabos.vito.be/2023/WAC_V_B_007.pdf>;
     skos:definition "Deze procedure beschrijft de werkwijze om de acute toxiciteit voor vissen met juveniele forel als testorganisme te bepalen en ze maakt deel uit van het erkenningspakket “W.9.2.2, acute toxiciteit voor vissen”. Vissen vertegenwoordigen een belangrijk trofisch niveau, als primaire of secundaire consumenten in het aquatisch ecosysteem."@nl;
     skos:inScheme conceptscheme:observatieprocedure;

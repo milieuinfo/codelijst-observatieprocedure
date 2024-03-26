@@ -289,6 +289,7 @@
         "access_right": "http://publications.europa.eu/resource/authority/access-right/",
         "adms": "http://www.w3.org/ns/adms#",
         "assettype": "http://purl.org/adms/assettype/",
+        "bioindicator": "https://data.omgeving.vlaanderen.be/id/concept/bioindicator/",
         "chemische_stof": "https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/",
         "conceptscheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
         "country": "http://publications.europa.eu/resource/authority/country/",
@@ -681,6 +682,108 @@
                 "concept:WAC_V_C_002"
             ],
             "prefLabel": "Collectie van observatieprocedures voor water"
+        },
+        {
+            "id": "bioindicator:aliivibrio_fischeri",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_B_004",
+            "relation": "concept:WAC_V_B_004"
+        },
+        {
+            "id": "bioindicator:anostraca",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_B_001",
+            "relation": "concept:WAC_V_B_001"
+        },
+        {
+            "id": "bioindicator:clostridium_perfringens",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_A_007",
+            "relation": "concept:WAC_V_A_007"
+        },
+        {
+            "id": "bioindicator:coagulase_positieve_staphylococci",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_A_008",
+            "relation": "concept:WAC_V_A_008"
+        },
+        {
+            "id": "bioindicator:coliformen",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_A_002",
+            "relation": "concept:WAC_V_A_002"
+        },
+        {
+            "id": "bioindicator:danio_rerio",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_B_002",
+            "relation": "concept:WAC_V_B_002"
+        },
+        {
+            "id": "bioindicator:daphnia_magna",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_B_001",
+            "relation": "concept:WAC_V_B_001"
+        },
+        {
+            "id": "bioindicator:escherichia_coli",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_A_002",
+            "relation": "concept:WAC_V_A_002"
+        },
+        {
+            "id": "bioindicator:intestinale_enterococci",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_A_003",
+            "relation": "concept:WAC_V_A_003"
+        },
+        {
+            "id": "bioindicator:kiemgetal_bij_22c_en_36c",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_A_001",
+            "relation": "concept:WAC_V_A_001"
+        },
+        {
+            "id": "bioindicator:legionella_pneumophila",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_A_005",
+            "relation": "concept:WAC_V_A_005"
+        },
+        {
+            "id": "bioindicator:legionella_spp._",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_A_005",
+            "relation": "concept:WAC_V_A_005"
+        },
+        {
+            "id": "bioindicator:oncorhyncus_mykiss",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_B_007",
+            "relation": "concept:WAC_V_B_007"
+        },
+        {
+            "id": "bioindicator:phaeodactylum_tricornutum",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_B_003",
+            "relation": "concept:WAC_V_B_003"
+        },
+        {
+            "id": "bioindicator:pseudokirchneriella_subcapitata",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_B_003",
+            "relation": "concept:WAC_V_B_003"
+        },
+        {
+            "id": "bioindicator:pseudomonas_aeruginosa",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_A_006",
+            "relation": "concept:WAC_V_A_006"
+        },
+        {
+            "id": "bioindicator:salmonella_spp.",
+            "type": "rdfs:Resource",
+            "isReferencedBy": "concept:WAC_V_A_004",
+            "relation": "concept:WAC_V_A_004"
         },
         {
             "id": "chemische_stof:AAEVYOVXGOFMJO-UHFFFAOYSA-N",
@@ -13209,7 +13312,12 @@
         },
         {
             "id": "concept:WAC_V_A_001",
-            "type": "skos:Concept",
+            "type": [
+                "rdfs:Resource",
+                "skos:Concept"
+            ],
+            "references": "bioindicator:kiemgetal_bij_22c_en_36c",
+            "relation": "bioindicator:kiemgetal_bij_22c_en_36c",
             "seeAlso": "https://reflabos.vito.be/2023/WAC_V_A_001.pdf",
             "definition": "De procedure is van toepassing bij het bacteriologisch onderzoek van drinkwater, mineraal water, grondwater, afvalwater, oppervlaktewater en recreatiewater. Bepaling van de parameter totaal kiemgetal in water bij 22°C en 36°C (ISO 6222).",
             "inScheme": "conceptscheme:observatieprocedure",
@@ -13221,7 +13329,18 @@
         },
         {
             "id": "concept:WAC_V_A_002",
-            "type": "skos:Concept",
+            "type": [
+                "rdfs:Resource",
+                "skos:Concept"
+            ],
+            "references": [
+                "bioindicator:coliformen",
+                "bioindicator:escherichia_coli"
+            ],
+            "relation": [
+                "bioindicator:coliformen",
+                "bioindicator:escherichia_coli"
+            ],
             "seeAlso": "https://reflabos.vito.be/2023/WAC_V_A_002.pdf",
             "definition": "De procedure is van toepassing bij het bacteriologisch onderzoek van drinkwater, […] grondwater, oppervlaktewater (incl. recreatiewater) en afvalwater.",
             "inScheme": "conceptscheme:observatieprocedure",
@@ -13233,7 +13352,12 @@
         },
         {
             "id": "concept:WAC_V_A_003",
-            "type": "skos:Concept",
+            "type": [
+                "rdfs:Resource",
+                "skos:Concept"
+            ],
+            "references": "bioindicator:intestinale_enterococci",
+            "relation": "bioindicator:intestinale_enterococci",
             "seeAlso": "https://reflabos.vito.be/2023/WAC_V_A_003.pdf",
             "definition": "De procedure is van toepassing bij het bacteriologisch onderzoek van drinkwater, mineraal water enerzijds en grondwater, oppervlaktewater, recreatiewater, en afvalwater anderzijds.",
             "inScheme": "conceptscheme:observatieprocedure",
@@ -13245,7 +13369,12 @@
         },
         {
             "id": "concept:WAC_V_A_004",
-            "type": "skos:Concept",
+            "type": [
+                "rdfs:Resource",
+                "skos:Concept"
+            ],
+            "references": "bioindicator:salmonella_spp.",
+            "relation": "bioindicator:salmonella_spp.",
             "seeAlso": "https://reflabos.vito.be/2023/WAC_V_A_004.pdf",
             "definition": "De procedure is van toepassing bij het bacteriologisch onderzoek van drinkwater, mineraal water enerzijds en grondwater, oppervlaktewater en recreatiewater, en afvalwater anderzijds.",
             "inScheme": "conceptscheme:observatieprocedure",
@@ -13257,7 +13386,18 @@
         },
         {
             "id": "concept:WAC_V_A_005",
-            "type": "skos:Concept",
+            "type": [
+                "rdfs:Resource",
+                "skos:Concept"
+            ],
+            "references": [
+                "bioindicator:legionella_pneumophila",
+                "bioindicator:legionella_spp._"
+            ],
+            "relation": [
+                "bioindicator:legionella_pneumophila",
+                "bioindicator:legionella_spp._"
+            ],
             "seeAlso": "https://reflabos.vito.be/2023/WAC_V_A_005.pdf",
             "definition": "Deze procedure beschrijft methodes voor het aantonen en kwantificeren van Legionella in drinkwater en in koeltorenwater conform ISO 11731:2017.",
             "inScheme": "conceptscheme:observatieprocedure",
@@ -13269,7 +13409,12 @@
         },
         {
             "id": "concept:WAC_V_A_006",
-            "type": "skos:Concept",
+            "type": [
+                "rdfs:Resource",
+                "skos:Concept"
+            ],
+            "references": "bioindicator:pseudomonas_aeruginosa",
+            "relation": "bioindicator:pseudomonas_aeruginosa",
             "seeAlso": "https://reflabos.vito.be/2023/WAC_V_A_006.pdf",
             "definition": "Dit voorschrift volgt de ISO 16266:2006 procedure, die een methode geeft voor het aantonen en kwantificeren van Pseudomonas aeruginosa in water. De procedure is van toepassing bij het onderzoek van flessenwater alsook bijvoorbeeld van water bestemd voor menselijke consumptie, recreatiewater en zwemwater.",
             "inScheme": "conceptscheme:observatieprocedure",
@@ -13281,7 +13426,12 @@
         },
         {
             "id": "concept:WAC_V_A_007",
-            "type": "skos:Concept",
+            "type": [
+                "rdfs:Resource",
+                "skos:Concept"
+            ],
+            "references": "bioindicator:clostridium_perfringens",
+            "relation": "bioindicator:clostridium_perfringens",
             "seeAlso": "https://reflabos.vito.be/2023/WAC_V_A_007.pdf",
             "definition": "Deze procedure beschrijft een methode voor het kwantificeren van de parameter Clostridium perfringens in water via membraanfiltratie op selectieve media. De procedure is van toepassing bij het onderzoek van water bestemd voor menselijke consumptie enerzijds en oa. oppervlaktewater, recreatiewater anderzijds.",
             "inScheme": "conceptscheme:observatieprocedure",
@@ -13293,7 +13443,12 @@
         },
         {
             "id": "concept:WAC_V_A_008",
-            "type": "skos:Concept",
+            "type": [
+                "rdfs:Resource",
+                "skos:Concept"
+            ],
+            "references": "bioindicator:coagulase_positieve_staphylococci",
+            "relation": "bioindicator:coagulase_positieve_staphylococci",
             "seeAlso": "https://reflabos.vito.be/2023/WAC_V_A_008.pdf",
             "definition": "De procedure beschrijft de bepaling van de parameter coagulase positieve stafylokokken in water via membraanfiltratie op de voedingsbodems.",
             "inScheme": "conceptscheme:observatieprocedure",
@@ -13317,7 +13472,18 @@
         },
         {
             "id": "concept:WAC_V_B_001",
-            "type": "skos:Concept",
+            "type": [
+                "rdfs:Resource",
+                "skos:Concept"
+            ],
+            "references": [
+                "bioindicator:anostraca",
+                "bioindicator:daphnia_magna"
+            ],
+            "relation": [
+                "bioindicator:anostraca",
+                "bioindicator:daphnia_magna"
+            ],
             "seeAlso": "https://reflabos.vito.be/2023/WAC_V_B_001.pdf",
             "definition": "Deze procedure beschrijft de werkwijze om de acute toxiciteit voor 2 soorten van aquatische invertebraten (kreeftachtigen) te bepalen. Deze organismen vertegenwoordigen het trofische niveau van de primaire consumenten in het aquatisch ecosysteem.",
             "inScheme": "conceptscheme:observatieprocedure",
@@ -13329,7 +13495,12 @@
         },
         {
             "id": "concept:WAC_V_B_002",
-            "type": "skos:Concept",
+            "type": [
+                "rdfs:Resource",
+                "skos:Concept"
+            ],
+            "references": "bioindicator:danio_rerio",
+            "relation": "bioindicator:danio_rerio",
             "seeAlso": "https://reflabos.vito.be/2023/WAC_V_B_002.pdf",
             "definition": "Deze procedure beschrijft de werkwijze om de acute toxiciteit voor vissen met het zebravisembryo als testorganisme te bepalen en ze maakt deel uit van het erkenningspakket “W.9.2.2, acute toxiciteit voor vissen”. Vissen vertegenwoordigen een belangrijk trofisch niveau, als primaire of secundaire consumenten in het aquatisch ecosysteem.",
             "inScheme": "conceptscheme:observatieprocedure",
@@ -13354,11 +13525,15 @@
                 "18785-72-3"
             ],
             "references": [
+                "bioindicator:phaeodactylum_tricornutum",
+                "bioindicator:pseudokirchneriella_subcapitata",
                 "chemische_stof:QAOWNCQODCNURD-UHFFFAOYSA-L",
                 "chemische_stof:QGZKDVFQNNGYKY-UHFFFAOYSA-O",
                 "chemische_stof:VEXZGXHMUGYJMC-UHFFFAOYSA-M"
             ],
             "relation": [
+                "bioindicator:phaeodactylum_tricornutum",
+                "bioindicator:pseudokirchneriella_subcapitata",
                 "chemische_stof:QAOWNCQODCNURD-UHFFFAOYSA-L",
                 "chemische_stof:QGZKDVFQNNGYKY-UHFFFAOYSA-O",
                 "chemische_stof:VEXZGXHMUGYJMC-UHFFFAOYSA-M"
@@ -13374,7 +13549,12 @@
         },
         {
             "id": "concept:WAC_V_B_004",
-            "type": "skos:Concept",
+            "type": [
+                "rdfs:Resource",
+                "skos:Concept"
+            ],
+            "references": "bioindicator:aliivibrio_fischeri",
+            "relation": "bioindicator:aliivibrio_fischeri",
             "seeAlso": "https://reflabos.vito.be/2023/WAC_V_B_004.pdf",
             "definition": "Deze procedure beschrijft de werkwijze om de acute toxiciteit voor de zoutwaterbacterie Aliivibrio fischeri (vroeger ook Vibrio fischeri of Photobacterium fischeri genoemd) te evalueren. Deze test heeft tot doel de acute toxiciteit voor het trofische niveau van micro-organismen (reducenten) in te schatten.",
             "inScheme": "conceptscheme:observatieprocedure",
@@ -13398,7 +13578,12 @@
         },
         {
             "id": "concept:WAC_V_B_007",
-            "type": "skos:Concept",
+            "type": [
+                "rdfs:Resource",
+                "skos:Concept"
+            ],
+            "references": "bioindicator:oncorhyncus_mykiss",
+            "relation": "bioindicator:oncorhyncus_mykiss",
             "seeAlso": "https://reflabos.vito.be/2023/WAC_V_B_007.pdf",
             "definition": "Deze procedure beschrijft de werkwijze om de acute toxiciteit voor vissen met juveniele forel als testorganisme te bepalen en ze maakt deel uit van het erkenningspakket “W.9.2.2, acute toxiciteit voor vissen”. Vissen vertegenwoordigen een belangrijk trofisch niveau, als primaire of secundaire consumenten in het aquatisch ecosysteem.",
             "inScheme": "conceptscheme:observatieprocedure",

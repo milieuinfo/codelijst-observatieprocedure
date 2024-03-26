@@ -323,6 +323,57 @@
 <https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/water> <http://www.w3.org/2004/02/skos/core#member> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_C_001> .
 <https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/water> <http://www.w3.org/2004/02/skos/core#member> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_C_002> .
 <https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/water> <http://www.w3.org/2004/02/skos/core#prefLabel> "Collectie van observatieprocedures voor water"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aliivibrio_fischeri> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_004> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aliivibrio_fischeri> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_004> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aliivibrio_fischeri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/anostraca> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/anostraca> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/anostraca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_perfringens> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_perfringens> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_perfringens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coagulase_positieve_staphylococci> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_008> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coagulase_positieve_staphylococci> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_008> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coagulase_positieve_staphylococci> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coliformen> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coliformen> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coliformen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/danio_rerio> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_002> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/danio_rerio> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_002> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/danio_rerio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/daphnia_magna> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/daphnia_magna> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/daphnia_magna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/escherichia_coli> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/escherichia_coli> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/escherichia_coli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/intestinale_enterococci> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/intestinale_enterococci> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/intestinale_enterococci> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22c_en_36c> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22c_en_36c> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22c_en_36c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/oncorhyncus_mykiss> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_007> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/oncorhyncus_mykiss> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_007> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/oncorhyncus_mykiss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/phaeodactylum_tricornutum> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/phaeodactylum_tricornutum> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/phaeodactylum_tricornutum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudokirchneriella_subcapitata> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudokirchneriella_subcapitata> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudokirchneriella_subcapitata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas_aeruginosa> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas_aeruginosa> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas_aeruginosa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004> .
+<https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/AAEVYOVXGOFMJO-UHFFFAOYSA-N> <http://purl.org/dc/terms/isReferencedBy> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_027> .
 <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/AAEVYOVXGOFMJO-UHFFFAOYSA-N> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_IV_A_027> .
 <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/AAEVYOVXGOFMJO-UHFFFAOYSA-N> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
@@ -8883,6 +8934,9 @@
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_VI_A_004> <http://www.w3.org/2004/02/skos/core#prefLabel> "Voorwaarden voor rapportering van monsternamegegevens en analyseresultaten  door een erkend laboratorium"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_VI_A_004> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_VI_A_004> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22c_en_36c> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/kiemgetal_bij_22c_en_36c> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://reflabos.vito.be/2023/WAC_V_A_001.pdf> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001> <http://www.w3.org/2004/02/skos/core#definition> "De procedure is van toepassing bij het bacteriologisch onderzoek van drinkwater, mineraal water, grondwater, afvalwater, oppervlaktewater en recreatiewater. Bepaling van de parameter totaal kiemgetal in water bij 22°C en 36°C (ISO 6222)."@nl .
@@ -8892,6 +8946,11 @@
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bepaling van totaal kiemgetal"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_001> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coliformen> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/escherichia_coli> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coliformen> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/escherichia_coli> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://reflabos.vito.be/2023/WAC_V_A_002.pdf> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> <http://www.w3.org/2004/02/skos/core#definition> "De procedure is van toepassing bij het bacteriologisch onderzoek van drinkwater, […] grondwater, oppervlaktewater (incl. recreatiewater) en afvalwater."@nl .
@@ -8901,6 +8960,9 @@
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bepaling van totale coliformen en E.coli"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_002> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/intestinale_enterococci> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/intestinale_enterococci> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://reflabos.vito.be/2023/WAC_V_A_003.pdf> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003> <http://www.w3.org/2004/02/skos/core#definition> "De procedure is van toepassing bij het bacteriologisch onderzoek van drinkwater, mineraal water enerzijds en grondwater, oppervlaktewater, recreatiewater, en afvalwater anderzijds."@nl .
@@ -8910,6 +8972,9 @@
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bepaling van enterokokken"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_003> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/salmonella_spp.> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://reflabos.vito.be/2023/WAC_V_A_004.pdf> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004> <http://www.w3.org/2004/02/skos/core#definition> "De procedure is van toepassing bij het bacteriologisch onderzoek van drinkwater, mineraal water enerzijds en grondwater, oppervlaktewater en recreatiewater, en afvalwater anderzijds."@nl .
@@ -8919,6 +8984,11 @@
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bepaling van Salmonella spp."@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_004> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_pneumophila> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/legionella_spp._> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://reflabos.vito.be/2023/WAC_V_A_005.pdf> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> <http://www.w3.org/2004/02/skos/core#definition> "Deze procedure beschrijft methodes voor het aantonen en kwantificeren van Legionella in drinkwater en in koeltorenwater conform ISO 11731:2017."@nl .
@@ -8928,6 +8998,9 @@
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bepaling van Legionella in drinkwater en in koeltorenwater"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_005> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas_aeruginosa> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudomonas_aeruginosa> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://reflabos.vito.be/2023/WAC_V_A_006.pdf> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006> <http://www.w3.org/2004/02/skos/core#definition> "Dit voorschrift volgt de ISO 16266:2006 procedure, die een methode geeft voor het aantonen en kwantificeren van Pseudomonas aeruginosa in water. De procedure is van toepassing bij het onderzoek van flessenwater alsook bijvoorbeeld van water bestemd voor menselijke consumptie, recreatiewater en zwemwater."@nl .
@@ -8937,6 +9010,9 @@
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bepaling van Pseudomonas aeruginosa"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_006> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_perfringens> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/clostridium_perfringens> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://reflabos.vito.be/2023/WAC_V_A_007.pdf> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007> <http://www.w3.org/2004/02/skos/core#definition> "Deze procedure beschrijft een methode voor het kwantificeren van de parameter Clostridium perfringens in water via membraanfiltratie op selectieve media. De procedure is van toepassing bij het onderzoek van water bestemd voor menselijke consumptie enerzijds en oa. oppervlaktewater, recreatiewater anderzijds."@nl .
@@ -8946,6 +9022,9 @@
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bepaling van Clostridium perfringens"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_007> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_008> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coagulase_positieve_staphylococci> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_008> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/coagulase_positieve_staphylococci> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_008> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://reflabos.vito.be/2023/WAC_V_A_008.pdf> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_008> <http://www.w3.org/2004/02/skos/core#definition> "De procedure beschrijft de bepaling van de parameter coagulase positieve stafylokokken in water via membraanfiltratie op de voedingsbodems."@nl .
@@ -8964,6 +9043,11 @@
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bepaling van de meetonzekerheid bij microbiologische analyses"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_009> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_A_009> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/anostraca> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/daphnia_magna> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/anostraca> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/daphnia_magna> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://reflabos.vito.be/2023/WAC_V_B_001.pdf> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> <http://www.w3.org/2004/02/skos/core#definition> "Deze procedure beschrijft de werkwijze om de acute toxiciteit voor 2 soorten van aquatische invertebraten (kreeftachtigen) te bepalen. Deze organismen vertegenwoordigen het trofische niveau van de primaire consumenten in het aquatisch ecosysteem."@nl .
@@ -8973,6 +9057,9 @@
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecotoxiciteitstest met invertebraten: acute toxiciteit voor de watervlo (Daphnia magna) of het pekelkreeftje (Artemia franciscana)"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_001> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_002> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/danio_rerio> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_002> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/danio_rerio> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_002> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://reflabos.vito.be/2023/WAC_V_B_002.pdf> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_002> <http://www.w3.org/2004/02/skos/core#definition> "Deze procedure beschrijft de werkwijze om de acute toxiciteit voor vissen met het zebravisembryo als testorganisme te bepalen en ze maakt deel uit van het erkenningspakket “W.9.2.2, acute toxiciteit voor vissen”. Vissen vertegenwoordigen een belangrijk trofisch niveau, als primaire of secundaire consumenten in het aquatisch ecosysteem."@nl .
@@ -8988,9 +9075,13 @@
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://dbpedia.org/ontology/casNumber> "16887-00-6" .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://dbpedia.org/ontology/casNumber> "18785-72-3" .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://dbpedia.org/ontology/casNumber> "6684-80-6" .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/phaeodactylum_tricornutum> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudokirchneriella_subcapitata> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/QAOWNCQODCNURD-UHFFFAOYSA-L> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/QGZKDVFQNNGYKY-UHFFFAOYSA-O> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/VEXZGXHMUGYJMC-UHFFFAOYSA-M> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/phaeodactylum_tricornutum> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/pseudokirchneriella_subcapitata> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/QAOWNCQODCNURD-UHFFFAOYSA-L> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/QGZKDVFQNNGYKY-UHFFFAOYSA-O> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/VEXZGXHMUGYJMC-UHFFFAOYSA-M> .
@@ -9004,6 +9095,9 @@
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecotoxiciteitstest met algen: groei-inhibitietest met de zoetwateralg (Pseudokirchneriella subcapitata) of de mariene alg (Phaeodactylum tricornutum)"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_003> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_004> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aliivibrio_fischeri> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_004> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/aliivibrio_fischeri> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_004> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://reflabos.vito.be/2023/WAC_V_B_004.pdf> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_004> <http://www.w3.org/2004/02/skos/core#definition> "Deze procedure beschrijft de werkwijze om de acute toxiciteit voor de zoutwaterbacterie Aliivibrio fischeri (vroeger ook Vibrio fischeri of Photobacterium fischeri genoemd) te evalueren. Deze test heeft tot doel de acute toxiciteit voor het trofische niveau van micro-organismen (reducenten) in te schatten."@nl .
@@ -9022,6 +9116,9 @@
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_005> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zahn-Wellens test op afvalwaters: bioelimineerbaarheid van DOC en toxiciteit na 7 tot 28 dagen behandeling"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_005> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/observatieprocedure> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_005> <http://www.w3.org/ns/dcat#theme> <http://www.eionet.europa.eu/gemet/concept/15179> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_007> <http://purl.org/dc/terms/references> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/oncorhyncus_mykiss> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_007> <http://purl.org/dc/terms/relation> <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/oncorhyncus_mykiss> .
+<https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_007> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://reflabos.vito.be/2023/WAC_V_B_007.pdf> .
 <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/WAC_V_B_007> <http://www.w3.org/2004/02/skos/core#definition> "Deze procedure beschrijft de werkwijze om de acute toxiciteit voor vissen met juveniele forel als testorganisme te bepalen en ze maakt deel uit van het erkenningspakket “W.9.2.2, acute toxiciteit voor vissen”. Vissen vertegenwoordigen een belangrijk trofisch niveau, als primaire of secundaire consumenten in het aquatisch ecosysteem."@nl .

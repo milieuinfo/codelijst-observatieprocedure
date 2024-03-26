@@ -88,6 +88,7 @@ prefixes :
   access_right: http://publications.europa.eu/resource/authority/access-right/
   adms: http://www.w3.org/ns/adms#
   assettype: http://purl.org/adms/assettype/
+  bioindicator: https://data.omgeving.vlaanderen.be/id/concept/bioindicator/
   chemische_stof : https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/
   conceptscheme: https://data.omgeving.vlaanderen.be/id/conceptscheme/
   country: http://publications.europa.eu/resource/authority/country/
