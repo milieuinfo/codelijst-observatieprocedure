@@ -21,8 +21,8 @@ source:
   context: context.json
 
 dcat:
-  path_catalog: /tmp/dcat/be/vlaanderen/omgeving/data/id/catalog/
-  path_dataset: /tmp/dcat/be/vlaanderen/omgeving/data/id/dataset/
+  path_catalog: be/vlaanderen/omgeving/data/id/catalog/
+  path_dataset: be/vlaanderen/omgeving/data/id/dataset/
   name: codelijst-observatieprocedure
   dataset_jsonld: dataset.jsonld
   dataset_turtle: dataset.ttl
@@ -139,3 +139,5 @@ prefixes :
   vcard: http://www.w3.org/2006/vcard/ns#
   void: http://rdfs.org/ns/void#
   xsd: http://www.w3.org/2001/XMLSchema#
+deploy:
+  virtuoso: virtuoso-algemeen
