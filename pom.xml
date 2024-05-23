@@ -93,7 +93,7 @@
         </excludes>
       </resource>
       <resource>
-        <directory>/tmp/dcat</directory>
+        <directory>temp</directory>
         <filtering>false</filtering>
         <excludes>
         </excludes>
