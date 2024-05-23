@@ -10,7 +10,7 @@
   <packaging>jar</packaging>
   <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
   <artifactId>codelijst-observatieprocedure</artifactId>
-  <version>4.0.2-SNAPSHOT</version>
+  <version>4.0.3-SNAPSHOT</version>
   <name>codelijst-observatieprocedure</name>
   <description />
 
