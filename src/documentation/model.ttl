@@ -1,0 +1,97 @@
+@prefix access_right:         <http://publications.europa.eu/resource/authority/access-right/> .
+@prefix adms:                 <http://www.w3.org/ns/adms#> .
+@prefix assettype:            <http://purl.org/adms/assettype/> .
+@prefix bioindicator:         <https://data.omgeving.vlaanderen.be/id/concept/bioindicator/> .
+@prefix chemische_stof:       <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/> .
+@prefix collectie:            <https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/> .
+@prefix concept:              <https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/> .
+@prefix conceptscheme:        <https://data.omgeving.vlaanderen.be/id/conceptscheme/> .
+@prefix country:              <http://publications.europa.eu/resource/authority/country/> .
+@prefix cs:                   <https://data.vlaanderen.be/ns/chemische_stof#> .
+@prefix csc:                  <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/> .
+@prefix datasets:             <https://datasets.omgeving.vlaanderen.be/> .
+@prefix datatheme_be:         <http://vocab.belgif.be/auth/datatheme/> .
+@prefix datatheme_eu:         <http://publications.europa.eu/resource/authority/data-theme/> .
+@prefix dbo:                  <http://dbpedia.org/ontology/> .
+@prefix dbp:                  <http://dbpedia.org/property/> .
+@prefix dc:                   <http://purl.org/dc/elements/1.1/> .
+@prefix dcat:                 <http://www.w3.org/ns/dcat#> .
+@prefix dct:                  <http://purl.org/dc/terms/> .
+@prefix dcterms:              <http://purl.org/dc/terms/> .
+@prefix eurovoc:              <http://eurovoc.europa.eu/> .
+@prefix file_type:            <http://publications.europa.eu/resource/authority/file-type/> .
+@prefix foaf:                 <http://xmlns.com/foaf/0.1/> .
+@prefix formats:              <http://www.w3.org/ns/formats/> .
+@prefix frequency:            <http://publications.europa.eu/resource/authority/frequency/> .
+@prefix gemet:                <http://www.eionet.europa.eu/gemet/concept/> .
+@prefix licence:              <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/> .
+@prefix metadata:             <https://data.omgeving.vlaanderen.be/ns/metadata#> .
+@prefix omg_catalog:          <https://data.omgeving.vlaanderen.be/id/catalog/> .
+@prefix omg_catalog_doc:      <https://data.omgeving.vlaanderen.be/doc/catalog/> .
+@prefix omg_collection:       <https://data.omgeving.vlaanderen.be/id/collection/> .
+@prefix omg_dataservice:      <https://data.omgeving.vlaanderen.be/id/dataservice/> .
+@prefix omg_dataset:          <https://data.omgeving.vlaanderen.be/id/dataset/> .
+@prefix omg_dataset_doc:      <https://data.omgeving.vlaanderen.be/doc/dataset/> .
+@prefix omg_distribution:     <https://data.omgeving.vlaanderen.be/id/distribution/> .
+@prefix omg_distribution_doc: <https://data.omgeving.vlaanderen.be/doc/distribution/> .
+@prefix omg_graph:            <https://data.omgeving.vlaanderen.be/id/graph/> .
+@prefix omg_graphcollection:  <https://data.omgeving.vlaanderen.be/id/graphcollection/> .
+@prefix omg_id:               <https://data.omgeving.vlaanderen.be/id/> .
+@prefix omg_named_graph:      <https://data.omgeving.vlaanderen.be/id/namedgraph/> .
+@prefix omg_ontology:         <https://data.omgeving.vlaanderen.be/id/ontology/> .
+@prefix omg_package:          <https://data.omgeving.vlaanderen.be/id/package/> .
+@prefix omg_periodoftime:     <https://data.omgeving.vlaanderen.be/id/periodoftime/> .
+@prefix omg_service:          <https://data.omgeving.vlaanderen.be/id/service/> .
+@prefix omg_vcard:            <https://data.omgeving.vlaanderen.be/id/vcard/> .
+@prefix ovo:                  <http://data.vlaanderen.be/id/organisatie/> .
+@prefix owl:                  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:                  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:                 <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix repo:                 <https://repo.omgeving.vlaanderen.be/artifactory/release/> .
+@prefix sd:                   <http://www.w3.org/ns/sparql-service-description#> .
+@prefix skos:                 <http://www.w3.org/2004/02/skos/core#> .
+@prefix sommatie_stoffen:     <https://data.omgeving.vlaanderen.be/id/concept/sommatie_stoffen/> .
+@prefix spdx:                 <http://spdx.org/rdf/terms#> .
+@prefix ssd:                  <http://www.w3.org/ns/sparql-service-description#> .
+@prefix ts:                   <http://www.w3.org/ns/formats/> .
+@prefix vcard:                <http://www.w3.org/2006/vcard/ns#> .
+@prefix vlcs:                 <https://data.omgeving.vlaanderen.be/id/conceptscheme/> .
+@prefix void:                 <http://rdfs.org/ns/void#> .
+@prefix xsd:                  <http://www.w3.org/2001/XMLSchema#> .
+
+skos:Concept  rdf:type     "rdfs:Resource";
+        rdfs:seeAlso       "rdfs:Resource";
+        dbo:casNumber      "http://www.w3.org/2001/XMLSchema#string";
+        dct:references     rdfs:Resource;
+        dct:relation       rdfs:Resource;
+        skos:altLabel      "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+        skos:definition    "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+        skos:inScheme      skos:ConceptScheme;
+        skos:notation      "http://www.w3.org/2001/XMLSchema#string";
+        skos:note          "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+        skos:prefLabel     "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+        skos:topConceptOf  skos:ConceptScheme;
+        dcat:theme         "rdfs:Resource" .
+
+rdfs:Resource  rdf:type     "rdfs:Resource";
+        rdfs:seeAlso        "rdfs:Resource";
+        dbo:casNumber       "http://www.w3.org/2001/XMLSchema#string";
+        dct:isReferencedBy  rdfs:Resource , skos:Concept;
+        dct:references      rdfs:Resource;
+        dct:relation        skos:Concept , rdfs:Resource;
+        skos:definition     "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+        skos:inScheme       skos:ConceptScheme;
+        skos:notation       "http://www.w3.org/2001/XMLSchema#string";
+        skos:note           "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+        skos:prefLabel      "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString";
+        skos:topConceptOf   skos:ConceptScheme;
+        dcat:theme          "rdfs:Resource" .
+
+skos:Collection  rdf:type  "rdfs:Resource";
+        skos:inScheme   skos:ConceptScheme;
+        skos:member     rdfs:Resource , skos:Concept;
+        skos:prefLabel  "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .
+
+skos:ConceptScheme  rdf:type  "rdfs:Resource";
+        skos:hasTopConcept  rdfs:Resource , skos:Concept;
+        skos:prefLabel      "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" .

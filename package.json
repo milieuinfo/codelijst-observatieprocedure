@@ -21,6 +21,6 @@
   "license": "ISC",
   "dependencies": {
     "js-yaml": "^4.1.0",
-    "maven-metadata-generator-npm": "^0.2.49"
+    "maven-metadata-generator-npm": "^0.2.53"
   }
 }

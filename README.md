@@ -2,7 +2,8 @@
 
 ## Samenvatting
 Lijst van observatieprocedures, zoals die binnen het kader van het OSLO thema omgeving is opgesteld en tools om deze lijst te beheren en om te zetten naar webformaten. 
-
+## Model
+![Model](src/documentation/model.png)
 ## Gebruik
 
 ### Voeg een definitie van een nieuwe observatieprocedure toe aan $PROJECT_HOME/src/source/codelijst-source.csv

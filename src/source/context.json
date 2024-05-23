@@ -1,4 +1,12 @@
 {
+  "sparql-service-description-graph": {
+    "@id" : "http://www.w3.org/ns/sparql-service-description#graph",
+    "@type" : "@id"
+  },
+  "defaultGraph": {
+    "@id" : "http://www.w3.org/ns/sparql-service-description#defaultGraph",
+    "@type" : "@id"
+  },
   "collections": {
     "@type": "@id",
     "@reverse": "member"

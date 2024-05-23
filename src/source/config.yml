@@ -36,6 +36,21 @@ ap :
   turtle: .ttl
 
 metadata :
+  sparqlservice:
+    endpoint: https://data.omgeving.vlaanderen.be/sparql
+    feature:
+      - http://www.w3.org/ns/sparql-service-description#DereferencesURIs
+      - http://www.w3.org/ns/sparql-service-description#UnionDefaultGraph
+    resultFormat:
+      - http://www.w3.org/ns/formats/JSON-LD
+      - http://www.w3.org/ns/formats/RDF_XML
+      - http://www.w3.org/ns/formats/N-Triples
+      - http://www.w3.org/ns/formats/N-Quads
+      - http://www.w3.org/ns/formats/SPARQL_Results_CSV
+      - http://www.w3.org/ns/formats/SPARQL_Results_XML
+      - http://www.w3.org/ns/formats/Turtle
+      - http://www.w3.org/ns/formats/SPARQL_Results_JSON
+    supportedLanguage: http://www.w3.org/ns/sparql-service-description#SPARQL10Query
   all :
     accessURL : https://github.com/milieuinfo/codelijst-observatieprocedure.git
     contactPoint : https://data.omgeving.vlaanderen.be/id/vcard/helpdesk
@@ -55,7 +70,7 @@ metadata :
     dct.language : http://publications.europa.eu/resource/authority/language/NLD
     landingPage  : https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html
   catalog :
-    uri : https://data.omgeving.vlaanderen.be/id/catalog
+    uri : https://data.omgeving.vlaanderen.be/id/catalog/codelijst
     type: http://www.w3.org/ns/dcat#Catalog
   dataset :     
     temporal : https://data.omgeving.vlaanderen.be/id/periodoftime/dataset_omg

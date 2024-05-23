@@ -1,0 +1,27 @@
+prefix skos:  <http://www.w3.org/2004/02/skos/core#>
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+prefix dbo:   <http://dbpedia.org/ontology/>
+prefix cs:    <https://data.vlaanderen.be/ns/chemische_stof#>
+prefix dbp:   <http://dbpedia.org/property/>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix csc: <https://data.omgeving.vlaanderen.be/id/concept/chemische_stof/>
+prefix vlcs:  <https://data.omgeving.vlaanderen.be/id/conceptscheme/>
+prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+construct
+{
+?type ?p ?datatype
+}
+
+where
+{{
+    ?s a ?type ; ?p ?o .
+    optional{?o a ?type2}
+    bind(  COALESCE(
+    IF(isliteral(?o), str(datatype(?o)) , 1/0),
+    IF(exists{?o a ?type2}, ?type2, 1/0),
+    #IF(?o = rdf:nil, "rdf:nil", 1/0),
+    "rdfs:Resource"
+    )  as ?datatype)
+}
+
+}
