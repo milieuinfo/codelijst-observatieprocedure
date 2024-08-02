@@ -5,6 +5,8 @@ import fs from "fs";
 
 const config = yaml.load(fs.readFileSync('./source/config.yml', 'utf8'));
 
+const virtuoso = config.deploy.virtuoso ;
+
 const prefixes = Object.assign( {}, config.skos.prefixes, config.prefixes, { '@base' : config.skos.prefixes.concept })
 
 const context = JSON.parse(fs.readFileSync(config.source.path + config.source.context));
@@ -116,6 +118,7 @@ const csv = [config.skos.path + config.skos.name + '/' + config.skos.name + conf
 
 
 export {
+    virtuoso,
     ttl,
     nt,
     jsonld,
