@@ -30,6 +30,8 @@ dcat:
   dataset_turtle: dataset.ttl
   catalog_turtle: catalog.ttl
   catalog_jsonld: catalog.jsonld
+  dataset_odcs: dataset.odcs.yaml
+  odcs_start_version: 4.0.4
 
 ap :
   path: ./main/resources/be/vlaanderen/omgeving/data/id/ontology/
