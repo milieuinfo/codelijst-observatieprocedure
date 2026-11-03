@@ -1,4 +1,5 @@
 {
+  "provenance": {"@id": "http://purl.org/dc/terms/provenance"},
   "sparql-service-description-graph": {
     "@id" : "http://www.w3.org/ns/sparql-service-description#graph",
     "@type" : "@id"
@@ -62,7 +63,8 @@
   },
   "theme" : {
     "@id" : "http://www.w3.org/ns/dcat#theme",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "title" : {
     "@id" : "http://purl.org/dc/terms/title",
@@ -245,7 +247,8 @@
   },
   "hasTopConcept" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "uri" : {
     "@id" : "@id",
@@ -264,30 +267,37 @@
   },
   "note" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#note",
-    "@language" : "nl"
+    "@language" : "nl",
+    "@container" : "@set"
   },
   "definition" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#definition",
-    "@language" : "nl"
+    "@language" : "nl",
+    "@container" : "@set"
   },
   "member" : {
     "@id" : "http://www.w3.org/2004/02/skos/core#member",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "casNumber" : {
-    "@id" : "http://dbpedia.org/ontology/casNumber"
+    "@id" : "http://dbpedia.org/ontology/casNumber",
+    "@container" : "@set"
   },
   "references" : {
     "@id" : "http://purl.org/dc/terms/references",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "isReferencedBy" : {
     "@id" : "http://purl.org/dc/terms/isReferencedBy",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "relation" : {
     "@id" : "http://purl.org/dc/terms/relation",
-    "@type" : "@id"
+    "@type" : "@id",
+    "@container" : "@set"
   },
   "graph" : {
     "@id" : "@graph"

@@ -1,8 +1,8 @@
 types : observatieproceduretypes
 skos:
   rules :
-    skos_rules : /../node_modules/maven-metadata-generator-npm/src/n3/skos-rules.n3
-    dcterms_rules : /../node_modules/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
+    skos_rules : /../node_modules/@milieuinfo/maven-metadata-generator-npm/src/n3/skos-rules.n3
+    dcterms_rules : /../node_modules/@milieuinfo/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
   prefixes :
     concept : https://data.omgeving.vlaanderen.be/id/concept/observatieprocedure/
     collectie : https://data.omgeving.vlaanderen.be/id/collection/observatieprocedure/
@@ -12,12 +12,14 @@ skos:
   jsonld: .jsonld
   jsonld_framed: _prefix.jsonld
   csv: .csv
-  xlsx: .xlsx
+  json: .json
+  parquet: .parquet
   nt: .nt
 
 source:
   path: ./source/
-  codelijst_csv: codelijst-source.csv
+  codelijst_csv:
+    - codelijst-source.csv
   context: context.json
 
 dcat:
@@ -37,6 +39,8 @@ ap :
 
 metadata :
   sparqlservice:
+    title: "Sparql service op endpoint https://data.omgeving.vlaanderen.be/sparql"
+    description: "Een beschrijving van de sparql service, met de verschillende kenmerken."
     endpoint: https://data.omgeving.vlaanderen.be/sparql
     feature:
       - http://www.w3.org/ns/sparql-service-description#DereferencesURIs
@@ -70,15 +74,23 @@ metadata :
     dct.language : http://publications.europa.eu/resource/authority/language/NLD
     landingPage  : https://data.omgeving.vlaanderen.be/doc/catalog/codelijst.html
   catalog :
+    title: "Catalogus van datasets van codelijsten."
+    description: "Catalogus van datasets van codelijsten die onder het domein data.omgeving.vlaanderen.be gepubliceerd worden."
     uri : https://data.omgeving.vlaanderen.be/id/catalog/codelijst
     type: http://www.w3.org/ns/dcat#Catalog
   dataset :     
+    provenance:
+      label: "TODO: herkomst van de codelijst observatieproceduretypes."
     temporal : https://data.omgeving.vlaanderen.be/id/periodoftime/dataset_omg
     type : http://www.w3.org/ns/dcat#Dataset
   distribution :
-    xlsx:
-      mediaType: https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-      format: http://publications.europa.eu/resource/authority/file-type/XLSX
+    parquet:
+      mediaType: https://www.iana.org/assignments/media-types/application/vnd.apache.parquet
+      format: http://publications.europa.eu/resource/authority/file-type/PARQUET
+      type: http://www.w3.org/ns/dcat#Distribution
+    json:
+      mediaType: https://www.iana.org/assignments/media-types/application/json
+      format: http://publications.europa.eu/resource/authority/file-type/JSON
       type: http://www.w3.org/ns/dcat#Distribution
     csv :
       mediaType : https://www.iana.org/assignments/media-types/text/csv

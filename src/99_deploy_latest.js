@@ -1,4 +1,4 @@
-import { deploy_latest } from 'maven-metadata-generator-npm';
+import { deploy_latest } from '@milieuinfo/maven-metadata-generator-npm';
 import { set_env } from './utils/setenv.js';
 
 const omgeving = 'pr'

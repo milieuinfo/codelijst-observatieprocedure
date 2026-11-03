@@ -14,3 +14,4 @@ node_modules/
 temp/
 src/.env
 src/utils/setenv.js
+validation

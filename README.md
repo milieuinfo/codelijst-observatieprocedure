@@ -30,7 +30,7 @@ apt-get install node
 apt-get install npm
 ```
 
-### Installeer libraries in package.json
+### Installeer libraries in package.json (met pnpm, versie vastgelegd in `packageManager`)
 ```
 cd $PROJECT_HOME
 /usr/bin/node /usr/lib/node_modules/npm/bin/npm-cli.js install --scripts-prepend-node-path=auto
